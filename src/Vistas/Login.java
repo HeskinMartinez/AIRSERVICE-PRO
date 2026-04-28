@@ -50,7 +50,6 @@ public class Login extends javax.swing.JFrame {
 
         jLabel3.setBackground(new java.awt.Color(0, 0, 0));
         jLabel3.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("Inicio de sesion");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 190, 240, 50));
 
