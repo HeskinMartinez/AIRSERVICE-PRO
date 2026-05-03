@@ -15,6 +15,8 @@ public class Tecnico extends javax.swing.JFrame {
      */
     public Tecnico() {
         initComponents();
+        this.setLocationRelativeTo(null);
+        this.dispose();
     }
 
     /**
@@ -416,6 +418,11 @@ public class Tecnico extends javax.swing.JFrame {
         jLabel33.setForeground(new java.awt.Color(255, 255, 255));
         jLabel33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/portapapeles.png"))); // NOI18N
         jLabel33.setText("Mis Solicitudes");
+        jLabel33.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel33MouseClicked(evt);
+            }
+        });
         jPanel1.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 200, 180, 40));
 
         jLabel34.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
@@ -457,6 +464,11 @@ public class Tecnico extends javax.swing.JFrame {
         jLabel40.setForeground(new java.awt.Color(255, 255, 255));
         jLabel40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/cerrar-sesion.png"))); // NOI18N
         jLabel40.setText("Cerrar sesion");
+        jLabel40.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel40MouseClicked(evt);
+            }
+        });
         jPanel1.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 640, 120, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/horizontal-panel.jpg"))); // NOI18N
@@ -476,6 +488,16 @@ public class Tecnico extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jLabel33MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel33MouseClicked
+        // TODO add your handling code here:
+        new Tecnico_2().setVisible(true);
+    }//GEN-LAST:event_jLabel33MouseClicked
+
+    private void jLabel40MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel40MouseClicked
+        // TODO add your handling code here:
+        new Login().setVisible(true);
+    }//GEN-LAST:event_jLabel40MouseClicked
 
     /**
      * @param args the command line arguments

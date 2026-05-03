@@ -15,6 +15,8 @@ public class Tecnico_2 extends javax.swing.JFrame {
      */
     public Tecnico_2() {
         initComponents();
+        this.setLocationRelativeTo(null);
+        this.dispose();
     }
 
     /**
@@ -62,42 +64,77 @@ public class Tecnico_2 extends javax.swing.JFrame {
         jLabel32.setForeground(new java.awt.Color(255, 255, 255));
         jLabel32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/casa.png"))); // NOI18N
         jLabel32.setText("Inicio");
+        jLabel32.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel32MouseClicked(evt);
+            }
+        });
         jPanel1.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 140, 180, 50));
 
         jLabel33.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jLabel33.setForeground(new java.awt.Color(255, 255, 255));
         jLabel33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/portapapeles.png"))); // NOI18N
         jLabel33.setText("Mis Solicitudes");
+        jLabel33.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel33MouseClicked(evt);
+            }
+        });
         jPanel1.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 200, 180, 40));
 
         jLabel34.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jLabel34.setForeground(new java.awt.Color(255, 255, 255));
         jLabel34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/historia.png"))); // NOI18N
         jLabel34.setText("Historial");
+        jLabel34.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel34MouseClicked(evt);
+            }
+        });
         jPanel1.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 260, 180, 40));
 
         jLabel35.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jLabel35.setForeground(new java.awt.Color(255, 255, 255));
         jLabel35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/business-people.png"))); // NOI18N
         jLabel35.setText("Clientes");
+        jLabel35.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel35MouseClicked(evt);
+            }
+        });
         jPanel1.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, 170, 40));
 
         jLabel36.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jLabel36.setForeground(new java.awt.Color(255, 255, 255));
         jLabel36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/servicio-tecnico.png"))); // NOI18N
         jLabel36.setText("Servicios");
+        jLabel36.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel36MouseClicked(evt);
+            }
+        });
         jPanel1.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 360, 180, 40));
 
         jLabel37.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jLabel37.setForeground(new java.awt.Color(255, 255, 255));
         jLabel37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/usuario (2).png"))); // NOI18N
         jLabel37.setText("Perfil");
+        jLabel37.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel37MouseClicked(evt);
+            }
+        });
         jPanel1.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 410, 160, 40));
 
         jLabel38.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jLabel38.setForeground(new java.awt.Color(255, 255, 255));
         jLabel38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/engranaje.png"))); // NOI18N
         jLabel38.setText("Configuracion");
+        jLabel38.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel38MouseClicked(evt);
+            }
+        });
         jPanel1.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 460, 180, 40));
 
         jLabel39.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
@@ -198,6 +235,41 @@ public class Tecnico_2 extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jLabel34MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel34MouseClicked
+        // TODO add your handling code here:
+        jTabbedPane1.setSelectedIndex(1);
+    }//GEN-LAST:event_jLabel34MouseClicked
+
+    private void jLabel35MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel35MouseClicked
+        // TODO add your handling code here:
+        jTabbedPane1.setSelectedIndex(2);
+    }//GEN-LAST:event_jLabel35MouseClicked
+
+    private void jLabel36MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel36MouseClicked
+        // TODO add your handling code here:
+        jTabbedPane1.setSelectedIndex(3);
+    }//GEN-LAST:event_jLabel36MouseClicked
+
+    private void jLabel37MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel37MouseClicked
+        // TODO add your handling code here:
+        jTabbedPane1.setSelectedIndex(4);
+    }//GEN-LAST:event_jLabel37MouseClicked
+
+    private void jLabel38MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel38MouseClicked
+        // TODO add your handling code here:
+        jTabbedPane1.setSelectedIndex(5);
+    }//GEN-LAST:event_jLabel38MouseClicked
+
+    private void jLabel32MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel32MouseClicked
+        // TODO add your handling code here:
+        new Tecnico().setVisible(true);
+    }//GEN-LAST:event_jLabel32MouseClicked
+
+    private void jLabel33MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel33MouseClicked
+        // TODO add your handling code here:
+        jTabbedPane1.setSelectedIndex(0);
+    }//GEN-LAST:event_jLabel33MouseClicked
 
     /**
      * @param args the command line arguments

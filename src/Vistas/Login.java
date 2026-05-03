@@ -15,6 +15,8 @@ public class Login extends javax.swing.JFrame {
      */
     public Login() {
         initComponents();
+        this.setLocationRelativeTo(null);
+        this.dispose();
     }
 
     /**
@@ -103,6 +105,11 @@ public class Login extends javax.swing.JFrame {
         registro.setBackground(new java.awt.Color(204, 204, 255));
         registro.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         registro.setText("Registrarse");
+        registro.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                registroActionPerformed(evt);
+            }
+        });
         jPanel1.add(registro, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 440, 190, 40));
 
         jLabel4.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
@@ -154,6 +161,11 @@ public class Login extends javax.swing.JFrame {
     private void adminActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_adminActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_adminActionPerformed
+
+    private void registroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_registroActionPerformed
+        // TODO add your handling code here:
+        new Registro().setVisible(true);
+    }//GEN-LAST:event_registroActionPerformed
 
     /**
      * @param args the command line arguments
