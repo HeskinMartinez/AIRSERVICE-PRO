@@ -86,6 +86,8 @@ public class Tecnico extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setMinimumSize(new java.awt.Dimension(1160, 680));
+        jPanel1.setPreferredSize(new java.awt.Dimension(1160, 680));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel2.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
@@ -112,7 +114,7 @@ public class Tecnico extends javax.swing.JFrame {
         jLabel13.setText("Citas programadas ");
         jPanel2.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
 
-        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 80, 180, 80));
+        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 80, 190, 80));
 
         jPanel3.setBackground(new java.awt.Color(204, 255, 255));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -120,7 +122,7 @@ public class Tecnico extends javax.swing.JFrame {
         jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/comprobado.png"))); // NOI18N
         jLabel8.setText("    6");
-        jPanel3.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 180, 80));
+        jPanel3.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 170, 80));
 
         jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel9.setText("En proceso");
@@ -130,7 +132,7 @@ public class Tecnico extends javax.swing.JFrame {
         jLabel10.setText("Trabajos en curso");
         jPanel3.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 50, -1, -1));
 
-        jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 80, 180, 80));
+        jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 80, 200, 80));
 
         jPanel4.setBackground(new java.awt.Color(204, 255, 255));
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -148,7 +150,7 @@ public class Tecnico extends javax.swing.JFrame {
         jLabel7.setText("Solicitudes pendientes");
         jPanel4.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
 
-        jPanel1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 80, 200, 80));
+        jPanel1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 80, 200, 80));
 
         jPanel5.setBackground(new java.awt.Color(204, 255, 255));
 
@@ -160,14 +162,16 @@ public class Tecnico extends javax.swing.JFrame {
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel29, javax.swing.GroupLayout.DEFAULT_SIZE, 120, Short.MAX_VALUE)
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addComponent(jLabel29)
+                .addGap(0, 14, Short.MAX_VALUE))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jLabel29, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
         );
 
-        jPanel1.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 10, 120, 50));
+        jPanel1.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(1020, 20, 120, 50));
 
         jPanel6.setBackground(new java.awt.Color(204, 255, 255));
         jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -175,7 +179,7 @@ public class Tecnico extends javax.swing.JFrame {
         jLabel14.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/cheque.png"))); // NOI18N
         jLabel14.setText("  23");
-        jPanel6.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 160, 80));
+        jPanel6.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 150, 80));
 
         jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel15.setText("Completadas");
@@ -185,7 +189,7 @@ public class Tecnico extends javax.swing.JFrame {
         jLabel16.setText("Este mes");
         jPanel6.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
 
-        jPanel1.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 80, 160, 80));
+        jPanel1.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 80, 180, 80));
 
         jPanel7.setBackground(new java.awt.Color(204, 255, 255));
         jPanel7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -194,7 +198,7 @@ public class Tecnico extends javax.swing.JFrame {
         jLabel4.setText("Solicitudes asignadas");
         jPanel7.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(14, 6, -1, -1));
 
-        jPanel1.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 190, 450, 30));
+        jPanel1.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 190, 570, 30));
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -217,7 +221,7 @@ public class Tecnico extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(jTable1);
 
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 220, 450, 290));
+        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 220, 570, 290));
 
         jPanel8.setBackground(new java.awt.Color(204, 255, 255));
 
@@ -281,7 +285,7 @@ public class Tecnico extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jPanel1.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 190, 300, 250));
+        jPanel1.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 190, 300, 250));
 
         jPanel9.setBackground(new java.awt.Color(204, 255, 255));
 
@@ -322,7 +326,7 @@ public class Tecnico extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jPanel1.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 450, 300, 210));
+        jPanel1.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 450, 300, 210));
 
         jPanel10.setBackground(new java.awt.Color(204, 255, 255));
 
@@ -363,21 +367,19 @@ public class Tecnico extends javax.swing.JFrame {
                             .addGroup(jPanel10Layout.createSequentialGroup()
                                 .addGap(6, 6, 6)
                                 .addComponent(jLabel22)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGap(33, 33, 33)
                         .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel10Layout.createSequentialGroup()
-                                .addComponent(jLabel23)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel24)
-                                .addGap(24, 24, 24)
-                                .addComponent(jLabel25))
-                            .addGroup(jPanel10Layout.createSequentialGroup()
-                                .addComponent(jLabel19)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel20)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel21)))))
-                .addContainerGap(13, Short.MAX_VALUE))
+                            .addComponent(jLabel19)
+                            .addComponent(jLabel23))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 31, Short.MAX_VALUE)
+                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel24)
+                            .addComponent(jLabel20))
+                        .addGap(46, 46, 46)
+                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel21)
+                            .addComponent(jLabel25))))
+                .addGap(46, 46, 46))
         );
         jPanel10Layout.setVerticalGroup(
             jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -399,10 +401,10 @@ public class Tecnico extends javax.swing.JFrame {
                 .addContainerGap(20, Short.MAX_VALUE))
         );
 
-        jPanel1.add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 530, 440, 130));
+        jPanel1.add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 530, 560, 130));
 
         jLabel30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/activo.png"))); // NOI18N
-        jPanel1.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 20, -1, -1));
+        jPanel1.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(980, 30, -1, -1));
 
         jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/airservice_resized.png"))); // NOI18N
         jLabel31.setText("jLabel31");
@@ -479,7 +481,9 @@ public class Tecnico extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1026, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

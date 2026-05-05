@@ -43,11 +43,91 @@ public class Tecnico_2 extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jPanel2 = new javax.swing.JPanel();
+        jPanel8 = new javax.swing.JPanel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jPanel9 = new javax.swing.JPanel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jPanel10 = new javax.swing.JPanel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jPanel11 = new javax.swing.JPanel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        jPanel12 = new javax.swing.JPanel();
+        jLabel29 = new javax.swing.JLabel();
+        jLabel30 = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTable1 = new javax.swing.JTable();
         jPanel3 = new javax.swing.JPanel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        jPanel13 = new javax.swing.JPanel();
+        jLabel41 = new javax.swing.JLabel();
+        jLabel46 = new javax.swing.JLabel();
+        jLabel51 = new javax.swing.JLabel();
+        jLabel56 = new javax.swing.JLabel();
+        jPanel18 = new javax.swing.JPanel();
+        jLabel61 = new javax.swing.JLabel();
+        jLabel62 = new javax.swing.JLabel();
+        jLabel63 = new javax.swing.JLabel();
+        jPanel19 = new javax.swing.JPanel();
+        jLabel64 = new javax.swing.JLabel();
+        jLabel65 = new javax.swing.JLabel();
+        jLabel66 = new javax.swing.JLabel();
+        jPanel20 = new javax.swing.JPanel();
+        jLabel67 = new javax.swing.JLabel();
+        jLabel68 = new javax.swing.JLabel();
+        jLabel69 = new javax.swing.JLabel();
+        jPanel21 = new javax.swing.JPanel();
+        jLabel70 = new javax.swing.JLabel();
+        jLabel71 = new javax.swing.JLabel();
+        jLabel72 = new javax.swing.JLabel();
+        jPanel22 = new javax.swing.JPanel();
+        jLabel73 = new javax.swing.JLabel();
+        jLabel74 = new javax.swing.JLabel();
+        jLabel75 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel25 = new javax.swing.JLabel();
+        jPanel14 = new javax.swing.JPanel();
+        jLabel42 = new javax.swing.JLabel();
+        jLabel47 = new javax.swing.JLabel();
+        jLabel52 = new javax.swing.JLabel();
+        jLabel57 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel26 = new javax.swing.JLabel();
+        jPanel15 = new javax.swing.JPanel();
+        jLabel43 = new javax.swing.JLabel();
+        jLabel48 = new javax.swing.JLabel();
+        jLabel53 = new javax.swing.JLabel();
+        jLabel58 = new javax.swing.JLabel();
         jPanel6 = new javax.swing.JPanel();
+        jLabel23 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        jPanel16 = new javax.swing.JPanel();
+        jLabel44 = new javax.swing.JLabel();
+        jLabel49 = new javax.swing.JLabel();
+        jLabel54 = new javax.swing.JLabel();
+        jLabel59 = new javax.swing.JLabel();
         jPanel7 = new javax.swing.JPanel();
+        jLabel24 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        jPanel17 = new javax.swing.JPanel();
+        jLabel45 = new javax.swing.JLabel();
+        jLabel50 = new javax.swing.JLabel();
+        jLabel55 = new javax.swing.JLabel();
+        jLabel60 = new javax.swing.JLabel();
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/horizontal-panel.jpg"))); // NOI18N
         jLabel1.setText("jLabel1");
@@ -153,74 +233,449 @@ public class Tecnico_2 extends javax.swing.JFrame {
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 200, 680));
 
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel8.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/lista-de-quehaceres (3).png"))); // NOI18N
+        jLabel5.setText("6");
+        jPanel8.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 170, 80));
+
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel6.setText("Total asignadas");
+        jPanel8.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, 110, 20));
+
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel7.setText("Este mes");
+        jPanel8.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
+
+        jPanel2.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 110, 200, 80));
+
+        jLabel3.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jLabel3.setText("Inicio  >");
+        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
+
+        jLabel4.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(0, 102, 255));
+        jLabel4.setText("Mis Solicitudes");
+        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, -1, -1));
+
+        jLabel8.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        jLabel8.setText("Mis Solicitudes");
+        jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, -1, -1));
+
+        jLabel9.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
+        jLabel9.setText("Consultar y gestiona todas las solicitudes asignadas.");
+        jPanel2.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, -1, -1));
+
+        jPanel9.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel11.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/tiempo.png"))); // NOI18N
+        jLabel11.setText("  7");
+        jPanel9.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 190, 80));
+
+        jLabel12.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel12.setText("Pendientes");
+        jPanel9.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, -1, -1));
+
+        jLabel13.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel13.setText("Por atender");
+        jPanel9.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
+
+        jPanel2.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 110, 200, 80));
+
+        jPanel10.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/comprobado.png"))); // NOI18N
+        jLabel10.setText("    6");
+        jPanel10.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 190, 80));
+
+        jLabel14.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel14.setText("En proceso");
+        jPanel10.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 10, -1, -1));
+
+        jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel15.setText("Trabajos en curso");
+        jPanel10.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 50, -1, -1));
+
+        jPanel2.add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 110, 200, 80));
+
+        jPanel11.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel16.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/cheque.png"))); // NOI18N
+        jLabel16.setText("  23");
+        jPanel11.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 180, 80));
+
+        jLabel17.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel17.setText("Completadas");
+        jPanel11.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, -1, 20));
+
+        jLabel18.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel18.setText("Finalizadas");
+        jPanel11.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
+
+        jPanel2.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 110, 200, 80));
+
+        jPanel12.setBackground(new java.awt.Color(204, 255, 255));
+
+        jLabel29.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/usuario (1).png"))); // NOI18N
+        jLabel29.setText("   Sr. Tecnico");
+
+        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
+        jPanel12.setLayout(jPanel12Layout);
+        jPanel12Layout.setHorizontalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel29, javax.swing.GroupLayout.DEFAULT_SIZE, 120, Short.MAX_VALUE)
+        );
+        jPanel12Layout.setVerticalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel29, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
+        );
+
+        jPanel2.add(jPanel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 10, 120, 50));
+
+        jLabel30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/activo.png"))); // NOI18N
+        jPanel2.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 20, -1, -1));
+
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null}
+            },
+            new String [] {
+                "ID", "Cliente", "Servicio", "Fecha asignada", "Estado", "Prioridad"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane1.setViewportView(jTable1);
+
+        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 210, 920, -1));
+
         jTabbedPane1.addTab("Mis Solicitudes", jPanel2);
 
-        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
-        jPanel3.setLayout(jPanel3Layout);
-        jPanel3Layout.setHorizontalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 830, Short.MAX_VALUE)
+        jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel19.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jLabel19.setText("Inicio  >");
+        jPanel3.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
+
+        jLabel20.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jLabel20.setForeground(new java.awt.Color(0, 102, 255));
+        jLabel20.setText("Historial");
+        jPanel3.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, -1, -1));
+
+        jPanel13.setBackground(new java.awt.Color(204, 255, 255));
+
+        jLabel41.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/usuario (1).png"))); // NOI18N
+        jLabel41.setText("   Sr. Tecnico");
+
+        javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
+        jPanel13.setLayout(jPanel13Layout);
+        jPanel13Layout.setHorizontalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel41, javax.swing.GroupLayout.DEFAULT_SIZE, 120, Short.MAX_VALUE)
         );
-        jPanel3Layout.setVerticalGroup(
-            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 645, Short.MAX_VALUE)
+        jPanel13Layout.setVerticalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel41, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
         );
+
+        jPanel3.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 10, 120, 50));
+
+        jLabel46.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/activo.png"))); // NOI18N
+        jPanel3.add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 20, -1, -1));
+
+        jLabel51.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        jLabel51.setText("Historial");
+        jPanel3.add(jLabel51, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, -1, -1));
+
+        jLabel56.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
+        jLabel56.setText("Consultar el historial de solicitudes que has atendido.");
+        jPanel3.add(jLabel56, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, -1, -1));
+
+        jPanel18.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel18.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel61.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel61.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/lista-de-quehaceres (3).png"))); // NOI18N
+        jLabel61.setText("6");
+        jPanel18.add(jLabel61, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 130, 80));
+
+        jLabel62.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel62.setText("Total atendidas");
+        jPanel18.add(jLabel62, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, 110, 20));
+
+        jLabel63.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel63.setText("Este mes");
+        jPanel18.add(jLabel63, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
+
+        jPanel3.add(jPanel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 160, 80));
+
+        jPanel19.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel19.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel64.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel64.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/comprobado.png"))); // NOI18N
+        jLabel64.setText("    6");
+        jPanel19.add(jLabel64, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 130, 80));
+
+        jLabel65.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel65.setText("Completadas");
+        jPanel19.add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 10, -1, -1));
+
+        jLabel66.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel66.setText("Este mes");
+        jPanel19.add(jLabel66, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 50, -1, -1));
+
+        jPanel3.add(jPanel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 110, 160, 80));
+
+        jPanel20.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel20.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel67.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel67.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/tiempo.png"))); // NOI18N
+        jLabel67.setText("  7");
+        jPanel20.add(jLabel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 160, 80));
+
+        jLabel68.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel68.setText("Tiempo promedio");
+        jPanel20.add(jLabel68, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, -1, -1));
+
+        jLabel69.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel69.setText("Por solicitud");
+        jPanel20.add(jLabel69, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
+
+        jPanel3.add(jPanel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 110, 170, 80));
+
+        jPanel21.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel21.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel70.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel70.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/estrella.png"))); // NOI18N
+        jLabel70.setText("  23");
+        jPanel21.add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 80));
+
+        jLabel71.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel71.setText("Calificacion promedio");
+        jPanel21.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, -1, 20));
+
+        jLabel72.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel72.setText("Este mes");
+        jPanel21.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
+
+        jPanel3.add(jPanel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 110, 190, 80));
+
+        jPanel22.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel22.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel73.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel73.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/calendario-en-un-simbolo-de-interfaz-de-circulo.png"))); // NOI18N
+        jLabel73.setText("  23");
+        jPanel22.add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 110, 80));
+
+        jLabel74.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel74.setText("Solicitudes totales");
+        jPanel22.add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, -1, 20));
+
+        jLabel75.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel75.setText("Desde que te uniste");
+        jPanel22.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
+
+        jPanel3.add(jPanel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 110, 190, 80));
 
         jTabbedPane1.addTab("Historial", jPanel3);
 
-        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
-        jPanel4.setLayout(jPanel4Layout);
-        jPanel4Layout.setHorizontalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 830, Short.MAX_VALUE)
+        jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel21.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jLabel21.setText("Inicio  >");
+        jPanel4.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
+
+        jLabel25.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jLabel25.setForeground(new java.awt.Color(0, 102, 255));
+        jLabel25.setText("Clientes");
+        jPanel4.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, -1, -1));
+
+        jPanel14.setBackground(new java.awt.Color(204, 255, 255));
+
+        jLabel42.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel42.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/usuario (1).png"))); // NOI18N
+        jLabel42.setText("   Sr. Tecnico");
+
+        javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
+        jPanel14.setLayout(jPanel14Layout);
+        jPanel14Layout.setHorizontalGroup(
+            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel42, javax.swing.GroupLayout.DEFAULT_SIZE, 120, Short.MAX_VALUE)
         );
-        jPanel4Layout.setVerticalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 645, Short.MAX_VALUE)
+        jPanel14Layout.setVerticalGroup(
+            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel42, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
         );
+
+        jPanel4.add(jPanel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 10, 120, 50));
+
+        jLabel47.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/activo.png"))); // NOI18N
+        jPanel4.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 20, -1, -1));
+
+        jLabel52.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        jLabel52.setText("Clientes");
+        jPanel4.add(jLabel52, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, -1, -1));
+
+        jLabel57.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
+        jLabel57.setText("Gestiona la informacion de todos los clientes registrados.");
+        jPanel4.add(jLabel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, -1, -1));
 
         jTabbedPane1.addTab("Clientes", jPanel4);
 
-        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
-        jPanel5.setLayout(jPanel5Layout);
-        jPanel5Layout.setHorizontalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 830, Short.MAX_VALUE)
+        jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel22.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jLabel22.setText("Inicio  >");
+        jPanel5.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
+
+        jLabel26.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jLabel26.setForeground(new java.awt.Color(0, 102, 255));
+        jLabel26.setText("Servicios");
+        jPanel5.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, -1, -1));
+
+        jPanel15.setBackground(new java.awt.Color(204, 255, 255));
+
+        jLabel43.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/usuario (1).png"))); // NOI18N
+        jLabel43.setText("   Sr. Tecnico");
+
+        javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
+        jPanel15.setLayout(jPanel15Layout);
+        jPanel15Layout.setHorizontalGroup(
+            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel43, javax.swing.GroupLayout.DEFAULT_SIZE, 120, Short.MAX_VALUE)
         );
-        jPanel5Layout.setVerticalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 645, Short.MAX_VALUE)
+        jPanel15Layout.setVerticalGroup(
+            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel43, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
         );
+
+        jPanel5.add(jPanel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 10, 120, 50));
+
+        jLabel48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/activo.png"))); // NOI18N
+        jPanel5.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 20, -1, -1));
+
+        jLabel53.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        jLabel53.setText("Servicios");
+        jPanel5.add(jLabel53, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, -1, -1));
+
+        jLabel58.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
+        jLabel58.setText("Gestion los servicios tecnicos que ofreces el sistema.");
+        jPanel5.add(jLabel58, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, -1, -1));
 
         jTabbedPane1.addTab("Servicios", jPanel5);
 
-        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
-        jPanel6.setLayout(jPanel6Layout);
-        jPanel6Layout.setHorizontalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 830, Short.MAX_VALUE)
+        jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel23.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jLabel23.setText("Inicio  >");
+        jPanel6.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
+
+        jLabel27.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jLabel27.setForeground(new java.awt.Color(0, 102, 255));
+        jLabel27.setText("Perfil");
+        jPanel6.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, -1, -1));
+
+        jPanel16.setBackground(new java.awt.Color(204, 255, 255));
+
+        jLabel44.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel44.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/usuario (1).png"))); // NOI18N
+        jLabel44.setText("   Sr. Tecnico");
+
+        javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
+        jPanel16.setLayout(jPanel16Layout);
+        jPanel16Layout.setHorizontalGroup(
+            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel44, javax.swing.GroupLayout.DEFAULT_SIZE, 120, Short.MAX_VALUE)
         );
-        jPanel6Layout.setVerticalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 645, Short.MAX_VALUE)
+        jPanel16Layout.setVerticalGroup(
+            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel44, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
         );
+
+        jPanel6.add(jPanel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 10, 120, 50));
+
+        jLabel49.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/activo.png"))); // NOI18N
+        jPanel6.add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 20, -1, -1));
+
+        jLabel54.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        jLabel54.setText("Mi Perfil");
+        jPanel6.add(jLabel54, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, -1, -1));
+
+        jLabel59.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
+        jLabel59.setText("Visualiza tu informacion personal y profecional.");
+        jPanel6.add(jLabel59, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, -1, -1));
 
         jTabbedPane1.addTab("Perfil", jPanel6);
 
-        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
-        jPanel7.setLayout(jPanel7Layout);
-        jPanel7Layout.setHorizontalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 830, Short.MAX_VALUE)
+        jPanel7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel24.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jLabel24.setText("Inicio  >");
+        jPanel7.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
+
+        jLabel28.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jLabel28.setForeground(new java.awt.Color(0, 102, 255));
+        jLabel28.setText("Configuracion");
+        jPanel7.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, -1, -1));
+
+        jPanel17.setBackground(new java.awt.Color(204, 255, 255));
+
+        jLabel45.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/usuario (1).png"))); // NOI18N
+        jLabel45.setText("   Sr. Tecnico");
+
+        javax.swing.GroupLayout jPanel17Layout = new javax.swing.GroupLayout(jPanel17);
+        jPanel17.setLayout(jPanel17Layout);
+        jPanel17Layout.setHorizontalGroup(
+            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel45, javax.swing.GroupLayout.DEFAULT_SIZE, 120, Short.MAX_VALUE)
         );
-        jPanel7Layout.setVerticalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 645, Short.MAX_VALUE)
+        jPanel17Layout.setVerticalGroup(
+            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel45, javax.swing.GroupLayout.DEFAULT_SIZE, 50, Short.MAX_VALUE)
         );
+
+        jPanel7.add(jPanel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 10, 120, 50));
+
+        jLabel50.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/activo.png"))); // NOI18N
+        jPanel7.add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 20, -1, -1));
+
+        jLabel55.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        jLabel55.setText("Configuracion");
+        jPanel7.add(jLabel55, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, -1, -1));
+
+        jLabel60.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
+        jLabel60.setText("Edita tu informacion personal y ajusta tus preferencias.");
+        jPanel7.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, -1, -1));
 
         jTabbedPane1.addTab("Configuracion", jPanel7);
 
-        jPanel1.add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 0, 830, 680));
+        jPanel1.add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 0, 980, 680));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -308,7 +763,29 @@ public class Tecnico_2 extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
     private javax.swing.JLabel jLabel31;
     private javax.swing.JLabel jLabel32;
     private javax.swing.JLabel jLabel33;
@@ -318,14 +795,72 @@ public class Tecnico_2 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel37;
     private javax.swing.JLabel jLabel38;
     private javax.swing.JLabel jLabel39;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel40;
+    private javax.swing.JLabel jLabel41;
+    private javax.swing.JLabel jLabel42;
+    private javax.swing.JLabel jLabel43;
+    private javax.swing.JLabel jLabel44;
+    private javax.swing.JLabel jLabel45;
+    private javax.swing.JLabel jLabel46;
+    private javax.swing.JLabel jLabel47;
+    private javax.swing.JLabel jLabel48;
+    private javax.swing.JLabel jLabel49;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel50;
+    private javax.swing.JLabel jLabel51;
+    private javax.swing.JLabel jLabel52;
+    private javax.swing.JLabel jLabel53;
+    private javax.swing.JLabel jLabel54;
+    private javax.swing.JLabel jLabel55;
+    private javax.swing.JLabel jLabel56;
+    private javax.swing.JLabel jLabel57;
+    private javax.swing.JLabel jLabel58;
+    private javax.swing.JLabel jLabel59;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel60;
+    private javax.swing.JLabel jLabel61;
+    private javax.swing.JLabel jLabel62;
+    private javax.swing.JLabel jLabel63;
+    private javax.swing.JLabel jLabel64;
+    private javax.swing.JLabel jLabel65;
+    private javax.swing.JLabel jLabel66;
+    private javax.swing.JLabel jLabel67;
+    private javax.swing.JLabel jLabel68;
+    private javax.swing.JLabel jLabel69;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel70;
+    private javax.swing.JLabel jLabel71;
+    private javax.swing.JLabel jLabel72;
+    private javax.swing.JLabel jLabel73;
+    private javax.swing.JLabel jLabel74;
+    private javax.swing.JLabel jLabel75;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel11;
+    private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel13;
+    private javax.swing.JPanel jPanel14;
+    private javax.swing.JPanel jPanel15;
+    private javax.swing.JPanel jPanel16;
+    private javax.swing.JPanel jPanel17;
+    private javax.swing.JPanel jPanel18;
+    private javax.swing.JPanel jPanel19;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel20;
+    private javax.swing.JPanel jPanel21;
+    private javax.swing.JPanel jPanel22;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
+    private javax.swing.JPanel jPanel8;
+    private javax.swing.JPanel jPanel9;
+    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTabbedPane jTabbedPane1;
+    private javax.swing.JTable jTable1;
     // End of variables declaration//GEN-END:variables
 }
