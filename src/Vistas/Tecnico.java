@@ -399,7 +399,7 @@ public class Tecnico extends javax.swing.JFrame {
                 .addContainerGap(20, Short.MAX_VALUE))
         );
 
-        jPanel1.add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 530, 440, 130));
+        jPanel1.add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 540, 440, 130));
 
         jLabel30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/activo.png"))); // NOI18N
         jPanel1.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(830, 20, -1, -1));
