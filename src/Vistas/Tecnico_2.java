@@ -96,6 +96,8 @@ public class Tecnico_2 extends javax.swing.JFrame {
         jLabel73 = new javax.swing.JLabel();
         jLabel74 = new javax.swing.JLabel();
         jLabel75 = new javax.swing.JLabel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTable2 = new javax.swing.JTable();
         jPanel4 = new javax.swing.JPanel();
         jLabel21 = new javax.swing.JLabel();
         jLabel25 = new javax.swing.JLabel();
@@ -104,6 +106,28 @@ public class Tecnico_2 extends javax.swing.JFrame {
         jLabel47 = new javax.swing.JLabel();
         jLabel52 = new javax.swing.JLabel();
         jLabel57 = new javax.swing.JLabel();
+        jPanel23 = new javax.swing.JPanel();
+        jLabel76 = new javax.swing.JLabel();
+        jLabel77 = new javax.swing.JLabel();
+        jLabel78 = new javax.swing.JLabel();
+        jPanel24 = new javax.swing.JPanel();
+        jLabel79 = new javax.swing.JLabel();
+        jLabel80 = new javax.swing.JLabel();
+        jLabel81 = new javax.swing.JLabel();
+        jPanel25 = new javax.swing.JPanel();
+        jLabel82 = new javax.swing.JLabel();
+        jLabel83 = new javax.swing.JLabel();
+        jLabel84 = new javax.swing.JLabel();
+        jPanel26 = new javax.swing.JPanel();
+        jLabel85 = new javax.swing.JLabel();
+        jLabel86 = new javax.swing.JLabel();
+        jLabel87 = new javax.swing.JLabel();
+        jPanel27 = new javax.swing.JPanel();
+        jLabel88 = new javax.swing.JLabel();
+        jLabel89 = new javax.swing.JLabel();
+        jLabel90 = new javax.swing.JLabel();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        jTable3 = new javax.swing.JTable();
         jPanel5 = new javax.swing.JPanel();
         jLabel22 = new javax.swing.JLabel();
         jLabel26 = new javax.swing.JLabel();
@@ -112,6 +136,28 @@ public class Tecnico_2 extends javax.swing.JFrame {
         jLabel48 = new javax.swing.JLabel();
         jLabel53 = new javax.swing.JLabel();
         jLabel58 = new javax.swing.JLabel();
+        jPanel28 = new javax.swing.JPanel();
+        jLabel91 = new javax.swing.JLabel();
+        jLabel92 = new javax.swing.JLabel();
+        jLabel93 = new javax.swing.JLabel();
+        jPanel29 = new javax.swing.JPanel();
+        jLabel94 = new javax.swing.JLabel();
+        jLabel95 = new javax.swing.JLabel();
+        jLabel96 = new javax.swing.JLabel();
+        jPanel30 = new javax.swing.JPanel();
+        jLabel97 = new javax.swing.JLabel();
+        jLabel98 = new javax.swing.JLabel();
+        jLabel99 = new javax.swing.JLabel();
+        jPanel31 = new javax.swing.JPanel();
+        jLabel100 = new javax.swing.JLabel();
+        jLabel101 = new javax.swing.JLabel();
+        jLabel102 = new javax.swing.JLabel();
+        jPanel32 = new javax.swing.JPanel();
+        jLabel103 = new javax.swing.JLabel();
+        jLabel104 = new javax.swing.JLabel();
+        jLabel105 = new javax.swing.JLabel();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        jTable4 = new javax.swing.JTable();
         jPanel6 = new javax.swing.JPanel();
         jLabel23 = new javax.swing.JLabel();
         jLabel27 = new javax.swing.JLabel();
@@ -120,6 +166,8 @@ public class Tecnico_2 extends javax.swing.JFrame {
         jLabel49 = new javax.swing.JLabel();
         jLabel54 = new javax.swing.JLabel();
         jLabel59 = new javax.swing.JLabel();
+        jPanel33 = new javax.swing.JPanel();
+        jPanel34 = new javax.swing.JPanel();
         jPanel7 = new javax.swing.JPanel();
         jLabel24 = new javax.swing.JLabel();
         jLabel28 = new javax.swing.JLabel();
@@ -499,7 +547,30 @@ public class Tecnico_2 extends javax.swing.JFrame {
         jLabel75.setText("Desde que te uniste");
         jPanel22.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
 
-        jPanel3.add(jPanel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 110, 190, 80));
+        jPanel3.add(jPanel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 110, 200, 80));
+
+        jTable2.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null}
+            },
+            new String [] {
+                "ID", "Cliente", "Servicio", "Fecha Finalizacion", "Estado", "Calificacion"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane2.setViewportView(jTable2);
+
+        jPanel3.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 210, 960, -1));
 
         jTabbedPane1.addTab("Historial", jPanel3);
 
@@ -544,6 +615,111 @@ public class Tecnico_2 extends javax.swing.JFrame {
         jLabel57.setText("Gestiona la informacion de todos los clientes registrados.");
         jPanel4.add(jLabel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, -1, -1));
 
+        jPanel23.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel23.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel76.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel76.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/anadir-grupo.png"))); // NOI18N
+        jLabel76.setText("6");
+        jPanel23.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 140, 80));
+
+        jLabel77.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel77.setText("Total clientes");
+        jPanel23.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, 110, 20));
+
+        jLabel78.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel78.setText("Registrados");
+        jPanel23.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
+
+        jPanel4.add(jPanel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, 160, 80));
+
+        jPanel24.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel24.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel79.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel79.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/agregar-usuario_1.png"))); // NOI18N
+        jLabel79.setText("    6");
+        jPanel24.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 100, 80));
+
+        jLabel80.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel80.setText("Nuevo este mes");
+        jPanel24.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 10, -1, -1));
+
+        jLabel81.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel81.setText("Clientes nuevos");
+        jPanel24.add(jLabel81, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 50, -1, -1));
+
+        jPanel4.add(jPanel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 110, 180, 80));
+
+        jPanel25.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel25.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel82.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel82.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ipo.png"))); // NOI18N
+        jLabel82.setText("  23");
+        jPanel25.add(jLabel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 80));
+
+        jLabel83.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel83.setText("Empresa");
+        jPanel25.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, -1, 20));
+
+        jLabel84.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel84.setText("Clientes empresa");
+        jPanel25.add(jLabel84, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
+
+        jPanel4.add(jPanel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 110, 170, 80));
+
+        jPanel26.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel26.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel85.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel85.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/usuario (3).png"))); // NOI18N
+        jLabel85.setText("  7");
+        jPanel26.add(jLabel85, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 80));
+
+        jLabel86.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel86.setText("Personas naturales");
+        jPanel26.add(jLabel86, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, -1, -1));
+
+        jLabel87.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel87.setText("Clientes individuales");
+        jPanel26.add(jLabel87, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
+
+        jPanel4.add(jPanel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 110, 190, 80));
+
+        jPanel27.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel27.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel88.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel88.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/chat.png"))); // NOI18N
+        jLabel88.setText("  23");
+        jPanel27.add(jLabel88, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 110, 80));
+
+        jLabel89.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel89.setText("Con Solicitud");
+        jPanel27.add(jLabel89, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, -1, 20));
+
+        jLabel90.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel90.setText("Este mes");
+        jPanel27.add(jLabel90, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
+
+        jPanel4.add(jPanel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 110, 160, 80));
+
+        jTable3.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null}
+            },
+            new String [] {
+                "Cliente", "Tipo", "Contacto", "Ciudad", "Ultima solicitud", "Estado"
+            }
+        ));
+        jScrollPane3.setViewportView(jTable3);
+
+        jPanel4.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 210, 940, 420));
+
         jTabbedPane1.addTab("Clientes", jPanel4);
 
         jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -587,6 +763,111 @@ public class Tecnico_2 extends javax.swing.JFrame {
         jLabel58.setText("Gestion los servicios tecnicos que ofreces el sistema.");
         jPanel5.add(jLabel58, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, -1, -1));
 
+        jPanel28.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel28.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel91.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel91.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/herramienta-de-reparacion.png"))); // NOI18N
+        jLabel91.setText("6");
+        jPanel28.add(jLabel91, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 140, 80));
+
+        jLabel92.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel92.setText("Total servicio");
+        jPanel28.add(jLabel92, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, 110, 20));
+
+        jLabel93.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel93.setText("Registrado");
+        jPanel28.add(jLabel93, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
+
+        jPanel5.add(jPanel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, 150, 80));
+
+        jPanel29.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel29.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel94.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel94.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/proteger.png"))); // NOI18N
+        jLabel94.setText("    6");
+        jPanel29.add(jLabel94, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 100, 80));
+
+        jLabel95.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel95.setText("Servicios activos");
+        jPanel29.add(jLabel95, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 10, -1, -1));
+
+        jLabel96.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel96.setText("Disponibles");
+        jPanel29.add(jLabel96, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 50, -1, -1));
+
+        jPanel5.add(jPanel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 110, 180, 80));
+
+        jPanel30.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel30.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel97.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel97.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/archivo.png"))); // NOI18N
+        jLabel97.setText("  23");
+        jPanel30.add(jLabel97, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 80));
+
+        jLabel98.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel98.setText("Categorias");
+        jPanel30.add(jLabel98, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, -1, 20));
+
+        jLabel99.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel99.setText("Tipo de servicio");
+        jPanel30.add(jLabel99, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
+
+        jPanel5.add(jPanel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 110, 180, 80));
+
+        jPanel31.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel31.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel100.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel100.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/tiempo.png"))); // NOI18N
+        jLabel100.setText("  7");
+        jPanel31.add(jLabel100, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 100, 80));
+
+        jLabel101.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel101.setText("En proceso");
+        jPanel31.add(jLabel101, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, -1, -1));
+
+        jLabel102.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel102.setText("Servicio en curso");
+        jPanel31.add(jLabel102, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
+
+        jPanel5.add(jPanel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 110, 170, 80));
+
+        jPanel32.setBackground(new java.awt.Color(204, 255, 255));
+        jPanel32.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel103.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel103.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/estadistica.png"))); // NOI18N
+        jLabel103.setText("  23");
+        jPanel32.add(jLabel103, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 110, 80));
+
+        jLabel104.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel104.setText("Completadas");
+        jPanel32.add(jLabel104, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, -1, 20));
+
+        jLabel105.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jLabel105.setText("Este mes");
+        jPanel32.add(jLabel105, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, -1, -1));
+
+        jPanel5.add(jPanel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 110, 170, 80));
+
+        jTable4.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null}
+            },
+            new String [] {
+                "Servicio", "Categoria", "Descripcion", "Tiempo estimado", "Precio base", "Estado"
+            }
+        ));
+        jScrollPane4.setViewportView(jTable4);
+
+        jPanel5.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 200, 940, -1));
+
         jTabbedPane1.addTab("Servicios", jPanel5);
 
         jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -629,6 +910,36 @@ public class Tecnico_2 extends javax.swing.JFrame {
         jLabel59.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
         jLabel59.setText("Visualiza tu informacion personal y profecional.");
         jPanel6.add(jLabel59, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, -1, -1));
+
+        jPanel33.setBackground(new java.awt.Color(255, 255, 255));
+
+        javax.swing.GroupLayout jPanel33Layout = new javax.swing.GroupLayout(jPanel33);
+        jPanel33.setLayout(jPanel33Layout);
+        jPanel33Layout.setHorizontalGroup(
+            jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 260, Short.MAX_VALUE)
+        );
+        jPanel33Layout.setVerticalGroup(
+            jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 480, Short.MAX_VALUE)
+        );
+
+        jPanel6.add(jPanel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 110, 260, 480));
+
+        jPanel34.setBackground(new java.awt.Color(255, 255, 255));
+
+        javax.swing.GroupLayout jPanel34Layout = new javax.swing.GroupLayout(jPanel34);
+        jPanel34.setLayout(jPanel34Layout);
+        jPanel34Layout.setHorizontalGroup(
+            jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 620, Short.MAX_VALUE)
+        );
+        jPanel34Layout.setVerticalGroup(
+            jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 480, Short.MAX_VALUE)
+        );
+
+        jPanel6.add(jPanel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 110, 620, 480));
 
         jTabbedPane1.addTab("Perfil", jPanel6);
 
@@ -764,6 +1075,12 @@ public class Tecnico_2 extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel100;
+    private javax.swing.JLabel jLabel101;
+    private javax.swing.JLabel jLabel102;
+    private javax.swing.JLabel jLabel103;
+    private javax.swing.JLabel jLabel104;
+    private javax.swing.JLabel jLabel105;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
@@ -835,8 +1152,32 @@ public class Tecnico_2 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel73;
     private javax.swing.JLabel jLabel74;
     private javax.swing.JLabel jLabel75;
+    private javax.swing.JLabel jLabel76;
+    private javax.swing.JLabel jLabel77;
+    private javax.swing.JLabel jLabel78;
+    private javax.swing.JLabel jLabel79;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel80;
+    private javax.swing.JLabel jLabel81;
+    private javax.swing.JLabel jLabel82;
+    private javax.swing.JLabel jLabel83;
+    private javax.swing.JLabel jLabel84;
+    private javax.swing.JLabel jLabel85;
+    private javax.swing.JLabel jLabel86;
+    private javax.swing.JLabel jLabel87;
+    private javax.swing.JLabel jLabel88;
+    private javax.swing.JLabel jLabel89;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JLabel jLabel90;
+    private javax.swing.JLabel jLabel91;
+    private javax.swing.JLabel jLabel92;
+    private javax.swing.JLabel jLabel93;
+    private javax.swing.JLabel jLabel94;
+    private javax.swing.JLabel jLabel95;
+    private javax.swing.JLabel jLabel96;
+    private javax.swing.JLabel jLabel97;
+    private javax.swing.JLabel jLabel98;
+    private javax.swing.JLabel jLabel99;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
@@ -852,7 +1193,19 @@ public class Tecnico_2 extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel20;
     private javax.swing.JPanel jPanel21;
     private javax.swing.JPanel jPanel22;
+    private javax.swing.JPanel jPanel23;
+    private javax.swing.JPanel jPanel24;
+    private javax.swing.JPanel jPanel25;
+    private javax.swing.JPanel jPanel26;
+    private javax.swing.JPanel jPanel27;
+    private javax.swing.JPanel jPanel28;
+    private javax.swing.JPanel jPanel29;
     private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel30;
+    private javax.swing.JPanel jPanel31;
+    private javax.swing.JPanel jPanel32;
+    private javax.swing.JPanel jPanel33;
+    private javax.swing.JPanel jPanel34;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
@@ -860,7 +1213,13 @@ public class Tecnico_2 extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTable jTable1;
+    private javax.swing.JTable jTable2;
+    private javax.swing.JTable jTable3;
+    private javax.swing.JTable jTable4;
     // End of variables declaration//GEN-END:variables
 }
