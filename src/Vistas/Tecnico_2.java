@@ -167,7 +167,32 @@ public class Tecnico_2 extends javax.swing.JFrame {
         jLabel54 = new javax.swing.JLabel();
         jLabel59 = new javax.swing.JLabel();
         jPanel33 = new javax.swing.JPanel();
+        jLabel106 = new javax.swing.JLabel();
+        jLabel107 = new javax.swing.JLabel();
+        jLabel108 = new javax.swing.JLabel();
+        jLabel109 = new javax.swing.JLabel();
+        jLabel110 = new javax.swing.JLabel();
+        jLabel113 = new javax.swing.JLabel();
+        jLabel114 = new javax.swing.JLabel();
+        jLabel115 = new javax.swing.JLabel();
+        jLabel116 = new javax.swing.JLabel();
         jPanel34 = new javax.swing.JPanel();
+        jLabel117 = new javax.swing.JLabel();
+        jLabel111 = new javax.swing.JLabel();
+        jLabel112 = new javax.swing.JLabel();
+        jLabel118 = new javax.swing.JLabel();
+        jLabel119 = new javax.swing.JLabel();
+        jLabel120 = new javax.swing.JLabel();
+        jLabel121 = new javax.swing.JLabel();
+        jLabel124 = new javax.swing.JLabel();
+        jLabel125 = new javax.swing.JLabel();
+        jLabel126 = new javax.swing.JLabel();
+        jLabel127 = new javax.swing.JLabel();
+        jLabel131 = new javax.swing.JLabel();
+        jLabel132 = new javax.swing.JLabel();
+        jLabel133 = new javax.swing.JLabel();
+        jLabel134 = new javax.swing.JLabel();
+        jLabel135 = new javax.swing.JLabel();
         jPanel7 = new javax.swing.JPanel();
         jLabel24 = new javax.swing.JLabel();
         jLabel28 = new javax.swing.JLabel();
@@ -176,6 +201,29 @@ public class Tecnico_2 extends javax.swing.JFrame {
         jLabel50 = new javax.swing.JLabel();
         jLabel55 = new javax.swing.JLabel();
         jLabel60 = new javax.swing.JLabel();
+        jPanel35 = new javax.swing.JPanel();
+        jLabel122 = new javax.swing.JLabel();
+        jLabel123 = new javax.swing.JLabel();
+        jLabel128 = new javax.swing.JLabel();
+        jLabel129 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
+        jTextField2 = new javax.swing.JTextField();
+        jLabel130 = new javax.swing.JLabel();
+        jTextField3 = new javax.swing.JTextField();
+        jLabel136 = new javax.swing.JLabel();
+        jTextField4 = new javax.swing.JTextField();
+        jLabel137 = new javax.swing.JLabel();
+        jLabel138 = new javax.swing.JLabel();
+        jLabel139 = new javax.swing.JLabel();
+        jLabel140 = new javax.swing.JLabel();
+        jTextField5 = new javax.swing.JTextField();
+        jTextField6 = new javax.swing.JTextField();
+        jTextField7 = new javax.swing.JTextField();
+        jTextField8 = new javax.swing.JTextField();
+        jButton1 = new javax.swing.JButton();
+        jPanel36 = new javax.swing.JPanel();
+        jLabel141 = new javax.swing.JLabel();
+        jLabel142 = new javax.swing.JLabel();
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/horizontal-panel.jpg"))); // NOI18N
         jLabel1.setText("jLabel1");
@@ -913,30 +961,207 @@ public class Tecnico_2 extends javax.swing.JFrame {
 
         jPanel33.setBackground(new java.awt.Color(255, 255, 255));
 
+        jLabel106.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/usuario (5).png"))); // NOI18N
+
+        jLabel107.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        jLabel107.setText("Heskin Martinez");
+
+        jLabel108.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/informacion.png"))); // NOI18N
+        jLabel108.setText(" 6796706900");
+
+        jLabel109.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/correo-electronico.png"))); // NOI18N
+        jLabel109.setText(" Heskin@gmail.com");
+
+        jLabel110.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/llamada-telefonica.png"))); // NOI18N
+        jLabel110.setText(" 3007219060");
+
+        jLabel113.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
+        jLabel113.setForeground(new java.awt.Color(102, 153, 255));
+        jLabel113.setText("Tecnico");
+
+        jLabel114.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        jLabel114.setText("ID");
+
+        jLabel115.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        jLabel115.setText("Correo electronico");
+
+        jLabel116.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        jLabel116.setText("Telefono");
+
         javax.swing.GroupLayout jPanel33Layout = new javax.swing.GroupLayout(jPanel33);
         jPanel33.setLayout(jPanel33Layout);
         jPanel33Layout.setHorizontalGroup(
             jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 260, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel33Layout.createSequentialGroup()
+                .addGap(0, 17, Short.MAX_VALUE)
+                .addGroup(jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel108, javax.swing.GroupLayout.PREFERRED_SIZE, 222, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel110, javax.swing.GroupLayout.PREFERRED_SIZE, 222, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel109, javax.swing.GroupLayout.PREFERRED_SIZE, 222, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(21, 21, 21))
+            .addGroup(jPanel33Layout.createSequentialGroup()
+                .addGroup(jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel33Layout.createSequentialGroup()
+                        .addGap(47, 47, 47)
+                        .addGroup(jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel107)
+                            .addComponent(jLabel114)))
+                    .addGroup(jPanel33Layout.createSequentialGroup()
+                        .addGap(103, 103, 103)
+                        .addComponent(jLabel113))
+                    .addGroup(jPanel33Layout.createSequentialGroup()
+                        .addGap(63, 63, 63)
+                        .addComponent(jLabel106))
+                    .addGroup(jPanel33Layout.createSequentialGroup()
+                        .addGap(47, 47, 47)
+                        .addComponent(jLabel115))
+                    .addGroup(jPanel33Layout.createSequentialGroup()
+                        .addGap(45, 45, 45)
+                        .addComponent(jLabel116, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel33Layout.setVerticalGroup(
             jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 480, Short.MAX_VALUE)
+            .addGroup(jPanel33Layout.createSequentialGroup()
+                .addGap(40, 40, 40)
+                .addComponent(jLabel106)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel107)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel113)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 8, Short.MAX_VALUE)
+                .addComponent(jLabel114)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel108)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel115)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel109)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel116)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel110)
+                .addGap(71, 71, 71))
         );
 
         jPanel6.add(jPanel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 110, 260, 480));
 
         jPanel34.setBackground(new java.awt.Color(255, 255, 255));
 
+        jLabel117.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        jLabel117.setText("Informacion personal");
+
+        jLabel111.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel111.setText("Nombre Completo");
+
+        jLabel112.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel112.setText("Fecha de nacimiento");
+
+        jLabel118.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel118.setText("Direccion ");
+
+        jLabel119.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel119.setText("Numero de documento");
+
+        jLabel120.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel120.setText("No disponible");
+
+        jLabel121.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel121.setText("No disponible");
+
+        jLabel124.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        jLabel124.setText("Infromacion profecional");
+
+        jLabel125.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel125.setText("Especialidad");
+
+        jLabel126.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel126.setText("Años de experencia");
+
+        jLabel127.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel127.setText("Descripcion");
+
+        jLabel131.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel131.setText("No disponible");
+
+        jLabel132.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel132.setText("No disponible");
+
+        jLabel133.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel133.setText("No disponible");
+
+        jLabel134.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel134.setText("No disponible");
+
+        jLabel135.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel135.setText("No disponible");
+
         javax.swing.GroupLayout jPanel34Layout = new javax.swing.GroupLayout(jPanel34);
         jPanel34.setLayout(jPanel34Layout);
         jPanel34Layout.setHorizontalGroup(
             jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 620, Short.MAX_VALUE)
+            .addGroup(jPanel34Layout.createSequentialGroup()
+                .addGap(35, 35, 35)
+                .addGroup(jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel34Layout.createSequentialGroup()
+                        .addGroup(jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel118)
+                            .addComponent(jLabel119)
+                            .addComponent(jLabel126)
+                            .addComponent(jLabel127)
+                            .addGroup(jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addComponent(jLabel111, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jLabel112, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(jLabel125))
+                        .addGap(129, 129, 129)
+                        .addGroup(jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel120, javax.swing.GroupLayout.DEFAULT_SIZE, 277, Short.MAX_VALUE)
+                            .addComponent(jLabel121, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jLabel131, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jLabel132, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jLabel133, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jLabel134, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jLabel135, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addComponent(jLabel117)
+                    .addComponent(jLabel124))
+                .addContainerGap(49, Short.MAX_VALUE))
         );
         jPanel34Layout.setVerticalGroup(
             jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 480, Short.MAX_VALUE)
+            .addGroup(jPanel34Layout.createSequentialGroup()
+                .addGap(31, 31, 31)
+                .addComponent(jLabel117)
+                .addGap(18, 18, 18)
+                .addGroup(jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel111)
+                    .addComponent(jLabel120))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel112)
+                    .addComponent(jLabel121))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel118)
+                    .addComponent(jLabel131))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel119)
+                    .addComponent(jLabel132))
+                .addGap(44, 44, 44)
+                .addComponent(jLabel124)
+                .addGap(18, 18, 18)
+                .addGroup(jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel125)
+                    .addComponent(jLabel133))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel126)
+                    .addComponent(jLabel134))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel34Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel127)
+                    .addComponent(jLabel135))
+                .addContainerGap(102, Short.MAX_VALUE))
         );
 
         jPanel6.add(jPanel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 110, 620, 480));
@@ -983,6 +1208,110 @@ public class Tecnico_2 extends javax.swing.JFrame {
         jLabel60.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
         jLabel60.setText("Edita tu informacion personal y ajusta tus preferencias.");
         jPanel7.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, -1, -1));
+
+        jPanel35.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel35.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel122.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        jLabel122.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/usuario (1).png"))); // NOI18N
+        jLabel122.setText("Informacion personal");
+        jPanel35.add(jLabel122, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, -1, -1));
+
+        jLabel123.setFont(new java.awt.Font("Times New Roman", 0, 12)); // NOI18N
+        jLabel123.setText("Actualiza tus datos personales.");
+        jPanel35.add(jLabel123, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 50, -1, -1));
+
+        jLabel128.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel128.setText("Años de experencia");
+        jPanel35.add(jLabel128, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 270, -1, -1));
+
+        jLabel129.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel129.setText("Telefono");
+        jPanel35.add(jLabel129, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, -1, -1));
+        jPanel35.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 290, 290, -1));
+
+        jTextField2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField2ActionPerformed(evt);
+            }
+        });
+        jPanel35.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 170, 290, -1));
+
+        jLabel130.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel130.setText("Fecha de nacimiento");
+        jPanel35.add(jLabel130, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 210, -1, -1));
+        jPanel35.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 230, 290, -1));
+
+        jLabel136.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel136.setText("Especialidad ");
+        jPanel35.add(jLabel136, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 270, -1, -1));
+        jPanel35.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 290, 290, -1));
+
+        jLabel137.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel137.setText("Nombre Completo");
+        jPanel35.add(jLabel137, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, -1, -1));
+
+        jLabel138.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel138.setText("Correo electronico");
+        jPanel35.add(jLabel138, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 90, -1, -1));
+
+        jLabel139.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel139.setText("Numero de documento");
+        jPanel35.add(jLabel139, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 150, -1, -1));
+
+        jLabel140.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
+        jLabel140.setText("Direccion");
+        jPanel35.add(jLabel140, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 210, -1, -1));
+        jPanel35.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, 290, -1));
+        jPanel35.add(jTextField6, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 110, 290, -1));
+        jPanel35.add(jTextField7, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 170, 290, -1));
+        jPanel35.add(jTextField8, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 230, 290, -1));
+
+        jButton1.setBackground(new java.awt.Color(0, 102, 255));
+        jButton1.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/disquete.png"))); // NOI18N
+        jButton1.setText("Guardar cambios");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        jPanel35.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 340, 170, 40));
+
+        jPanel7.add(jPanel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 120, 870, 400));
+
+        jPanel36.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel141.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jLabel141.setForeground(new java.awt.Color(0, 102, 255));
+        jLabel141.setText("Importante:");
+
+        jLabel142.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jLabel142.setText("Los cambios en tu informacion personal se veran reflejados en todo el sistema.");
+
+        javax.swing.GroupLayout jPanel36Layout = new javax.swing.GroupLayout(jPanel36);
+        jPanel36.setLayout(jPanel36Layout);
+        jPanel36Layout.setHorizontalGroup(
+            jPanel36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel36Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel141)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel142)
+                .addContainerGap(299, Short.MAX_VALUE))
+        );
+        jPanel36Layout.setVerticalGroup(
+            jPanel36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel36Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel36Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel141, javax.swing.GroupLayout.DEFAULT_SIZE, 28, Short.MAX_VALUE)
+                    .addComponent(jLabel142))
+                .addContainerGap())
+        );
+
+        jPanel7.add(jPanel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 550, 870, 40));
 
         jTabbedPane1.addTab("Configuracion", jPanel7);
 
@@ -1037,6 +1366,14 @@ public class Tecnico_2 extends javax.swing.JFrame {
         jTabbedPane1.setSelectedIndex(0);
     }//GEN-LAST:event_jLabel33MouseClicked
 
+    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField2ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1073,6 +1410,7 @@ public class Tecnico_2 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel100;
@@ -1081,10 +1419,47 @@ public class Tecnico_2 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel103;
     private javax.swing.JLabel jLabel104;
     private javax.swing.JLabel jLabel105;
+    private javax.swing.JLabel jLabel106;
+    private javax.swing.JLabel jLabel107;
+    private javax.swing.JLabel jLabel108;
+    private javax.swing.JLabel jLabel109;
     private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel110;
+    private javax.swing.JLabel jLabel111;
+    private javax.swing.JLabel jLabel112;
+    private javax.swing.JLabel jLabel113;
+    private javax.swing.JLabel jLabel114;
+    private javax.swing.JLabel jLabel115;
+    private javax.swing.JLabel jLabel116;
+    private javax.swing.JLabel jLabel117;
+    private javax.swing.JLabel jLabel118;
+    private javax.swing.JLabel jLabel119;
     private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel120;
+    private javax.swing.JLabel jLabel121;
+    private javax.swing.JLabel jLabel122;
+    private javax.swing.JLabel jLabel123;
+    private javax.swing.JLabel jLabel124;
+    private javax.swing.JLabel jLabel125;
+    private javax.swing.JLabel jLabel126;
+    private javax.swing.JLabel jLabel127;
+    private javax.swing.JLabel jLabel128;
+    private javax.swing.JLabel jLabel129;
     private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel130;
+    private javax.swing.JLabel jLabel131;
+    private javax.swing.JLabel jLabel132;
+    private javax.swing.JLabel jLabel133;
+    private javax.swing.JLabel jLabel134;
+    private javax.swing.JLabel jLabel135;
+    private javax.swing.JLabel jLabel136;
+    private javax.swing.JLabel jLabel137;
+    private javax.swing.JLabel jLabel138;
+    private javax.swing.JLabel jLabel139;
     private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel140;
+    private javax.swing.JLabel jLabel141;
+    private javax.swing.JLabel jLabel142;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
@@ -1206,6 +1581,8 @@ public class Tecnico_2 extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel32;
     private javax.swing.JPanel jPanel33;
     private javax.swing.JPanel jPanel34;
+    private javax.swing.JPanel jPanel35;
+    private javax.swing.JPanel jPanel36;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
@@ -1221,5 +1598,13 @@ public class Tecnico_2 extends javax.swing.JFrame {
     private javax.swing.JTable jTable2;
     private javax.swing.JTable jTable3;
     private javax.swing.JTable jTable4;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField jTextField4;
+    private javax.swing.JTextField jTextField5;
+    private javax.swing.JTextField jTextField6;
+    private javax.swing.JTextField jTextField7;
+    private javax.swing.JTextField jTextField8;
     // End of variables declaration//GEN-END:variables
 }
