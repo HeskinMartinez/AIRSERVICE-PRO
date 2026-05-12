@@ -15,6 +15,8 @@ public class Login extends javax.swing.JFrame {
      */
     public Login() {
         initComponents();
+        this.setLocationRelativeTo(null);
+        this.dispose();
     }
 
     /**
@@ -38,6 +40,7 @@ public class Login extends javax.swing.JFrame {
         registro = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
@@ -51,21 +54,21 @@ public class Login extends javax.swing.JFrame {
         jLabel3.setBackground(new java.awt.Color(0, 0, 0));
         jLabel3.setFont(new java.awt.Font("Times New Roman", 1, 36)); // NOI18N
         jLabel3.setText("Inicio de sesion");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 190, 240, 50));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 190, 240, 50));
 
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
             }
         });
-        jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 290, 230, 30));
+        jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 290, 230, 30));
 
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField2ActionPerformed(evt);
             }
         });
-        jPanel1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 350, 230, 30));
+        jPanel1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 350, 230, 30));
 
         Tecnico.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         Tecnico.setText("Tecnico");
@@ -74,11 +77,11 @@ public class Login extends javax.swing.JFrame {
                 TecnicoActionPerformed(evt);
             }
         });
-        jPanel1.add(Tecnico, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 400, 80, -1));
+        jPanel1.add(Tecnico, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 400, 80, -1));
 
         usuario.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         usuario.setText("Usuario");
-        jPanel1.add(usuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 400, -1, -1));
+        jPanel1.add(usuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 400, -1, -1));
 
         admin.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         admin.setText("Admin");
@@ -87,7 +90,7 @@ public class Login extends javax.swing.JFrame {
                 adminActionPerformed(evt);
             }
         });
-        jPanel1.add(admin, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 400, -1, -1));
+        jPanel1.add(admin, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 400, -1, -1));
 
         ingresar.setBackground(new java.awt.Color(204, 204, 255));
         ingresar.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
@@ -97,20 +100,28 @@ public class Login extends javax.swing.JFrame {
                 ingresarActionPerformed(evt);
             }
         });
-        jPanel1.add(ingresar, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 440, 190, 40));
+        jPanel1.add(ingresar, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 440, 190, 40));
 
         registro.setBackground(new java.awt.Color(204, 204, 255));
         registro.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         registro.setText("Registrarse");
-        jPanel1.add(registro, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 440, 190, 40));
+        registro.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                registroActionPerformed(evt);
+            }
+        });
+        jPanel1.add(registro, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 440, 190, 40));
 
         jLabel4.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jLabel4.setText("Usuario");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 270, -1, -1));
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 270, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jLabel5.setText("Contraseña");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 330, -1, -1));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 330, -1, -1));
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/airservice_resized (1).png"))); // NOI18N
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 10, 340, 90));
 
         jLabel1.setBackground(new java.awt.Color(0, 0, 0));
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/login_background_930x514.png"))); // NOI18N
@@ -150,6 +161,11 @@ public class Login extends javax.swing.JFrame {
     private void adminActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_adminActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_adminActionPerformed
+
+    private void registroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_registroActionPerformed
+        // TODO add your handling code here:
+        new Registro().setVisible(true);
+    }//GEN-LAST:event_registroActionPerformed
 
     /**
      * @param args the command line arguments
@@ -195,6 +211,7 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
