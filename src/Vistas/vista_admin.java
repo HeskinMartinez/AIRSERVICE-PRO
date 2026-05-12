@@ -29,12 +29,40 @@ public class vista_admin extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel22 = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
+        jPanel5 = new javax.swing.JPanel();
+        jPanel14 = new javax.swing.JPanel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jPanel9 = new javax.swing.JPanel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel48 = new javax.swing.JLabel();
+        jPanel10 = new javax.swing.JPanel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel60 = new javax.swing.JLabel();
+        jPanel11 = new javax.swing.JPanel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel61 = new javax.swing.JLabel();
+        fechaActual = new javax.swing.JLabel();
         jTabbedPane3 = new javax.swing.JTabbedPane();
         jPanel3 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
+        jLabel71 = new javax.swing.JLabel();
+        jPanel21 = new javax.swing.JPanel();
+        jLabel62 = new javax.swing.JLabel();
+        jLabel63 = new javax.swing.JLabel();
+        jLabel64 = new javax.swing.JLabel();
+        jPanel23 = new javax.swing.JPanel();
+        jLabel65 = new javax.swing.JLabel();
+        jLabel66 = new javax.swing.JLabel();
+        jLabel67 = new javax.swing.JLabel();
         jPanel6 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
@@ -47,10 +75,10 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel11 = new javax.swing.JLabel();
         buscarUsuarios = new javax.swing.JButton();
         jLabel14 = new javax.swing.JLabel();
+        jButton9 = new javax.swing.JButton();
         jPanel7 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         actualizarTecnicos = new javax.swing.JButton();
-        listarTecnicos = new javax.swing.JButton();
         eliminarTecnicos = new javax.swing.JButton();
         agregarTecnicos = new javax.swing.JButton();
         buscarTecnicos = new javax.swing.JButton();
@@ -74,9 +102,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel28 = new javax.swing.JLabel();
         jLabel29 = new javax.swing.JLabel();
         jButton8 = new javax.swing.JButton();
+        jButton28 = new javax.swing.JButton();
         jPanel12 = new javax.swing.JPanel();
         jPanel13 = new javax.swing.JPanel();
-        jLabel31 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
         jLabel32 = new javax.swing.JLabel();
         jTextField2 = new javax.swing.JTextField();
@@ -136,29 +164,174 @@ public class vista_admin extends javax.swing.JFrame {
         jButton5 = new javax.swing.JButton();
         jTextField17 = new javax.swing.JTextField();
         jLabel57 = new javax.swing.JLabel();
+        jButton26 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
         jLabel58 = new javax.swing.JLabel();
         jSeparator3 = new javax.swing.JSeparator();
         jLabel59 = new javax.swing.JLabel();
         jPanel16 = new javax.swing.JPanel();
-        jPanel5 = new javax.swing.JPanel();
-        jPanel14 = new javax.swing.JPanel();
-        jLabel16 = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jPanel2 = new javax.swing.JPanel();
-        jLabel17 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jPanel9 = new javax.swing.JPanel();
-        jLabel18 = new javax.swing.JLabel();
-        jLabel48 = new javax.swing.JLabel();
-        jPanel10 = new javax.swing.JPanel();
-        jLabel19 = new javax.swing.JLabel();
-        jLabel60 = new javax.swing.JLabel();
-        jPanel11 = new javax.swing.JPanel();
-        jLabel15 = new javax.swing.JLabel();
-        jLabel61 = new javax.swing.JLabel();
-        fechaActual = new javax.swing.JLabel();
+        jPanel20 = new javax.swing.JPanel();
+        jButton10 = new javax.swing.JButton();
+        jLabel69 = new javax.swing.JLabel();
+        jSeparator4 = new javax.swing.JSeparator();
+        jLabel70 = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTable1 = new javax.swing.JTable();
+        jButton12 = new javax.swing.JButton();
+        jPanel24 = new javax.swing.JPanel();
+        jPanel27 = new javax.swing.JPanel();
+        jPanel28 = new javax.swing.JPanel();
+        jTextField23 = new javax.swing.JTextField();
+        jLabel83 = new javax.swing.JLabel();
+        jTextField24 = new javax.swing.JTextField();
+        jLabel84 = new javax.swing.JLabel();
+        jLabel85 = new javax.swing.JLabel();
+        jTextField25 = new javax.swing.JTextField();
+        jLabel86 = new javax.swing.JLabel();
+        jTextField26 = new javax.swing.JTextField();
+        jLabel87 = new javax.swing.JLabel();
+        jComboBox5 = new javax.swing.JComboBox<>();
+        jLabel88 = new javax.swing.JLabel();
+        jTextField27 = new javax.swing.JTextField();
+        jLabel89 = new javax.swing.JLabel();
+        jPasswordField5 = new javax.swing.JPasswordField();
+        jPasswordField6 = new javax.swing.JPasswordField();
+        jLabel90 = new javax.swing.JLabel();
+        jButton18 = new javax.swing.JButton();
+        jLabel93 = new javax.swing.JLabel();
+        jComboBox6 = new javax.swing.JComboBox<>();
+        jSeparator6 = new javax.swing.JSeparator();
+        jLabel91 = new javax.swing.JLabel();
+        jLabel92 = new javax.swing.JLabel();
+        jButton19 = new javax.swing.JButton();
+        jPanel25 = new javax.swing.JPanel();
+        jPanel26 = new javax.swing.JPanel();
+        jPanel29 = new javax.swing.JPanel();
+        jTextField18 = new javax.swing.JTextField();
+        jLabel68 = new javax.swing.JLabel();
+        jTextField19 = new javax.swing.JTextField();
+        jLabel72 = new javax.swing.JLabel();
+        jLabel73 = new javax.swing.JLabel();
+        jTextField20 = new javax.swing.JTextField();
+        jLabel74 = new javax.swing.JLabel();
+        jTextField21 = new javax.swing.JTextField();
+        jTextField22 = new javax.swing.JTextField();
+        jLabel76 = new javax.swing.JLabel();
+        jButton16 = new javax.swing.JButton();
+        jTextField28 = new javax.swing.JTextField();
+        jLabel77 = new javax.swing.JLabel();
+        jButton17 = new javax.swing.JButton();
+        jLabel78 = new javax.swing.JLabel();
+        jSeparator5 = new javax.swing.JSeparator();
+        jLabel79 = new javax.swing.JLabel();
+        jPanel30 = new javax.swing.JPanel();
+        jPanel31 = new javax.swing.JPanel();
+        jPanel32 = new javax.swing.JPanel();
+        jTextField29 = new javax.swing.JTextField();
+        jLabel80 = new javax.swing.JLabel();
+        jTextField30 = new javax.swing.JTextField();
+        jLabel81 = new javax.swing.JLabel();
+        jLabel82 = new javax.swing.JLabel();
+        jTextField31 = new javax.swing.JTextField();
+        jLabel94 = new javax.swing.JLabel();
+        jTextField32 = new javax.swing.JTextField();
+        jTextField33 = new javax.swing.JTextField();
+        jLabel96 = new javax.swing.JLabel();
+        jButton20 = new javax.swing.JButton();
+        jTextField34 = new javax.swing.JTextField();
+        jLabel97 = new javax.swing.JLabel();
+        jButton27 = new javax.swing.JButton();
+        jButton21 = new javax.swing.JButton();
+        jLabel98 = new javax.swing.JLabel();
+        jSeparator7 = new javax.swing.JSeparator();
+        jLabel99 = new javax.swing.JLabel();
+        jPanel33 = new javax.swing.JPanel();
+        jPanel34 = new javax.swing.JPanel();
+        jButton22 = new javax.swing.JButton();
+        jLabel100 = new javax.swing.JLabel();
+        jSeparator8 = new javax.swing.JSeparator();
+        jLabel101 = new javax.swing.JLabel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTable2 = new javax.swing.JTable();
+        jButton23 = new javax.swing.JButton();
+        jPanel35 = new javax.swing.JPanel();
+        jPanel36 = new javax.swing.JPanel();
+        jPanel37 = new javax.swing.JPanel();
+        jPanel38 = new javax.swing.JPanel();
+        jTextField35 = new javax.swing.JTextField();
+        jLabel102 = new javax.swing.JLabel();
+        jTextField36 = new javax.swing.JTextField();
+        jLabel103 = new javax.swing.JLabel();
+        jLabel104 = new javax.swing.JLabel();
+        jTextField37 = new javax.swing.JTextField();
+        jLabel105 = new javax.swing.JLabel();
+        jTextField38 = new javax.swing.JTextField();
+        jLabel106 = new javax.swing.JLabel();
+        jComboBox8 = new javax.swing.JComboBox<>();
+        jTextField39 = new javax.swing.JTextField();
+        jLabel108 = new javax.swing.JLabel();
+        jLabel109 = new javax.swing.JLabel();
+        jButton24 = new javax.swing.JButton();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        jTextArea1 = new javax.swing.JTextArea();
+        jSeparator9 = new javax.swing.JSeparator();
+        jLabel31 = new javax.swing.JLabel();
+        jLabel110 = new javax.swing.JLabel();
+        jButton25 = new javax.swing.JButton();
+        jPanel39 = new javax.swing.JPanel();
+        jPanel40 = new javax.swing.JPanel();
+        jPanel41 = new javax.swing.JPanel();
+        jTextField40 = new javax.swing.JTextField();
+        jLabel107 = new javax.swing.JLabel();
+        jTextField41 = new javax.swing.JTextField();
+        jLabel111 = new javax.swing.JLabel();
+        jLabel112 = new javax.swing.JLabel();
+        jTextField42 = new javax.swing.JTextField();
+        jLabel113 = new javax.swing.JLabel();
+        jTextField43 = new javax.swing.JTextField();
+        jTextField44 = new javax.swing.JTextField();
+        jLabel115 = new javax.swing.JLabel();
+        jButton29 = new javax.swing.JButton();
+        jTextField45 = new javax.swing.JTextField();
+        jLabel116 = new javax.swing.JLabel();
+        jLabel114 = new javax.swing.JLabel();
+        jTextField46 = new javax.swing.JTextField();
+        jButton30 = new javax.swing.JButton();
+        jLabel117 = new javax.swing.JLabel();
+        jSeparator10 = new javax.swing.JSeparator();
+        jLabel118 = new javax.swing.JLabel();
+        jPanel42 = new javax.swing.JPanel();
+        jPanel43 = new javax.swing.JPanel();
+        jPanel44 = new javax.swing.JPanel();
+        jTextField47 = new javax.swing.JTextField();
+        jLabel75 = new javax.swing.JLabel();
+        jTextField48 = new javax.swing.JTextField();
+        jLabel95 = new javax.swing.JLabel();
+        jLabel119 = new javax.swing.JLabel();
+        jTextField49 = new javax.swing.JTextField();
+        jLabel120 = new javax.swing.JLabel();
+        jTextField50 = new javax.swing.JTextField();
+        jLabel121 = new javax.swing.JLabel();
+        jTextField51 = new javax.swing.JTextField();
+        jLabel122 = new javax.swing.JLabel();
+        jButton31 = new javax.swing.JButton();
+        jTextField52 = new javax.swing.JTextField();
+        jLabel123 = new javax.swing.JLabel();
+        jButton32 = new javax.swing.JButton();
+        jTextField53 = new javax.swing.JTextField();
+        jButton33 = new javax.swing.JButton();
+        jLabel124 = new javax.swing.JLabel();
+        jSeparator11 = new javax.swing.JSeparator();
+        jLabel125 = new javax.swing.JLabel();
+        jPanel45 = new javax.swing.JPanel();
+        jPanel46 = new javax.swing.JPanel();
+        jButton34 = new javax.swing.JButton();
+        jLabel126 = new javax.swing.JLabel();
+        jSeparator12 = new javax.swing.JSeparator();
+        jLabel127 = new javax.swing.JLabel();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        jTable3 = new javax.swing.JTable();
+        jButton35 = new javax.swing.JButton();
         jLabel40 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -169,7 +342,92 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel4.setMaximumSize(new java.awt.Dimension(1160, 680));
+        jPanel4.setMinimumSize(new java.awt.Dimension(1160, 680));
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel5.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel4.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 780, -1));
+
+        jPanel14.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                jPanel14MouseMoved(evt);
+            }
+        });
+        jPanel14.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jPanel14MouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                jPanel14MouseExited(evt);
+            }
+        });
+        jPanel14.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel16.setText("X");
+        jPanel14.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 0, 40, 30));
+
+        jPanel4.add(jPanel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 0, 50, 30));
+
+        jPanel1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 0, 780, 90));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/hombre-de-negocios (1).png"))); // NOI18N
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, -1, -1));
+
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setText("Administrador");
+        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, -1, -1));
+
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel17.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel17.setText("INICIO");
+        jPanel2.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 0, -1, 40));
+
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8-home-28.png"))); // NOI18N
+        jPanel2.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, -1, 40));
+
+        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 180, 160, 40));
+
+        jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel18.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel18.setText("USUARIOS");
+        jPanel9.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 0, -1, 40));
+
+        jLabel48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8-male-user-28.png"))); // NOI18N
+        jPanel9.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 30, 40));
+
+        jPanel1.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 230, 160, 40));
+
+        jPanel10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel19.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel19.setText("TECNICOS");
+        jPanel10.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 0, -1, 40));
+
+        jLabel60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/obrero (1).png"))); // NOI18N
+        jPanel10.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, -1, 40));
+
+        jPanel1.add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 280, 160, 40));
+
+        jPanel11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel15.setText("SERVICIOS");
+        jPanel11.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 0, -1, 40));
+
+        jLabel61.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/mantenimiento.png"))); // NOI18N
+        jPanel11.add(jLabel61, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, -1, 40));
+
+        jPanel1.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 330, 160, 40));
+
+        fechaActual.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        fechaActual.setForeground(new java.awt.Color(0, 0, 0));
+        fechaActual.setText("DD/MM/YYYY");
+        jPanel1.add(fechaActual, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
 
         jPanel3.setBackground(new java.awt.Color(243, 244, 246));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -177,12 +435,57 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("Bienvenido, Administrador");
-        jPanel3.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 110, 480, 40));
+        jPanel3.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 480, 40));
 
         jLabel4.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("Gestiona clientes, tecnicos y servicios.");
-        jPanel3.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 160, -1, -1));
+        jPanel3.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, -1, 20));
+        jPanel3.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 130, -1, -1));
+
+        jPanel21.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel21.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 8, 0, 0, new java.awt.Color(0, 122, 255)));
+        jPanel21.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel62.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel62.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel62.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel62.setText("USUARIOS TOTALES");
+        jLabel62.setVerticalAlignment(javax.swing.SwingConstants.TOP);
+        jPanel21.add(jLabel62, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 150, -1));
+
+        jLabel63.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel63.setForeground(new java.awt.Color(0, 122, 255));
+        jLabel63.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel63.setText("4");
+        jPanel21.add(jLabel63, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 130, 50));
+
+        jLabel64.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/user-interface (1).png"))); // NOI18N
+        jPanel21.add(jLabel64, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 30, 30));
+
+        jPanel3.add(jPanel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 160, 200, 100));
+
+        jPanel23.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel23.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 8, 0, 0, new java.awt.Color(0, 122, 255)));
+        jPanel23.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel65.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel65.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel65.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel65.setText("USUARIOS TOTALES");
+        jLabel65.setVerticalAlignment(javax.swing.SwingConstants.TOP);
+        jPanel23.add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 150, -1));
+
+        jLabel66.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel66.setForeground(new java.awt.Color(0, 122, 255));
+        jLabel66.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel66.setText("4");
+        jPanel23.add(jLabel66, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 130, 50));
+
+        jLabel67.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/user-interface (1).png"))); // NOI18N
+        jPanel23.add(jLabel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 30, 30));
+
+        jPanel3.add(jPanel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 30, 200, 100));
 
         jTabbedPane3.addTab("0", jPanel3);
 
@@ -234,9 +537,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/perfil.png"))); // NOI18N
         jPanel6.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 240, 40, -1));
 
-        eliminarUsuarios.setBackground(new java.awt.Color(0, 102, 204));
+        eliminarUsuarios.setBackground(new java.awt.Color(254, 226, 226));
         eliminarUsuarios.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        eliminarUsuarios.setForeground(new java.awt.Color(255, 255, 255));
+        eliminarUsuarios.setForeground(new java.awt.Color(153, 27, 27));
         eliminarUsuarios.setText("Eliminar Usuarios");
         eliminarUsuarios.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         eliminarUsuarios.setBorderPainted(false);
@@ -288,6 +591,16 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/cliente.png"))); // NOI18N
         jPanel6.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 210, 50, -1));
 
+        jButton9.setBackground(new java.awt.Color(0, 122, 255));
+        jButton9.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton9.setForeground(new java.awt.Color(255, 255, 255));
+        jButton9.setText("Volver");
+        jButton9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jButton9.setBorderPainted(false);
+        jButton9.setContentAreaFilled(false);
+        jButton9.setOpaque(true);
+        jPanel6.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 120, 30));
+
         jTabbedPane3.addTab("1", jPanel6);
 
         jPanel7.setBackground(new java.awt.Color(243, 244, 246));
@@ -312,24 +625,11 @@ public class vista_admin extends javax.swing.JFrame {
         });
         jPanel7.add(actualizarTecnicos, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 240, 205, -1));
 
-        listarTecnicos.setBackground(new java.awt.Color(0, 102, 204));
-        listarTecnicos.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        listarTecnicos.setForeground(new java.awt.Color(255, 255, 255));
-        listarTecnicos.setText("Asignar Servicio");
-        listarTecnicos.setBorderPainted(false);
-        listarTecnicos.setContentAreaFilled(false);
-        listarTecnicos.setOpaque(true);
-        listarTecnicos.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                listarTecnicosActionPerformed(evt);
-            }
-        });
-        jPanel7.add(listarTecnicos, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 240, 205, -1));
-
         eliminarTecnicos.setBackground(new java.awt.Color(254, 226, 226));
         eliminarTecnicos.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         eliminarTecnicos.setForeground(new java.awt.Color(153, 27, 27));
         eliminarTecnicos.setText("Eliminar Tecnicos");
+        eliminarTecnicos.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
         eliminarTecnicos.setBorderPainted(false);
         eliminarTecnicos.setContentAreaFilled(false);
         eliminarTecnicos.setOpaque(true);
@@ -338,7 +638,7 @@ public class vista_admin extends javax.swing.JFrame {
                 eliminarTecnicosActionPerformed(evt);
             }
         });
-        jPanel7.add(eliminarTecnicos, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 160, 205, -1));
+        jPanel7.add(eliminarTecnicos, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 160, 205, 30));
 
         agregarTecnicos.setBackground(new java.awt.Color(0, 102, 204));
         agregarTecnicos.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -366,7 +666,7 @@ public class vista_admin extends javax.swing.JFrame {
                 buscarTecnicosActionPerformed(evt);
             }
         });
-        jPanel7.add(buscarTecnicos, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 90, 205, -1));
+        jPanel7.add(buscarTecnicos, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 90, 205, -1));
 
         jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/agregar-usuario (1).png"))); // NOI18N
         jPanel7.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 90, -1, -1));
@@ -378,10 +678,10 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel7.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 240, -1, -1));
 
         jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/cliente.png"))); // NOI18N
-        jPanel7.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 160, -1, -1));
+        jPanel7.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 160, -1, -1));
 
         jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/investigacion.png"))); // NOI18N
-        jPanel7.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 90, -1, -1));
+        jPanel7.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 90, -1, -1));
 
         listarTecnicos1.setBackground(new java.awt.Color(0, 102, 204));
         listarTecnicos1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -395,7 +695,7 @@ public class vista_admin extends javax.swing.JFrame {
                 listarTecnicos1ActionPerformed(evt);
             }
         });
-        jPanel7.add(listarTecnicos1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 160, 205, -1));
+        jPanel7.add(listarTecnicos1, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 160, 210, -1));
 
         jButton7.setBackground(new java.awt.Color(0, 122, 255));
         jButton7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -420,7 +720,7 @@ public class vista_admin extends javax.swing.JFrame {
         jButton11.setBackground(new java.awt.Color(0, 102, 204));
         jButton11.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton11.setForeground(new java.awt.Color(255, 255, 255));
-        jButton11.setText("Listar Servicios");
+        jButton11.setText("Historial Servicios");
         jButton11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jButton11.setContentAreaFilled(false);
         jButton11.setOpaque(true);
@@ -429,12 +729,12 @@ public class vista_admin extends javax.swing.JFrame {
                 jButton11ActionPerformed(evt);
             }
         });
-        jPanel8.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 200, 205, 30));
+        jPanel8.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 230, 205, 30));
 
         agregarServicios.setBackground(new java.awt.Color(0, 102, 204));
         agregarServicios.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         agregarServicios.setForeground(new java.awt.Color(255, 255, 255));
-        agregarServicios.setText("Agregar Servicios");
+        agregarServicios.setText("Asignar Servicios");
         agregarServicios.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         agregarServicios.setContentAreaFilled(false);
         agregarServicios.setOpaque(true);
@@ -443,11 +743,11 @@ public class vista_admin extends javax.swing.JFrame {
                 agregarServiciosActionPerformed(evt);
             }
         });
-        jPanel8.add(agregarServicios, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 90, 205, 30));
+        jPanel8.add(agregarServicios, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 90, 205, 30));
 
-        jButton13.setBackground(new java.awt.Color(0, 102, 204));
+        jButton13.setBackground(new java.awt.Color(254, 226, 226));
         jButton13.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton13.setForeground(new java.awt.Color(255, 255, 255));
+        jButton13.setForeground(new java.awt.Color(153, 27, 27));
         jButton13.setText("Eliminar Servicios");
         jButton13.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jButton13.setContentAreaFilled(false);
@@ -457,7 +757,7 @@ public class vista_admin extends javax.swing.JFrame {
                 jButton13ActionPerformed(evt);
             }
         });
-        jPanel8.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 160, 205, 30));
+        jPanel8.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 160, 205, 30));
 
         jButton14.setBackground(new java.awt.Color(0, 102, 204));
         jButton14.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -471,7 +771,7 @@ public class vista_admin extends javax.swing.JFrame {
                 jButton14ActionPerformed(evt);
             }
         });
-        jPanel8.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 230, 205, 30));
+        jPanel8.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 230, 205, 30));
 
         jButton15.setBackground(new java.awt.Color(0, 102, 204));
         jButton15.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -485,22 +785,22 @@ public class vista_admin extends javax.swing.JFrame {
                 jButton15ActionPerformed(evt);
             }
         });
-        jPanel8.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 120, 205, 30));
+        jPanel8.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 90, 205, 30));
 
         jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/agregar-carpeta.png"))); // NOI18N
-        jPanel8.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 90, -1, -1));
+        jPanel8.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 90, -1, -1));
 
         jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/eliminar.png"))); // NOI18N
-        jPanel8.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 160, -1, -1));
+        jPanel8.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
 
         jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/actualizar.png"))); // NOI18N
-        jPanel8.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 230, -1, -1));
+        jPanel8.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 230, -1, -1));
 
         jLabel28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/producto.png"))); // NOI18N
-        jPanel8.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 120, -1, -1));
+        jPanel8.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 90, -1, -1));
 
         jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/chequeo.png"))); // NOI18N
-        jPanel8.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 190, 40, 40));
+        jPanel8.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 160, 40, 40));
 
         jButton8.setBackground(new java.awt.Color(0, 122, 255));
         jButton8.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -510,7 +810,21 @@ public class vista_admin extends javax.swing.JFrame {
         jButton8.setBorderPainted(false);
         jButton8.setContentAreaFilled(false);
         jButton8.setOpaque(true);
-        jPanel8.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 120, 30));
+        jPanel8.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 120, 30));
+
+        jButton28.setBackground(new java.awt.Color(0, 102, 204));
+        jButton28.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton28.setForeground(new java.awt.Color(255, 255, 255));
+        jButton28.setText("Listar Servicios");
+        jButton28.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jButton28.setContentAreaFilled(false);
+        jButton28.setOpaque(true);
+        jButton28.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton28ActionPerformed(evt);
+            }
+        });
+        jPanel8.add(jButton28, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 160, 205, 30));
 
         jTabbedPane3.addTab("3", jPanel8);
 
@@ -518,13 +832,8 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel12.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel13.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel13.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
         jPanel13.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel31.setBackground(new java.awt.Color(204, 204, 204));
-        jLabel31.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel31.setForeground(new java.awt.Color(55, 65, 81));
-        jLabel31.setText("Nombre Completo: *");
-        jPanel13.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, -1, -1));
 
         jTextField1.setBackground(new java.awt.Color(75, 85, 99));
         jTextField1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -535,31 +844,31 @@ public class vista_admin extends javax.swing.JFrame {
                 jTextField1ActionPerformed(evt);
             }
         });
-        jPanel13.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 40, 160, 20));
+        jPanel13.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 50, 190, 20));
 
         jLabel32.setBackground(new java.awt.Color(204, 204, 204));
         jLabel32.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel32.setForeground(new java.awt.Color(55, 65, 81));
         jLabel32.setText("N Documento: *");
-        jPanel13.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 60, -1, -1));
+        jPanel13.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, -1, -1));
 
         jTextField2.setBackground(new java.awt.Color(75, 85, 99));
         jTextField2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jTextField2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField2.setMargin(new java.awt.Insets(5, 5, 5, 5));
-        jPanel13.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 150, 160, -1));
+        jPanel13.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 150, 190, -1));
 
         jLabel33.setBackground(new java.awt.Color(204, 204, 204));
         jLabel33.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel33.setForeground(new java.awt.Color(55, 65, 81));
         jLabel33.setText("Telefono:*");
-        jPanel13.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, -1, -1));
+        jPanel13.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 30, -1, -1));
 
         jLabel34.setBackground(new java.awt.Color(204, 204, 204));
         jLabel34.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel34.setForeground(new java.awt.Color(55, 65, 81));
         jLabel34.setText("Nombre Completo: *");
-        jPanel13.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, -1, -1));
+        jPanel13.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, -1, -1));
 
         jTextField3.setBackground(new java.awt.Color(75, 85, 99));
         jTextField3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -570,13 +879,13 @@ public class vista_admin extends javax.swing.JFrame {
                 jTextField3ActionPerformed(evt);
             }
         });
-        jPanel13.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 80, 160, 20));
+        jPanel13.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 100, 190, -1));
 
         jLabel35.setBackground(new java.awt.Color(204, 204, 204));
         jLabel35.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel35.setForeground(new java.awt.Color(55, 65, 81));
         jLabel35.setText("Direccion: *");
-        jPanel13.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 150, -1, -1));
+        jPanel13.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 80, -1, -1));
 
         jTextField4.setBackground(new java.awt.Color(75, 85, 99));
         jTextField4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -587,13 +896,13 @@ public class vista_admin extends javax.swing.JFrame {
                 jTextField4ActionPerformed(evt);
             }
         });
-        jPanel13.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 120, 160, 20));
+        jPanel13.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 190, 20));
 
         jLabel36.setBackground(new java.awt.Color(204, 204, 204));
         jLabel36.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel36.setForeground(new java.awt.Color(55, 65, 81));
         jLabel36.setText("Tipo de documento:*");
-        jPanel13.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 100, -1, -1));
+        jPanel13.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, -1, -1));
 
         jComboBox1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "CC", "TI", "CE", "PEP" }));
@@ -602,33 +911,33 @@ public class vista_admin extends javax.swing.JFrame {
                 jComboBox1ActionPerformed(evt);
             }
         });
-        jPanel13.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 100, -1, -1));
+        jPanel13.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, -1, -1));
 
         jLabel37.setBackground(new java.awt.Color(204, 204, 204));
         jLabel37.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel37.setForeground(new java.awt.Color(55, 65, 81));
         jLabel37.setText("Repetir contraseña:*");
-        jPanel13.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 200, -1, -1));
+        jPanel13.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 230, -1, -1));
 
         jTextField5.setBackground(new java.awt.Color(75, 85, 99));
         jTextField5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jTextField5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField5.setMargin(new java.awt.Insets(5, 5, 5, 5));
-        jPanel13.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 60, 160, -1));
+        jPanel13.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 50, 190, -1));
 
         jLabel38.setBackground(new java.awt.Color(204, 204, 204));
         jLabel38.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel38.setForeground(new java.awt.Color(55, 65, 81));
         jLabel38.setText("Correo Electronico: *");
-        jPanel13.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, -1, -1));
-        jPanel13.add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 200, 160, -1));
-        jPanel13.add(jPasswordField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 160, 160, -1));
+        jPanel13.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 130, -1, -1));
+        jPanel13.add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 250, 200, -1));
+        jPanel13.add(jPasswordField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 200, 190, -1));
 
         jLabel39.setBackground(new java.awt.Color(204, 204, 204));
         jLabel39.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel39.setForeground(new java.awt.Color(55, 65, 81));
         jLabel39.setText("Contraseña: *");
-        jPanel13.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, -1, -1));
+        jPanel13.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, -1, -1));
 
         jButton2.setBackground(new java.awt.Color(0, 122, 255));
         jButton2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -643,9 +952,9 @@ public class vista_admin extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        jPanel13.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 220, 120, 30));
+        jPanel13.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 200, 120, 30));
 
-        jPanel12.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 80, 660, 280));
+        jPanel12.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 80, 660, 290));
         jPanel12.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 780, 10));
 
         jLabel13.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -673,6 +982,7 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel15.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel17.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel17.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
         jPanel17.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jTextField6.setBackground(new java.awt.Color(75, 85, 99));
@@ -689,7 +999,7 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel41.setBackground(new java.awt.Color(204, 204, 204));
         jLabel41.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel41.setForeground(new java.awt.Color(55, 65, 81));
-        jLabel41.setText("N Documento: *");
+        jLabel41.setText("N Documento:*");
         jPanel17.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 30, -1, -1));
 
         jTextField7.setBackground(new java.awt.Color(75, 85, 99));
@@ -707,7 +1017,7 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel43.setBackground(new java.awt.Color(204, 204, 204));
         jLabel43.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel43.setForeground(new java.awt.Color(55, 65, 81));
-        jLabel43.setText("Nombre Completo: *");
+        jLabel43.setText("Nombre Completo:*");
         jPanel17.add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, -1, -1));
 
         jTextField8.setBackground(new java.awt.Color(75, 85, 99));
@@ -825,6 +1135,7 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel18.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel19.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
         jPanel19.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jTextField12.setBackground(new java.awt.Color(75, 85, 99));
@@ -841,7 +1152,7 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel51.setBackground(new java.awt.Color(204, 204, 204));
         jLabel51.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel51.setForeground(new java.awt.Color(55, 65, 81));
-        jLabel51.setText("N Documento: *");
+        jLabel51.setText("N Documento:*");
         jPanel19.add(jLabel51, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 30, -1, -1));
 
         jTextField13.setBackground(new java.awt.Color(75, 85, 99));
@@ -859,7 +1170,7 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel53.setBackground(new java.awt.Color(204, 204, 204));
         jLabel53.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel53.setForeground(new java.awt.Color(55, 65, 81));
-        jLabel53.setText("Nombre Completo: *");
+        jLabel53.setText("Nombre Completo:*");
         jPanel19.add(jLabel53, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, -1, -1));
 
         jTextField14.setBackground(new java.awt.Color(75, 85, 99));
@@ -876,7 +1187,7 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel54.setBackground(new java.awt.Color(204, 204, 204));
         jLabel54.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel54.setForeground(new java.awt.Color(55, 65, 81));
-        jLabel54.setText("Direccion: *");
+        jLabel54.setText("Direccion:*");
         jPanel19.add(jLabel54, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 180, -1, -1));
 
         jTextField15.setBackground(new java.awt.Color(75, 85, 99));
@@ -914,13 +1225,13 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel56.setBackground(new java.awt.Color(204, 204, 204));
         jLabel56.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel56.setForeground(new java.awt.Color(55, 65, 81));
-        jLabel56.setText("Correo Electronico: *");
+        jLabel56.setText("Correo Electronico:*");
         jPanel19.add(jLabel56, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, -1, -1));
 
-        jButton5.setBackground(new java.awt.Color(0, 122, 255));
+        jButton5.setBackground(new java.awt.Color(254, 226, 226));
         jButton5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton5.setForeground(new java.awt.Color(255, 255, 255));
-        jButton5.setText("Buscar");
+        jButton5.setForeground(new java.awt.Color(153, 27, 27));
+        jButton5.setText("Eliminar ");
         jButton5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jButton5.setBorderPainted(false);
         jButton5.setContentAreaFilled(false);
@@ -930,7 +1241,7 @@ public class vista_admin extends javax.swing.JFrame {
                 jButton5ActionPerformed(evt);
             }
         });
-        jPanel19.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 120, 30));
+        jPanel19.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 230, 120, 30));
 
         jTextField17.setBackground(new java.awt.Color(75, 85, 99));
         jTextField17.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -946,8 +1257,23 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel57.setBackground(new java.awt.Color(204, 204, 204));
         jLabel57.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel57.setForeground(new java.awt.Color(55, 65, 81));
-        jLabel57.setText("N Documento: *");
+        jLabel57.setText("N Documento:*");
         jPanel19.add(jLabel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 80, -1, -1));
+
+        jButton26.setBackground(new java.awt.Color(0, 122, 255));
+        jButton26.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton26.setForeground(new java.awt.Color(255, 255, 255));
+        jButton26.setText("Buscar");
+        jButton26.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jButton26.setBorderPainted(false);
+        jButton26.setContentAreaFilled(false);
+        jButton26.setOpaque(true);
+        jButton26.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton26ActionPerformed(evt);
+            }
+        });
+        jPanel19.add(jButton26, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 120, 30));
 
         jPanel18.add(jPanel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 80, 660, 270));
 
@@ -974,96 +1300,1149 @@ public class vista_admin extends javax.swing.JFrame {
         jTabbedPane3.addTab("6", jPanel18);
 
         jPanel16.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel20.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel20.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton10.setBackground(new java.awt.Color(0, 122, 255));
+        jButton10.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton10.setForeground(new java.awt.Color(255, 255, 255));
+        jButton10.setText("Volver");
+        jButton10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jButton10.setBorderPainted(false);
+        jButton10.setContentAreaFilled(false);
+        jButton10.setOpaque(true);
+        jPanel20.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 120, 30));
+
+        jLabel69.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel69.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel69.setText("LISTAR USUARIOS");
+        jLabel69.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jPanel20.add(jLabel69, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 10, -1, 40));
+        jPanel20.add(jSeparator4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 780, 10));
+
+        jLabel70.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/cliente.png"))); // NOI18N
+        jPanel20.add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 10, 40, 40));
+
+        jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPane1.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
+
+        jTable1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Tipo", "N Documento", "Nombre completo", "Estado"
+            }
+        ));
+        jScrollPane1.setViewportView(jTable1);
+
+        jPanel20.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 70, 480, 250));
+
+        jButton12.setBackground(new java.awt.Color(0, 122, 255));
+        jButton12.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton12.setForeground(new java.awt.Color(255, 255, 255));
+        jButton12.setText("Listar usuarios");
+        jButton12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jButton12.setBorderPainted(false);
+        jButton12.setContentAreaFilled(false);
+        jButton12.setOpaque(true);
+        jPanel20.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 340, 120, 30));
+
+        jPanel16.add(jPanel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 390));
+
         jTabbedPane3.addTab("7", jPanel16);
 
-        jPanel4.add(jTabbedPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 90, 780, 410));
+        jPanel24.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel24.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel5.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        jPanel4.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 780, -1));
+        jPanel27.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel27.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel14.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
-                jPanel14MouseMoved(evt);
+        jPanel28.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel28.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
+        jPanel28.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextField23.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField23.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField23.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField23.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField23ActionPerformed(evt);
             }
         });
-        jPanel14.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jPanel14MouseClicked(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                jPanel14MouseExited(evt);
+        jPanel28.add(jTextField23, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, 190, 20));
+
+        jLabel83.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel83.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel83.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel83.setText("No Documento:*");
+        jPanel28.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, -1, -1));
+
+        jTextField24.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField24.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField24.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField24.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel28.add(jTextField24, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 140, 190, -1));
+
+        jLabel84.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel84.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel84.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel84.setText("Telefono:*");
+        jPanel28.add(jLabel84, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 20, -1, -1));
+
+        jLabel85.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel85.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel85.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel85.setText("Nombre Completo:*");
+        jPanel28.add(jLabel85, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, -1, -1));
+
+        jTextField25.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField25.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField25.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField25.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField25.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField25ActionPerformed(evt);
             }
         });
-        jPanel14.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel28.add(jTextField25, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 90, 190, -1));
 
-        jLabel16.setText("X");
-        jPanel14.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 0, 40, 30));
+        jLabel86.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel86.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel86.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel86.setText("Direccion: *");
+        jPanel28.add(jLabel86, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 70, -1, -1));
 
-        jPanel4.add(jPanel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 0, 50, 30));
+        jTextField26.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField26.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField26.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField26.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField26.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField26ActionPerformed(evt);
+            }
+        });
+        jPanel28.add(jTextField26, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 190, 20));
 
-        jPanel1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 0, 780, -1));
+        jLabel87.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel87.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel87.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel87.setText("Tipo de documento:*");
+        jPanel28.add(jLabel87, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, -1, 20));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/hombre-de-negocios (1).png"))); // NOI18N
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, -1, -1));
+        jComboBox5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccione una opcion", "CC", "TI", "CE", "PEP" }));
+        jComboBox5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox5ActionPerformed(evt);
+            }
+        });
+        jPanel28.add(jComboBox5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, -1, -1));
 
-        jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel7.setText("Administrador");
-        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, -1, -1));
+        jLabel88.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel88.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel88.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel88.setText("Repetir contraseña:*");
+        jPanel28.add(jLabel88, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 230, -1, -1));
 
-        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jTextField27.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField27.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField27.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField27.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel28.add(jTextField27, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 40, 190, 20));
 
-        jLabel17.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel17.setText("INICIO");
-        jPanel2.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 0, -1, 40));
+        jLabel89.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel89.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel89.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel89.setText("Nivel:*");
+        jPanel28.add(jLabel89, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 170, -1, -1));
+        jPanel28.add(jPasswordField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 250, 190, -1));
+        jPanel28.add(jPasswordField6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 200, 190, -1));
 
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8-home-28.png"))); // NOI18N
-        jPanel2.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 0, -1, 40));
+        jLabel90.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel90.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel90.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel90.setText("Contraseña:*");
+        jPanel28.add(jLabel90, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, -1, -1));
 
-        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 180, 160, 40));
+        jButton18.setBackground(new java.awt.Color(0, 122, 255));
+        jButton18.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton18.setForeground(new java.awt.Color(255, 255, 255));
+        jButton18.setText("Agregar usuario");
+        jButton18.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jButton18.setBorderPainted(false);
+        jButton18.setContentAreaFilled(false);
+        jButton18.setOpaque(true);
+        jButton18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton18ActionPerformed(evt);
+            }
+        });
+        jPanel28.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 250, 120, 30));
 
-        jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jLabel93.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel93.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel93.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel93.setText("Correo Electronico:*");
+        jPanel28.add(jLabel93, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 120, -1, -1));
 
-        jLabel18.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel18.setText("USUARIOS");
-        jPanel9.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 0, -1, 40));
+        jComboBox6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccione una opcion", "Junior", "Intermedio", "Senior", " " }));
+        jPanel28.add(jComboBox6, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 190, 190, -1));
 
-        jLabel48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8-male-user-28.png"))); // NOI18N
-        jPanel9.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 30, 20));
+        jPanel27.add(jPanel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 70, 580, 290));
+        jPanel27.add(jSeparator6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 780, 10));
 
-        jPanel1.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 230, 160, 40));
+        jLabel91.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel91.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel91.setText("REGISTRAR NUEVO TECNICO");
+        jLabel91.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jPanel27.add(jLabel91, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 20, -1, 30));
 
-        jPanel10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jLabel92.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/agregar-usuario (1).png"))); // NOI18N
+        jPanel27.add(jLabel92, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 20, -1, -1));
 
-        jLabel19.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel19.setText("TECNICOS");
-        jPanel10.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 0, -1, 40));
+        jButton19.setBackground(new java.awt.Color(0, 122, 255));
+        jButton19.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton19.setForeground(new java.awt.Color(255, 255, 255));
+        jButton19.setText("Volver");
+        jButton19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jButton19.setBorderPainted(false);
+        jButton19.setContentAreaFilled(false);
+        jButton19.setOpaque(true);
+        jPanel27.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 120, 30));
 
-        jLabel60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/obrero (1).png"))); // NOI18N
-        jPanel10.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, -1, 40));
+        jPanel24.add(jPanel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 390));
 
-        jPanel1.add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 280, 160, 40));
+        jTabbedPane3.addTab("8", jPanel24);
 
-        jPanel11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel25.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel25.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel15.setText("SERVICIOS");
-        jPanel11.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 0, -1, 40));
+        jPanel26.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel26.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel61.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/mantenimiento.png"))); // NOI18N
-        jPanel11.add(jLabel61, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, -1, 40));
+        jPanel29.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel29.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
+        jPanel29.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 330, 160, 40));
+        jTextField18.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField18.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField18.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField18.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField18ActionPerformed(evt);
+            }
+        });
+        jPanel29.add(jTextField18, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 30, 190, 20));
 
-        fechaActual.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        fechaActual.setForeground(new java.awt.Color(0, 0, 0));
-        fechaActual.setText("DD/MM/YYYY");
-        jPanel1.add(fechaActual, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
+        jLabel68.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel68.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel68.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel68.setText("N Documento:*");
+        jPanel29.add(jLabel68, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 30, -1, -1));
 
-        jLabel40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/horizontal-panel.jpg"))); // NOI18N
+        jTextField19.setEditable(false);
+        jTextField19.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField19.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField19.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel29.add(jTextField19, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 130, 160, -1));
+
+        jLabel72.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel72.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel72.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel72.setText("Telefono:*");
+        jPanel29.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, -1, -1));
+
+        jLabel73.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel73.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel73.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel73.setText("Nombre Completo:*");
+        jPanel29.add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, -1, -1));
+
+        jTextField20.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField20.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField20.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField20.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField20ActionPerformed(evt);
+            }
+        });
+        jPanel29.add(jTextField20, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 130, 160, 20));
+
+        jLabel74.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel74.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel74.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel74.setText("Direccion:*");
+        jPanel29.add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 130, -1, -1));
+
+        jTextField21.setEditable(false);
+        jTextField21.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField21.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField21.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField21.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField21ActionPerformed(evt);
+            }
+        });
+        jPanel29.add(jTextField21, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 180, 160, 20));
+
+        jTextField22.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField22.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField22.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField22.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel29.add(jTextField22, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 80, 160, -1));
+
+        jLabel76.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel76.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel76.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel76.setText("Correo Electronico:*");
+        jPanel29.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, -1, -1));
+
+        jButton16.setBackground(new java.awt.Color(0, 122, 255));
+        jButton16.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton16.setForeground(new java.awt.Color(255, 255, 255));
+        jButton16.setText("Buscar");
+        jButton16.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jButton16.setBorderPainted(false);
+        jButton16.setContentAreaFilled(false);
+        jButton16.setOpaque(true);
+        jButton16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton16ActionPerformed(evt);
+            }
+        });
+        jPanel29.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 120, 30));
+
+        jTextField28.setEditable(false);
+        jTextField28.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField28.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField28.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField28.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField28.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField28ActionPerformed(evt);
+            }
+        });
+        jPanel29.add(jTextField28, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 80, 160, 20));
+
+        jLabel77.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel77.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel77.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel77.setText("N Documento:*");
+        jPanel29.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 80, -1, -1));
+
+        jPanel26.add(jPanel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 80, 660, 270));
+
+        jButton17.setBackground(new java.awt.Color(0, 122, 255));
+        jButton17.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton17.setForeground(new java.awt.Color(255, 255, 255));
+        jButton17.setText("Volver");
+        jButton17.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jButton17.setBorderPainted(false);
+        jButton17.setContentAreaFilled(false);
+        jButton17.setOpaque(true);
+        jPanel26.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 120, 30));
+
+        jLabel78.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel78.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel78.setText("BUSCAR TECNICO");
+        jLabel78.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jPanel26.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 10, -1, 40));
+        jPanel26.add(jSeparator5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 780, 10));
+
+        jLabel79.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/investigacion.png"))); // NOI18N
+        jPanel26.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 10, 40, 40));
+
+        jPanel25.add(jPanel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 390));
+
+        jTabbedPane3.addTab("9", jPanel25);
+
+        jPanel30.setBackground(new java.awt.Color(243, 244, 246));
+
+        jPanel31.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel31.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel32.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel32.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
+        jPanel32.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextField29.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField29.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField29.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField29.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField29.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField29ActionPerformed(evt);
+            }
+        });
+        jPanel32.add(jTextField29, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 30, 190, 20));
+
+        jLabel80.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel80.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel80.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel80.setText("N Documento:*");
+        jPanel32.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 30, -1, -1));
+
+        jTextField30.setEditable(false);
+        jTextField30.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField30.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField30.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField30.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel32.add(jTextField30, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 130, 160, -1));
+
+        jLabel81.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel81.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel81.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel81.setText("Telefono:*");
+        jPanel32.add(jLabel81, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, -1, -1));
+
+        jLabel82.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel82.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel82.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel82.setText("Nombre Completo:*");
+        jPanel32.add(jLabel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, -1, -1));
+
+        jTextField31.setEditable(false);
+        jTextField31.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField31.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField31.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField31.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField31.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField31ActionPerformed(evt);
+            }
+        });
+        jPanel32.add(jTextField31, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 130, 160, 20));
+
+        jLabel94.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel94.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel94.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel94.setText("Direccion:*");
+        jPanel32.add(jLabel94, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 130, -1, -1));
+
+        jTextField32.setEditable(false);
+        jTextField32.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField32.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField32.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField32.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField32.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField32ActionPerformed(evt);
+            }
+        });
+        jPanel32.add(jTextField32, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 180, 160, 20));
+
+        jTextField33.setEditable(false);
+        jTextField33.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField33.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField33.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField33.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel32.add(jTextField33, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 80, 160, -1));
+
+        jLabel96.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel96.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel96.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel96.setText("Correo Electronico:*");
+        jPanel32.add(jLabel96, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, -1, -1));
+
+        jButton20.setBackground(new java.awt.Color(0, 122, 255));
+        jButton20.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton20.setForeground(new java.awt.Color(255, 255, 255));
+        jButton20.setText("Buscar");
+        jButton20.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jButton20.setBorderPainted(false);
+        jButton20.setContentAreaFilled(false);
+        jButton20.setOpaque(true);
+        jButton20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton20ActionPerformed(evt);
+            }
+        });
+        jPanel32.add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 120, 30));
+
+        jTextField34.setEditable(false);
+        jTextField34.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField34.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField34.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField34.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField34.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField34ActionPerformed(evt);
+            }
+        });
+        jPanel32.add(jTextField34, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 80, 160, 20));
+
+        jLabel97.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel97.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel97.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel97.setText("N Documento:*");
+        jPanel32.add(jLabel97, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 80, -1, -1));
+
+        jButton27.setBackground(new java.awt.Color(254, 226, 226));
+        jButton27.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton27.setForeground(new java.awt.Color(153, 27, 27));
+        jButton27.setText("Eliminar ");
+        jButton27.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jButton27.setBorderPainted(false);
+        jButton27.setContentAreaFilled(false);
+        jButton27.setOpaque(true);
+        jButton27.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton27ActionPerformed(evt);
+            }
+        });
+        jPanel32.add(jButton27, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 230, 120, 30));
+
+        jPanel31.add(jPanel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 80, 660, 270));
+
+        jButton21.setBackground(new java.awt.Color(0, 122, 255));
+        jButton21.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton21.setForeground(new java.awt.Color(255, 255, 255));
+        jButton21.setText("Volver");
+        jButton21.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jButton21.setBorderPainted(false);
+        jButton21.setContentAreaFilled(false);
+        jButton21.setOpaque(true);
+        jPanel31.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 120, 30));
+
+        jLabel98.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel98.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel98.setText("ELIMINAR TECNICO");
+        jLabel98.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jPanel31.add(jLabel98, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 10, -1, 40));
+        jPanel31.add(jSeparator7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 780, 10));
+
+        jLabel99.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/usuario.png"))); // NOI18N
+        jPanel31.add(jLabel99, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 10, 40, 40));
+
+        jPanel30.add(jPanel31);
+
+        jTabbedPane3.addTab("10", jPanel30);
+
+        jPanel33.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel33.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel34.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel34.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton22.setBackground(new java.awt.Color(0, 122, 255));
+        jButton22.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton22.setForeground(new java.awt.Color(255, 255, 255));
+        jButton22.setText("Volver");
+        jButton22.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jButton22.setBorderPainted(false);
+        jButton22.setContentAreaFilled(false);
+        jButton22.setOpaque(true);
+        jPanel34.add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 120, 30));
+
+        jLabel100.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel100.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel100.setText("LISTAR TECNICOS");
+        jLabel100.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jPanel34.add(jLabel100, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 10, -1, 40));
+        jPanel34.add(jSeparator8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 780, 10));
+
+        jLabel101.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/cliente.png"))); // NOI18N
+        jPanel34.add(jLabel101, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 10, 40, 40));
+
+        jScrollPane2.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPane2.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
+
+        jTable2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTable2.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Tipo Documento", "N Documento", "Nombre completo", "Nivel"
+            }
+        ));
+        jScrollPane2.setViewportView(jTable2);
+
+        jPanel34.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 70, 480, 250));
+
+        jButton23.setBackground(new java.awt.Color(0, 122, 255));
+        jButton23.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton23.setForeground(new java.awt.Color(255, 255, 255));
+        jButton23.setText("Listar Tecnicos");
+        jButton23.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jButton23.setBorderPainted(false);
+        jButton23.setContentAreaFilled(false);
+        jButton23.setOpaque(true);
+        jPanel34.add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 340, 120, 30));
+
+        jPanel33.add(jPanel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 390));
+
+        jTabbedPane3.addTab("11", jPanel33);
+
+        jPanel35.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel35.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jTabbedPane3.addTab("12", jPanel35);
+
+        jPanel36.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel37.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel37.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel38.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel38.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
+        jPanel38.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextField35.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField35.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField35.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField35.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField35.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField35ActionPerformed(evt);
+            }
+        });
+        jPanel38.add(jTextField35, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 190, 20));
+
+        jLabel102.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel102.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel102.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel102.setText("Telefono del cliente:*");
+        jPanel38.add(jLabel102, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 70, -1, -1));
+
+        jTextField36.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField36.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField36.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField36.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel38.add(jTextField36, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 90, 190, -1));
+
+        jLabel103.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel103.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel103.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel103.setText("Nombre del cliente:*");
+        jPanel38.add(jLabel103, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, -1, -1));
+
+        jLabel104.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel104.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel104.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel104.setText("Nombre del tecnico:*");
+        jPanel38.add(jLabel104, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 20, -1, -1));
+
+        jTextField37.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField37.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField37.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField37.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField37.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField37ActionPerformed(evt);
+            }
+        });
+        jPanel38.add(jTextField37, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, 190, -1));
+
+        jLabel105.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel105.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel105.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel105.setText("Direccion del cliente:*");
+        jPanel38.add(jLabel105, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 120, -1, -1));
+
+        jTextField38.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField38.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField38.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField38.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField38.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField38ActionPerformed(evt);
+            }
+        });
+        jPanel38.add(jTextField38, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, 190, 20));
+
+        jLabel106.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel106.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel106.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel106.setText("Tipo de servicio:*");
+        jPanel38.add(jLabel106, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 70, -1, -1));
+
+        jComboBox8.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jComboBox8.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona una opcion", "Mantenimiento", "Instalacion", "Reparacion", " " }));
+        jComboBox8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox8ActionPerformed(evt);
+            }
+        });
+        jPanel38.add(jComboBox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 90, 190, -1));
+
+        jTextField39.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField39.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField39.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField39.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel38.add(jTextField39, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 40, 190, -1));
+
+        jLabel108.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel108.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel108.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel108.setText("Descripcion del servicio:*");
+        jPanel38.add(jLabel108, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 130, -1, -1));
+
+        jLabel109.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel109.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel109.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel109.setText("Fecha del servicio:*");
+        jPanel38.add(jLabel109, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 170, -1, -1));
+
+        jButton24.setBackground(new java.awt.Color(0, 122, 255));
+        jButton24.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton24.setForeground(new java.awt.Color(255, 255, 255));
+        jButton24.setText("Asignar servicio");
+        jButton24.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jButton24.setBorderPainted(false);
+        jButton24.setContentAreaFilled(false);
+        jButton24.setOpaque(true);
+        jButton24.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton24ActionPerformed(evt);
+            }
+        });
+        jPanel38.add(jButton24, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 250, 120, 30));
+
+        jScrollPane3.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPane3.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
+
+        jTextArea1.setBackground(new java.awt.Color(75, 85, 99));
+        jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jTextArea1.setRows(5);
+        jScrollPane3.setViewportView(jTextArea1);
+
+        jPanel38.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 160, 230, 70));
+
+        jPanel37.add(jPanel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 70, 660, 300));
+        jPanel37.add(jSeparator9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 780, 10));
+
+        jLabel31.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel31.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel31.setText("ASIGNAR NUEVO SERVICIO");
+        jLabel31.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jPanel37.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 20, -1, 30));
+
+        jLabel110.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/agregar-carpeta.png"))); // NOI18N
+        jPanel37.add(jLabel110, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 20, -1, -1));
+
+        jButton25.setBackground(new java.awt.Color(0, 122, 255));
+        jButton25.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton25.setForeground(new java.awt.Color(255, 255, 255));
+        jButton25.setText("Volver");
+        jButton25.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jButton25.setBorderPainted(false);
+        jButton25.setContentAreaFilled(false);
+        jButton25.setOpaque(true);
+        jPanel37.add(jButton25, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 120, 30));
+
+        jPanel36.add(jPanel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 390));
+
+        jTabbedPane3.addTab("13", jPanel36);
+
+        jPanel39.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel40.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel40.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel41.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel41.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
+        jPanel41.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextField40.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField40.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField40.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField40.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField40.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField40ActionPerformed(evt);
+            }
+        });
+        jPanel41.add(jTextField40, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 30, 190, 20));
+
+        jLabel107.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel107.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel107.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel107.setText("N Documento: *");
+        jPanel41.add(jLabel107, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 30, -1, -1));
+
+        jTextField41.setEditable(false);
+        jTextField41.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField41.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField41.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField41.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel41.add(jTextField41, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 180, 160, -1));
+
+        jLabel111.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel111.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel111.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel111.setText("Telefono:*");
+        jPanel41.add(jLabel111, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, -1, -1));
+
+        jLabel112.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel112.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel112.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel112.setText("Nombre del cliente:*");
+        jPanel41.add(jLabel112, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, -1, -1));
+
+        jTextField42.setEditable(false);
+        jTextField42.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField42.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField42.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField42.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField42.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField42ActionPerformed(evt);
+            }
+        });
+        jPanel41.add(jTextField42, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 130, 160, 20));
+
+        jLabel113.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel113.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel113.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel113.setText("Fecha del servicio:*");
+        jPanel41.add(jLabel113, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 180, -1, -1));
+
+        jTextField43.setEditable(false);
+        jTextField43.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField43.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField43.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField43.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField43.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField43ActionPerformed(evt);
+            }
+        });
+        jPanel41.add(jTextField43, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 180, 160, 20));
+
+        jTextField44.setEditable(false);
+        jTextField44.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField44.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField44.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField44.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel41.add(jTextField44, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 80, 160, -1));
+
+        jLabel115.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel115.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel115.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel115.setText("Direccion del servicio:*");
+        jPanel41.add(jLabel115, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 180, -1, -1));
+
+        jButton29.setBackground(new java.awt.Color(0, 122, 255));
+        jButton29.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton29.setForeground(new java.awt.Color(255, 255, 255));
+        jButton29.setText("Buscar");
+        jButton29.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jButton29.setBorderPainted(false);
+        jButton29.setContentAreaFilled(false);
+        jButton29.setOpaque(true);
+        jButton29.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton29ActionPerformed(evt);
+            }
+        });
+        jPanel41.add(jButton29, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 120, 30));
+
+        jTextField45.setEditable(false);
+        jTextField45.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField45.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField45.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField45.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField45.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField45ActionPerformed(evt);
+            }
+        });
+        jPanel41.add(jTextField45, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 80, 160, 20));
+
+        jLabel116.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel116.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel116.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel116.setText("N Documento:*");
+        jPanel41.add(jLabel116, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 80, -1, -1));
+
+        jLabel114.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel114.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel114.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel114.setText("Tipo de servicio:*");
+        jPanel41.add(jLabel114, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 130, -1, -1));
+
+        jTextField46.setEditable(false);
+        jTextField46.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField46.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField46.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField46.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel41.add(jTextField46, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 130, 160, -1));
+
+        jPanel40.add(jPanel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 80, 680, 280));
+
+        jButton30.setBackground(new java.awt.Color(0, 122, 255));
+        jButton30.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton30.setForeground(new java.awt.Color(255, 255, 255));
+        jButton30.setText("Volver");
+        jButton30.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jButton30.setBorderPainted(false);
+        jButton30.setContentAreaFilled(false);
+        jButton30.setOpaque(true);
+        jPanel40.add(jButton30, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 120, 30));
+
+        jLabel117.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel117.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel117.setText("BUSCAR SERVICIO");
+        jLabel117.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jPanel40.add(jLabel117, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 10, -1, 40));
+        jPanel40.add(jSeparator10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 780, 10));
+
+        jLabel118.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/producto.png"))); // NOI18N
+        jPanel40.add(jLabel118, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 10, 40, 40));
+
+        jPanel39.add(jPanel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 390));
+
+        jTabbedPane3.addTab("14", jPanel39);
+
+        jPanel42.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel43.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel43.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel44.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel44.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
+        jPanel44.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextField47.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField47.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField47.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField47.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField47.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField47ActionPerformed(evt);
+            }
+        });
+        jPanel44.add(jTextField47, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 30, 190, 20));
+
+        jLabel75.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel75.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel75.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel75.setText("N Documento: *");
+        jPanel44.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 30, -1, -1));
+
+        jTextField48.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField48.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField48.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField48.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel44.add(jTextField48, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 130, 160, -1));
+
+        jLabel95.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel95.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel95.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel95.setText("Telefono del cliente:*");
+        jPanel44.add(jLabel95, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, -1, -1));
+
+        jLabel119.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel119.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel119.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel119.setText("Nombre del cliente: *");
+        jPanel44.add(jLabel119, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, -1, -1));
+
+        jTextField49.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField49.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField49.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField49.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField49.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField49ActionPerformed(evt);
+            }
+        });
+        jPanel44.add(jTextField49, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 130, 160, 20));
+
+        jLabel120.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel120.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel120.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel120.setText("Fecha del servicio:*");
+        jPanel44.add(jLabel120, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 180, -1, -1));
+
+        jTextField50.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField50.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField50.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField50.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField50.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField50ActionPerformed(evt);
+            }
+        });
+        jPanel44.add(jTextField50, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 180, 160, 20));
+
+        jLabel121.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel121.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel121.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel121.setText("Tipo de servicio:*");
+        jPanel44.add(jLabel121, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 130, -1, -1));
+
+        jTextField51.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField51.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField51.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField51.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel44.add(jTextField51, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 80, 160, -1));
+
+        jLabel122.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel122.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel122.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel122.setText("Direccion del servicio: *");
+        jPanel44.add(jLabel122, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 180, -1, -1));
+
+        jButton31.setBackground(new java.awt.Color(254, 226, 226));
+        jButton31.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton31.setForeground(new java.awt.Color(153, 27, 27));
+        jButton31.setText("Eliminar ");
+        jButton31.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jButton31.setBorderPainted(false);
+        jButton31.setContentAreaFilled(false);
+        jButton31.setOpaque(true);
+        jButton31.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton31ActionPerformed(evt);
+            }
+        });
+        jPanel44.add(jButton31, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 220, 120, 30));
+
+        jTextField52.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField52.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField52.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField52.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField52.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField52ActionPerformed(evt);
+            }
+        });
+        jPanel44.add(jTextField52, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 80, 160, 20));
+
+        jLabel123.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel123.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel123.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel123.setText("N Documento: *");
+        jPanel44.add(jLabel123, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 80, -1, -1));
+
+        jButton32.setBackground(new java.awt.Color(0, 122, 255));
+        jButton32.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton32.setForeground(new java.awt.Color(255, 255, 255));
+        jButton32.setText("Buscar");
+        jButton32.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jButton32.setBorderPainted(false);
+        jButton32.setContentAreaFilled(false);
+        jButton32.setOpaque(true);
+        jButton32.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton32ActionPerformed(evt);
+            }
+        });
+        jPanel44.add(jButton32, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 120, 30));
+
+        jTextField53.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField53.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField53.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField53.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel44.add(jTextField53, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 180, 160, -1));
+
+        jPanel43.add(jPanel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 80, 680, 270));
+
+        jButton33.setBackground(new java.awt.Color(0, 122, 255));
+        jButton33.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton33.setForeground(new java.awt.Color(255, 255, 255));
+        jButton33.setText("Volver");
+        jButton33.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jButton33.setBorderPainted(false);
+        jButton33.setContentAreaFilled(false);
+        jButton33.setOpaque(true);
+        jPanel43.add(jButton33, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 120, 30));
+
+        jLabel124.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel124.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel124.setText("ELIMINAR SERVICIO");
+        jLabel124.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jPanel43.add(jLabel124, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 10, -1, 40));
+        jPanel43.add(jSeparator11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 780, 10));
+
+        jLabel125.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/eliminar.png"))); // NOI18N
+        jPanel43.add(jLabel125, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 10, 40, 40));
+
+        jPanel42.add(jPanel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 390));
+
+        jTabbedPane3.addTab("15", jPanel42);
+
+        jPanel45.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel45.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel46.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel46.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton34.setBackground(new java.awt.Color(0, 122, 255));
+        jButton34.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton34.setForeground(new java.awt.Color(255, 255, 255));
+        jButton34.setText("Volver");
+        jButton34.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jButton34.setBorderPainted(false);
+        jButton34.setContentAreaFilled(false);
+        jButton34.setOpaque(true);
+        jPanel46.add(jButton34, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 120, 30));
+
+        jLabel126.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel126.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel126.setText("LISTAR SERVICIOS");
+        jLabel126.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jPanel46.add(jLabel126, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 10, -1, 40));
+        jPanel46.add(jSeparator12, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 780, 10));
+
+        jLabel127.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/chequeo.png"))); // NOI18N
+        jPanel46.add(jLabel127, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 10, 40, 40));
+
+        jScrollPane4.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPane4.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
+
+        jTable3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTable3.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Tipo Servicio", "Direccion", "Nombre Cliente", "Fecha"
+            }
+        ));
+        jScrollPane4.setViewportView(jTable3);
+
+        jPanel46.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 70, 480, 250));
+
+        jButton35.setBackground(new java.awt.Color(0, 122, 255));
+        jButton35.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jButton35.setForeground(new java.awt.Color(255, 255, 255));
+        jButton35.setText("Listar Servicios");
+        jButton35.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jButton35.setBorderPainted(false);
+        jButton35.setContentAreaFilled(false);
+        jButton35.setOpaque(true);
+        jPanel46.add(jButton35, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 340, 120, 30));
+
+        jPanel45.add(jPanel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 390));
+
+        jTabbedPane3.addTab("16", jPanel45);
+
+        jPanel1.add(jTabbedPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 90, 780, 510));
+
+        jLabel40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Gemini_Generated_Image_b107oab107oab107.png"))); // NOI18N
         jLabel40.setText("jLabel40");
-        jPanel1.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -30, 1590, 1060));
+        jPanel1.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 940, -1));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 940, 500));
 
@@ -1182,10 +2561,6 @@ public class vista_admin extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_eliminarTecnicosActionPerformed
 
-    private void listarTecnicosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_listarTecnicosActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_listarTecnicosActionPerformed
-
     private void actualizarTecnicosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_actualizarTecnicosActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_actualizarTecnicosActionPerformed
@@ -1214,6 +2589,142 @@ public class vista_admin extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_listarTecnicos1ActionPerformed
 
+    private void jTextField23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField23ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField23ActionPerformed
+
+    private void jTextField25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField25ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField25ActionPerformed
+
+    private void jTextField26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField26ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField26ActionPerformed
+
+    private void jComboBox5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox5ActionPerformed
+
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton18ActionPerformed
+
+    private void jTextField18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField18ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField18ActionPerformed
+
+    private void jTextField20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField20ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField20ActionPerformed
+
+    private void jTextField21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField21ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField21ActionPerformed
+
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton16ActionPerformed
+
+    private void jTextField28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField28ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField28ActionPerformed
+
+    private void jTextField29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField29ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField29ActionPerformed
+
+    private void jTextField31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField31ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField31ActionPerformed
+
+    private void jTextField32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField32ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField32ActionPerformed
+
+    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton20ActionPerformed
+
+    private void jTextField34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField34ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField34ActionPerformed
+
+    private void jTextField35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField35ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField35ActionPerformed
+
+    private void jTextField37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField37ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField37ActionPerformed
+
+    private void jTextField38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField38ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField38ActionPerformed
+
+    private void jComboBox8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox8ActionPerformed
+
+    private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton24ActionPerformed
+
+    private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton26ActionPerformed
+
+    private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton27ActionPerformed
+
+    private void jButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton28ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton28ActionPerformed
+
+    private void jTextField40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField40ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField40ActionPerformed
+
+    private void jTextField42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField42ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField42ActionPerformed
+
+    private void jTextField43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField43ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField43ActionPerformed
+
+    private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton29ActionPerformed
+
+    private void jTextField45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField45ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField45ActionPerformed
+
+    private void jTextField47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField47ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField47ActionPerformed
+
+    private void jTextField49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField49ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField49ActionPerformed
+
+    private void jTextField50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField50ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField50ActionPerformed
+
+    private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton31ActionPerformed
+
+    private void jTextField52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField52ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField52ActionPerformed
+
+    private void jButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton32ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton32ActionPerformed
+
     public static String fecha(){
         Date fecha = new Date();
             SimpleDateFormat formato =  new SimpleDateFormat("DD/MM/YYYY");
@@ -1221,11 +2732,7 @@ public class vista_admin extends javax.swing.JFrame {
     
     }
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
+ 
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -1264,24 +2771,78 @@ public class vista_admin extends javax.swing.JFrame {
     private javax.swing.JButton eliminarUsuarios;
     private javax.swing.JLabel fechaActual;
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton12;
     private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton15;
+    private javax.swing.JButton jButton16;
+    private javax.swing.JButton jButton17;
+    private javax.swing.JButton jButton18;
+    private javax.swing.JButton jButton19;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton20;
+    private javax.swing.JButton jButton21;
+    private javax.swing.JButton jButton22;
+    private javax.swing.JButton jButton23;
+    private javax.swing.JButton jButton24;
+    private javax.swing.JButton jButton25;
+    private javax.swing.JButton jButton26;
+    private javax.swing.JButton jButton27;
+    private javax.swing.JButton jButton28;
+    private javax.swing.JButton jButton29;
     private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton30;
+    private javax.swing.JButton jButton31;
+    private javax.swing.JButton jButton32;
+    private javax.swing.JButton jButton33;
+    private javax.swing.JButton jButton34;
+    private javax.swing.JButton jButton35;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton9;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JComboBox<String> jComboBox3;
+    private javax.swing.JComboBox<String> jComboBox5;
+    private javax.swing.JComboBox<String> jComboBox6;
+    private javax.swing.JComboBox<String> jComboBox8;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel100;
+    private javax.swing.JLabel jLabel101;
+    private javax.swing.JLabel jLabel102;
+    private javax.swing.JLabel jLabel103;
+    private javax.swing.JLabel jLabel104;
+    private javax.swing.JLabel jLabel105;
+    private javax.swing.JLabel jLabel106;
+    private javax.swing.JLabel jLabel107;
+    private javax.swing.JLabel jLabel108;
+    private javax.swing.JLabel jLabel109;
     private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel110;
+    private javax.swing.JLabel jLabel111;
+    private javax.swing.JLabel jLabel112;
+    private javax.swing.JLabel jLabel113;
+    private javax.swing.JLabel jLabel114;
+    private javax.swing.JLabel jLabel115;
+    private javax.swing.JLabel jLabel116;
+    private javax.swing.JLabel jLabel117;
+    private javax.swing.JLabel jLabel118;
+    private javax.swing.JLabel jLabel119;
     private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel120;
+    private javax.swing.JLabel jLabel121;
+    private javax.swing.JLabel jLabel122;
+    private javax.swing.JLabel jLabel123;
+    private javax.swing.JLabel jLabel124;
+    private javax.swing.JLabel jLabel125;
+    private javax.swing.JLabel jLabel126;
+    private javax.swing.JLabel jLabel127;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
@@ -1336,9 +2897,47 @@ public class vista_admin extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel60;
     private javax.swing.JLabel jLabel61;
+    private javax.swing.JLabel jLabel62;
+    private javax.swing.JLabel jLabel63;
+    private javax.swing.JLabel jLabel64;
+    private javax.swing.JLabel jLabel65;
+    private javax.swing.JLabel jLabel66;
+    private javax.swing.JLabel jLabel67;
+    private javax.swing.JLabel jLabel68;
+    private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel70;
+    private javax.swing.JLabel jLabel71;
+    private javax.swing.JLabel jLabel72;
+    private javax.swing.JLabel jLabel73;
+    private javax.swing.JLabel jLabel74;
+    private javax.swing.JLabel jLabel75;
+    private javax.swing.JLabel jLabel76;
+    private javax.swing.JLabel jLabel77;
+    private javax.swing.JLabel jLabel78;
+    private javax.swing.JLabel jLabel79;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel80;
+    private javax.swing.JLabel jLabel81;
+    private javax.swing.JLabel jLabel82;
+    private javax.swing.JLabel jLabel83;
+    private javax.swing.JLabel jLabel84;
+    private javax.swing.JLabel jLabel85;
+    private javax.swing.JLabel jLabel86;
+    private javax.swing.JLabel jLabel87;
+    private javax.swing.JLabel jLabel88;
+    private javax.swing.JLabel jLabel89;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JLabel jLabel90;
+    private javax.swing.JLabel jLabel91;
+    private javax.swing.JLabel jLabel92;
+    private javax.swing.JLabel jLabel93;
+    private javax.swing.JLabel jLabel94;
+    private javax.swing.JLabel jLabel95;
+    private javax.swing.JLabel jLabel96;
+    private javax.swing.JLabel jLabel97;
+    private javax.swing.JLabel jLabel98;
+    private javax.swing.JLabel jLabel99;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
@@ -1351,8 +2950,35 @@ public class vista_admin extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel18;
     private javax.swing.JPanel jPanel19;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel20;
+    private javax.swing.JPanel jPanel21;
+    private javax.swing.JPanel jPanel22;
+    private javax.swing.JPanel jPanel23;
+    private javax.swing.JPanel jPanel24;
+    private javax.swing.JPanel jPanel25;
+    private javax.swing.JPanel jPanel26;
+    private javax.swing.JPanel jPanel27;
+    private javax.swing.JPanel jPanel28;
+    private javax.swing.JPanel jPanel29;
     private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel30;
+    private javax.swing.JPanel jPanel31;
+    private javax.swing.JPanel jPanel32;
+    private javax.swing.JPanel jPanel33;
+    private javax.swing.JPanel jPanel34;
+    private javax.swing.JPanel jPanel35;
+    private javax.swing.JPanel jPanel36;
+    private javax.swing.JPanel jPanel37;
+    private javax.swing.JPanel jPanel38;
+    private javax.swing.JPanel jPanel39;
     private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel40;
+    private javax.swing.JPanel jPanel41;
+    private javax.swing.JPanel jPanel42;
+    private javax.swing.JPanel jPanel43;
+    private javax.swing.JPanel jPanel44;
+    private javax.swing.JPanel jPanel45;
+    private javax.swing.JPanel jPanel46;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
@@ -1360,10 +2986,29 @@ public class vista_admin extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel9;
     private javax.swing.JPasswordField jPasswordField1;
     private javax.swing.JPasswordField jPasswordField2;
+    private javax.swing.JPasswordField jPasswordField5;
+    private javax.swing.JPasswordField jPasswordField6;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JSeparator jSeparator1;
+    private javax.swing.JSeparator jSeparator10;
+    private javax.swing.JSeparator jSeparator11;
+    private javax.swing.JSeparator jSeparator12;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator3;
+    private javax.swing.JSeparator jSeparator4;
+    private javax.swing.JSeparator jSeparator5;
+    private javax.swing.JSeparator jSeparator6;
+    private javax.swing.JSeparator jSeparator7;
+    private javax.swing.JSeparator jSeparator8;
+    private javax.swing.JSeparator jSeparator9;
     private javax.swing.JTabbedPane jTabbedPane3;
+    private javax.swing.JTable jTable1;
+    private javax.swing.JTable jTable2;
+    private javax.swing.JTable jTable3;
+    private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField10;
     private javax.swing.JTextField jTextField11;
@@ -1373,16 +3018,51 @@ public class vista_admin extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField15;
     private javax.swing.JTextField jTextField16;
     private javax.swing.JTextField jTextField17;
+    private javax.swing.JTextField jTextField18;
+    private javax.swing.JTextField jTextField19;
     private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField20;
+    private javax.swing.JTextField jTextField21;
+    private javax.swing.JTextField jTextField22;
+    private javax.swing.JTextField jTextField23;
+    private javax.swing.JTextField jTextField24;
+    private javax.swing.JTextField jTextField25;
+    private javax.swing.JTextField jTextField26;
+    private javax.swing.JTextField jTextField27;
+    private javax.swing.JTextField jTextField28;
+    private javax.swing.JTextField jTextField29;
     private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField jTextField30;
+    private javax.swing.JTextField jTextField31;
+    private javax.swing.JTextField jTextField32;
+    private javax.swing.JTextField jTextField33;
+    private javax.swing.JTextField jTextField34;
+    private javax.swing.JTextField jTextField35;
+    private javax.swing.JTextField jTextField36;
+    private javax.swing.JTextField jTextField37;
+    private javax.swing.JTextField jTextField38;
+    private javax.swing.JTextField jTextField39;
     private javax.swing.JTextField jTextField4;
+    private javax.swing.JTextField jTextField40;
+    private javax.swing.JTextField jTextField41;
+    private javax.swing.JTextField jTextField42;
+    private javax.swing.JTextField jTextField43;
+    private javax.swing.JTextField jTextField44;
+    private javax.swing.JTextField jTextField45;
+    private javax.swing.JTextField jTextField46;
+    private javax.swing.JTextField jTextField47;
+    private javax.swing.JTextField jTextField48;
+    private javax.swing.JTextField jTextField49;
     private javax.swing.JTextField jTextField5;
+    private javax.swing.JTextField jTextField50;
+    private javax.swing.JTextField jTextField51;
+    private javax.swing.JTextField jTextField52;
+    private javax.swing.JTextField jTextField53;
     private javax.swing.JTextField jTextField6;
     private javax.swing.JTextField jTextField7;
     private javax.swing.JTextField jTextField8;
     private javax.swing.JTextField jTextField9;
     private javax.swing.JButton listarServicio;
-    private javax.swing.JButton listarTecnicos;
     private javax.swing.JButton listarTecnicos1;
     // End of variables declaration//GEN-END:variables
 }
