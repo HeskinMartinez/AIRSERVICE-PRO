@@ -44,12 +44,9 @@ public class Usuario extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
-<<<<<<< HEAD
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-=======
->>>>>>> 9d514c2 (modelo y controlador)
         jPanel3 = new javax.swing.JPanel();
         jPanel6 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
@@ -136,11 +133,7 @@ public class Usuario extends javax.swing.JFrame {
                 {null, null, null, null, null}
             },
             new String [] {
-<<<<<<< HEAD
-                "Nombre", "Apellido", "Nro° Documento", "Fecha"
-=======
-                "Codigo", "Nombre ", "Nro° Documento", "Hora", "Fecha"
->>>>>>> 9d514c2 (modelo y controlador)
+                "Codigo", "Nombre", "Nro° Documento", "Hora", "Fecha"
             }
         ));
         jScrollPane1.setViewportView(jTable1);
@@ -150,14 +143,6 @@ public class Usuario extends javax.swing.JFrame {
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
-<<<<<<< HEAD
-                .addGap(126, 126, 126)
-                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 420, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
-=======
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addGap(309, 309, 309)
@@ -166,7 +151,6 @@ public class Usuario extends javax.swing.JFrame {
                         .addGap(43, 43, 43)
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 643, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(111, Short.MAX_VALUE))
->>>>>>> 9d514c2 (modelo y controlador)
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -178,36 +162,28 @@ public class Usuario extends javax.swing.JFrame {
                 .addGap(22, 22, 22))
         );
 
-<<<<<<< HEAD
         jLabel5.setText("Nombre ");
 
         jLabel6.setText("Apellido ");
 
         jLabel7.setText("N° Documento");
 
-=======
->>>>>>> 9d514c2 (modelo y controlador)
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-<<<<<<< HEAD
                 .addGap(38, 38, 38)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel5)
                     .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 68, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel7))
                 .addGap(0, 223, Short.MAX_VALUE))
-=======
-                .addGap(0, 0, Short.MAX_VALUE))
->>>>>>> 9d514c2 (modelo y controlador)
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-<<<<<<< HEAD
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addContainerGap()
@@ -220,11 +196,6 @@ public class Usuario extends javax.swing.JFrame {
                         .addGap(30, 30, 30)
                         .addComponent(jLabel7)))
                 .addContainerGap(263, Short.MAX_VALUE))
-=======
-                .addContainerGap()
-                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(171, Short.MAX_VALUE))
->>>>>>> 9d514c2 (modelo y controlador)
         );
 
         jTabbedPane1.addTab("Agendar Citas", jPanel2);
@@ -561,11 +532,8 @@ public class Usuario extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
-<<<<<<< HEAD
-=======
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
->>>>>>> 9d514c2 (modelo y controlador)
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;

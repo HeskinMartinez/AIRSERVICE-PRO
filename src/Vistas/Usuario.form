@@ -236,45 +236,16 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
-<<<<<<< HEAD
-                              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel6" min="-2" pref="68" max="-2" attributes="0"/>
-                                  <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="0" pref="223" max="32767" attributes="0"/>
-=======
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
->>>>>>> 9d514c2 (modelo y controlador)
                           </Group>
                       </Group>
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< HEAD
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jPanel4" min="-2" pref="362" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
-                                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
-                                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-                                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <EmptySpace pref="263" max="32767" attributes="0"/>
-=======
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
                               <EmptySpace pref="171" max="32767" attributes="0"/>
->>>>>>> 9d514c2 (modelo y controlador)
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -290,16 +261,6 @@
                       <Layout>
                         <DimensionLayout dim="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< HEAD
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="126" max="-2" attributes="0"/>
-                                  <Component id="jLabel4" min="-2" pref="128" max="-2" attributes="0"/>
-                                  <EmptySpace max="32767" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="jScrollPane1" min="-2" pref="420" max="-2" attributes="0"/>
-                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-=======
                               <Group type="102" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" attributes="0">
@@ -312,7 +273,6 @@
                                       </Group>
                                   </Group>
                                   <EmptySpace pref="111" max="32767" attributes="0"/>
->>>>>>> 9d514c2 (modelo y controlador)
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -354,9 +314,6 @@
                                     <Column editable="true" title="Codigo" type="java.lang.Object"/>
                                     <Column editable="true" title="Nombre " type="java.lang.Object"/>
                                     <Column editable="true" title="Nro&#xb0; Documento" type="java.lang.Object"/>
-<<<<<<< HEAD
-                                    <Column editable="true" title="Fecha" type="java.lang.Object"/>
-=======
                                     <Column editable="true" title="Hora" type="java.lang.Object"/>
                                     <Column editable="true" title="Fecha" type="java.lang.Object"/>
                                   </Table>
@@ -490,7 +447,6 @@
                                     <Column editable="true" title="Nombre" type="java.lang.Object"/>
                                     <Column editable="true" title="N&#xb0; Documento" type="java.lang.Object"/>
                                     <Column editable="true" title="Correo Electronico" type="java.lang.Object"/>
->>>>>>> 9d514c2 (modelo y controlador)
                                   </Table>
                                 </Property>
                                 <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
@@ -526,24 +482,6 @@
                         </Container>
                       </SubComponents>
                     </Container>
-<<<<<<< HEAD
-                    <Component class="javax.swing.JLabel" name="jLabel5">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="Nombre "/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JLabel" name="jLabel6">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="Apellido "/>
-                      </Properties>
-                    </Component>
-                    <Component class="javax.swing.JLabel" name="jLabel7">
-                      <Properties>
-                        <Property name="text" type="java.lang.String" value="N&#xb0; Documento"/>
-                      </Properties>
-                    </Component>
-=======
->>>>>>> 9d514c2 (modelo y controlador)
                   </SubComponents>
                 </Container>
                 <Container class="javax.swing.JPanel" name="jPanel5">
