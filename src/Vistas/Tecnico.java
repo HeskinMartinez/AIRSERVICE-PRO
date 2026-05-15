@@ -443,7 +443,7 @@ public class Tecnico extends javax.swing.JFrame {
         jLabel36.setForeground(new java.awt.Color(255, 255, 255));
         jLabel36.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/servicio-tecnico.png"))); // NOI18N
         jLabel36.setText("Servicios");
-        jPanel1.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 360, 180, 40));
+        jPanel1.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 370, 180, 40));
 
         jLabel37.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jLabel37.setForeground(new java.awt.Color(255, 255, 255));
