@@ -3,12 +3,14 @@ package Modelos;
 public class Usuarios {
     private String codigo;
     private String nombre;
+    private String Documento;
     private String fecha;
     private String hora;
 
-    public Usuarios(String codigo, String nombre, String fecha, String hora) {
+    public Usuarios(String codigo, String nombre, String Documento, String fecha, String hora) {
         this.codigo = codigo;
         this.nombre = nombre;
+        this.Documento = Documento;
         this.fecha = fecha;
         this.hora = hora;
     }
@@ -19,6 +21,14 @@ public class Usuarios {
 
     public void setCodigo(String codigo) {
         this.codigo = codigo;
+    }
+
+    public String getDocumento() {
+        return Documento;
+    }
+
+    public void setDocumento(String Documento) {
+        this.Documento = Documento;
     }
 
     public String getNombre() {
