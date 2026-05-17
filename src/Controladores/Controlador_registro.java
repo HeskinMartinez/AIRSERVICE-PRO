@@ -66,6 +66,20 @@ public class Controlador_registro {
             
         }
     }
+    
+     public boolean validardatos(String nombre, String documento, String hora, java.util.Date fecha, java.awt.Component vista){
+              
+              if(nombre.trim().isEmpty() || documento.trim().isEmpty() || fecha == null){
+                  javax.swing.JOptionPane.showMessageDialog(vista, "Por favor rellene todos los campos es obligatorio", "Campos vacios",javax.swing.JOptionPane.WARNING_MESSAGE);
+                  return false;
+              }
+              
+              if(hora.equals("Seleccione hora.")|| hora.trim().isEmpty()){
+                  javax.swing.JOptionPane.showMessageDialog(vista, "Por favor seleccione una hora valida de la lista","Hora no seleccionada",javax.swing.JOptionPane.WARNING_MESSAGE);
+              }
+              
+              return true;
+     }
 }
     
     
