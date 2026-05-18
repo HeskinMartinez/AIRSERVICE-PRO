@@ -20,11 +20,11 @@ public class Tecnico_2 extends javax.swing.JFrame {
         this.setLocationRelativeTo(null);
 
         Controlador_Tecnico controlador = new Controlador_Tecnico(
-                nombre_tecnico, // tu label de nombre
-                rol, // tu label de rol
-                Id, // tu label de ID
-                correo, // tu label de correo
-                numero // tu label de telefono
+                nombre_tecnico,
+                rol,
+                Id,
+                correo,
+                numero
         );
         controlador.mostrarPerfil();
 

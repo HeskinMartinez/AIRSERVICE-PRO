@@ -2,7 +2,6 @@ package Controladores;
 
 import javax.swing.*;
 import Modelos.Usuarios;
-import Controladores.Controlador_Tecnico;
 import Modelos.Tecnico;
 
 public class Controlador_registro implements IValidacion {

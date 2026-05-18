@@ -4,7 +4,6 @@
  */
 package Vistas;
 
-import java.awt.event.ActionEvent;
 import Controladores.Controlador_registro;
 
 /**
@@ -173,12 +172,12 @@ public class Registro extends javax.swing.JFrame {
     private void confirmarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_confirmarActionPerformed
         // TODO add your handling code here:
         Controlador_registro.registrarUsuario(
-        nombre_completo,   // campo nombre
-        correo,            // campo correo
-        telefono_1,          // campo telefono
-        contraseña,        // campo contrasena
-        roles,             // combobox rol
-        ciudad_r             // campo ciudad
+        nombre_completo,   
+        correo,           
+        telefono_1,         
+        contraseña,     
+        roles,             
+        ciudad_r          
     );
     }//GEN-LAST:event_confirmarActionPerformed
 
