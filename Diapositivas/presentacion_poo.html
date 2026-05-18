@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POO y Bases de Datos: Diagramas UML, Normalización, Herencia y Encapsulación</title>
+    <style>
+        /* --- Estilos Generales y de Impresión --- */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background: #e2e8f0; /* Fondo neutro para la vista de impresión */
+            color: #1f2937;
+            line-height: 1.6;
+        }
+        .slide {
+            width: 100vw;
+            height: 100vh;
+            padding: 60px 80px;
+            background: white;
+            overflow: hidden; /* Evita el scroll en la vista de presentación */
+            position: relative;
+            border-bottom: 1px solid #ccc; /* Separador para la vista de una sola página */
+        }
+        .slide-number {
+            position: absolute;
+            bottom: 30px;
+            right: 50px;
+            background: rgba(30,58,138,0.8);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        @media print {
+            body { background: none; }
+            .slide {
+                width: 100%;
+                height: 100vh; /* Mantiene la proporción en la impresión a PDF */
+                page-break-after: always;
+                overflow: hidden;
+                border: none;
+            }
+            .slide-number {
+                background: #1e3a8a; /* Color sólido para impresión */
+            }
+        }
+
+        /* --- Estilos de Contenido --- */
+        h1 { 
+            color: #1e3a8a; font-size: 2.8em; margin-bottom: 10px; 
+            text-align: center; text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+        }
+        h2 { 
+            color: #1e40af; font-size: 2em; margin: 25px 0 15px; 
+            border-bottom: 3px solid #3b82f6; padding-bottom: 12px;
+        }
+        h3 { 
+            color: #1d4ed8; font-size: 1.6em; margin: 20px 0 15px;
+        }
+        ul, ol { margin: 15px 0; padding-left: 40px; }
+        li { margin: 10px 0; font-size: 1.1em; }
+        .definition { 
+            background: #eff6ff; border-left: 5px solid #3b82f6; 
+            padding: 20px; margin: 20px 0; font-style: italic;
+        }
+        .uml-diagram { 
+            background: #f8fafc; border: 2px solid #cbd5e0; 
+            border-radius: 10px; padding: 25px; margin: 25px 0;
+            font-family: 'Courier New', monospace; white-space: pre;
+            overflow-x: auto; font-size: 13px; line-height: 1.4;
+        }
+        table { 
+            width: 100%; border-collapse: collapse; margin: 25px 0; 
+            font-size: 1em; box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        th { 
+            background: linear-gradient(135deg, #1e40af, #3b82f6); 
+            color: white; padding: 12px; text-align: left; font-weight: bold;
+        }
+        td { padding: 12px; border: 1px solid #d1d5db; vertical-align: top; }
+        tr:nth-child(even) { background: #f9fafb; }
+        code { background: #f3f4f6; padding: 3px 6px; border-radius: 4px; font-family: 'Courier New', monospace; }
+        .code-block { 
+            background: #1f2937; color: #f9fafb; padding: 20px; 
+            border-radius: 10px; margin: 20px 0; overflow-x: auto;
+            font-family: 'Courier New', monospace; font-size: 13px;
+        }
+        .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin: 30px 0; }
+        .card { 
+            background: linear-gradient(135deg, #eff6ff, #dbeafe); 
+            padding: 25px; border-radius: 10px; box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+            border: 1px solid #bfdbfe;
+        }
+        .references { font-size: 0.9em; opacity: 0.8; margin-top: 30px; }
+        .qa { text-align: center; font-size: 2em; color: #1e40af; margin: 40px 0; }
+    </style>
+</head>
+<body>
+
+<!-- SLIDE 1: TÍTULO Y AGENDA -->
+<div class="slide">
+    <div class="slide-number">1 / 10</div>
+    <h1>📐 Programación Orientada a Objetos y Bases de Datos</h1>
+    <h2>Diagramas de Clases UML, Normalización, Herencia y Encapsulación</h2>
+    <p style="text-align: center; font-size: 1.4em; margin: 40px 0;">
+        Exposición Universitaria - Ingeniería de Software Avanzada
+    </p>
+    <div class="grid-2">
+        <div class="card">
+            <h3>Agenda de la Exposición</h3>
+            <ul>
+                <li>Conceptos Teóricos Fundamentales</li>
+                <li>Análisis de Diagramas de Clases</li>
+                <li>Proceso de Normalización de Datos</li>
+                <li>Encapsulación y Modificadores de Acceso</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Agenda (Continuación)</h3>
+            <ul>
+                <li>Mecanismos de Herencia y Polimorfismo</li>
+                <li>Ejemplos Prácticos Integrados</li>
+                <li>Análisis de Ventajas y Desafíos</li>
+                <li>Conclusiones y Referencias</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 2: DIAGRAMA DE CLASES -->
+<div class="slide">
+    <div class="slide-number">2 / 10</div>
+    <h1>📐 Diagrama de Clases UML</h1>
+    <div class="definition">
+        <strong>Definición Formal:</strong> Representación estática del sistema que modela clases, interfaces, atributos, operaciones y sus relaciones. Es un pilar del Lenguaje Unificado de Modelado (UML 2.5, OMG).
+    </div>
+    <h3>Componentes Clave</h3>
+    <ul>
+        <li><strong>Clases:</strong> Abstracciones de entidades, representadas en 3 secciones (Nombre, Atributos, Métodos).</li>
+        <li><strong>Visibilidad:</strong> Control de acceso: <code>+</code> (public), <code>#</code> (protected), <code>-</code> (private), <code>~</code> (package).</li>
+        <li><strong>Relaciones:</strong> Vínculos entre clases: Herencia (△), Asociación (→), Composición (◆), Agregación (◇).</li>
+        <li><strong>Multiplicidad:</strong> Define la cardinalidad de las relaciones (e.g., <code>1..*</code>, <code>0..1</code>).</li>
+    </ul>
+    <div class="uml-diagram">
+┌─────────────────────┐   ◆ 1..*   ┌──────────────────┐
+│   &lt;&lt;interface&gt;&gt;     │───────────▶│     Repositorio   │
+│     IPersistible    │            ├──────────────────┤
+├─────────────────────┤            │ + guardar()       │
+│ + validar(): boolean│            │ + eliminar()      │
+└─────────────────────┘            └──────────────────┘
+           △                               ▲
+           │ Herencia                     │ Composición
+           ▼                               │
+    ┌─────────────────┐             ┌──────────────┐
+    │     Entidad      │             │   Usuario    │
+    ├─────────────────┤             ├──────────────┤
+    │ # id: Long       │             │ - email: String  │
+    │ - version: int   │             │ + rol: Enum      │
+    ├─────────────────┤             ├──────────────┤
+    │ + equals()       │             │ + autenticar()   │
+    └─────────────────┘             └──────────────┘
+    </div>
+</div>
+
+<!-- SLIDE 3: NORMALIZACIÓN -->
+<div class="slide">
+    <div class="slide-number">3 / 10</div>
+    <h1>🗄️ Normalización de Bases de Datos</h1>
+    <div class="definition">
+        <strong>Teoría de Codd (1970):</strong> Proceso sistemático para organizar las columnas y tablas de una base de datos relacional para minimizar la redundancia de datos y evitar anomalías de manipulación (inserción, actualización, borrado).
+    </div>
+    <h3>Formas Normales Principales</h3>
+    <table>
+        <tr><th>Forma Normal</th><th>Requisito Fundamental</th><th>Objetivo</th></tr>
+        <tr><td><strong>1FN</strong></td><td>Todos los atributos son atómicos.</td><td>Eliminar grupos repetitivos.</td></tr>
+        <tr><td><strong>2FN</strong></td><td>Cumple 1FN y no existen dependencias parciales.</td><td>Asegurar que cada atributo dependa de la clave completa.</td></tr>
+        <tr><td><strong>3FN</strong></td><td>Cumple 2FN y no existen dependencias transitivas.</td><td>Eliminar dependencias entre atributos no clave.</td></tr>
+        <tr><td><strong>BCNF</strong></td><td>Cumple 3FN y toda determinante es una clave candidata.</td><td>Resolver anomalías no cubiertas por 3FN.</td></tr>
+    </table>
+</div>
+
+<!-- SLIDE 4: MODIFICADORES DE ACCESO -->
+<div class="slide">
+    <div class="slide-number">4 / 10</div>
+    <h1>🔒 Modificadores de Acceso y Encapsulación</h1>
+    <div class="definition">
+        <strong>Principio de Ocultación de Información:</strong> La encapsulación consiste en ocultar el estado interno de un objeto y requerir que toda la interacción se realice a través de los métodos públicos del objeto.
+    </div>
+    <table>
+        <tr><th>Modificador</th><th>Visibilidad</th><th>Propósito Principal</th><th>Símbolo UML</th></tr>
+        <tr><td><code>public</code></td><td>Accesible desde cualquier clase.</td><td>Define la interfaz pública del objeto.</td><td>+</td></tr>
+        <tr><td><code>protected</code></td><td>Accesible dentro de su paquete y por subclases.</td><td>Permite la extensión controlada en la herencia.</td><td>#</td></tr>
+        <tr><td><code>private</code></td><td>Accesible solo dentro de la propia clase.</td><td>Máxima protección del estado interno.</td><td>-</td></tr>
+        <tr><td><code>package-private</code> (default)</td><td>Accesible solo por clases en el mismo paquete.</td><td>Colaboración interna dentro de un módulo.</td><td>~</td></tr>
+    </table>
+</div>
+
+<!-- SLIDE 5: HERENCIA -->
+<div class="slide">
+    <div class="slide-number">5 / 10</div>
+    <h1>🧬 Herencia: Reutilización y Polimorfismo</h1>
+    <div class="definition">
+        <strong>Relación "es un/a" (IS-A):</strong> Mecanismo que permite a una nueva clase (subclase) adquirir los atributos y métodos de una clase existente (superclase), permitiendo la reutilización de código y la creación de jerarquías.
+    </div>
+    <h3>Conceptos Clave</h3>
+    <ul>
+        <li><strong>Sobrescritura de Métodos (Overriding):</strong> Una subclase puede proporcionar una implementación específica de un método que ya es provisto por su superclase.</li>
+        <li><strong>Polimorfismo:</strong> Capacidad de un objeto para tomar muchas formas. Una variable de tipo superclase puede referenciar un objeto de cualquiera de sus subclases.</li>
+        <li><strong>Clases Abstractas:</strong> Clases que no pueden ser instanciadas y que sirven como base para otras clases, pudiendo definir métodos abstractos (sin implementación).</li>
+    </ul>
+    <p><strong>Principio de Diseño:</strong> "Favorecer la composición sobre la herencia" para evitar jerarquías rígidas y frágiles. La herencia debe usarse solo cuando la relación "IS-A" es conceptualmente correcta.</p>
+</div>
+
+<!-- SLIDE 6: EJEMPLO 1 - BIBLIOTECA -->
+<div class="slide">
+    <div class="slide-number">6 / 10</div>
+    <h1>📚 Ejemplo 1: Sistema de Biblioteca</h1>
+    <h3>Diagrama UML Integrado</h3>
+    <div class="uml-diagram">
+┌────────────────────────────┐
+│ &lt;&lt;abstract&gt;&gt; MaterialBiblioteca │
+├────────────────────────────┤
+│ # codigo: String {unique}  │ ────── 1..* ──▶ ┌──────────────┐
+│ # titulo: String           │                  │   Prestamo   │
+│ - fechaIngreso: LocalDate  │                  ├──────────────┤
+│ # disponible: boolean      │                  │ - id: Long   │
+├────────────────────────────┤                  │ + fecha:     │
+│ + prestar(): boolean       │                  │   LocalDate  │ ◆ Composición
+│ + devolver(): void         │                  └──────────────┘
+│ # validar(): boolean       │                           ▲ 1
+└────────────────────────────┘                           │ *
+         △ Herencia                     Asociación       ▼
+  ┌───────┴──────┐                     ┌────────────────────┐
+  │     Libro     │                     │      Usuario       │
+  ├──────────────┤                     ├────────────────────┤
+  │ - isbn: String│                     │ - id: Long         │
+  │ - autor: String│                    │ + nombre: String   │
+  └──────────────┘                     │ - password: String │
+                                       └────────────────────┘
+    </div>
+    <h3>Análisis del Diseño</h3>
+    <ul>
+        <li><strong>Normalización:</strong> Las entidades (Material, Usuario, Préstamo) están separadas, cumpliendo 3FN y evitando redundancia.</li>
+        <li><strong>Herencia:</strong> <code>Libro</code> "es un" <code>MaterialBiblioteca</code>, heredando sus propiedades y comportamiento.</li>
+        <li><strong>Encapsulación:</strong> <code>fechaIngreso</code> y <code>password</code> son privados, protegiendo datos sensibles.</li>
+    </ul>
+</div>
+
+<!-- SLIDE 7: EJEMPLO 2 - EMPRESA -->
+<div class="slide">
+    <div class="slide-number">7 / 10</div>
+    <h1>🏢 Ejemplo 2: Sistema Empresarial</h1>
+    <h3>Jerarquía de Clases y Mapeo a Base de Datos</h3>
+    <div class="grid-2">
+        <div>
+            <h4>Diagrama de Herencia Multinivel</h4>
+            <div class="uml-diagram" style="padding: 15px;">
+┌─────────────────┐
+│     Persona     │
+├─────────────────┤
+│ # dni: String   │
+└─────────────────┘
+        △
+        │
+┌─────────────────┐
+│    Empleado     │
+├─────────────────┤
+│ - salario: Money│
+└─────────────────┘
+        △
+┌───────┴───────┐
+│               │
+┌─────────┐   ┌──────────┐
+│ Gerente │   │ Vendedor │
+└─────────┘   └──────────┘
+            </div>
+        </div>
+        <div>
+            <h4>Estrategias de Mapeo Objeto-Relacional (JPA)</h4>
+            <ul>
+                <li><strong>Single Table:</strong> Una sola tabla para toda la jerarquía, con una columna discriminadora. Rápida pero puede tener muchos nulos.</li>
+                <li><strong>Joined Table:</strong> Una tabla por cada clase en la jerarquía, unidas por claves foráneas. Normalizada pero requiere más JOINs.</li>
+                <li><strong>Table Per Class:</strong> Una tabla por cada clase concreta, sin relación a nivel de BD. No soporta bien polimorfismo.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- SLIDE 8: VENTAJAS Y DESAFÍOS -->
+<div class="slide">
+    <div class="slide-number">8 / 10</div>
+    <h1>⚖️ Ventajas, Desafíos y Mejores Prácticas</h1>
+    <table>
+        <tr><th>Concepto</th><th>Ventajas Clave</th><th>Desafíos Comunes</th><th>Mejor Práctica Asociada</th></tr>
+        <tr><td><strong>Diagramas UML</strong></td><td>Comunicación clara, diseño previo, documentación.</td><td>Mantenerlos actualizados, riesgo de sobre-ingeniería.</td><td>Usar herramientas que generen código desde el diagrama (o viceversa).</td></tr>
+        <tr><td><strong>Normalización</strong></td><td>Integridad de datos, sin redundancia, queries consistentes.</td><td>Degradación del rendimiento por exceso de JOINs.</td><td>Aplicar desnormalización controlada para optimizar lecturas (e.g., en Data Warehousing).</td></tr>
+        <tr><td><strong>Herencia</strong></td><td>Reutilización de código, polimorfismo, extensibilidad.</td><td>"Problema del Diamante", jerarquías frágiles y rígidas.</td><td>Principio "Composición sobre Herencia".</td></tr>
+        <tr><td><strong>Encapsulación</strong></td><td>Seguridad, mantenibilidad, desacoplamiento.</td><td>Exposición excesiva a través de getters/setters.</td><td>Diseñar objetos inmutables y exponer comportamiento en lugar de datos.</td></tr>
+    </table>
+</div>
+
+<!-- SLIDE 9: CONCLUSIONES -->
+<div class="slide">
+    <div class="slide-number">9 / 10</div>
+    <h1>🎓 Conclusiones</h1>
+    <div class="grid-2">
+        <div class="card">
+            <h3>Síntesis de Conceptos</h3>
+            <p>La combinación sinérgica de diagramas UML, normalización, herencia y encapsulación es la base de la arquitectura de software moderna, robusta y mantenible.</p>
+            <ul>
+                <li><strong>UML</strong> es el lenguaje para visualizar la arquitectura.</li>
+                <li>La <strong>Normalización</strong> garantiza la salud de los datos.</li>
+                <li>La <strong>Herencia</strong> y la <strong>Encapsulación</strong> estructuran el código de forma lógica y segura.</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Impacto en el Desarrollo</h3>
+            <p>Un diseño que integra correctamente estos principios conduce a sistemas que son:</p>
+            <ul>
+                <li><strong>Mantenibles:</strong> Cambios en un componente tienen un impacto mínimo en otros.</li>
+                <li><strong>Escalables:</strong> Es más fácil añadir nueva funcionalidad sin romper la existente.</li>
+                <li><strong>Seguros:</strong> El estado interno de los objetos está protegido contra modificaciones indebidas.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="qa">¿Preguntas?</div>
+</div>
+
+<!-- SLIDE 10: REFERENCIAS -->
+<div class="slide">
+    <div class="slide-number">10 / 10</div>
+    <h1>📚 Referencias Bibliográficas</h1>
+    <div class="references">
+        <ul>
+            <li>Fowler, M. (2003). <em>Patterns of Enterprise Application Architecture</em>. Addison-Wesley Professional.</li>
+            <li>Codd, E. F. (1970). "A Relational Model of Data for Large Shared Data Banks". <em>Communications of the ACM, 13</em>(6), 377–387.</li>
+            <li>Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). <em>Design Patterns: Elements of Reusable Object-Oriented Software</em>. Addison-Wesley Professional.</li>
+            <li>Object Management Group. (2017). <em>Unified Modeling Language (UML), Version 2.5.1</em>.</li>
+            <li>Martin, R. C. (2008). <em>Clean Code: A Handbook of Agile Software Craftsmanship</em>. Prentice Hall.</li>
+        </ul>
+        <p style="margin-top: 50px; text-align: center; font-size: 1.4em; color: #1e3a8a;">
+            ¡Gracias por su atención!
+        </p>
+    </div>
+</div>
+
+</body>
+</html>

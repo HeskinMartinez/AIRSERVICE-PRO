@@ -5,6 +5,7 @@
 package Vistas;
 
 import java.awt.event.ActionEvent;
+import Controladores.Controlador_registro;
 
 /**
  *
@@ -18,7 +19,7 @@ public class Registro extends javax.swing.JFrame {
     public Registro() {
         initComponents();
         this.setLocationRelativeTo(null);
-        this.dispose();
+        
     }
 
     /**
@@ -38,14 +39,14 @@ public class Registro extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        jTextField2 = new javax.swing.JTextField();
-        jTextField3 = new javax.swing.JTextField();
-        jTextField4 = new javax.swing.JTextField();
-        jTextField5 = new javax.swing.JTextField();
-        jComboBox1 = new javax.swing.JComboBox<>();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
+        nombre_completo = new javax.swing.JTextField();
+        correo = new javax.swing.JTextField();
+        telefono_1 = new javax.swing.JTextField();
+        ciudad_r = new javax.swing.JTextField();
+        contraseña = new javax.swing.JTextField();
+        roles = new javax.swing.JComboBox<>();
+        regresar = new javax.swing.JButton();
+        confirmar = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
 
@@ -73,61 +74,61 @@ public class Registro extends javax.swing.JFrame {
         jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(61, 189, -1, -1));
 
         jLabel7.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
-        jLabel7.setText("Ciudadad de Residensia:");
+        jLabel7.setText("Ciudad de Residensia:");
         jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(61, 228, -1, -1));
 
         jLabel8.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jLabel8.setText("Contraseña:");
         jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(61, 272, -1, -1));
-        jPanel2.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(268, 101, 250, -1));
-        jPanel2.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(268, 145, 250, -1));
+        jPanel2.add(nombre_completo, new org.netbeans.lib.awtextra.AbsoluteConstraints(268, 101, 250, -1));
+        jPanel2.add(correo, new org.netbeans.lib.awtextra.AbsoluteConstraints(268, 145, 250, -1));
 
-        jTextField3.addActionListener(new java.awt.event.ActionListener() {
+        telefono_1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField3ActionPerformed(evt);
+                telefono_1ActionPerformed(evt);
             }
         });
-        jPanel2.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(268, 184, 250, -1));
+        jPanel2.add(telefono_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(268, 184, 250, -1));
 
-        jTextField4.addActionListener(new java.awt.event.ActionListener() {
+        ciudad_r.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField4ActionPerformed(evt);
+                ciudad_rActionPerformed(evt);
             }
         });
-        jPanel2.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 223, 248, -1));
+        jPanel2.add(ciudad_r, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 223, 248, -1));
 
-        jTextField5.addActionListener(new java.awt.event.ActionListener() {
+        contraseña.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField5ActionPerformed(evt);
+                contraseñaActionPerformed(evt);
             }
         });
-        jPanel2.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 267, 248, -1));
+        jPanel2.add(contraseña, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 267, 248, -1));
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Tecnico", "Usuario", "Admin" }));
-        jPanel2.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(268, 57, 250, -1));
+        roles.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Tecnico", "Usuario", "Admin" }));
+        jPanel2.add(roles, new org.netbeans.lib.awtextra.AbsoluteConstraints(268, 57, 250, -1));
 
         jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 70, 590, 340));
 
-        jButton2.setBackground(new java.awt.Color(204, 204, 255));
-        jButton2.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
-        jButton2.setText("Regresar");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        regresar.setBackground(new java.awt.Color(204, 204, 255));
+        regresar.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        regresar.setText("Regresar");
+        regresar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                regresarActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 440, 200, 40));
+        jPanel1.add(regresar, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 440, 200, 40));
 
-        jButton3.setBackground(new java.awt.Color(204, 204, 255));
-        jButton3.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
-        jButton3.setText("Confirmar");
-        jButton3.setActionCommand("Ingresar");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        confirmar.setBackground(new java.awt.Color(204, 204, 255));
+        confirmar.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
+        confirmar.setText("Confirmar");
+        confirmar.setActionCommand("Ingresar");
+        confirmar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                confirmarActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 440, 200, 40));
+        jPanel1.add(confirmar, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 440, 200, 40));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ChatGPT Image 20 abr 2026, 07_35_37 p.m..png"))); // NOI18N
         jLabel1.setText("jLabel1");
@@ -151,26 +152,35 @@ public class Registro extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
+    private void telefono_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_telefono_1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField3ActionPerformed
+    }//GEN-LAST:event_telefono_1ActionPerformed
 
-    private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField4ActionPerformed
+    private void ciudad_rActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ciudad_rActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField4ActionPerformed
+    }//GEN-LAST:event_ciudad_rActionPerformed
 
-    private void jTextField5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField5ActionPerformed
+    private void contraseñaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_contraseñaActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField5ActionPerformed
+    }//GEN-LAST:event_contraseñaActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void regresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_regresarActionPerformed
         // TODO add your handling code here:
         new Login().setVisible(true);
-    }//GEN-LAST:event_jButton2ActionPerformed
+        this.dispose();
+    }//GEN-LAST:event_regresarActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void confirmarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_confirmarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton3ActionPerformed
+        Controlador_registro.registrarUsuario(
+        nombre_completo,   // campo nombre
+        correo,            // campo correo
+        telefono_1,          // campo telefono
+        contraseña,        // campo contrasena
+        roles,             // combobox rol
+        ciudad_r             // campo ciudad
+    );
+    }//GEN-LAST:event_confirmarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -208,9 +218,10 @@ public class Registro extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JTextField ciudad_r;
+    private javax.swing.JButton confirmar;
+    private javax.swing.JTextField contraseña;
+    private javax.swing.JTextField correo;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -221,10 +232,9 @@ public class Registro extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField3;
-    private javax.swing.JTextField jTextField4;
-    private javax.swing.JTextField jTextField5;
+    private javax.swing.JTextField nombre_completo;
+    private javax.swing.JButton regresar;
+    private javax.swing.JComboBox<String> roles;
+    private javax.swing.JTextField telefono_1;
     // End of variables declaration//GEN-END:variables
 }

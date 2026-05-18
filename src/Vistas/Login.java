@@ -4,6 +4,7 @@
  */
 package Vistas;
 
+import Controladores.Controlador_login;
 /**
  *
  * @author Ing_heskin
@@ -16,7 +17,8 @@ public class Login extends javax.swing.JFrame {
     public Login() {
         initComponents();
         this.setLocationRelativeTo(null);
-        this.dispose();
+        
+        
     }
 
     /**
@@ -31,11 +33,11 @@ public class Login extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        jTextField2 = new javax.swing.JTextField();
-        Tecnico = new javax.swing.JCheckBox();
-        usuario = new javax.swing.JCheckBox();
-        admin = new javax.swing.JCheckBox();
+        login_usuario = new javax.swing.JTextField();
+        login_contraseña = new javax.swing.JPasswordField();
+        chkAdmin = new javax.swing.JCheckBox();
+        chkTecnico = new javax.swing.JCheckBox();
+        chkUsuario = new javax.swing.JCheckBox();
         ingresar = new javax.swing.JButton();
         registro = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
@@ -56,41 +58,41 @@ public class Login extends javax.swing.JFrame {
         jLabel3.setText("Inicio de sesion");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 190, 240, 50));
 
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+        login_usuario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
+                login_usuarioActionPerformed(evt);
             }
         });
-        jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 290, 230, 30));
+        jPanel1.add(login_usuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 290, 230, 30));
 
-        jTextField2.addActionListener(new java.awt.event.ActionListener() {
+        login_contraseña.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField2ActionPerformed(evt);
+                login_contraseñaActionPerformed(evt);
             }
         });
-        jPanel1.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 350, 230, 30));
+        jPanel1.add(login_contraseña, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 356, 230, 30));
 
-        Tecnico.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        Tecnico.setText("Tecnico");
-        Tecnico.addActionListener(new java.awt.event.ActionListener() {
+        chkAdmin.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        chkAdmin.setText("Admin");
+        chkAdmin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TecnicoActionPerformed(evt);
+                chkAdminActionPerformed(evt);
             }
         });
-        jPanel1.add(Tecnico, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 400, 80, -1));
+        jPanel1.add(chkAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 400, -1, -1));
 
-        usuario.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        usuario.setText("Usuario");
-        jPanel1.add(usuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 400, -1, -1));
-
-        admin.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
-        admin.setText("Admin");
-        admin.addActionListener(new java.awt.event.ActionListener() {
+        chkTecnico.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        chkTecnico.setText("Tecnico");
+        chkTecnico.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                adminActionPerformed(evt);
+                chkTecnicoActionPerformed(evt);
             }
         });
-        jPanel1.add(admin, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 400, -1, -1));
+        jPanel1.add(chkTecnico, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 400, 80, -1));
+
+        chkUsuario.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        chkUsuario.setText("Usuario");
+        jPanel1.add(chkUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 400, -1, -1));
 
         ingresar.setBackground(new java.awt.Color(204, 204, 255));
         ingresar.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
@@ -142,30 +144,40 @@ public class Login extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void TecnicoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TecnicoActionPerformed
+    private void chkTecnicoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chkTecnicoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_TecnicoActionPerformed
+    }//GEN-LAST:event_chkTecnicoActionPerformed
 
     private void ingresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ingresarActionPerformed
         // TODO add your handling code here:
+        Controlador_login controlador = new Controlador_login(
+        login_usuario,
+        login_contraseña,
+        chkTecnico,
+        chkUsuario,
+        chkAdmin,
+        this
+    );
+        controlador.ingresar();
     }//GEN-LAST:event_ingresarActionPerformed
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void login_usuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_login_usuarioActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }//GEN-LAST:event_login_usuarioActionPerformed
 
-    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+    private void chkAdminActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_chkAdminActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField2ActionPerformed
-
-    private void adminActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_adminActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_adminActionPerformed
+    }//GEN-LAST:event_chkAdminActionPerformed
 
     private void registroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_registroActionPerformed
         // TODO add your handling code here:
         new Registro().setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_registroActionPerformed
+
+    private void login_contraseñaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_login_contraseñaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_login_contraseñaActionPerformed
 
     /**
      * @param args the command line arguments
@@ -203,8 +215,9 @@ public class Login extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JCheckBox Tecnico;
-    private javax.swing.JCheckBox admin;
+    private javax.swing.JCheckBox chkAdmin;
+    private javax.swing.JCheckBox chkTecnico;
+    private javax.swing.JCheckBox chkUsuario;
     private javax.swing.JButton ingresar;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
@@ -213,9 +226,8 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
+    private javax.swing.JPasswordField login_contraseña;
+    private javax.swing.JTextField login_usuario;
     private javax.swing.JButton registro;
-    private javax.swing.JCheckBox usuario;
     // End of variables declaration//GEN-END:variables
 }
