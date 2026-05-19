@@ -34,7 +34,6 @@ public class Servicios extends javax.swing.JFrame {
         jLabel15 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
@@ -105,14 +104,14 @@ public class Servicios extends javax.swing.JFrame {
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel5.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel5.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel3.setBackground(new java.awt.Color(0, 0, 0));
         jLabel3.setFont(new java.awt.Font("Roboto Black", 2, 14)); // NOI18N
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icono_redisenado.png"))); // NOI18N
         jLabel3.setText("MENU");
-        jPanel5.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 0, 110, -1));
+        jPanel5.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 0, 110, -1));
 
         jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/airservice_resized.png"))); // NOI18N
@@ -127,17 +126,12 @@ public class Servicios extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Roboto Black", 2, 14)); // NOI18N
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/result_image.png"))); // NOI18N
         jLabel4.setText("SERVICIOS");
-        jPanel5.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 0, 140, 60));
-
-        jLabel1.setFont(new java.awt.Font("Roboto Black", 2, 14)); // NOI18N
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Tecnicos.png"))); // NOI18N
-        jLabel1.setText("Tecnicos");
-        jPanel5.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 0, 120, 60));
+        jPanel5.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 0, 140, 60));
 
         jLabel2.setFont(new java.awt.Font("Roboto Black", 2, 14)); // NOI18N
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Pagos seguros.png"))); // NOI18N
         jLabel2.setText("PAGOS");
-        jPanel5.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 0, 110, 60));
+        jPanel5.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 0, 110, 60));
 
         jPanel2.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1000, 60));
 
@@ -164,16 +158,16 @@ public class Servicios extends javax.swing.JFrame {
         jPanel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED, null, java.awt.Color.blue, java.awt.Color.blue, null));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel7.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Roboto", 0, 18)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(26, 96, 224));
         jLabel7.setText("Servicio Pro");
         jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 140, 20));
 
-        jLabel9.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("Roboto Light", 0, 12)); // NOI18N
         jLabel9.setText("Enfocado para oficinas y");
         jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 190, 20));
 
-        jLabel10.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("Roboto Light", 0, 12)); // NOI18N
         jLabel10.setText("comercios con alta demanda termica.");
         jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, 220, 20));
 
@@ -190,11 +184,12 @@ public class Servicios extends javax.swing.JFrame {
         jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 130, -1, -1));
 
         jLabel14.setBackground(new java.awt.Color(26, 96, 224));
-        jLabel14.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jLabel14.setFont(new java.awt.Font("Roboto", 0, 18)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(26, 96, 224));
         jLabel14.setText("Incluye:");
         jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, 80, -1));
 
+        jLabel17.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
         jLabel17.setText("Soporte prioritario.");
         jPanel1.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 340, 170, 30));
 
@@ -206,6 +201,7 @@ public class Servicios extends javax.swing.JFrame {
         jLabel19.setText("jLabel18");
         jPanel1.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 210, 30, 30));
 
+        jLabel20.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
         jLabel20.setText("Todo lo del plan Basico.");
         jPanel1.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 210, 150, 30));
 
@@ -213,7 +209,7 @@ public class Servicios extends javax.swing.JFrame {
         jLabel21.setText("jLabel18");
         jPanel1.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 250, 30, 30));
 
-        jLabel22.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel22.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
         jLabel22.setText("Mantenimiento preventivo");
         jPanel1.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 250, 170, 20));
 
@@ -221,12 +217,12 @@ public class Servicios extends javax.swing.JFrame {
         jLabel23.setText("jLabel18");
         jPanel1.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 300, 30, 30));
 
-        jLabel24.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel24.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
         jLabel24.setText("Control de insumos y materiales");
         jPanel1.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 300, 170, 20));
 
         jButton1.setBackground(new java.awt.Color(26, 96, 224));
-        jButton1.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Roboto", 0, 18)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Seleccionar Pro");
         jButton1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, null, new java.awt.Color(255, 255, 255), java.awt.Color.white, null));
@@ -237,10 +233,11 @@ public class Servicios extends javax.swing.JFrame {
         });
         jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 390, 190, -1));
 
-        jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
         jLabel8.setText("Programado ( cada 6 meses)");
         jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 270, -1, -1));
 
+        jLabel41.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
         jLabel41.setText("utilizados.");
         jPanel1.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 320, 160, -1));
 
@@ -253,20 +250,20 @@ public class Servicios extends javax.swing.JFrame {
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel25.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jLabel25.setFont(new java.awt.Font("Roboto", 0, 18)); // NOI18N
         jLabel25.setForeground(new java.awt.Color(26, 96, 224));
         jLabel25.setText("Servicio Basico");
         jPanel3.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 140, 20));
 
-        jLabel26.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel26.setFont(new java.awt.Font("Roboto Light", 0, 13)); // NOI18N
         jLabel26.setText("esenciales.");
         jPanel3.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, 100, 20));
 
-        jLabel27.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel27.setFont(new java.awt.Font("Roboto Light", 0, 13)); // NOI18N
         jLabel27.setText("Ideal para mantenimientos");
         jPanel3.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 170, 20));
 
-        jLabel28.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel28.setFont(new java.awt.Font("Roboto Light", 0, 13)); // NOI18N
         jLabel28.setText("preventivos y necesidades ");
         jPanel3.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, 180, 20));
 
@@ -286,11 +283,12 @@ public class Servicios extends javax.swing.JFrame {
         jPanel3.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 140, -1, -1));
 
         jLabel32.setBackground(new java.awt.Color(26, 96, 224));
-        jLabel32.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jLabel32.setFont(new java.awt.Font("Roboto", 0, 18)); // NOI18N
         jLabel32.setForeground(new java.awt.Color(26, 96, 224));
         jLabel32.setText("Incluye:");
         jPanel3.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, 80, -1));
 
+        jLabel33.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
         jLabel33.setText("Diagnostico tecnico presencial.");
         jPanel3.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 340, 170, 30));
 
@@ -302,6 +300,7 @@ public class Servicios extends javax.swing.JFrame {
         jLabel35.setText("jLabel18");
         jPanel3.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, 30, 30));
 
+        jLabel36.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
         jLabel36.setText("Instalacion basica de aire.");
         jPanel3.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 220, 150, 30));
 
@@ -309,6 +308,7 @@ public class Servicios extends javax.swing.JFrame {
         jLabel37.setText("jLabel18");
         jPanel3.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 260, 30, 30));
 
+        jLabel38.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
         jLabel38.setText("Limpieza de filtros estandar.");
         jPanel3.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 260, 170, 30));
 
@@ -316,13 +316,14 @@ public class Servicios extends javax.swing.JFrame {
         jLabel39.setText("jLabel18");
         jPanel3.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 300, 30, 30));
 
+        jLabel40.setFont(new java.awt.Font("Roboto", 0, 13)); // NOI18N
         jLabel40.setText("Recarga de gas refrigerante.");
         jPanel3.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 300, 170, 30));
 
-        jButton2.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jButton2.setFont(new java.awt.Font("Roboto", 0, 18)); // NOI18N
         jButton2.setForeground(new java.awt.Color(26, 96, 224));
         jButton2.setText("Seleccionar Basico");
-        jButton2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, null, java.awt.Color.blue, null, null));
+        jButton2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, null, java.awt.Color.blue, java.awt.Color.blue, null));
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -336,15 +337,15 @@ public class Servicios extends javax.swing.JFrame {
         jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
         jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel44.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel44.setFont(new java.awt.Font("Roboto Light", 0, 13)); // NOI18N
         jLabel44.setText("equipos de alta calidad.");
         jPanel6.add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 390, -1, 20));
 
-        jLabel45.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel45.setFont(new java.awt.Font("Roboto Light", 0, 13)); // NOI18N
         jLabel45.setText("especializada y soporte");
         jPanel6.add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 240, -1, -1));
 
-        jLabel46.setFont(new java.awt.Font("Arial", 0, 17)); // NOI18N
+        jLabel46.setFont(new java.awt.Font("Roboto", 0, 17)); // NOI18N
         jLabel46.setForeground(new java.awt.Color(26, 96, 224));
         jLabel46.setText("Calidad Garantizada");
         jPanel6.add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 340, -1, -1));
@@ -352,20 +353,20 @@ public class Servicios extends javax.swing.JFrame {
         jLabel47.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Soporte.png"))); // NOI18N
         jPanel6.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, 80, -1));
 
-        jLabel48.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jLabel48.setFont(new java.awt.Font("Roboto", 0, 18)); // NOI18N
         jLabel48.setForeground(new java.awt.Color(26, 96, 224));
         jLabel48.setText("Garantia incluida");
         jPanel6.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 30, -1, -1));
 
-        jLabel49.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel49.setFont(new java.awt.Font("Roboto Light", 0, 13)); // NOI18N
         jLabel49.setText("Todos nuestros servicios");
         jPanel6.add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 60, -1, -1));
 
-        jLabel50.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel50.setFont(new java.awt.Font("Roboto Light", 0, 13)); // NOI18N
         jLabel50.setText("incluyen garantia.");
         jPanel6.add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 80, -1, -1));
 
-        jLabel51.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel51.setFont(new java.awt.Font("Roboto Light", 0, 13)); // NOI18N
         jLabel51.setText("continuo.");
         jPanel6.add(jLabel51, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 260, -1, -1));
 
@@ -376,16 +377,16 @@ public class Servicios extends javax.swing.JFrame {
         jLabel53.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Verificado 2.0.png"))); // NOI18N
         jPanel6.add(jLabel53, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, -1, -1));
 
-        jLabel54.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jLabel54.setFont(new java.awt.Font("Roboto", 0, 18)); // NOI18N
         jLabel54.setForeground(new java.awt.Color(26, 96, 224));
         jLabel54.setText("Soporte Profesional");
         jPanel6.add(jLabel54, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 190, -1, -1));
 
-        jLabel55.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel55.setFont(new java.awt.Font("Roboto Light", 0, 13)); // NOI18N
         jLabel55.setText("Atencion Tecnica");
         jPanel6.add(jLabel55, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 220, -1, 20));
 
-        jLabel56.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        jLabel56.setFont(new java.awt.Font("Roboto Light", 0, 13)); // NOI18N
         jLabel56.setText("Repuestos originales y");
         jPanel6.add(jLabel56, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 370, -1, 20));
 
@@ -441,7 +442,6 @@ public class Servicios extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
