@@ -4,12 +4,7 @@ package Vistas;
 import java.util.Date;
 import java.text.SimpleDateFormat;
 import java.awt.Color;
-import javax.swing.JOptionPane;
 
-/**
- *
- * @author EUMAPE
- */
 public class vista_admin extends javax.swing.JFrame {
 
     /**
@@ -37,16 +32,16 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel16 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        jPanel2 = new javax.swing.JPanel();
+        inicio = new javax.swing.JPanel();
         jLabel17 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
-        jPanel9 = new javax.swing.JPanel();
+        usuarios = new javax.swing.JPanel();
         jLabel18 = new javax.swing.JLabel();
         jLabel48 = new javax.swing.JLabel();
-        jPanel10 = new javax.swing.JPanel();
+        tecnicos = new javax.swing.JPanel();
         jLabel19 = new javax.swing.JLabel();
         jLabel60 = new javax.swing.JLabel();
-        jPanel11 = new javax.swing.JPanel();
+        servicios = new javax.swing.JPanel();
         jLabel15 = new javax.swing.JLabel();
         jLabel61 = new javax.swing.JLabel();
         fechaActual = new javax.swing.JLabel();
@@ -66,7 +61,7 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel6 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
-        listarServicio = new javax.swing.JButton();
+        listarUsuarios = new javax.swing.JButton();
         agregarUsuarios = new javax.swing.JButton();
         jLabel9 = new javax.swing.JLabel();
         eliminarUsuarios = new javax.swing.JButton();
@@ -75,7 +70,7 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel11 = new javax.swing.JLabel();
         buscarUsuarios = new javax.swing.JButton();
         jLabel14 = new javax.swing.JLabel();
-        jButton9 = new javax.swing.JButton();
+        volverUsuarios = new javax.swing.JButton();
         jPanel7 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         actualizarTecnicos = new javax.swing.JButton();
@@ -87,22 +82,22 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel22 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
         jLabel24 = new javax.swing.JLabel();
-        listarTecnicos1 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
+        listarTecnicos = new javax.swing.JButton();
+        volverTecnicos = new javax.swing.JButton();
         jPanel8 = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
         jButton11 = new javax.swing.JButton();
         agregarServicios = new javax.swing.JButton();
-        jButton13 = new javax.swing.JButton();
-        jButton14 = new javax.swing.JButton();
-        jButton15 = new javax.swing.JButton();
+        eliminarServicios = new javax.swing.JButton();
+        actualizarServicios = new javax.swing.JButton();
+        buscarServicios = new javax.swing.JButton();
         jLabel25 = new javax.swing.JLabel();
         jLabel26 = new javax.swing.JLabel();
         jLabel27 = new javax.swing.JLabel();
         jLabel28 = new javax.swing.JLabel();
         jLabel29 = new javax.swing.JLabel();
-        jButton8 = new javax.swing.JButton();
-        jButton28 = new javax.swing.JButton();
+        volverServicios = new javax.swing.JButton();
+        listarServicios = new javax.swing.JButton();
         jPanel12 = new javax.swing.JPanel();
         jPanel13 = new javax.swing.JPanel();
         jTextField1 = new javax.swing.JTextField();
@@ -121,11 +116,11 @@ public class vista_admin extends javax.swing.JFrame {
         jPasswordField1 = new javax.swing.JPasswordField();
         jPasswordField2 = new javax.swing.JPasswordField();
         jLabel39 = new javax.swing.JLabel();
-        jButton2 = new javax.swing.JButton();
+        btnAgregarUsuario = new javax.swing.JButton();
         jSeparator1 = new javax.swing.JSeparator();
         jLabel13 = new javax.swing.JLabel();
         jLabel30 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
+        volverRegistrar = new javax.swing.JButton();
         jPanel15 = new javax.swing.JPanel();
         jPanel17 = new javax.swing.JPanel();
         jTextField6 = new javax.swing.JTextField();
@@ -140,10 +135,10 @@ public class vista_admin extends javax.swing.JFrame {
         jComboBox2 = new javax.swing.JComboBox<>();
         jTextField10 = new javax.swing.JTextField();
         jLabel47 = new javax.swing.JLabel();
-        jButton3 = new javax.swing.JButton();
+        btnBuscarUsuario = new javax.swing.JButton();
         jTextField11 = new javax.swing.JTextField();
         jLabel50 = new javax.swing.JLabel();
-        jButton4 = new javax.swing.JButton();
+        volverBuscarUsuario = new javax.swing.JButton();
         jLabel46 = new javax.swing.JLabel();
         jSeparator2 = new javax.swing.JSeparator();
         jLabel49 = new javax.swing.JLabel();
@@ -161,23 +156,23 @@ public class vista_admin extends javax.swing.JFrame {
         jComboBox3 = new javax.swing.JComboBox<>();
         jTextField16 = new javax.swing.JTextField();
         jLabel56 = new javax.swing.JLabel();
-        jButton5 = new javax.swing.JButton();
+        eliminarUsuario = new javax.swing.JButton();
         jTextField17 = new javax.swing.JTextField();
         jLabel57 = new javax.swing.JLabel();
-        jButton26 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
+        buscarEliminarUsuario = new javax.swing.JButton();
+        volverEliminarUsuario = new javax.swing.JButton();
         jLabel58 = new javax.swing.JLabel();
         jSeparator3 = new javax.swing.JSeparator();
         jLabel59 = new javax.swing.JLabel();
         jPanel16 = new javax.swing.JPanel();
         jPanel20 = new javax.swing.JPanel();
-        jButton10 = new javax.swing.JButton();
+        volverListarUsuario = new javax.swing.JButton();
         jLabel69 = new javax.swing.JLabel();
         jSeparator4 = new javax.swing.JSeparator();
         jLabel70 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
-        jButton12 = new javax.swing.JButton();
+        btnListarUsuario = new javax.swing.JButton();
         jPanel24 = new javax.swing.JPanel();
         jPanel27 = new javax.swing.JPanel();
         jPanel28 = new javax.swing.JPanel();
@@ -197,13 +192,13 @@ public class vista_admin extends javax.swing.JFrame {
         jPasswordField5 = new javax.swing.JPasswordField();
         jPasswordField6 = new javax.swing.JPasswordField();
         jLabel90 = new javax.swing.JLabel();
-        jButton18 = new javax.swing.JButton();
+        btnAgregarTecnico = new javax.swing.JButton();
         jLabel93 = new javax.swing.JLabel();
         jComboBox6 = new javax.swing.JComboBox<>();
         jSeparator6 = new javax.swing.JSeparator();
         jLabel91 = new javax.swing.JLabel();
         jLabel92 = new javax.swing.JLabel();
-        jButton19 = new javax.swing.JButton();
+        volverRegistrarTecnico = new javax.swing.JButton();
         jPanel25 = new javax.swing.JPanel();
         jPanel26 = new javax.swing.JPanel();
         jPanel29 = new javax.swing.JPanel();
@@ -217,10 +212,12 @@ public class vista_admin extends javax.swing.JFrame {
         jTextField21 = new javax.swing.JTextField();
         jTextField22 = new javax.swing.JTextField();
         jLabel76 = new javax.swing.JLabel();
-        jButton16 = new javax.swing.JButton();
+        btnBuscarTecnico = new javax.swing.JButton();
         jTextField28 = new javax.swing.JTextField();
         jLabel77 = new javax.swing.JLabel();
-        jButton17 = new javax.swing.JButton();
+        jLabel159 = new javax.swing.JLabel();
+        jTextField72 = new javax.swing.JTextField();
+        volverBuscarTecnicos = new javax.swing.JButton();
         jLabel78 = new javax.swing.JLabel();
         jSeparator5 = new javax.swing.JSeparator();
         jLabel79 = new javax.swing.JLabel();
@@ -237,23 +234,23 @@ public class vista_admin extends javax.swing.JFrame {
         jTextField32 = new javax.swing.JTextField();
         jTextField33 = new javax.swing.JTextField();
         jLabel96 = new javax.swing.JLabel();
-        jButton20 = new javax.swing.JButton();
+        buscarEliminarTecnico = new javax.swing.JButton();
         jTextField34 = new javax.swing.JTextField();
         jLabel97 = new javax.swing.JLabel();
-        jButton27 = new javax.swing.JButton();
-        jButton21 = new javax.swing.JButton();
+        EliminarTecnico = new javax.swing.JButton();
+        volverEliminarTecnicoç = new javax.swing.JButton();
         jLabel98 = new javax.swing.JLabel();
         jSeparator7 = new javax.swing.JSeparator();
         jLabel99 = new javax.swing.JLabel();
         jPanel33 = new javax.swing.JPanel();
         jPanel34 = new javax.swing.JPanel();
-        jButton22 = new javax.swing.JButton();
+        volverListarTecnico = new javax.swing.JButton();
         jLabel100 = new javax.swing.JLabel();
         jSeparator8 = new javax.swing.JSeparator();
         jLabel101 = new javax.swing.JLabel();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTable2 = new javax.swing.JTable();
-        jButton23 = new javax.swing.JButton();
+        btnListarTecnico = new javax.swing.JButton();
         jPanel35 = new javax.swing.JPanel();
         jPanel36 = new javax.swing.JPanel();
         jPanel37 = new javax.swing.JPanel();
@@ -271,13 +268,15 @@ public class vista_admin extends javax.swing.JFrame {
         jTextField39 = new javax.swing.JTextField();
         jLabel108 = new javax.swing.JLabel();
         jLabel109 = new javax.swing.JLabel();
-        jButton24 = new javax.swing.JButton();
+        asignarServicio = new javax.swing.JButton();
         jScrollPane3 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
+        jLabel191 = new javax.swing.JLabel();
+        jTextField89 = new javax.swing.JTextField();
         jSeparator9 = new javax.swing.JSeparator();
         jLabel31 = new javax.swing.JLabel();
         jLabel110 = new javax.swing.JLabel();
-        jButton25 = new javax.swing.JButton();
+        volverAsignarServicio = new javax.swing.JButton();
         jPanel39 = new javax.swing.JPanel();
         jPanel40 = new javax.swing.JPanel();
         jPanel41 = new javax.swing.JPanel();
@@ -291,12 +290,12 @@ public class vista_admin extends javax.swing.JFrame {
         jTextField43 = new javax.swing.JTextField();
         jTextField44 = new javax.swing.JTextField();
         jLabel115 = new javax.swing.JLabel();
-        jButton29 = new javax.swing.JButton();
+        btnBuscarServicio = new javax.swing.JButton();
         jTextField45 = new javax.swing.JTextField();
         jLabel116 = new javax.swing.JLabel();
         jLabel114 = new javax.swing.JLabel();
         jTextField46 = new javax.swing.JTextField();
-        jButton30 = new javax.swing.JButton();
+        volverBuscarServicio = new javax.swing.JButton();
         jLabel117 = new javax.swing.JLabel();
         jSeparator10 = new javax.swing.JSeparator();
         jLabel118 = new javax.swing.JLabel();
@@ -314,24 +313,181 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel121 = new javax.swing.JLabel();
         jTextField51 = new javax.swing.JTextField();
         jLabel122 = new javax.swing.JLabel();
-        jButton31 = new javax.swing.JButton();
+        eliminarServicio = new javax.swing.JButton();
         jTextField52 = new javax.swing.JTextField();
         jLabel123 = new javax.swing.JLabel();
-        jButton32 = new javax.swing.JButton();
+        buscarEliminarServicio = new javax.swing.JButton();
         jTextField53 = new javax.swing.JTextField();
-        jButton33 = new javax.swing.JButton();
+        volverEliminarServicio = new javax.swing.JButton();
         jLabel124 = new javax.swing.JLabel();
         jSeparator11 = new javax.swing.JSeparator();
         jLabel125 = new javax.swing.JLabel();
         jPanel45 = new javax.swing.JPanel();
         jPanel46 = new javax.swing.JPanel();
-        jButton34 = new javax.swing.JButton();
+        volverListarServicios = new javax.swing.JButton();
         jLabel126 = new javax.swing.JLabel();
         jSeparator12 = new javax.swing.JSeparator();
         jLabel127 = new javax.swing.JLabel();
         jScrollPane4 = new javax.swing.JScrollPane();
         jTable3 = new javax.swing.JTable();
-        jButton35 = new javax.swing.JButton();
+        btnListarServicios = new javax.swing.JButton();
+        jPanel47 = new javax.swing.JPanel();
+        jPanel48 = new javax.swing.JPanel();
+        jPanel49 = new javax.swing.JPanel();
+        jTextField54 = new javax.swing.JTextField();
+        jLabel128 = new javax.swing.JLabel();
+        jTextField55 = new javax.swing.JTextField();
+        jLabel129 = new javax.swing.JLabel();
+        jLabel130 = new javax.swing.JLabel();
+        jTextField56 = new javax.swing.JTextField();
+        jLabel131 = new javax.swing.JLabel();
+        jTextField57 = new javax.swing.JTextField();
+        jLabel132 = new javax.swing.JLabel();
+        jComboBox4 = new javax.swing.JComboBox<>();
+        jTextField58 = new javax.swing.JTextField();
+        jLabel134 = new javax.swing.JLabel();
+        jPasswordField4 = new javax.swing.JPasswordField();
+        jLabel135 = new javax.swing.JLabel();
+        actualizarUsuario = new javax.swing.JButton();
+        jLabel138 = new javax.swing.JLabel();
+        jTextField59 = new javax.swing.JTextField();
+        buscarActualizarUsuario = new javax.swing.JButton();
+        jSeparator13 = new javax.swing.JSeparator();
+        jLabel136 = new javax.swing.JLabel();
+        jLabel137 = new javax.swing.JLabel();
+        volverActualizarUsuario = new javax.swing.JButton();
+        jPanel50 = new javax.swing.JPanel();
+        jPanel51 = new javax.swing.JPanel();
+        jPanel52 = new javax.swing.JPanel();
+        jTextField60 = new javax.swing.JTextField();
+        jTextField61 = new javax.swing.JTextField();
+        jLabel139 = new javax.swing.JLabel();
+        jLabel140 = new javax.swing.JLabel();
+        jTextField62 = new javax.swing.JTextField();
+        jLabel141 = new javax.swing.JLabel();
+        jTextField63 = new javax.swing.JTextField();
+        jLabel142 = new javax.swing.JLabel();
+        jComboBox7 = new javax.swing.JComboBox<>();
+        jTextField64 = new javax.swing.JTextField();
+        jLabel143 = new javax.swing.JLabel();
+        jPasswordField7 = new javax.swing.JPasswordField();
+        jLabel144 = new javax.swing.JLabel();
+        guardarDatosUsuario = new javax.swing.JButton();
+        jLabel145 = new javax.swing.JLabel();
+        jSeparator14 = new javax.swing.JSeparator();
+        jLabel146 = new javax.swing.JLabel();
+        jLabel147 = new javax.swing.JLabel();
+        volverActualizarUsuario2 = new javax.swing.JButton();
+        jPanel53 = new javax.swing.JPanel();
+        jLabel148 = new javax.swing.JLabel();
+        jPanel54 = new javax.swing.JPanel();
+        jPanel57 = new javax.swing.JPanel();
+        jPanel58 = new javax.swing.JPanel();
+        jTextField73 = new javax.swing.JTextField();
+        jLabel160 = new javax.swing.JLabel();
+        jTextField74 = new javax.swing.JTextField();
+        jLabel162 = new javax.swing.JLabel();
+        jTextField75 = new javax.swing.JTextField();
+        jLabel163 = new javax.swing.JLabel();
+        jTextField76 = new javax.swing.JTextField();
+        jLabel164 = new javax.swing.JLabel();
+        jComboBox10 = new javax.swing.JComboBox<>();
+        jTextField77 = new javax.swing.JTextField();
+        jLabel166 = new javax.swing.JLabel();
+        jPasswordField10 = new javax.swing.JPasswordField();
+        jLabel167 = new javax.swing.JLabel();
+        ActualizarTecnico = new javax.swing.JButton();
+        jLabel168 = new javax.swing.JLabel();
+        jComboBox11 = new javax.swing.JComboBox<>();
+        jLabel171 = new javax.swing.JLabel();
+        jTextField78 = new javax.swing.JTextField();
+        buscarActualizarTecnicos = new javax.swing.JButton();
+        jLabel172 = new javax.swing.JLabel();
+        jSeparator16 = new javax.swing.JSeparator();
+        jLabel169 = new javax.swing.JLabel();
+        jLabel170 = new javax.swing.JLabel();
+        volverActualizarTecnicos = new javax.swing.JButton();
+        jPanel55 = new javax.swing.JPanel();
+        jPanel59 = new javax.swing.JPanel();
+        jPanel60 = new javax.swing.JPanel();
+        jLabel173 = new javax.swing.JLabel();
+        jTextField80 = new javax.swing.JTextField();
+        jLabel174 = new javax.swing.JLabel();
+        jTextField81 = new javax.swing.JTextField();
+        jLabel175 = new javax.swing.JLabel();
+        jTextField82 = new javax.swing.JTextField();
+        jLabel176 = new javax.swing.JLabel();
+        jComboBox12 = new javax.swing.JComboBox<>();
+        jTextField83 = new javax.swing.JTextField();
+        jLabel177 = new javax.swing.JLabel();
+        jPasswordField11 = new javax.swing.JPasswordField();
+        jLabel178 = new javax.swing.JLabel();
+        guardarDatosTecnico = new javax.swing.JButton();
+        jLabel179 = new javax.swing.JLabel();
+        jComboBox13 = new javax.swing.JComboBox<>();
+        jLabel180 = new javax.swing.JLabel();
+        jTextField84 = new javax.swing.JTextField();
+        jSeparator17 = new javax.swing.JSeparator();
+        jLabel182 = new javax.swing.JLabel();
+        jLabel183 = new javax.swing.JLabel();
+        volverActualizarTecnico2 = new javax.swing.JButton();
+        jPanel56 = new javax.swing.JPanel();
+        jLabel149 = new javax.swing.JLabel();
+        jPanel61 = new javax.swing.JPanel();
+        jPanel62 = new javax.swing.JPanel();
+        jPanel63 = new javax.swing.JPanel();
+        jTextField66 = new javax.swing.JTextField();
+        jLabel150 = new javax.swing.JLabel();
+        jTextField67 = new javax.swing.JTextField();
+        jLabel151 = new javax.swing.JLabel();
+        jLabel152 = new javax.swing.JLabel();
+        jTextField68 = new javax.swing.JTextField();
+        jLabel153 = new javax.swing.JLabel();
+        jTextField69 = new javax.swing.JTextField();
+        jLabel154 = new javax.swing.JLabel();
+        jComboBox9 = new javax.swing.JComboBox<>();
+        jTextField70 = new javax.swing.JTextField();
+        jLabel155 = new javax.swing.JLabel();
+        jLabel156 = new javax.swing.JLabel();
+        ActualizarServicio = new javax.swing.JButton();
+        jScrollPane5 = new javax.swing.JScrollPane();
+        jTextArea2 = new javax.swing.JTextArea();
+        jLabel192 = new javax.swing.JLabel();
+        jTextField90 = new javax.swing.JTextField();
+        jLabel193 = new javax.swing.JLabel();
+        jTextField91 = new javax.swing.JTextField();
+        buscarActualizarServicios = new javax.swing.JButton();
+        jSeparator15 = new javax.swing.JSeparator();
+        jLabel157 = new javax.swing.JLabel();
+        jLabel158 = new javax.swing.JLabel();
+        volverActualizarServicios = new javax.swing.JButton();
+        jPanel64 = new javax.swing.JPanel();
+        jPanel65 = new javax.swing.JPanel();
+        jPanel66 = new javax.swing.JPanel();
+        jTextField71 = new javax.swing.JTextField();
+        jLabel161 = new javax.swing.JLabel();
+        jTextField85 = new javax.swing.JTextField();
+        jLabel165 = new javax.swing.JLabel();
+        jLabel184 = new javax.swing.JLabel();
+        jTextField86 = new javax.swing.JTextField();
+        jLabel185 = new javax.swing.JLabel();
+        jTextField87 = new javax.swing.JTextField();
+        jLabel186 = new javax.swing.JLabel();
+        jComboBox14 = new javax.swing.JComboBox<>();
+        jTextField88 = new javax.swing.JTextField();
+        jLabel187 = new javax.swing.JLabel();
+        jLabel188 = new javax.swing.JLabel();
+        guardarDatosServicio = new javax.swing.JButton();
+        jScrollPane6 = new javax.swing.JScrollPane();
+        jTextArea3 = new javax.swing.JTextArea();
+        jLabel194 = new javax.swing.JLabel();
+        jTextField92 = new javax.swing.JTextField();
+        jSeparator18 = new javax.swing.JSeparator();
+        jLabel189 = new javax.swing.JLabel();
+        jLabel190 = new javax.swing.JLabel();
+        volverActualizarServicio2 = new javax.swing.JButton();
+        jPanel67 = new javax.swing.JPanel();
+        jLabel195 = new javax.swing.JLabel();
         jLabel40 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -380,49 +536,133 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel7.setText("Administrador");
         jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, -1, -1));
 
-        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        inicio.setBackground(new java.awt.Color(0, 122, 255));
+        inicio.setForeground(new java.awt.Color(255, 255, 255));
+        inicio.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                inicioMouseMoved(evt);
+            }
+        });
+        inicio.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                inicioMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                inicioMouseExited(evt);
+            }
+        });
+        inicio.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel17.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
         jLabel17.setText("INICIO");
-        jPanel2.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 0, -1, 40));
+        jLabel17.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel17MouseClicked(evt);
+            }
+        });
+        inicio.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 0, -1, 40));
 
         jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8-home-28.png"))); // NOI18N
-        jPanel2.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, -1, 40));
+        inicio.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, -1, 40));
 
-        jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 180, 160, 40));
+        jPanel1.add(inicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 180, 160, 40));
 
-        jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        usuarios.setBackground(new java.awt.Color(0, 122, 255));
+        usuarios.setForeground(new java.awt.Color(255, 255, 255));
+        usuarios.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                usuariosMouseMoved(evt);
+            }
+        });
+        usuarios.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                usuariosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                usuariosMouseExited(evt);
+            }
+        });
+        usuarios.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel18.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(255, 255, 255));
         jLabel18.setText("USUARIOS");
-        jPanel9.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 0, -1, 40));
+        jLabel18.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel18MouseClicked(evt);
+            }
+        });
+        usuarios.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 0, -1, 40));
 
         jLabel48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8-male-user-28.png"))); // NOI18N
-        jPanel9.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 30, 40));
+        usuarios.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 30, 40));
 
-        jPanel1.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 230, 160, 40));
+        jPanel1.add(usuarios, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 220, 160, 40));
 
-        jPanel10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        tecnicos.setBackground(new java.awt.Color(0, 122, 255));
+        tecnicos.setForeground(new java.awt.Color(255, 255, 255));
+        tecnicos.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                tecnicosMouseMoved(evt);
+            }
+        });
+        tecnicos.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                tecnicosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                tecnicosMouseExited(evt);
+            }
+        });
+        tecnicos.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel19.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(255, 255, 255));
         jLabel19.setText("TECNICOS");
-        jPanel10.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 0, -1, 40));
+        jLabel19.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel19MouseClicked(evt);
+            }
+        });
+        tecnicos.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 0, -1, 40));
 
         jLabel60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/obrero (1).png"))); // NOI18N
-        jPanel10.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, -1, 40));
+        tecnicos.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, -1, 40));
 
-        jPanel1.add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 280, 160, 40));
+        jPanel1.add(tecnicos, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 260, 160, 40));
 
-        jPanel11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        servicios.setBackground(new java.awt.Color(0, 122, 255));
+        servicios.setForeground(new java.awt.Color(255, 255, 255));
+        servicios.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                serviciosMouseMoved(evt);
+            }
+        });
+        servicios.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                serviciosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                serviciosMouseExited(evt);
+            }
+        });
+        servicios.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
         jLabel15.setText("SERVICIOS");
-        jPanel11.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 0, -1, 40));
+        jLabel15.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel15MouseClicked(evt);
+            }
+        });
+        servicios.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 0, -1, 40));
 
         jLabel61.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/mantenimiento.png"))); // NOI18N
-        jPanel11.add(jLabel61, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, -1, 40));
+        servicios.add(jLabel61, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, -1, 40));
 
-        jPanel1.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 330, 160, 40));
+        jPanel1.add(servicios, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 160, 40));
 
         fechaActual.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         fechaActual.setForeground(new java.awt.Color(0, 0, 0));
@@ -502,20 +742,33 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel8.setIconTextGap(10);
         jPanel6.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, -1, -1));
 
-        listarServicio.setBackground(new java.awt.Color(0, 102, 204));
-        listarServicio.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        listarServicio.setForeground(new java.awt.Color(255, 255, 255));
-        listarServicio.setText("Listar Usuarios");
-        listarServicio.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        listarServicio.setBorderPainted(false);
-        listarServicio.setContentAreaFilled(false);
-        listarServicio.setOpaque(true);
-        listarServicio.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                listarServicioActionPerformed(evt);
+        listarUsuarios.setBackground(new java.awt.Color(0, 102, 204));
+        listarUsuarios.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        listarUsuarios.setForeground(new java.awt.Color(255, 255, 255));
+        listarUsuarios.setText("Listar Usuarios");
+        listarUsuarios.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        listarUsuarios.setBorderPainted(false);
+        listarUsuarios.setContentAreaFilled(false);
+        listarUsuarios.setOpaque(true);
+        listarUsuarios.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                listarUsuariosMouseMoved(evt);
             }
         });
-        jPanel6.add(listarServicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 210, 205, 30));
+        listarUsuarios.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                listarUsuariosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                listarUsuariosMouseExited(evt);
+            }
+        });
+        listarUsuarios.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                listarUsuariosActionPerformed(evt);
+            }
+        });
+        jPanel6.add(listarUsuarios, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 210, 205, 30));
 
         agregarUsuarios.setBackground(new java.awt.Color(0, 102, 204));
         agregarUsuarios.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -527,6 +780,19 @@ public class vista_admin extends javax.swing.JFrame {
         agregarUsuarios.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         agregarUsuarios.setIconTextGap(10);
         agregarUsuarios.setOpaque(true);
+        agregarUsuarios.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                agregarUsuariosMouseMoved(evt);
+            }
+        });
+        agregarUsuarios.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                agregarUsuariosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                agregarUsuariosMouseExited(evt);
+            }
+        });
         agregarUsuarios.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 agregarUsuariosActionPerformed(evt);
@@ -545,6 +811,19 @@ public class vista_admin extends javax.swing.JFrame {
         eliminarUsuarios.setBorderPainted(false);
         eliminarUsuarios.setContentAreaFilled(false);
         eliminarUsuarios.setOpaque(true);
+        eliminarUsuarios.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                eliminarUsuariosMouseMoved(evt);
+            }
+        });
+        eliminarUsuarios.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                eliminarUsuariosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                eliminarUsuariosMouseExited(evt);
+            }
+        });
         eliminarUsuarios.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 eliminarUsuariosActionPerformed(evt);
@@ -563,6 +842,19 @@ public class vista_admin extends javax.swing.JFrame {
         actualizarUsuarios.setBorderPainted(false);
         actualizarUsuarios.setContentAreaFilled(false);
         actualizarUsuarios.setOpaque(true);
+        actualizarUsuarios.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                actualizarUsuariosMouseMoved(evt);
+            }
+        });
+        actualizarUsuarios.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                actualizarUsuariosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                actualizarUsuariosMouseExited(evt);
+            }
+        });
         actualizarUsuarios.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 actualizarUsuariosActionPerformed(evt);
@@ -581,6 +873,19 @@ public class vista_admin extends javax.swing.JFrame {
         buscarUsuarios.setBorderPainted(false);
         buscarUsuarios.setContentAreaFilled(false);
         buscarUsuarios.setOpaque(true);
+        buscarUsuarios.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                buscarUsuariosMouseMoved(evt);
+            }
+        });
+        buscarUsuarios.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                buscarUsuariosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                buscarUsuariosMouseExited(evt);
+            }
+        });
         buscarUsuarios.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 buscarUsuariosActionPerformed(evt);
@@ -591,15 +896,28 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/cliente.png"))); // NOI18N
         jPanel6.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 210, 50, -1));
 
-        jButton9.setBackground(new java.awt.Color(0, 122, 255));
-        jButton9.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton9.setForeground(new java.awt.Color(255, 255, 255));
-        jButton9.setText("Volver");
-        jButton9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton9.setBorderPainted(false);
-        jButton9.setContentAreaFilled(false);
-        jButton9.setOpaque(true);
-        jPanel6.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 120, 30));
+        volverUsuarios.setBackground(new java.awt.Color(0, 122, 255));
+        volverUsuarios.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        volverUsuarios.setForeground(new java.awt.Color(255, 255, 255));
+        volverUsuarios.setText("Volver");
+        volverUsuarios.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        volverUsuarios.setBorderPainted(false);
+        volverUsuarios.setContentAreaFilled(false);
+        volverUsuarios.setOpaque(true);
+        volverUsuarios.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                volverUsuariosMouseMoved(evt);
+            }
+        });
+        volverUsuarios.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                volverUsuariosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                volverUsuariosMouseExited(evt);
+            }
+        });
+        jPanel6.add(volverUsuarios, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 120, 30));
 
         jTabbedPane3.addTab("1", jPanel6);
 
@@ -618,6 +936,19 @@ public class vista_admin extends javax.swing.JFrame {
         actualizarTecnicos.setBorderPainted(false);
         actualizarTecnicos.setContentAreaFilled(false);
         actualizarTecnicos.setOpaque(true);
+        actualizarTecnicos.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                actualizarTecnicosMouseMoved(evt);
+            }
+        });
+        actualizarTecnicos.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                actualizarTecnicosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                actualizarTecnicosMouseExited(evt);
+            }
+        });
         actualizarTecnicos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 actualizarTecnicosActionPerformed(evt);
@@ -633,6 +964,19 @@ public class vista_admin extends javax.swing.JFrame {
         eliminarTecnicos.setBorderPainted(false);
         eliminarTecnicos.setContentAreaFilled(false);
         eliminarTecnicos.setOpaque(true);
+        eliminarTecnicos.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                eliminarTecnicosMouseMoved(evt);
+            }
+        });
+        eliminarTecnicos.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                eliminarTecnicosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                eliminarTecnicosMouseExited(evt);
+            }
+        });
         eliminarTecnicos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 eliminarTecnicosActionPerformed(evt);
@@ -647,6 +991,19 @@ public class vista_admin extends javax.swing.JFrame {
         agregarTecnicos.setBorderPainted(false);
         agregarTecnicos.setContentAreaFilled(false);
         agregarTecnicos.setOpaque(true);
+        agregarTecnicos.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                agregarTecnicosMouseMoved(evt);
+            }
+        });
+        agregarTecnicos.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                agregarTecnicosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                agregarTecnicosMouseExited(evt);
+            }
+        });
         agregarTecnicos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 agregarTecnicosActionPerformed(evt);
@@ -661,6 +1018,19 @@ public class vista_admin extends javax.swing.JFrame {
         buscarTecnicos.setBorderPainted(false);
         buscarTecnicos.setContentAreaFilled(false);
         buscarTecnicos.setOpaque(true);
+        buscarTecnicos.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                buscarTecnicosMouseMoved(evt);
+            }
+        });
+        buscarTecnicos.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                buscarTecnicosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                buscarTecnicosMouseExited(evt);
+            }
+        });
         buscarTecnicos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 buscarTecnicosActionPerformed(evt);
@@ -683,29 +1053,55 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/investigacion.png"))); // NOI18N
         jPanel7.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 90, -1, -1));
 
-        listarTecnicos1.setBackground(new java.awt.Color(0, 102, 204));
-        listarTecnicos1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        listarTecnicos1.setForeground(new java.awt.Color(255, 255, 255));
-        listarTecnicos1.setText("Listar Tecnicos");
-        listarTecnicos1.setBorderPainted(false);
-        listarTecnicos1.setContentAreaFilled(false);
-        listarTecnicos1.setOpaque(true);
-        listarTecnicos1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                listarTecnicos1ActionPerformed(evt);
+        listarTecnicos.setBackground(new java.awt.Color(0, 102, 204));
+        listarTecnicos.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        listarTecnicos.setForeground(new java.awt.Color(255, 255, 255));
+        listarTecnicos.setText("Listar Tecnicos");
+        listarTecnicos.setBorderPainted(false);
+        listarTecnicos.setContentAreaFilled(false);
+        listarTecnicos.setOpaque(true);
+        listarTecnicos.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                listarTecnicosMouseMoved(evt);
             }
         });
-        jPanel7.add(listarTecnicos1, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 160, 210, -1));
+        listarTecnicos.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                listarTecnicosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                listarTecnicosMouseExited(evt);
+            }
+        });
+        listarTecnicos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                listarTecnicosActionPerformed(evt);
+            }
+        });
+        jPanel7.add(listarTecnicos, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 160, 210, -1));
 
-        jButton7.setBackground(new java.awt.Color(0, 122, 255));
-        jButton7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton7.setForeground(new java.awt.Color(255, 255, 255));
-        jButton7.setText("Volver");
-        jButton7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton7.setBorderPainted(false);
-        jButton7.setContentAreaFilled(false);
-        jButton7.setOpaque(true);
-        jPanel7.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 120, 30));
+        volverTecnicos.setBackground(new java.awt.Color(0, 122, 255));
+        volverTecnicos.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        volverTecnicos.setForeground(new java.awt.Color(255, 255, 255));
+        volverTecnicos.setText("Volver");
+        volverTecnicos.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        volverTecnicos.setBorderPainted(false);
+        volverTecnicos.setContentAreaFilled(false);
+        volverTecnicos.setOpaque(true);
+        volverTecnicos.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                volverTecnicosMouseMoved(evt);
+            }
+        });
+        volverTecnicos.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                volverTecnicosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                volverTecnicosMouseExited(evt);
+            }
+        });
+        jPanel7.add(volverTecnicos, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 120, 30));
 
         jTabbedPane3.addTab("2", jPanel7);
 
@@ -738,6 +1134,19 @@ public class vista_admin extends javax.swing.JFrame {
         agregarServicios.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         agregarServicios.setContentAreaFilled(false);
         agregarServicios.setOpaque(true);
+        agregarServicios.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                agregarServiciosMouseMoved(evt);
+            }
+        });
+        agregarServicios.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                agregarServiciosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                agregarServiciosMouseExited(evt);
+            }
+        });
         agregarServicios.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 agregarServiciosActionPerformed(evt);
@@ -745,47 +1154,86 @@ public class vista_admin extends javax.swing.JFrame {
         });
         jPanel8.add(agregarServicios, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 90, 205, 30));
 
-        jButton13.setBackground(new java.awt.Color(254, 226, 226));
-        jButton13.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton13.setForeground(new java.awt.Color(153, 27, 27));
-        jButton13.setText("Eliminar Servicios");
-        jButton13.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton13.setContentAreaFilled(false);
-        jButton13.setOpaque(true);
-        jButton13.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton13ActionPerformed(evt);
+        eliminarServicios.setBackground(new java.awt.Color(254, 226, 226));
+        eliminarServicios.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        eliminarServicios.setForeground(new java.awt.Color(153, 27, 27));
+        eliminarServicios.setText("Eliminar Servicios");
+        eliminarServicios.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        eliminarServicios.setContentAreaFilled(false);
+        eliminarServicios.setOpaque(true);
+        eliminarServicios.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                eliminarServiciosMouseMoved(evt);
             }
         });
-        jPanel8.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 160, 205, 30));
+        eliminarServicios.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                eliminarServiciosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                eliminarServiciosMouseExited(evt);
+            }
+        });
+        eliminarServicios.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                eliminarServiciosActionPerformed(evt);
+            }
+        });
+        jPanel8.add(eliminarServicios, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 160, 205, 30));
 
-        jButton14.setBackground(new java.awt.Color(0, 102, 204));
-        jButton14.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton14.setForeground(new java.awt.Color(255, 255, 255));
-        jButton14.setText("Actualizar Servicios");
-        jButton14.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton14.setContentAreaFilled(false);
-        jButton14.setOpaque(true);
-        jButton14.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton14ActionPerformed(evt);
+        actualizarServicios.setBackground(new java.awt.Color(0, 102, 204));
+        actualizarServicios.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        actualizarServicios.setForeground(new java.awt.Color(255, 255, 255));
+        actualizarServicios.setText("Actualizar Servicios");
+        actualizarServicios.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        actualizarServicios.setContentAreaFilled(false);
+        actualizarServicios.setOpaque(true);
+        actualizarServicios.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                actualizarServiciosMouseMoved(evt);
             }
         });
-        jPanel8.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 230, 205, 30));
+        actualizarServicios.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                actualizarServiciosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                actualizarServiciosMouseExited(evt);
+            }
+        });
+        actualizarServicios.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                actualizarServiciosActionPerformed(evt);
+            }
+        });
+        jPanel8.add(actualizarServicios, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 230, 205, 30));
 
-        jButton15.setBackground(new java.awt.Color(0, 102, 204));
-        jButton15.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton15.setForeground(new java.awt.Color(255, 255, 255));
-        jButton15.setText("Buscar Servicios");
-        jButton15.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton15.setContentAreaFilled(false);
-        jButton15.setOpaque(true);
-        jButton15.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton15ActionPerformed(evt);
+        buscarServicios.setBackground(new java.awt.Color(0, 102, 204));
+        buscarServicios.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        buscarServicios.setForeground(new java.awt.Color(255, 255, 255));
+        buscarServicios.setText("Buscar Servicios");
+        buscarServicios.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        buscarServicios.setContentAreaFilled(false);
+        buscarServicios.setOpaque(true);
+        buscarServicios.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                buscarServiciosMouseMoved(evt);
             }
         });
-        jPanel8.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 90, 205, 30));
+        buscarServicios.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                buscarServiciosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                buscarServiciosMouseExited(evt);
+            }
+        });
+        buscarServicios.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buscarServiciosActionPerformed(evt);
+            }
+        });
+        jPanel8.add(buscarServicios, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 90, 205, 30));
 
         jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/agregar-carpeta.png"))); // NOI18N
         jPanel8.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 90, -1, -1));
@@ -802,29 +1250,55 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/chequeo.png"))); // NOI18N
         jPanel8.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 160, 40, 40));
 
-        jButton8.setBackground(new java.awt.Color(0, 122, 255));
-        jButton8.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton8.setForeground(new java.awt.Color(255, 255, 255));
-        jButton8.setText("Volver");
-        jButton8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton8.setBorderPainted(false);
-        jButton8.setContentAreaFilled(false);
-        jButton8.setOpaque(true);
-        jPanel8.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 120, 30));
-
-        jButton28.setBackground(new java.awt.Color(0, 102, 204));
-        jButton28.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton28.setForeground(new java.awt.Color(255, 255, 255));
-        jButton28.setText("Listar Servicios");
-        jButton28.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton28.setContentAreaFilled(false);
-        jButton28.setOpaque(true);
-        jButton28.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton28ActionPerformed(evt);
+        volverServicios.setBackground(new java.awt.Color(0, 122, 255));
+        volverServicios.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        volverServicios.setForeground(new java.awt.Color(255, 255, 255));
+        volverServicios.setText("Volver");
+        volverServicios.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        volverServicios.setBorderPainted(false);
+        volverServicios.setContentAreaFilled(false);
+        volverServicios.setOpaque(true);
+        volverServicios.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                volverServiciosMouseMoved(evt);
             }
         });
-        jPanel8.add(jButton28, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 160, 205, 30));
+        volverServicios.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                volverServiciosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                volverServiciosMouseExited(evt);
+            }
+        });
+        jPanel8.add(volverServicios, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, 120, 30));
+
+        listarServicios.setBackground(new java.awt.Color(0, 102, 204));
+        listarServicios.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        listarServicios.setForeground(new java.awt.Color(255, 255, 255));
+        listarServicios.setText("Listar Servicios");
+        listarServicios.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        listarServicios.setContentAreaFilled(false);
+        listarServicios.setOpaque(true);
+        listarServicios.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                listarServiciosMouseMoved(evt);
+            }
+        });
+        listarServicios.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                listarServiciosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                listarServiciosMouseExited(evt);
+            }
+        });
+        listarServicios.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                listarServiciosActionPerformed(evt);
+            }
+        });
+        jPanel8.add(listarServicios, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 160, 205, 30));
 
         jTabbedPane3.addTab("3", jPanel8);
 
@@ -939,22 +1413,32 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel39.setText("Contraseña: *");
         jPanel13.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, -1, -1));
 
-        jButton2.setBackground(new java.awt.Color(0, 122, 255));
-        jButton2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jButton2.setText("Agregar usuario");
-        jButton2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton2.setBorderPainted(false);
-        jButton2.setContentAreaFilled(false);
-        jButton2.setOpaque(true);
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+        btnAgregarUsuario.setBackground(new java.awt.Color(0, 122, 255));
+        btnAgregarUsuario.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        btnAgregarUsuario.setForeground(new java.awt.Color(255, 255, 255));
+        btnAgregarUsuario.setText("Agregar usuario");
+        btnAgregarUsuario.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        btnAgregarUsuario.setBorderPainted(false);
+        btnAgregarUsuario.setContentAreaFilled(false);
+        btnAgregarUsuario.setOpaque(true);
+        btnAgregarUsuario.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                btnAgregarUsuarioMouseMoved(evt);
             }
         });
-        jPanel13.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 200, 120, 30));
+        btnAgregarUsuario.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                btnAgregarUsuarioMouseExited(evt);
+            }
+        });
+        btnAgregarUsuario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAgregarUsuarioActionPerformed(evt);
+            }
+        });
+        jPanel13.add(btnAgregarUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 200, 120, 30));
 
-        jPanel12.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 80, 660, 290));
+        jPanel12.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 80, 660, 290));
         jPanel12.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 780, 10));
 
         jLabel13.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -966,15 +1450,28 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/agregar-usuario (1).png"))); // NOI18N
         jPanel12.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 20, -1, -1));
 
-        jButton1.setBackground(new java.awt.Color(0, 122, 255));
-        jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("Volver");
-        jButton1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton1.setBorderPainted(false);
-        jButton1.setContentAreaFilled(false);
-        jButton1.setOpaque(true);
-        jPanel12.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 120, 30));
+        volverRegistrar.setBackground(new java.awt.Color(0, 122, 255));
+        volverRegistrar.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        volverRegistrar.setForeground(new java.awt.Color(255, 255, 255));
+        volverRegistrar.setText("Volver");
+        volverRegistrar.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        volverRegistrar.setBorderPainted(false);
+        volverRegistrar.setContentAreaFilled(false);
+        volverRegistrar.setOpaque(true);
+        volverRegistrar.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                volverRegistrarMouseMoved(evt);
+            }
+        });
+        volverRegistrar.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                volverRegistrarMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                volverRegistrarMouseExited(evt);
+            }
+        });
+        jPanel12.add(volverRegistrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 120, 30));
 
         jTabbedPane3.addTab("4", jPanel12);
 
@@ -1075,20 +1572,30 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel47.setText("Correo Electronico: *");
         jPanel17.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, -1, -1));
 
-        jButton3.setBackground(new java.awt.Color(0, 122, 255));
-        jButton3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(255, 255, 255));
-        jButton3.setText("Buscar");
-        jButton3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton3.setBorderPainted(false);
-        jButton3.setContentAreaFilled(false);
-        jButton3.setOpaque(true);
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+        btnBuscarUsuario.setBackground(new java.awt.Color(0, 122, 255));
+        btnBuscarUsuario.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        btnBuscarUsuario.setForeground(new java.awt.Color(255, 255, 255));
+        btnBuscarUsuario.setText("Buscar");
+        btnBuscarUsuario.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        btnBuscarUsuario.setBorderPainted(false);
+        btnBuscarUsuario.setContentAreaFilled(false);
+        btnBuscarUsuario.setOpaque(true);
+        btnBuscarUsuario.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                btnBuscarUsuarioMouseMoved(evt);
             }
         });
-        jPanel17.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 120, 30));
+        btnBuscarUsuario.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                btnBuscarUsuarioMouseExited(evt);
+            }
+        });
+        btnBuscarUsuario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnBuscarUsuarioActionPerformed(evt);
+            }
+        });
+        jPanel17.add(btnBuscarUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 120, 30));
 
         jTextField11.setBackground(new java.awt.Color(75, 85, 99));
         jTextField11.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -1109,15 +1616,28 @@ public class vista_admin extends javax.swing.JFrame {
 
         jPanel15.add(jPanel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 80, 660, 270));
 
-        jButton4.setBackground(new java.awt.Color(0, 122, 255));
-        jButton4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton4.setForeground(new java.awt.Color(255, 255, 255));
-        jButton4.setText("Volver");
-        jButton4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton4.setBorderPainted(false);
-        jButton4.setContentAreaFilled(false);
-        jButton4.setOpaque(true);
-        jPanel15.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 120, 30));
+        volverBuscarUsuario.setBackground(new java.awt.Color(0, 122, 255));
+        volverBuscarUsuario.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        volverBuscarUsuario.setForeground(new java.awt.Color(255, 255, 255));
+        volverBuscarUsuario.setText("Volver");
+        volverBuscarUsuario.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        volverBuscarUsuario.setBorderPainted(false);
+        volverBuscarUsuario.setContentAreaFilled(false);
+        volverBuscarUsuario.setOpaque(true);
+        volverBuscarUsuario.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                volverBuscarUsuarioMouseMoved(evt);
+            }
+        });
+        volverBuscarUsuario.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                volverBuscarUsuarioMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                volverBuscarUsuarioMouseExited(evt);
+            }
+        });
+        jPanel15.add(volverBuscarUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 120, 30));
 
         jLabel46.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel46.setForeground(new java.awt.Color(51, 51, 51));
@@ -1228,20 +1748,30 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel56.setText("Correo Electronico:*");
         jPanel19.add(jLabel56, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, -1, -1));
 
-        jButton5.setBackground(new java.awt.Color(254, 226, 226));
-        jButton5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton5.setForeground(new java.awt.Color(153, 27, 27));
-        jButton5.setText("Eliminar ");
-        jButton5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton5.setBorderPainted(false);
-        jButton5.setContentAreaFilled(false);
-        jButton5.setOpaque(true);
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+        eliminarUsuario.setBackground(new java.awt.Color(254, 226, 226));
+        eliminarUsuario.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        eliminarUsuario.setForeground(new java.awt.Color(153, 27, 27));
+        eliminarUsuario.setText("Eliminar ");
+        eliminarUsuario.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        eliminarUsuario.setBorderPainted(false);
+        eliminarUsuario.setContentAreaFilled(false);
+        eliminarUsuario.setOpaque(true);
+        eliminarUsuario.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                eliminarUsuarioMouseMoved(evt);
             }
         });
-        jPanel19.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 230, 120, 30));
+        eliminarUsuario.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                eliminarUsuarioMouseExited(evt);
+            }
+        });
+        eliminarUsuario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                eliminarUsuarioActionPerformed(evt);
+            }
+        });
+        jPanel19.add(eliminarUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 230, 120, 30));
 
         jTextField17.setBackground(new java.awt.Color(75, 85, 99));
         jTextField17.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -1260,32 +1790,55 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel57.setText("N Documento:*");
         jPanel19.add(jLabel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 80, -1, -1));
 
-        jButton26.setBackground(new java.awt.Color(0, 122, 255));
-        jButton26.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton26.setForeground(new java.awt.Color(255, 255, 255));
-        jButton26.setText("Buscar");
-        jButton26.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton26.setBorderPainted(false);
-        jButton26.setContentAreaFilled(false);
-        jButton26.setOpaque(true);
-        jButton26.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton26ActionPerformed(evt);
+        buscarEliminarUsuario.setBackground(new java.awt.Color(0, 122, 255));
+        buscarEliminarUsuario.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        buscarEliminarUsuario.setForeground(new java.awt.Color(255, 255, 255));
+        buscarEliminarUsuario.setText("Buscar");
+        buscarEliminarUsuario.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        buscarEliminarUsuario.setBorderPainted(false);
+        buscarEliminarUsuario.setContentAreaFilled(false);
+        buscarEliminarUsuario.setOpaque(true);
+        buscarEliminarUsuario.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                buscarEliminarUsuarioMouseMoved(evt);
             }
         });
-        jPanel19.add(jButton26, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 120, 30));
+        buscarEliminarUsuario.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                buscarEliminarUsuarioMouseExited(evt);
+            }
+        });
+        buscarEliminarUsuario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buscarEliminarUsuarioActionPerformed(evt);
+            }
+        });
+        jPanel19.add(buscarEliminarUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 120, 30));
 
         jPanel18.add(jPanel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 80, 660, 270));
 
-        jButton6.setBackground(new java.awt.Color(0, 122, 255));
-        jButton6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton6.setForeground(new java.awt.Color(255, 255, 255));
-        jButton6.setText("Volver");
-        jButton6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton6.setBorderPainted(false);
-        jButton6.setContentAreaFilled(false);
-        jButton6.setOpaque(true);
-        jPanel18.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 120, 30));
+        volverEliminarUsuario.setBackground(new java.awt.Color(0, 122, 255));
+        volverEliminarUsuario.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        volverEliminarUsuario.setForeground(new java.awt.Color(255, 255, 255));
+        volverEliminarUsuario.setText("Volver");
+        volverEliminarUsuario.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        volverEliminarUsuario.setBorderPainted(false);
+        volverEliminarUsuario.setContentAreaFilled(false);
+        volverEliminarUsuario.setOpaque(true);
+        volverEliminarUsuario.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                volverEliminarUsuarioMouseMoved(evt);
+            }
+        });
+        volverEliminarUsuario.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                volverEliminarUsuarioMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                volverEliminarUsuarioMouseExited(evt);
+            }
+        });
+        jPanel18.add(volverEliminarUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 120, 30));
 
         jLabel58.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel58.setForeground(new java.awt.Color(51, 51, 51));
@@ -1304,15 +1857,28 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel20.setBackground(new java.awt.Color(243, 244, 246));
         jPanel20.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton10.setBackground(new java.awt.Color(0, 122, 255));
-        jButton10.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton10.setForeground(new java.awt.Color(255, 255, 255));
-        jButton10.setText("Volver");
-        jButton10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton10.setBorderPainted(false);
-        jButton10.setContentAreaFilled(false);
-        jButton10.setOpaque(true);
-        jPanel20.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 120, 30));
+        volverListarUsuario.setBackground(new java.awt.Color(0, 122, 255));
+        volverListarUsuario.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        volverListarUsuario.setForeground(new java.awt.Color(255, 255, 255));
+        volverListarUsuario.setText("Volver");
+        volverListarUsuario.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        volverListarUsuario.setBorderPainted(false);
+        volverListarUsuario.setContentAreaFilled(false);
+        volverListarUsuario.setOpaque(true);
+        volverListarUsuario.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                volverListarUsuarioMouseMoved(evt);
+            }
+        });
+        volverListarUsuario.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                volverListarUsuarioMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                volverListarUsuarioMouseExited(evt);
+            }
+        });
+        jPanel20.add(volverListarUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 120, 30));
 
         jLabel69.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel69.setForeground(new java.awt.Color(51, 51, 51));
@@ -1343,15 +1909,25 @@ public class vista_admin extends javax.swing.JFrame {
 
         jPanel20.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 70, 480, 250));
 
-        jButton12.setBackground(new java.awt.Color(0, 122, 255));
-        jButton12.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton12.setForeground(new java.awt.Color(255, 255, 255));
-        jButton12.setText("Listar usuarios");
-        jButton12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton12.setBorderPainted(false);
-        jButton12.setContentAreaFilled(false);
-        jButton12.setOpaque(true);
-        jPanel20.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 340, 120, 30));
+        btnListarUsuario.setBackground(new java.awt.Color(0, 122, 255));
+        btnListarUsuario.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        btnListarUsuario.setForeground(new java.awt.Color(255, 255, 255));
+        btnListarUsuario.setText("Listar usuarios");
+        btnListarUsuario.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        btnListarUsuario.setBorderPainted(false);
+        btnListarUsuario.setContentAreaFilled(false);
+        btnListarUsuario.setOpaque(true);
+        btnListarUsuario.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                btnListarUsuarioMouseMoved(evt);
+            }
+        });
+        btnListarUsuario.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                btnListarUsuarioMouseExited(evt);
+            }
+        });
+        jPanel20.add(btnListarUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 340, 120, 30));
 
         jPanel16.add(jPanel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 390));
 
@@ -1471,20 +2047,30 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel90.setText("Contraseña:*");
         jPanel28.add(jLabel90, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, -1, -1));
 
-        jButton18.setBackground(new java.awt.Color(0, 122, 255));
-        jButton18.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton18.setForeground(new java.awt.Color(255, 255, 255));
-        jButton18.setText("Agregar usuario");
-        jButton18.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton18.setBorderPainted(false);
-        jButton18.setContentAreaFilled(false);
-        jButton18.setOpaque(true);
-        jButton18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton18ActionPerformed(evt);
+        btnAgregarTecnico.setBackground(new java.awt.Color(0, 122, 255));
+        btnAgregarTecnico.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        btnAgregarTecnico.setForeground(new java.awt.Color(255, 255, 255));
+        btnAgregarTecnico.setText("Agregar tecnico");
+        btnAgregarTecnico.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        btnAgregarTecnico.setBorderPainted(false);
+        btnAgregarTecnico.setContentAreaFilled(false);
+        btnAgregarTecnico.setOpaque(true);
+        btnAgregarTecnico.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                btnAgregarTecnicoMouseMoved(evt);
             }
         });
-        jPanel28.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 250, 120, 30));
+        btnAgregarTecnico.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                btnAgregarTecnicoMouseExited(evt);
+            }
+        });
+        btnAgregarTecnico.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAgregarTecnicoActionPerformed(evt);
+            }
+        });
+        jPanel28.add(btnAgregarTecnico, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 230, 120, 30));
 
         jLabel93.setBackground(new java.awt.Color(204, 204, 204));
         jLabel93.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -1508,15 +2094,28 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel92.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/agregar-usuario (1).png"))); // NOI18N
         jPanel27.add(jLabel92, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 20, -1, -1));
 
-        jButton19.setBackground(new java.awt.Color(0, 122, 255));
-        jButton19.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton19.setForeground(new java.awt.Color(255, 255, 255));
-        jButton19.setText("Volver");
-        jButton19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton19.setBorderPainted(false);
-        jButton19.setContentAreaFilled(false);
-        jButton19.setOpaque(true);
-        jPanel27.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 120, 30));
+        volverRegistrarTecnico.setBackground(new java.awt.Color(0, 122, 255));
+        volverRegistrarTecnico.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        volverRegistrarTecnico.setForeground(new java.awt.Color(255, 255, 255));
+        volverRegistrarTecnico.setText("Volver");
+        volverRegistrarTecnico.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        volverRegistrarTecnico.setBorderPainted(false);
+        volverRegistrarTecnico.setContentAreaFilled(false);
+        volverRegistrarTecnico.setOpaque(true);
+        volverRegistrarTecnico.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                volverRegistrarTecnicoMouseMoved(evt);
+            }
+        });
+        volverRegistrarTecnico.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                volverRegistrarTecnicoMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                volverRegistrarTecnicoMouseExited(evt);
+            }
+        });
+        jPanel27.add(volverRegistrarTecnico, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 120, 30));
 
         jPanel24.add(jPanel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 390));
 
@@ -1554,7 +2153,12 @@ public class vista_admin extends javax.swing.JFrame {
         jTextField19.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jTextField19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField19.setMargin(new java.awt.Insets(5, 5, 5, 5));
-        jPanel29.add(jTextField19, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 130, 160, -1));
+        jTextField19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField19ActionPerformed(evt);
+            }
+        });
+        jPanel29.add(jTextField19, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 180, 160, -1));
 
         jLabel72.setBackground(new java.awt.Color(204, 204, 204));
         jLabel72.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -1609,20 +2213,30 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel76.setText("Correo Electronico:*");
         jPanel29.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, -1, -1));
 
-        jButton16.setBackground(new java.awt.Color(0, 122, 255));
-        jButton16.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton16.setForeground(new java.awt.Color(255, 255, 255));
-        jButton16.setText("Buscar");
-        jButton16.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton16.setBorderPainted(false);
-        jButton16.setContentAreaFilled(false);
-        jButton16.setOpaque(true);
-        jButton16.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton16ActionPerformed(evt);
+        btnBuscarTecnico.setBackground(new java.awt.Color(0, 122, 255));
+        btnBuscarTecnico.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        btnBuscarTecnico.setForeground(new java.awt.Color(255, 255, 255));
+        btnBuscarTecnico.setText("Buscar");
+        btnBuscarTecnico.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        btnBuscarTecnico.setBorderPainted(false);
+        btnBuscarTecnico.setContentAreaFilled(false);
+        btnBuscarTecnico.setOpaque(true);
+        btnBuscarTecnico.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                btnBuscarTecnicoMouseMoved(evt);
             }
         });
-        jPanel29.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 120, 30));
+        btnBuscarTecnico.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                btnBuscarTecnicoMouseExited(evt);
+            }
+        });
+        btnBuscarTecnico.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnBuscarTecnicoActionPerformed(evt);
+            }
+        });
+        jPanel29.add(btnBuscarTecnico, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 120, 30));
 
         jTextField28.setEditable(false);
         jTextField28.setBackground(new java.awt.Color(75, 85, 99));
@@ -1642,17 +2256,48 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel77.setText("N Documento:*");
         jPanel29.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 80, -1, -1));
 
+        jLabel159.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel159.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel159.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel159.setText("Nivel:*");
+        jPanel29.add(jLabel159, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 180, -1, -1));
+
+        jTextField72.setEditable(false);
+        jTextField72.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField72.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField72.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField72.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField72.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField72ActionPerformed(evt);
+            }
+        });
+        jPanel29.add(jTextField72, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 130, 160, -1));
+
         jPanel26.add(jPanel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 80, 660, 270));
 
-        jButton17.setBackground(new java.awt.Color(0, 122, 255));
-        jButton17.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton17.setForeground(new java.awt.Color(255, 255, 255));
-        jButton17.setText("Volver");
-        jButton17.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton17.setBorderPainted(false);
-        jButton17.setContentAreaFilled(false);
-        jButton17.setOpaque(true);
-        jPanel26.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 120, 30));
+        volverBuscarTecnicos.setBackground(new java.awt.Color(0, 122, 255));
+        volverBuscarTecnicos.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        volverBuscarTecnicos.setForeground(new java.awt.Color(255, 255, 255));
+        volverBuscarTecnicos.setText("Volver");
+        volverBuscarTecnicos.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        volverBuscarTecnicos.setBorderPainted(false);
+        volverBuscarTecnicos.setContentAreaFilled(false);
+        volverBuscarTecnicos.setOpaque(true);
+        volverBuscarTecnicos.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                volverBuscarTecnicosMouseMoved(evt);
+            }
+        });
+        volverBuscarTecnicos.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                volverBuscarTecnicosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                volverBuscarTecnicosMouseExited(evt);
+            }
+        });
+        jPanel26.add(volverBuscarTecnicos, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 120, 30));
 
         jLabel78.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel78.setForeground(new java.awt.Color(51, 51, 51));
@@ -1756,20 +2401,30 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel96.setText("Correo Electronico:*");
         jPanel32.add(jLabel96, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, -1, -1));
 
-        jButton20.setBackground(new java.awt.Color(0, 122, 255));
-        jButton20.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton20.setForeground(new java.awt.Color(255, 255, 255));
-        jButton20.setText("Buscar");
-        jButton20.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton20.setBorderPainted(false);
-        jButton20.setContentAreaFilled(false);
-        jButton20.setOpaque(true);
-        jButton20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton20ActionPerformed(evt);
+        buscarEliminarTecnico.setBackground(new java.awt.Color(0, 122, 255));
+        buscarEliminarTecnico.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        buscarEliminarTecnico.setForeground(new java.awt.Color(255, 255, 255));
+        buscarEliminarTecnico.setText("Buscar");
+        buscarEliminarTecnico.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        buscarEliminarTecnico.setBorderPainted(false);
+        buscarEliminarTecnico.setContentAreaFilled(false);
+        buscarEliminarTecnico.setOpaque(true);
+        buscarEliminarTecnico.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                buscarEliminarTecnicoMouseMoved(evt);
             }
         });
-        jPanel32.add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 120, 30));
+        buscarEliminarTecnico.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                buscarEliminarTecnicoMouseExited(evt);
+            }
+        });
+        buscarEliminarTecnico.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buscarEliminarTecnicoActionPerformed(evt);
+            }
+        });
+        jPanel32.add(buscarEliminarTecnico, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 120, 30));
 
         jTextField34.setEditable(false);
         jTextField34.setBackground(new java.awt.Color(75, 85, 99));
@@ -1789,32 +2444,55 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel97.setText("N Documento:*");
         jPanel32.add(jLabel97, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 80, -1, -1));
 
-        jButton27.setBackground(new java.awt.Color(254, 226, 226));
-        jButton27.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton27.setForeground(new java.awt.Color(153, 27, 27));
-        jButton27.setText("Eliminar ");
-        jButton27.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton27.setBorderPainted(false);
-        jButton27.setContentAreaFilled(false);
-        jButton27.setOpaque(true);
-        jButton27.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton27ActionPerformed(evt);
+        EliminarTecnico.setBackground(new java.awt.Color(254, 226, 226));
+        EliminarTecnico.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        EliminarTecnico.setForeground(new java.awt.Color(153, 27, 27));
+        EliminarTecnico.setText("Eliminar ");
+        EliminarTecnico.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        EliminarTecnico.setBorderPainted(false);
+        EliminarTecnico.setContentAreaFilled(false);
+        EliminarTecnico.setOpaque(true);
+        EliminarTecnico.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                EliminarTecnicoMouseMoved(evt);
             }
         });
-        jPanel32.add(jButton27, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 230, 120, 30));
+        EliminarTecnico.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                EliminarTecnicoMouseExited(evt);
+            }
+        });
+        EliminarTecnico.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                EliminarTecnicoActionPerformed(evt);
+            }
+        });
+        jPanel32.add(EliminarTecnico, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 220, 120, 30));
 
         jPanel31.add(jPanel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 80, 660, 270));
 
-        jButton21.setBackground(new java.awt.Color(0, 122, 255));
-        jButton21.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton21.setForeground(new java.awt.Color(255, 255, 255));
-        jButton21.setText("Volver");
-        jButton21.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton21.setBorderPainted(false);
-        jButton21.setContentAreaFilled(false);
-        jButton21.setOpaque(true);
-        jPanel31.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 120, 30));
+        volverEliminarTecnicoç.setBackground(new java.awt.Color(0, 122, 255));
+        volverEliminarTecnicoç.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        volverEliminarTecnicoç.setForeground(new java.awt.Color(255, 255, 255));
+        volverEliminarTecnicoç.setText("Volver");
+        volverEliminarTecnicoç.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        volverEliminarTecnicoç.setBorderPainted(false);
+        volverEliminarTecnicoç.setContentAreaFilled(false);
+        volverEliminarTecnicoç.setOpaque(true);
+        volverEliminarTecnicoç.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                volverEliminarTecnicoçMouseMoved(evt);
+            }
+        });
+        volverEliminarTecnicoç.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                volverEliminarTecnicoçMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                volverEliminarTecnicoçMouseExited(evt);
+            }
+        });
+        jPanel31.add(volverEliminarTecnicoç, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 120, 30));
 
         jLabel98.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel98.setForeground(new java.awt.Color(51, 51, 51));
@@ -1836,15 +2514,28 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel34.setBackground(new java.awt.Color(243, 244, 246));
         jPanel34.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton22.setBackground(new java.awt.Color(0, 122, 255));
-        jButton22.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton22.setForeground(new java.awt.Color(255, 255, 255));
-        jButton22.setText("Volver");
-        jButton22.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton22.setBorderPainted(false);
-        jButton22.setContentAreaFilled(false);
-        jButton22.setOpaque(true);
-        jPanel34.add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 120, 30));
+        volverListarTecnico.setBackground(new java.awt.Color(0, 122, 255));
+        volverListarTecnico.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        volverListarTecnico.setForeground(new java.awt.Color(255, 255, 255));
+        volverListarTecnico.setText("Volver");
+        volverListarTecnico.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        volverListarTecnico.setBorderPainted(false);
+        volverListarTecnico.setContentAreaFilled(false);
+        volverListarTecnico.setOpaque(true);
+        volverListarTecnico.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                volverListarTecnicoMouseMoved(evt);
+            }
+        });
+        volverListarTecnico.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                volverListarTecnicoMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                volverListarTecnicoMouseExited(evt);
+            }
+        });
+        jPanel34.add(volverListarTecnico, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 120, 30));
 
         jLabel100.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel100.setForeground(new java.awt.Color(51, 51, 51));
@@ -1875,15 +2566,25 @@ public class vista_admin extends javax.swing.JFrame {
 
         jPanel34.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 70, 480, 250));
 
-        jButton23.setBackground(new java.awt.Color(0, 122, 255));
-        jButton23.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton23.setForeground(new java.awt.Color(255, 255, 255));
-        jButton23.setText("Listar Tecnicos");
-        jButton23.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton23.setBorderPainted(false);
-        jButton23.setContentAreaFilled(false);
-        jButton23.setOpaque(true);
-        jPanel34.add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 340, 120, 30));
+        btnListarTecnico.setBackground(new java.awt.Color(0, 122, 255));
+        btnListarTecnico.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        btnListarTecnico.setForeground(new java.awt.Color(255, 255, 255));
+        btnListarTecnico.setText("Listar Tecnicos");
+        btnListarTecnico.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        btnListarTecnico.setBorderPainted(false);
+        btnListarTecnico.setContentAreaFilled(false);
+        btnListarTecnico.setOpaque(true);
+        btnListarTecnico.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                btnListarTecnicoMouseMoved(evt);
+            }
+        });
+        btnListarTecnico.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                btnListarTecnicoMouseExited(evt);
+            }
+        });
+        jPanel34.add(btnListarTecnico, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 340, 120, 30));
 
         jPanel33.add(jPanel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 390));
 
@@ -1911,19 +2612,19 @@ public class vista_admin extends javax.swing.JFrame {
                 jTextField35ActionPerformed(evt);
             }
         });
-        jPanel38.add(jTextField35, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 190, 20));
+        jPanel38.add(jTextField35, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 90, 190, 20));
 
         jLabel102.setBackground(new java.awt.Color(204, 204, 204));
         jLabel102.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel102.setForeground(new java.awt.Color(55, 65, 81));
         jLabel102.setText("Telefono del cliente:*");
-        jPanel38.add(jLabel102, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 70, -1, -1));
+        jPanel38.add(jLabel102, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 120, -1, -1));
 
         jTextField36.setBackground(new java.awt.Color(75, 85, 99));
         jTextField36.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jTextField36.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField36.setMargin(new java.awt.Insets(5, 5, 5, 5));
-        jPanel38.add(jTextField36, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 90, 190, -1));
+        jPanel38.add(jTextField36, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, 190, -1));
 
         jLabel103.setBackground(new java.awt.Color(204, 204, 204));
         jLabel103.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -1946,13 +2647,13 @@ public class vista_admin extends javax.swing.JFrame {
                 jTextField37ActionPerformed(evt);
             }
         });
-        jPanel38.add(jTextField37, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, 190, -1));
+        jPanel38.add(jTextField37, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, 190, -1));
 
         jLabel105.setBackground(new java.awt.Color(204, 204, 204));
         jLabel105.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel105.setForeground(new java.awt.Color(55, 65, 81));
         jLabel105.setText("Direccion del cliente:*");
-        jPanel38.add(jLabel105, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 120, -1, -1));
+        jPanel38.add(jLabel105, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 170, -1, -1));
 
         jTextField38.setBackground(new java.awt.Color(75, 85, 99));
         jTextField38.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -1963,7 +2664,7 @@ public class vista_admin extends javax.swing.JFrame {
                 jTextField38ActionPerformed(evt);
             }
         });
-        jPanel38.add(jTextField38, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, 190, 20));
+        jPanel38.add(jTextField38, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 240, 190, 20));
 
         jLabel106.setBackground(new java.awt.Color(204, 204, 204));
         jLabel106.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -1996,22 +2697,32 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel109.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel109.setForeground(new java.awt.Color(55, 65, 81));
         jLabel109.setText("Fecha del servicio:*");
-        jPanel38.add(jLabel109, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 170, -1, -1));
+        jPanel38.add(jLabel109, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 220, -1, -1));
 
-        jButton24.setBackground(new java.awt.Color(0, 122, 255));
-        jButton24.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton24.setForeground(new java.awt.Color(255, 255, 255));
-        jButton24.setText("Asignar servicio");
-        jButton24.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton24.setBorderPainted(false);
-        jButton24.setContentAreaFilled(false);
-        jButton24.setOpaque(true);
-        jButton24.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton24ActionPerformed(evt);
+        asignarServicio.setBackground(new java.awt.Color(0, 122, 255));
+        asignarServicio.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        asignarServicio.setForeground(new java.awt.Color(255, 255, 255));
+        asignarServicio.setText("Asignar servicio");
+        asignarServicio.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        asignarServicio.setBorderPainted(false);
+        asignarServicio.setContentAreaFilled(false);
+        asignarServicio.setOpaque(true);
+        asignarServicio.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                asignarServicioMouseMoved(evt);
             }
         });
-        jPanel38.add(jButton24, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 250, 120, 30));
+        asignarServicio.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                asignarServicioMouseExited(evt);
+            }
+        });
+        asignarServicio.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                asignarServicioActionPerformed(evt);
+            }
+        });
+        jPanel38.add(asignarServicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 250, 120, 30));
 
         jScrollPane3.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         jScrollPane3.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
@@ -2023,6 +2734,23 @@ public class vista_admin extends javax.swing.JFrame {
         jScrollPane3.setViewportView(jTextArea1);
 
         jPanel38.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 160, 230, 70));
+
+        jLabel191.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel191.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel191.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel191.setText("N Documento:*");
+        jPanel38.add(jLabel191, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 70, -1, -1));
+
+        jTextField89.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField89.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField89.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField89.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField89.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField89ActionPerformed(evt);
+            }
+        });
+        jPanel38.add(jTextField89, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 190, 20));
 
         jPanel37.add(jPanel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 70, 660, 300));
         jPanel37.add(jSeparator9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 780, 10));
@@ -2036,15 +2764,28 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel110.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/agregar-carpeta.png"))); // NOI18N
         jPanel37.add(jLabel110, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 20, -1, -1));
 
-        jButton25.setBackground(new java.awt.Color(0, 122, 255));
-        jButton25.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton25.setForeground(new java.awt.Color(255, 255, 255));
-        jButton25.setText("Volver");
-        jButton25.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton25.setBorderPainted(false);
-        jButton25.setContentAreaFilled(false);
-        jButton25.setOpaque(true);
-        jPanel37.add(jButton25, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 120, 30));
+        volverAsignarServicio.setBackground(new java.awt.Color(0, 122, 255));
+        volverAsignarServicio.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        volverAsignarServicio.setForeground(new java.awt.Color(255, 255, 255));
+        volverAsignarServicio.setText("Volver");
+        volverAsignarServicio.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        volverAsignarServicio.setBorderPainted(false);
+        volverAsignarServicio.setContentAreaFilled(false);
+        volverAsignarServicio.setOpaque(true);
+        volverAsignarServicio.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                volverAsignarServicioMouseMoved(evt);
+            }
+        });
+        volverAsignarServicio.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                volverAsignarServicioMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                volverAsignarServicioMouseExited(evt);
+            }
+        });
+        jPanel37.add(volverAsignarServicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 120, 30));
 
         jPanel36.add(jPanel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 390));
 
@@ -2138,20 +2879,30 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel115.setText("Direccion del servicio:*");
         jPanel41.add(jLabel115, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 180, -1, -1));
 
-        jButton29.setBackground(new java.awt.Color(0, 122, 255));
-        jButton29.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton29.setForeground(new java.awt.Color(255, 255, 255));
-        jButton29.setText("Buscar");
-        jButton29.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton29.setBorderPainted(false);
-        jButton29.setContentAreaFilled(false);
-        jButton29.setOpaque(true);
-        jButton29.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton29ActionPerformed(evt);
+        btnBuscarServicio.setBackground(new java.awt.Color(0, 122, 255));
+        btnBuscarServicio.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        btnBuscarServicio.setForeground(new java.awt.Color(255, 255, 255));
+        btnBuscarServicio.setText("Buscar");
+        btnBuscarServicio.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        btnBuscarServicio.setBorderPainted(false);
+        btnBuscarServicio.setContentAreaFilled(false);
+        btnBuscarServicio.setOpaque(true);
+        btnBuscarServicio.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                btnBuscarServicioMouseMoved(evt);
             }
         });
-        jPanel41.add(jButton29, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 120, 30));
+        btnBuscarServicio.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                btnBuscarServicioMouseExited(evt);
+            }
+        });
+        btnBuscarServicio.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnBuscarServicioActionPerformed(evt);
+            }
+        });
+        jPanel41.add(btnBuscarServicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 120, 30));
 
         jTextField45.setEditable(false);
         jTextField45.setBackground(new java.awt.Color(75, 85, 99));
@@ -2186,15 +2937,28 @@ public class vista_admin extends javax.swing.JFrame {
 
         jPanel40.add(jPanel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 80, 680, 280));
 
-        jButton30.setBackground(new java.awt.Color(0, 122, 255));
-        jButton30.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton30.setForeground(new java.awt.Color(255, 255, 255));
-        jButton30.setText("Volver");
-        jButton30.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton30.setBorderPainted(false);
-        jButton30.setContentAreaFilled(false);
-        jButton30.setOpaque(true);
-        jPanel40.add(jButton30, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 120, 30));
+        volverBuscarServicio.setBackground(new java.awt.Color(0, 122, 255));
+        volverBuscarServicio.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        volverBuscarServicio.setForeground(new java.awt.Color(255, 255, 255));
+        volverBuscarServicio.setText("Volver");
+        volverBuscarServicio.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        volverBuscarServicio.setBorderPainted(false);
+        volverBuscarServicio.setContentAreaFilled(false);
+        volverBuscarServicio.setOpaque(true);
+        volverBuscarServicio.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                volverBuscarServicioMouseMoved(evt);
+            }
+        });
+        volverBuscarServicio.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                volverBuscarServicioMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                volverBuscarServicioMouseExited(evt);
+            }
+        });
+        jPanel40.add(volverBuscarServicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 120, 30));
 
         jLabel117.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel117.setForeground(new java.awt.Color(51, 51, 51));
@@ -2300,20 +3064,30 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel122.setText("Direccion del servicio: *");
         jPanel44.add(jLabel122, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 180, -1, -1));
 
-        jButton31.setBackground(new java.awt.Color(254, 226, 226));
-        jButton31.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton31.setForeground(new java.awt.Color(153, 27, 27));
-        jButton31.setText("Eliminar ");
-        jButton31.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton31.setBorderPainted(false);
-        jButton31.setContentAreaFilled(false);
-        jButton31.setOpaque(true);
-        jButton31.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton31ActionPerformed(evt);
+        eliminarServicio.setBackground(new java.awt.Color(254, 226, 226));
+        eliminarServicio.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        eliminarServicio.setForeground(new java.awt.Color(153, 27, 27));
+        eliminarServicio.setText("Eliminar ");
+        eliminarServicio.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        eliminarServicio.setBorderPainted(false);
+        eliminarServicio.setContentAreaFilled(false);
+        eliminarServicio.setOpaque(true);
+        eliminarServicio.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                eliminarServicioMouseMoved(evt);
             }
         });
-        jPanel44.add(jButton31, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 220, 120, 30));
+        eliminarServicio.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                eliminarServicioMouseExited(evt);
+            }
+        });
+        eliminarServicio.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                eliminarServicioActionPerformed(evt);
+            }
+        });
+        jPanel44.add(eliminarServicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 220, 120, 30));
 
         jTextField52.setBackground(new java.awt.Color(75, 85, 99));
         jTextField52.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -2332,20 +3106,30 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel123.setText("N Documento: *");
         jPanel44.add(jLabel123, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 80, -1, -1));
 
-        jButton32.setBackground(new java.awt.Color(0, 122, 255));
-        jButton32.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton32.setForeground(new java.awt.Color(255, 255, 255));
-        jButton32.setText("Buscar");
-        jButton32.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton32.setBorderPainted(false);
-        jButton32.setContentAreaFilled(false);
-        jButton32.setOpaque(true);
-        jButton32.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton32ActionPerformed(evt);
+        buscarEliminarServicio.setBackground(new java.awt.Color(0, 122, 255));
+        buscarEliminarServicio.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        buscarEliminarServicio.setForeground(new java.awt.Color(255, 255, 255));
+        buscarEliminarServicio.setText("Buscar");
+        buscarEliminarServicio.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        buscarEliminarServicio.setBorderPainted(false);
+        buscarEliminarServicio.setContentAreaFilled(false);
+        buscarEliminarServicio.setOpaque(true);
+        buscarEliminarServicio.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                buscarEliminarServicioMouseMoved(evt);
             }
         });
-        jPanel44.add(jButton32, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 120, 30));
+        buscarEliminarServicio.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                buscarEliminarServicioMouseExited(evt);
+            }
+        });
+        buscarEliminarServicio.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buscarEliminarServicioActionPerformed(evt);
+            }
+        });
+        jPanel44.add(buscarEliminarServicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 120, 30));
 
         jTextField53.setBackground(new java.awt.Color(75, 85, 99));
         jTextField53.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -2355,15 +3139,28 @@ public class vista_admin extends javax.swing.JFrame {
 
         jPanel43.add(jPanel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 80, 680, 270));
 
-        jButton33.setBackground(new java.awt.Color(0, 122, 255));
-        jButton33.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton33.setForeground(new java.awt.Color(255, 255, 255));
-        jButton33.setText("Volver");
-        jButton33.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton33.setBorderPainted(false);
-        jButton33.setContentAreaFilled(false);
-        jButton33.setOpaque(true);
-        jPanel43.add(jButton33, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 120, 30));
+        volverEliminarServicio.setBackground(new java.awt.Color(0, 122, 255));
+        volverEliminarServicio.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        volverEliminarServicio.setForeground(new java.awt.Color(255, 255, 255));
+        volverEliminarServicio.setText("Volver");
+        volverEliminarServicio.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        volverEliminarServicio.setBorderPainted(false);
+        volverEliminarServicio.setContentAreaFilled(false);
+        volverEliminarServicio.setOpaque(true);
+        volverEliminarServicio.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                volverEliminarServicioMouseMoved(evt);
+            }
+        });
+        volverEliminarServicio.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                volverEliminarServicioMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                volverEliminarServicioMouseExited(evt);
+            }
+        });
+        jPanel43.add(volverEliminarServicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 120, 30));
 
         jLabel124.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel124.setForeground(new java.awt.Color(51, 51, 51));
@@ -2385,15 +3182,28 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel46.setBackground(new java.awt.Color(243, 244, 246));
         jPanel46.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton34.setBackground(new java.awt.Color(0, 122, 255));
-        jButton34.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton34.setForeground(new java.awt.Color(255, 255, 255));
-        jButton34.setText("Volver");
-        jButton34.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton34.setBorderPainted(false);
-        jButton34.setContentAreaFilled(false);
-        jButton34.setOpaque(true);
-        jPanel46.add(jButton34, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 120, 30));
+        volverListarServicios.setBackground(new java.awt.Color(0, 122, 255));
+        volverListarServicios.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        volverListarServicios.setForeground(new java.awt.Color(255, 255, 255));
+        volverListarServicios.setText("Volver");
+        volverListarServicios.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        volverListarServicios.setBorderPainted(false);
+        volverListarServicios.setContentAreaFilled(false);
+        volverListarServicios.setOpaque(true);
+        volverListarServicios.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                volverListarServiciosMouseMoved(evt);
+            }
+        });
+        volverListarServicios.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                volverListarServiciosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                volverListarServiciosMouseExited(evt);
+            }
+        });
+        jPanel46.add(volverListarServicios, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 120, 30));
 
         jLabel126.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel126.setForeground(new java.awt.Color(51, 51, 51));
@@ -2422,24 +3232,1332 @@ public class vista_admin extends javax.swing.JFrame {
         ));
         jScrollPane4.setViewportView(jTable3);
 
-        jPanel46.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 70, 480, 250));
+        jPanel46.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 80, 480, 250));
 
-        jButton35.setBackground(new java.awt.Color(0, 122, 255));
-        jButton35.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jButton35.setForeground(new java.awt.Color(255, 255, 255));
-        jButton35.setText("Listar Servicios");
-        jButton35.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
-        jButton35.setBorderPainted(false);
-        jButton35.setContentAreaFilled(false);
-        jButton35.setOpaque(true);
-        jPanel46.add(jButton35, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 340, 120, 30));
+        btnListarServicios.setBackground(new java.awt.Color(0, 122, 255));
+        btnListarServicios.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        btnListarServicios.setForeground(new java.awt.Color(255, 255, 255));
+        btnListarServicios.setText("Listar Servicios");
+        btnListarServicios.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        btnListarServicios.setBorderPainted(false);
+        btnListarServicios.setContentAreaFilled(false);
+        btnListarServicios.setOpaque(true);
+        btnListarServicios.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                btnListarServiciosMouseMoved(evt);
+            }
+        });
+        btnListarServicios.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                btnListarServiciosMouseExited(evt);
+            }
+        });
+        jPanel46.add(btnListarServicios, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 340, 120, 30));
 
         jPanel45.add(jPanel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 390));
 
         jTabbedPane3.addTab("16", jPanel45);
 
+        jPanel47.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel47.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel48.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel48.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel49.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel49.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
+        jPanel49.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextField54.setEditable(false);
+        jTextField54.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField54.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField54.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField54.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField54.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField54ActionPerformed(evt);
+            }
+        });
+        jPanel49.add(jTextField54, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, 190, 20));
+
+        jLabel128.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel128.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel128.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel128.setText("No Documento: *");
+        jPanel49.add(jLabel128, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 20, -1, -1));
+
+        jTextField55.setEditable(false);
+        jTextField55.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField55.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField55.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField55.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel49.add(jTextField55, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 210, 190, -1));
+
+        jLabel129.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel129.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel129.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel129.setText("Telefono:*");
+        jPanel49.add(jLabel129, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 70, -1, -1));
+
+        jLabel130.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel130.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel130.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel130.setText("Nombre Completo: *");
+        jPanel49.add(jLabel130, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, -1, -1));
+
+        jTextField56.setEditable(false);
+        jTextField56.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField56.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField56.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField56.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField56.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField56ActionPerformed(evt);
+            }
+        });
+        jPanel49.add(jTextField56, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 150, 190, -1));
+
+        jLabel131.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel131.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel131.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel131.setText("Direccion: *");
+        jPanel49.add(jLabel131, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 130, -1, -1));
+
+        jTextField57.setEditable(false);
+        jTextField57.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField57.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField57.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField57.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField57.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField57ActionPerformed(evt);
+            }
+        });
+        jPanel49.add(jTextField57, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 200, 190, 20));
+
+        jLabel132.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel132.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel132.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel132.setText("Tipo de documento:*");
+        jPanel49.add(jLabel132, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 120, -1, -1));
+
+        jComboBox4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "CC", "TI", "CE", "PEP" }));
+        jComboBox4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox4ActionPerformed(evt);
+            }
+        });
+        jPanel49.add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 140, 60, -1));
+
+        jTextField58.setEditable(false);
+        jTextField58.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField58.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField58.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField58.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel49.add(jTextField58, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 90, 190, -1));
+
+        jLabel134.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel134.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel134.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel134.setText("Correo Electronico: *");
+        jPanel49.add(jLabel134, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 190, -1, 20));
+
+        jPasswordField4.setEditable(false);
+        jPanel49.add(jPasswordField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 250, 190, -1));
+
+        jLabel135.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel135.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel135.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel135.setText("Contraseña: *");
+        jPanel49.add(jLabel135, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 230, -1, 20));
+
+        actualizarUsuario.setBackground(new java.awt.Color(0, 122, 255));
+        actualizarUsuario.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        actualizarUsuario.setForeground(new java.awt.Color(255, 255, 255));
+        actualizarUsuario.setText("Actualizar usuario");
+        actualizarUsuario.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        actualizarUsuario.setBorderPainted(false);
+        actualizarUsuario.setContentAreaFilled(false);
+        actualizarUsuario.setOpaque(true);
+        actualizarUsuario.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                actualizarUsuarioMouseMoved(evt);
+            }
+        });
+        actualizarUsuario.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                actualizarUsuarioMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                actualizarUsuarioMouseExited(evt);
+            }
+        });
+        actualizarUsuario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                actualizarUsuarioActionPerformed(evt);
+            }
+        });
+        jPanel49.add(actualizarUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 250, 140, 30));
+
+        jLabel138.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel138.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel138.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel138.setText("No Documento: *");
+        jPanel49.add(jLabel138, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, -1, -1));
+
+        jTextField59.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField59.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField59.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField59.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField59.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField59ActionPerformed(evt);
+            }
+        });
+        jPanel49.add(jTextField59, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 20, 190, 20));
+
+        buscarActualizarUsuario.setBackground(new java.awt.Color(0, 122, 255));
+        buscarActualizarUsuario.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        buscarActualizarUsuario.setForeground(new java.awt.Color(255, 255, 255));
+        buscarActualizarUsuario.setText("Buscar");
+        buscarActualizarUsuario.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        buscarActualizarUsuario.setBorderPainted(false);
+        buscarActualizarUsuario.setContentAreaFilled(false);
+        buscarActualizarUsuario.setOpaque(true);
+        buscarActualizarUsuario.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                buscarActualizarUsuarioMouseMoved(evt);
+            }
+        });
+        buscarActualizarUsuario.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                buscarActualizarUsuarioMouseExited(evt);
+            }
+        });
+        buscarActualizarUsuario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buscarActualizarUsuarioActionPerformed(evt);
+            }
+        });
+        jPanel49.add(buscarActualizarUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 10, 120, 30));
+
+        jPanel48.add(jPanel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 70, 620, 300));
+        jPanel48.add(jSeparator13, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, 780, 10));
+
+        jLabel136.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel136.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel136.setText("ACTUALIZAR USUARIO");
+        jLabel136.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jPanel48.add(jLabel136, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 10, -1, 30));
+
+        jLabel137.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/perfil.png"))); // NOI18N
+        jPanel48.add(jLabel137, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 10, -1, -1));
+
+        volverActualizarUsuario.setBackground(new java.awt.Color(0, 122, 255));
+        volverActualizarUsuario.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        volverActualizarUsuario.setForeground(new java.awt.Color(255, 255, 255));
+        volverActualizarUsuario.setText("Volver");
+        volverActualizarUsuario.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        volverActualizarUsuario.setBorderPainted(false);
+        volverActualizarUsuario.setContentAreaFilled(false);
+        volverActualizarUsuario.setOpaque(true);
+        volverActualizarUsuario.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                volverActualizarUsuarioMouseMoved(evt);
+            }
+        });
+        volverActualizarUsuario.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                volverActualizarUsuarioMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                volverActualizarUsuarioMouseExited(evt);
+            }
+        });
+        jPanel48.add(volverActualizarUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 10, 120, 30));
+
+        jPanel47.add(jPanel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 390));
+
+        jTabbedPane3.addTab("17", jPanel47);
+
+        jPanel50.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel51.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel51.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel52.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel52.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
+        jPanel52.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextField60.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField60.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField60.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField60.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField60.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField60ActionPerformed(evt);
+            }
+        });
+        jPanel52.add(jTextField60, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, 190, 20));
+
+        jTextField61.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField61.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField61.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField61.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel52.add(jTextField61, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 160, 190, -1));
+
+        jLabel139.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel139.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel139.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel139.setText("Telefono:*");
+        jPanel52.add(jLabel139, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 40, -1, -1));
+
+        jLabel140.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel140.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel140.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel140.setText("Nombre Completo: *");
+        jPanel52.add(jLabel140, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, -1, -1));
+
+        jTextField62.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField62.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField62.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField62.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField62.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField62ActionPerformed(evt);
+            }
+        });
+        jPanel52.add(jTextField62, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 110, 190, -1));
+
+        jLabel141.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel141.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel141.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel141.setText("Direccion: *");
+        jPanel52.add(jLabel141, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 90, -1, -1));
+
+        jTextField63.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField63.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField63.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField63.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField63.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField63ActionPerformed(evt);
+            }
+        });
+        jPanel52.add(jTextField63, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 170, 190, 20));
+
+        jLabel142.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel142.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel142.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel142.setText("Tipo de documento:*");
+        jPanel52.add(jLabel142, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, -1, -1));
+
+        jComboBox7.setEditable(true);
+        jComboBox7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jComboBox7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "CC", "TI", "CE", "PEP" }));
+        jComboBox7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox7ActionPerformed(evt);
+            }
+        });
+        jPanel52.add(jComboBox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 110, 60, -1));
+
+        jTextField64.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField64.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField64.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField64.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel52.add(jTextField64, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 60, 190, -1));
+
+        jLabel143.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel143.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel143.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel143.setText("Correo Electronico: *");
+        jPanel52.add(jLabel143, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 140, -1, 20));
+        jPanel52.add(jPasswordField7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, 190, -1));
+
+        jLabel144.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel144.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel144.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel144.setText("Contraseña: *");
+        jPanel52.add(jLabel144, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 200, -1, 20));
+
+        guardarDatosUsuario.setBackground(new java.awt.Color(0, 122, 255));
+        guardarDatosUsuario.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        guardarDatosUsuario.setForeground(new java.awt.Color(255, 255, 255));
+        guardarDatosUsuario.setText("Guardar Datos");
+        guardarDatosUsuario.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        guardarDatosUsuario.setBorderPainted(false);
+        guardarDatosUsuario.setContentAreaFilled(false);
+        guardarDatosUsuario.setOpaque(true);
+        guardarDatosUsuario.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                guardarDatosUsuarioMouseMoved(evt);
+            }
+        });
+        guardarDatosUsuario.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                guardarDatosUsuarioMouseExited(evt);
+            }
+        });
+        guardarDatosUsuario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                guardarDatosUsuarioActionPerformed(evt);
+            }
+        });
+        jPanel52.add(guardarDatosUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 200, 100, 30));
+
+        jLabel145.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel145.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel145.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel145.setText("No Documento: *");
+        jPanel52.add(jLabel145, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 150, -1, -1));
+
+        jPanel51.add(jPanel52, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 60, 620, 270));
+        jPanel51.add(jSeparator14, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, 780, 10));
+
+        jLabel146.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel146.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel146.setText("ACTUALIZAR USUARIO");
+        jLabel146.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jPanel51.add(jLabel146, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 10, -1, 30));
+
+        jLabel147.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/perfil.png"))); // NOI18N
+        jPanel51.add(jLabel147, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 10, -1, -1));
+
+        volverActualizarUsuario2.setBackground(new java.awt.Color(0, 122, 255));
+        volverActualizarUsuario2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        volverActualizarUsuario2.setForeground(new java.awt.Color(255, 255, 255));
+        volverActualizarUsuario2.setText("Volver");
+        volverActualizarUsuario2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        volverActualizarUsuario2.setBorderPainted(false);
+        volverActualizarUsuario2.setContentAreaFilled(false);
+        volverActualizarUsuario2.setOpaque(true);
+        volverActualizarUsuario2.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                volverActualizarUsuario2MouseMoved(evt);
+            }
+        });
+        volverActualizarUsuario2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                volverActualizarUsuario2MouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                volverActualizarUsuario2MouseExited(evt);
+            }
+        });
+        jPanel51.add(volverActualizarUsuario2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 10, 120, 30));
+
+        jPanel53.setBackground(new java.awt.Color(209, 213, 219));
+        jPanel53.setForeground(new java.awt.Color(55, 65, 81));
+        jPanel53.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel148.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jLabel148.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel148.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel148.setText("Nota: Los campos que no desee actualizar, dejarlos en blanco");
+        jPanel53.add(jLabel148, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 0, -1, 30));
+
+        jPanel51.add(jPanel53, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 340, 580, 30));
+
+        jPanel50.add(jPanel51, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 390));
+
+        jTabbedPane3.addTab("18", jPanel50);
+
+        jPanel54.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel54.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel57.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel57.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel58.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel58.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
+        jPanel58.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextField73.setEditable(false);
+        jTextField73.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField73.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField73.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField73.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField73.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField73ActionPerformed(evt);
+            }
+        });
+        jPanel58.add(jTextField73, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 20, 190, 20));
+
+        jLabel160.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel160.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel160.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel160.setText("No Documento:*");
+        jPanel58.add(jLabel160, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, -1, -1));
+
+        jTextField74.setEditable(false);
+        jTextField74.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField74.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField74.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField74.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel58.add(jTextField74, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 170, 190, -1));
+
+        jLabel162.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel162.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel162.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel162.setText("Nombre Completo:*");
+        jPanel58.add(jLabel162, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 50, -1, -1));
+
+        jTextField75.setEditable(false);
+        jTextField75.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField75.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField75.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField75.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField75.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField75ActionPerformed(evt);
+            }
+        });
+        jPanel58.add(jTextField75, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 120, 190, -1));
+
+        jLabel163.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel163.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel163.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel163.setText("Direccion: *");
+        jPanel58.add(jLabel163, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 100, -1, -1));
+
+        jTextField76.setEditable(false);
+        jTextField76.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField76.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField76.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField76.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField76.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField76ActionPerformed(evt);
+            }
+        });
+        jPanel58.add(jTextField76, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, 190, 20));
+
+        jLabel164.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel164.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel164.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel164.setText("Tipo de documento:*");
+        jPanel58.add(jLabel164, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, -1, 20));
+
+        jComboBox10.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jComboBox10.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccione una opcion", "CC", "TI", "CE", "PEP" }));
+        jComboBox10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox10ActionPerformed(evt);
+            }
+        });
+        jPanel58.add(jComboBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, -1, -1));
+
+        jTextField77.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField77.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField77.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField77.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel58.add(jTextField77, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 70, 190, 20));
+
+        jLabel166.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel166.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel166.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel166.setText("Nivel:*");
+        jPanel58.add(jLabel166, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 200, -1, -1));
+
+        jPasswordField10.setEditable(false);
+        jPasswordField10.setBackground(new java.awt.Color(75, 85, 99));
+        jPanel58.add(jPasswordField10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 230, 190, -1));
+
+        jLabel167.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel167.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel167.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel167.setText("Contraseña:*");
+        jPanel58.add(jLabel167, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 210, -1, -1));
+
+        ActualizarTecnico.setBackground(new java.awt.Color(0, 122, 255));
+        ActualizarTecnico.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        ActualizarTecnico.setForeground(new java.awt.Color(255, 255, 255));
+        ActualizarTecnico.setText("Actualizar tecnico");
+        ActualizarTecnico.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        ActualizarTecnico.setBorderPainted(false);
+        ActualizarTecnico.setContentAreaFilled(false);
+        ActualizarTecnico.setOpaque(true);
+        ActualizarTecnico.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                ActualizarTecnicoMouseMoved(evt);
+            }
+        });
+        ActualizarTecnico.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                ActualizarTecnicoMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                ActualizarTecnicoMouseExited(evt);
+            }
+        });
+        ActualizarTecnico.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ActualizarTecnicoActionPerformed(evt);
+            }
+        });
+        jPanel58.add(ActualizarTecnico, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 270, 140, 30));
+
+        jLabel168.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel168.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel168.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel168.setText("Correo Electronico:*");
+        jPanel58.add(jLabel168, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 150, -1, -1));
+
+        jComboBox11.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jComboBox11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccione una opcion", "Junior", "Intermedio", "Senior", " " }));
+        jPanel58.add(jComboBox11, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 220, 190, -1));
+
+        jLabel171.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel171.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel171.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel171.setText("Telefono: *");
+        jPanel58.add(jLabel171, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 50, -1, -1));
+
+        jTextField78.setEditable(false);
+        jTextField78.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField78.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField78.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField78.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField78.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField78ActionPerformed(evt);
+            }
+        });
+        jPanel58.add(jTextField78, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, 190, 20));
+
+        buscarActualizarTecnicos.setBackground(new java.awt.Color(0, 122, 255));
+        buscarActualizarTecnicos.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        buscarActualizarTecnicos.setForeground(new java.awt.Color(255, 255, 255));
+        buscarActualizarTecnicos.setText("Buscar");
+        buscarActualizarTecnicos.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        buscarActualizarTecnicos.setBorderPainted(false);
+        buscarActualizarTecnicos.setContentAreaFilled(false);
+        buscarActualizarTecnicos.setOpaque(true);
+        buscarActualizarTecnicos.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                buscarActualizarTecnicosMouseMoved(evt);
+            }
+        });
+        buscarActualizarTecnicos.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                buscarActualizarTecnicosMouseExited(evt);
+            }
+        });
+        buscarActualizarTecnicos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buscarActualizarTecnicosActionPerformed(evt);
+            }
+        });
+        jPanel58.add(buscarActualizarTecnicos, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 10, 110, 30));
+
+        jLabel172.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel172.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel172.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel172.setText("No Documento:*");
+        jPanel58.add(jLabel172, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 20, -1, -1));
+
+        jPanel57.add(jPanel58, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 60, 580, 320));
+        jPanel57.add(jSeparator16, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, 780, 20));
+
+        jLabel169.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel169.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel169.setText("ACTUALIZAR TECNICO");
+        jLabel169.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jPanel57.add(jLabel169, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 10, -1, 30));
+
+        jLabel170.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/perfil.png"))); // NOI18N
+        jPanel57.add(jLabel170, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 10, -1, -1));
+
+        volverActualizarTecnicos.setBackground(new java.awt.Color(0, 122, 255));
+        volverActualizarTecnicos.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        volverActualizarTecnicos.setForeground(new java.awt.Color(255, 255, 255));
+        volverActualizarTecnicos.setText("Volver");
+        volverActualizarTecnicos.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        volverActualizarTecnicos.setBorderPainted(false);
+        volverActualizarTecnicos.setContentAreaFilled(false);
+        volverActualizarTecnicos.setOpaque(true);
+        volverActualizarTecnicos.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                volverActualizarTecnicosMouseMoved(evt);
+            }
+        });
+        volverActualizarTecnicos.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                volverActualizarTecnicosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                volverActualizarTecnicosMouseExited(evt);
+            }
+        });
+        jPanel57.add(volverActualizarTecnicos, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 10, 120, 30));
+
+        jPanel54.add(jPanel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 390));
+
+        jTabbedPane3.addTab("19", jPanel54);
+
+        jPanel55.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel55.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel59.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel59.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel60.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel60.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
+        jPanel60.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel173.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel173.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel173.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel173.setText("No Documento:*");
+        jPanel60.add(jLabel173, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, -1, -1));
+
+        jTextField80.setEditable(false);
+        jTextField80.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField80.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField80.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField80.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel60.add(jTextField80, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 140, 190, -1));
+
+        jLabel174.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel174.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel174.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel174.setText("Nombre Completo:*");
+        jPanel60.add(jLabel174, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, -1, -1));
+
+        jTextField81.setEditable(false);
+        jTextField81.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField81.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField81.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField81.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField81.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField81ActionPerformed(evt);
+            }
+        });
+        jPanel60.add(jTextField81, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 90, 190, -1));
+
+        jLabel175.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel175.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel175.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel175.setText("Direccion: *");
+        jPanel60.add(jLabel175, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 70, -1, -1));
+
+        jTextField82.setEditable(false);
+        jTextField82.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField82.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField82.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField82.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField82.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField82ActionPerformed(evt);
+            }
+        });
+        jPanel60.add(jTextField82, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 190, 20));
+
+        jLabel176.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel176.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel176.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel176.setText("Tipo de documento:*");
+        jPanel60.add(jLabel176, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, -1, 20));
+
+        jComboBox12.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jComboBox12.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccione una opcion", "CC", "TI", "CE", "PEP" }));
+        jComboBox12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox12ActionPerformed(evt);
+            }
+        });
+        jPanel60.add(jComboBox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, -1, -1));
+
+        jTextField83.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField83.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField83.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField83.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel60.add(jTextField83, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 40, 190, 20));
+
+        jLabel177.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel177.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel177.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel177.setText("Nivel:*");
+        jPanel60.add(jLabel177, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 170, -1, -1));
+
+        jPasswordField11.setEditable(false);
+        jPasswordField11.setBackground(new java.awt.Color(75, 85, 99));
+        jPanel60.add(jPasswordField11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 200, 190, -1));
+
+        jLabel178.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel178.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel178.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel178.setText("Contraseña:*");
+        jPanel60.add(jLabel178, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, -1, -1));
+
+        guardarDatosTecnico.setBackground(new java.awt.Color(0, 122, 255));
+        guardarDatosTecnico.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        guardarDatosTecnico.setForeground(new java.awt.Color(255, 255, 255));
+        guardarDatosTecnico.setText("Guardar datos");
+        guardarDatosTecnico.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        guardarDatosTecnico.setBorderPainted(false);
+        guardarDatosTecnico.setContentAreaFilled(false);
+        guardarDatosTecnico.setOpaque(true);
+        guardarDatosTecnico.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                guardarDatosTecnicoMouseMoved(evt);
+            }
+        });
+        guardarDatosTecnico.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                guardarDatosTecnicoMouseExited(evt);
+            }
+        });
+        guardarDatosTecnico.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                guardarDatosTecnicoActionPerformed(evt);
+            }
+        });
+        jPanel60.add(guardarDatosTecnico, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 230, 110, 30));
+
+        jLabel179.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel179.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel179.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel179.setText("Correo Electronico:*");
+        jPanel60.add(jLabel179, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 120, -1, -1));
+
+        jComboBox13.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jComboBox13.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccione una opcion", "Junior", "Intermedio", "Senior", " " }));
+        jPanel60.add(jComboBox13, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 190, 190, -1));
+
+        jLabel180.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel180.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel180.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel180.setText("Telefono: *");
+        jPanel60.add(jLabel180, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 20, -1, 20));
+
+        jTextField84.setEditable(false);
+        jTextField84.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField84.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField84.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField84.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField84.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField84ActionPerformed(evt);
+            }
+        });
+        jPanel60.add(jTextField84, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, 190, 20));
+
+        jPanel59.add(jPanel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 60, 580, 280));
+        jPanel59.add(jSeparator17, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, 780, 20));
+
+        jLabel182.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel182.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel182.setText("ACTUALIZAR TECNICO");
+        jLabel182.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jPanel59.add(jLabel182, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 10, -1, 30));
+
+        jLabel183.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/perfil.png"))); // NOI18N
+        jPanel59.add(jLabel183, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 10, -1, -1));
+
+        volverActualizarTecnico2.setBackground(new java.awt.Color(0, 122, 255));
+        volverActualizarTecnico2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        volverActualizarTecnico2.setForeground(new java.awt.Color(255, 255, 255));
+        volverActualizarTecnico2.setText("Volver");
+        volverActualizarTecnico2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        volverActualizarTecnico2.setBorderPainted(false);
+        volverActualizarTecnico2.setContentAreaFilled(false);
+        volverActualizarTecnico2.setOpaque(true);
+        volverActualizarTecnico2.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                volverActualizarTecnico2MouseMoved(evt);
+            }
+        });
+        volverActualizarTecnico2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                volverActualizarTecnico2MouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                volverActualizarTecnico2MouseExited(evt);
+            }
+        });
+        jPanel59.add(volverActualizarTecnico2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 10, 120, 30));
+
+        jPanel56.setBackground(new java.awt.Color(209, 213, 219));
+        jPanel56.setForeground(new java.awt.Color(55, 65, 81));
+        jPanel56.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel149.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jLabel149.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel149.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel149.setText("Nota: Los campos que no desee actualizar, dejarlos en blanco");
+        jPanel56.add(jLabel149, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, -3, -1, 40));
+
+        jPanel59.add(jPanel56, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 350, 580, 30));
+
+        jPanel55.add(jPanel59, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 390));
+
+        jTabbedPane3.addTab("20", jPanel55);
+
+        jPanel61.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel61.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel62.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel62.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel63.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel63.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
+        jPanel63.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextField66.setEditable(false);
+        jTextField66.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField66.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField66.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField66.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField66.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField66ActionPerformed(evt);
+            }
+        });
+        jPanel63.add(jTextField66, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, 190, 20));
+
+        jLabel150.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel150.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel150.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel150.setText("Telefono del cliente:*");
+        jPanel63.add(jLabel150, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 160, -1, 20));
+
+        jTextField67.setEditable(false);
+        jTextField67.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField67.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField67.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField67.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel63.add(jTextField67, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 130, 190, 20));
+
+        jLabel151.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel151.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel151.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel151.setText("Nombre del cliente:*");
+        jPanel63.add(jLabel151, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 60, -1, 20));
+
+        jLabel152.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel152.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel152.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel152.setText("Nombre del tecnico:*");
+        jPanel63.add(jLabel152, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 60, -1, -1));
+
+        jTextField68.setEditable(false);
+        jTextField68.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField68.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField68.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField68.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField68.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField68ActionPerformed(evt);
+            }
+        });
+        jPanel63.add(jTextField68, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 230, 190, 20));
+
+        jLabel153.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel153.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel153.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel153.setText("Direccion del cliente:*");
+        jPanel63.add(jLabel153, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 210, -1, -1));
+
+        jTextField69.setEditable(false);
+        jTextField69.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField69.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField69.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField69.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField69.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField69ActionPerformed(evt);
+            }
+        });
+        jPanel63.add(jTextField69, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 280, 190, 20));
+
+        jLabel154.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel154.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel154.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel154.setText("Tipo de servicio:*");
+        jPanel63.add(jLabel154, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 110, -1, -1));
+
+        jComboBox9.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jComboBox9.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona una opcion", "Mantenimiento", "Instalacion", "Reparacion", " " }));
+        jComboBox9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox9ActionPerformed(evt);
+            }
+        });
+        jPanel63.add(jComboBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 130, 190, -1));
+
+        jTextField70.setEditable(false);
+        jTextField70.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField70.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTextField70.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField70.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel63.add(jTextField70, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 80, 190, 20));
+
+        jLabel155.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel155.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel155.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel155.setText("Descripcion del servicio:*");
+        jPanel63.add(jLabel155, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 170, -1, -1));
+
+        jLabel156.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel156.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel156.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel156.setText("Fecha del servicio:*");
+        jPanel63.add(jLabel156, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 260, -1, -1));
+
+        ActualizarServicio.setBackground(new java.awt.Color(0, 122, 255));
+        ActualizarServicio.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        ActualizarServicio.setForeground(new java.awt.Color(255, 255, 255));
+        ActualizarServicio.setText("Actualizar servicio");
+        ActualizarServicio.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        ActualizarServicio.setBorderPainted(false);
+        ActualizarServicio.setContentAreaFilled(false);
+        ActualizarServicio.setOpaque(true);
+        ActualizarServicio.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                ActualizarServicioMouseMoved(evt);
+            }
+        });
+        ActualizarServicio.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                ActualizarServicioMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                ActualizarServicioMouseExited(evt);
+            }
+        });
+        ActualizarServicio.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ActualizarServicioActionPerformed(evt);
+            }
+        });
+        jPanel63.add(ActualizarServicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 270, 110, 30));
+
+        jScrollPane5.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPane5.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
+
+        jTextArea2.setEditable(false);
+        jTextArea2.setBackground(new java.awt.Color(75, 85, 99));
+        jTextArea2.setColumns(20);
+        jTextArea2.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        jTextArea2.setRows(5);
+        jScrollPane5.setViewportView(jTextArea2);
+
+        jPanel63.add(jScrollPane5, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 190, 230, 70));
+
+        jLabel192.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel192.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel192.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel192.setText("N Documento: *");
+        jPanel63.add(jLabel192, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, -1, 20));
+
+        jTextField90.setEditable(false);
+        jTextField90.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField90.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTextField90.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField90.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel63.add(jTextField90, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 180, 190, 20));
+
+        jLabel193.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel193.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel193.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel193.setText("No Documento:*");
+        jPanel63.add(jLabel193, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 20, -1, -1));
+
+        jTextField91.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField91.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField91.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField91.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField91.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField91ActionPerformed(evt);
+            }
+        });
+        jPanel63.add(jTextField91, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 20, 190, 20));
+
+        buscarActualizarServicios.setBackground(new java.awt.Color(0, 122, 255));
+        buscarActualizarServicios.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        buscarActualizarServicios.setForeground(new java.awt.Color(255, 255, 255));
+        buscarActualizarServicios.setText("Buscar");
+        buscarActualizarServicios.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        buscarActualizarServicios.setBorderPainted(false);
+        buscarActualizarServicios.setContentAreaFilled(false);
+        buscarActualizarServicios.setOpaque(true);
+        buscarActualizarServicios.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                buscarActualizarServiciosMouseMoved(evt);
+            }
+        });
+        buscarActualizarServicios.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                buscarActualizarServiciosMouseExited(evt);
+            }
+        });
+        buscarActualizarServicios.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buscarActualizarServiciosActionPerformed(evt);
+            }
+        });
+        jPanel63.add(buscarActualizarServicios, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 10, 110, 30));
+
+        jPanel62.add(jPanel63, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 60, 660, 310));
+        jPanel62.add(jSeparator15, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, 780, 10));
+
+        jLabel157.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel157.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel157.setText("ACTUALIZAR SERVICIOS");
+        jLabel157.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jPanel62.add(jLabel157, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 10, -1, 30));
+
+        jLabel158.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/actualizar.png"))); // NOI18N
+        jPanel62.add(jLabel158, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 10, -1, -1));
+
+        volverActualizarServicios.setBackground(new java.awt.Color(0, 122, 255));
+        volverActualizarServicios.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        volverActualizarServicios.setForeground(new java.awt.Color(255, 255, 255));
+        volverActualizarServicios.setText("Volver");
+        volverActualizarServicios.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        volverActualizarServicios.setBorderPainted(false);
+        volverActualizarServicios.setContentAreaFilled(false);
+        volverActualizarServicios.setOpaque(true);
+        volverActualizarServicios.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                volverActualizarServiciosMouseMoved(evt);
+            }
+        });
+        volverActualizarServicios.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                volverActualizarServiciosMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                volverActualizarServiciosMouseExited(evt);
+            }
+        });
+        jPanel62.add(volverActualizarServicios, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 10, 120, 30));
+
+        jPanel61.add(jPanel62, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 390));
+
+        jTabbedPane3.addTab("21", jPanel61);
+
+        jPanel64.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel64.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel65.setBackground(new java.awt.Color(243, 244, 246));
+        jPanel65.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel66.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel66.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
+        jPanel66.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextField71.setEditable(false);
+        jTextField71.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField71.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField71.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField71.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField71.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField71ActionPerformed(evt);
+            }
+        });
+        jPanel66.add(jTextField71, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 190, 20));
+
+        jLabel161.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel161.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel161.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel161.setText("Telefono del cliente:*");
+        jPanel66.add(jLabel161, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, -1, -1));
+
+        jTextField85.setEditable(false);
+        jTextField85.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField85.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField85.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField85.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel66.add(jTextField85, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, 190, -1));
+
+        jLabel165.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel165.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel165.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel165.setText("Nombre del cliente:*");
+        jPanel66.add(jLabel165, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, -1, -1));
+
+        jLabel184.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel184.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel184.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel184.setText("Nombre del tecnico:*");
+        jPanel66.add(jLabel184, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 20, -1, -1));
+
+        jTextField86.setEditable(false);
+        jTextField86.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField86.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField86.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField86.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField86.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField86ActionPerformed(evt);
+            }
+        });
+        jPanel66.add(jTextField86, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 180, 190, -1));
+
+        jLabel185.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel185.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel185.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel185.setText("Direccion del cliente:*");
+        jPanel66.add(jLabel185, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 160, -1, -1));
+
+        jTextField87.setEditable(false);
+        jTextField87.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField87.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField87.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField87.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jTextField87.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField87ActionPerformed(evt);
+            }
+        });
+        jPanel66.add(jTextField87, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 230, 190, 20));
+
+        jLabel186.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel186.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel186.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel186.setText("Tipo de servicio:*");
+        jPanel66.add(jLabel186, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 70, -1, -1));
+
+        jComboBox14.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jComboBox14.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona una opcion", "Mantenimiento", "Instalacion", "Reparacion", " " }));
+        jComboBox14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox14ActionPerformed(evt);
+            }
+        });
+        jPanel66.add(jComboBox14, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 90, 190, -1));
+
+        jTextField88.setEditable(false);
+        jTextField88.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField88.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField88.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField88.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel66.add(jTextField88, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 40, 190, -1));
+
+        jLabel187.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel187.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel187.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel187.setText("Descripcion del servicio:*");
+        jPanel66.add(jLabel187, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 130, -1, -1));
+
+        jLabel188.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel188.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel188.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel188.setText("Fecha del servicio:*");
+        jPanel66.add(jLabel188, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 210, -1, -1));
+
+        guardarDatosServicio.setBackground(new java.awt.Color(0, 122, 255));
+        guardarDatosServicio.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        guardarDatosServicio.setForeground(new java.awt.Color(255, 255, 255));
+        guardarDatosServicio.setText("Guardar datos");
+        guardarDatosServicio.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        guardarDatosServicio.setBorderPainted(false);
+        guardarDatosServicio.setContentAreaFilled(false);
+        guardarDatosServicio.setOpaque(true);
+        guardarDatosServicio.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                guardarDatosServicioMouseMoved(evt);
+            }
+        });
+        guardarDatosServicio.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                guardarDatosServicioMouseExited(evt);
+            }
+        });
+        guardarDatosServicio.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                guardarDatosServicioActionPerformed(evt);
+            }
+        });
+        jPanel66.add(guardarDatosServicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 230, 110, 30));
+
+        jScrollPane6.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPane6.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
+
+        jTextArea3.setEditable(false);
+        jTextArea3.setBackground(new java.awt.Color(75, 85, 99));
+        jTextArea3.setColumns(20);
+        jTextArea3.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jTextArea3.setRows(5);
+        jScrollPane6.setViewportView(jTextArea3);
+
+        jPanel66.add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 150, 230, 70));
+
+        jLabel194.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel194.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel194.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel194.setText("No Documento:*");
+        jPanel66.add(jLabel194, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 60, -1, -1));
+
+        jTextField92.setEditable(false);
+        jTextField92.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField92.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField92.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jTextField92.setMargin(new java.awt.Insets(5, 5, 5, 5));
+        jPanel66.add(jTextField92, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 130, 190, 20));
+
+        jPanel65.add(jPanel66, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 70, 650, 270));
+        jPanel65.add(jSeparator18, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, 780, 10));
+
+        jLabel189.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel189.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel189.setText("ACTUALIZAR SERVICIOS");
+        jLabel189.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        jPanel65.add(jLabel189, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 10, -1, 30));
+
+        jLabel190.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/actualizar.png"))); // NOI18N
+        jPanel65.add(jLabel190, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 10, -1, -1));
+
+        volverActualizarServicio2.setBackground(new java.awt.Color(0, 122, 255));
+        volverActualizarServicio2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        volverActualizarServicio2.setForeground(new java.awt.Color(255, 255, 255));
+        volverActualizarServicio2.setText("Volver");
+        volverActualizarServicio2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        volverActualizarServicio2.setBorderPainted(false);
+        volverActualizarServicio2.setContentAreaFilled(false);
+        volverActualizarServicio2.setOpaque(true);
+        volverActualizarServicio2.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
+            public void mouseMoved(java.awt.event.MouseEvent evt) {
+                volverActualizarServicio2MouseMoved(evt);
+            }
+        });
+        volverActualizarServicio2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                volverActualizarServicio2MouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                volverActualizarServicio2MouseExited(evt);
+            }
+        });
+        jPanel65.add(volverActualizarServicio2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 10, 120, 30));
+
+        jPanel67.setBackground(new java.awt.Color(209, 213, 219));
+        jPanel67.setForeground(new java.awt.Color(55, 65, 81));
+        jPanel67.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel195.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
+        jLabel195.setForeground(new java.awt.Color(55, 65, 81));
+        jLabel195.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel195.setText("Nota: Los campos que no desee actualizar, dejarlos en blanco");
+        jPanel67.add(jLabel195, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 0, -1, 30));
+
+        jPanel65.add(jPanel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 350, 580, 30));
+
+        jPanel64.add(jPanel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 390));
+
+        jTabbedPane3.addTab("22", jPanel64);
+
         jPanel1.add(jTabbedPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 90, 780, 510));
 
+        jLabel40.setForeground(new java.awt.Color(255, 255, 255));
         jLabel40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Gemini_Generated_Image_b107oab107oab107.png"))); // NOI18N
         jLabel40.setText("jLabel40");
         jPanel1.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 940, -1));
@@ -2465,9 +4583,9 @@ public class vista_admin extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField17ActionPerformed
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+    private void eliminarUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_eliminarUsuarioActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton5ActionPerformed
+    }//GEN-LAST:event_eliminarUsuarioActionPerformed
 
     private void jComboBox3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox3ActionPerformed
         // TODO add your handling code here:
@@ -2489,9 +4607,9 @@ public class vista_admin extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField11ActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void btnBuscarUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarUsuarioActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }//GEN-LAST:event_btnBuscarUsuarioActionPerformed
 
     private void jComboBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox2ActionPerformed
         // TODO add your handling code here:
@@ -2509,9 +4627,9 @@ public class vista_admin extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField6ActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void btnAgregarUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarUsuarioActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_btnAgregarUsuarioActionPerformed
 
     private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
         // TODO add your handling code here:
@@ -2529,17 +4647,17 @@ public class vista_admin extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField1ActionPerformed
 
-    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+    private void buscarServiciosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buscarServiciosActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton15ActionPerformed
+    }//GEN-LAST:event_buscarServiciosActionPerformed
 
-    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+    private void actualizarServiciosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_actualizarServiciosActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton14ActionPerformed
+    }//GEN-LAST:event_actualizarServiciosActionPerformed
 
-    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+    private void eliminarServiciosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_eliminarServiciosActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton13ActionPerformed
+    }//GEN-LAST:event_eliminarServiciosActionPerformed
 
     private void agregarServiciosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_agregarServiciosActionPerformed
         // TODO add your handling code here:
@@ -2581,13 +4699,13 @@ public class vista_admin extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_agregarUsuariosActionPerformed
 
-    private void listarServicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_listarServicioActionPerformed
+    private void listarUsuariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_listarUsuariosActionPerformed
 
-    }//GEN-LAST:event_listarServicioActionPerformed
+    }//GEN-LAST:event_listarUsuariosActionPerformed
 
-    private void listarTecnicos1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_listarTecnicos1ActionPerformed
+    private void listarTecnicosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_listarTecnicosActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_listarTecnicos1ActionPerformed
+    }//GEN-LAST:event_listarTecnicosActionPerformed
 
     private void jTextField23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField23ActionPerformed
         // TODO add your handling code here:
@@ -2605,9 +4723,9 @@ public class vista_admin extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox5ActionPerformed
 
-    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+    private void btnAgregarTecnicoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarTecnicoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton18ActionPerformed
+    }//GEN-LAST:event_btnAgregarTecnicoActionPerformed
 
     private void jTextField18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField18ActionPerformed
         // TODO add your handling code here:
@@ -2621,9 +4739,9 @@ public class vista_admin extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField21ActionPerformed
 
-    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+    private void btnBuscarTecnicoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarTecnicoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton16ActionPerformed
+    }//GEN-LAST:event_btnBuscarTecnicoActionPerformed
 
     private void jTextField28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField28ActionPerformed
         // TODO add your handling code here:
@@ -2641,9 +4759,9 @@ public class vista_admin extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField32ActionPerformed
 
-    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
+    private void buscarEliminarTecnicoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buscarEliminarTecnicoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton20ActionPerformed
+    }//GEN-LAST:event_buscarEliminarTecnicoActionPerformed
 
     private void jTextField34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField34ActionPerformed
         // TODO add your handling code here:
@@ -2665,21 +4783,21 @@ public class vista_admin extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox8ActionPerformed
 
-    private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
+    private void asignarServicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_asignarServicioActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton24ActionPerformed
+    }//GEN-LAST:event_asignarServicioActionPerformed
 
-    private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
+    private void buscarEliminarUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buscarEliminarUsuarioActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton26ActionPerformed
+    }//GEN-LAST:event_buscarEliminarUsuarioActionPerformed
 
-    private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
+    private void EliminarTecnicoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EliminarTecnicoActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton27ActionPerformed
+    }//GEN-LAST:event_EliminarTecnicoActionPerformed
 
-    private void jButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton28ActionPerformed
+    private void listarServiciosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_listarServiciosActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton28ActionPerformed
+    }//GEN-LAST:event_listarServiciosActionPerformed
 
     private void jTextField40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField40ActionPerformed
         // TODO add your handling code here:
@@ -2693,9 +4811,9 @@ public class vista_admin extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField43ActionPerformed
 
-    private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
+    private void btnBuscarServicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarServicioActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton29ActionPerformed
+    }//GEN-LAST:event_btnBuscarServicioActionPerformed
 
     private void jTextField45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField45ActionPerformed
         // TODO add your handling code here:
@@ -2713,17 +4831,873 @@ public class vista_admin extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField50ActionPerformed
 
-    private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
+    private void eliminarServicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_eliminarServicioActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton31ActionPerformed
+    }//GEN-LAST:event_eliminarServicioActionPerformed
 
     private void jTextField52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField52ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField52ActionPerformed
 
-    private void jButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton32ActionPerformed
+    private void buscarEliminarServicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buscarEliminarServicioActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton32ActionPerformed
+    }//GEN-LAST:event_buscarEliminarServicioActionPerformed
+
+    private void jTextField54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField54ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField54ActionPerformed
+
+    private void jTextField56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField56ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField56ActionPerformed
+
+    private void jTextField57ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField57ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField57ActionPerformed
+
+    private void jComboBox4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox4ActionPerformed
+
+    private void actualizarUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_actualizarUsuarioActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_actualizarUsuarioActionPerformed
+
+    private void jTextField59ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField59ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField59ActionPerformed
+
+    private void buscarActualizarUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buscarActualizarUsuarioActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_buscarActualizarUsuarioActionPerformed
+
+    private void jTextField60ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField60ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField60ActionPerformed
+
+    private void jTextField62ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField62ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField62ActionPerformed
+
+    private void jTextField63ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField63ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField63ActionPerformed
+
+    private void jComboBox7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox7ActionPerformed
+
+    private void guardarDatosUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_guardarDatosUsuarioActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_guardarDatosUsuarioActionPerformed
+
+    private void jTextField19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField19ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField19ActionPerformed
+
+    private void jTextField72ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField72ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField72ActionPerformed
+
+    private void jTextField73ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField73ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField73ActionPerformed
+
+    private void jTextField75ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField75ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField75ActionPerformed
+
+    private void jTextField76ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField76ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField76ActionPerformed
+
+    private void jComboBox10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox10ActionPerformed
+
+    private void ActualizarTecnicoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ActualizarTecnicoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ActualizarTecnicoActionPerformed
+
+    private void jTextField78ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField78ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField78ActionPerformed
+
+    private void buscarActualizarTecnicosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buscarActualizarTecnicosActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_buscarActualizarTecnicosActionPerformed
+
+    private void jTextField81ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField81ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField81ActionPerformed
+
+    private void jTextField82ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField82ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField82ActionPerformed
+
+    private void jComboBox12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox12ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox12ActionPerformed
+
+    private void guardarDatosTecnicoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_guardarDatosTecnicoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_guardarDatosTecnicoActionPerformed
+
+    private void jTextField84ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField84ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField84ActionPerformed
+
+    private void jTextField66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField66ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField66ActionPerformed
+
+    private void jTextField68ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField68ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField68ActionPerformed
+
+    private void jTextField69ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField69ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField69ActionPerformed
+
+    private void jComboBox9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox9ActionPerformed
+
+    private void ActualizarServicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ActualizarServicioActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ActualizarServicioActionPerformed
+
+    private void jTextField71ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField71ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField71ActionPerformed
+
+    private void jTextField86ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField86ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField86ActionPerformed
+
+    private void jTextField87ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField87ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField87ActionPerformed
+
+    private void jComboBox14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox14ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox14ActionPerformed
+
+    private void guardarDatosServicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_guardarDatosServicioActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_guardarDatosServicioActionPerformed
+
+    private void jTextField89ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField89ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField89ActionPerformed
+
+    private void jTextField91ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField91ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField91ActionPerformed
+
+    private void buscarActualizarServiciosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buscarActualizarServiciosActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_buscarActualizarServiciosActionPerformed
+
+    private void inicioMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_inicioMouseMoved
+        inicio.setBackground(new Color(0, 90, 200) );
+    }//GEN-LAST:event_inicioMouseMoved
+
+    private void usuariosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_usuariosMouseMoved
+        usuarios.setBackground(new Color(0,90,200));
+    }//GEN-LAST:event_usuariosMouseMoved
+
+    private void inicioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_inicioMouseExited
+        inicio.setBackground(new Color(0,122,255));
+    }//GEN-LAST:event_inicioMouseExited
+
+    private void usuariosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_usuariosMouseExited
+        usuarios.setBackground(new Color(0,122,255));
+    }//GEN-LAST:event_usuariosMouseExited
+
+    private void tecnicosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tecnicosMouseMoved
+        tecnicos.setBackground(new Color(0, 90, 200) );
+    }//GEN-LAST:event_tecnicosMouseMoved
+
+    private void tecnicosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tecnicosMouseExited
+        tecnicos.setBackground(new Color(0,122,255));
+    }//GEN-LAST:event_tecnicosMouseExited
+
+    private void serviciosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_serviciosMouseMoved
+        servicios.setBackground(new Color(0, 90, 200) );
+    }//GEN-LAST:event_serviciosMouseMoved
+
+    private void serviciosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_serviciosMouseExited
+        servicios.setBackground(new Color(0,122,255));
+    }//GEN-LAST:event_serviciosMouseExited
+
+    private void volverUsuariosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverUsuariosMouseMoved
+        volverUsuarios.setBackground(new Color(0, 90, 200) );
+    }//GEN-LAST:event_volverUsuariosMouseMoved
+
+    private void volverUsuariosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverUsuariosMouseExited
+        volverUsuarios.setBackground(new Color(0,122,255));
+    }//GEN-LAST:event_volverUsuariosMouseExited
+
+    private void agregarUsuariosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_agregarUsuariosMouseMoved
+        agregarUsuarios.setBackground(new Color(0, 90, 200) );
+    }//GEN-LAST:event_agregarUsuariosMouseMoved
+
+    private void eliminarUsuariosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_eliminarUsuariosMouseMoved
+        eliminarUsuarios.setBackground(new Color(200, 30, 30) );
+    }//GEN-LAST:event_eliminarUsuariosMouseMoved
+
+    private void agregarUsuariosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_agregarUsuariosMouseExited
+        agregarUsuarios.setBackground(new Color(0,122,255));
+    }//GEN-LAST:event_agregarUsuariosMouseExited
+
+    private void actualizarUsuariosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_actualizarUsuariosMouseMoved
+        actualizarUsuarios.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_actualizarUsuariosMouseMoved
+
+    private void eliminarUsuariosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_eliminarUsuariosMouseExited
+        eliminarUsuarios.setBackground(new Color(254,226,226));
+    }//GEN-LAST:event_eliminarUsuariosMouseExited
+
+    private void actualizarServiciosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_actualizarServiciosMouseMoved
+        actualizarServicios.setBackground(new Color(0, 90, 200) );
+    }//GEN-LAST:event_actualizarServiciosMouseMoved
+
+    private void actualizarServiciosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_actualizarServiciosMouseExited
+        actualizarServicios.setBackground(new Color(0,122,255));
+    }//GEN-LAST:event_actualizarServiciosMouseExited
+
+    private void buscarServiciosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buscarServiciosMouseMoved
+        buscarServicios.setBackground(new Color(0, 90, 200) );
+    }//GEN-LAST:event_buscarServiciosMouseMoved
+
+    private void buscarServiciosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buscarServiciosMouseExited
+        buscarServicios.setBackground(new Color(0,122,255));
+    }//GEN-LAST:event_buscarServiciosMouseExited
+
+    private void listarServiciosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_listarServiciosMouseMoved
+        listarServicios.setBackground(new Color(0, 90, 200) );
+    }//GEN-LAST:event_listarServiciosMouseMoved
+
+    private void listarServiciosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_listarServiciosMouseExited
+        listarServicios.setBackground(new Color(0,122,255));
+    }//GEN-LAST:event_listarServiciosMouseExited
+
+    private void actualizarUsuariosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_actualizarUsuariosMouseExited
+        actualizarUsuarios.setBackground(new Color(0,122,255));
+    }//GEN-LAST:event_actualizarUsuariosMouseExited
+
+    private void buscarUsuariosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buscarUsuariosMouseMoved
+        buscarUsuarios.setBackground(new Color(0, 90, 200) );
+    }//GEN-LAST:event_buscarUsuariosMouseMoved
+
+    private void buscarUsuariosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buscarUsuariosMouseExited
+        buscarUsuarios.setBackground(new Color (0,122,255));
+    }//GEN-LAST:event_buscarUsuariosMouseExited
+
+    private void listarUsuariosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_listarUsuariosMouseMoved
+        listarUsuarios.setBackground(new Color (0,90,200));
+    }//GEN-LAST:event_listarUsuariosMouseMoved
+
+    private void listarUsuariosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_listarUsuariosMouseExited
+        listarUsuarios.setBackground(new Color (0,122,255));
+    }//GEN-LAST:event_listarUsuariosMouseExited
+
+    private void agregarTecnicosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_agregarTecnicosMouseMoved
+        agregarTecnicos.setBackground(new Color(0, 90, 200) );
+    }//GEN-LAST:event_agregarTecnicosMouseMoved
+
+    private void agregarTecnicosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_agregarTecnicosMouseExited
+        agregarTecnicos.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_agregarTecnicosMouseExited
+
+    private void actualizarTecnicosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_actualizarTecnicosMouseMoved
+        actualizarTecnicos.setBackground(new Color(0, 90, 200) );
+    }//GEN-LAST:event_actualizarTecnicosMouseMoved
+
+    private void actualizarTecnicosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_actualizarTecnicosMouseExited
+        actualizarTecnicos.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_actualizarTecnicosMouseExited
+
+    private void buscarTecnicosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buscarTecnicosMouseMoved
+        buscarTecnicos.setBackground(new Color(0, 90, 200) );
+    }//GEN-LAST:event_buscarTecnicosMouseMoved
+
+    private void buscarTecnicosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buscarTecnicosMouseExited
+        buscarTecnicos.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_buscarTecnicosMouseExited
+
+    private void listarTecnicosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_listarTecnicosMouseMoved
+        listarTecnicos.setBackground(new Color(0, 90, 200) );
+    }//GEN-LAST:event_listarTecnicosMouseMoved
+
+    private void listarTecnicosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_listarTecnicosMouseExited
+        listarTecnicos.setBackground(new Color(0, 122, 255) );
+    }//GEN-LAST:event_listarTecnicosMouseExited
+
+    private void volverTecnicosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverTecnicosMouseMoved
+        volverTecnicos.setBackground(new Color(0, 90, 200) );
+    }//GEN-LAST:event_volverTecnicosMouseMoved
+
+    private void volverTecnicosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverTecnicosMouseExited
+        volverTecnicos.setBackground(new Color(0, 122, 255) );
+    }//GEN-LAST:event_volverTecnicosMouseExited
+
+    private void volverServiciosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverServiciosMouseMoved
+        volverServicios.setBackground(new Color(0, 90, 200) );
+    }//GEN-LAST:event_volverServiciosMouseMoved
+
+    private void eliminarTecnicosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_eliminarTecnicosMouseMoved
+        eliminarTecnicos.setBackground(new Color(200, 30, 30) );
+    }//GEN-LAST:event_eliminarTecnicosMouseMoved
+
+    private void eliminarTecnicosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_eliminarTecnicosMouseExited
+        eliminarTecnicos.setBackground(new Color(254,226,226) );
+    }//GEN-LAST:event_eliminarTecnicosMouseExited
+
+    private void agregarServiciosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_agregarServiciosMouseMoved
+        agregarServicios.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_agregarServiciosMouseMoved
+
+    private void agregarServiciosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_agregarServiciosMouseExited
+        agregarServicios.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_agregarServiciosMouseExited
+
+    private void eliminarServiciosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_eliminarServiciosMouseMoved
+        eliminarServicios.setBackground(new Color(200,30,30) );
+    }//GEN-LAST:event_eliminarServiciosMouseMoved
+
+    private void eliminarServiciosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_eliminarServiciosMouseExited
+        eliminarServicios.setBackground(new Color(254,226,226) );
+    }//GEN-LAST:event_eliminarServiciosMouseExited
+
+    private void volverRegistrarMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverRegistrarMouseMoved
+        volverRegistrar.setBackground(new Color(0,90,200));
+    }//GEN-LAST:event_volverRegistrarMouseMoved
+
+    private void volverRegistrarMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverRegistrarMouseExited
+        volverRegistrar.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_volverRegistrarMouseExited
+
+    private void btnAgregarUsuarioMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnAgregarUsuarioMouseMoved
+        btnAgregarUsuario.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_btnAgregarUsuarioMouseMoved
+
+    private void btnAgregarUsuarioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnAgregarUsuarioMouseExited
+       btnAgregarUsuario.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_btnAgregarUsuarioMouseExited
+
+    private void volverBuscarUsuarioMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverBuscarUsuarioMouseMoved
+        volverBuscarUsuario.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_volverBuscarUsuarioMouseMoved
+
+    private void volverBuscarUsuarioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverBuscarUsuarioMouseExited
+        volverBuscarUsuario.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_volverBuscarUsuarioMouseExited
+
+    private void btnBuscarUsuarioMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnBuscarUsuarioMouseMoved
+        btnBuscarUsuario.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_btnBuscarUsuarioMouseMoved
+
+    private void btnBuscarUsuarioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnBuscarUsuarioMouseExited
+        btnBuscarUsuario.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_btnBuscarUsuarioMouseExited
+
+    private void volverEliminarUsuarioMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverEliminarUsuarioMouseMoved
+        volverEliminarUsuario.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_volverEliminarUsuarioMouseMoved
+
+    private void volverEliminarUsuarioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverEliminarUsuarioMouseExited
+        volverEliminarUsuario.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_volverEliminarUsuarioMouseExited
+
+    private void buscarEliminarUsuarioMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buscarEliminarUsuarioMouseMoved
+        buscarEliminarUsuario.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_buscarEliminarUsuarioMouseMoved
+
+    private void buscarEliminarUsuarioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buscarEliminarUsuarioMouseExited
+        buscarEliminarUsuario.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_buscarEliminarUsuarioMouseExited
+
+    private void eliminarUsuarioMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_eliminarUsuarioMouseMoved
+        eliminarUsuario.setBackground(new Color(200, 30, 30) );
+    }//GEN-LAST:event_eliminarUsuarioMouseMoved
+
+    private void eliminarUsuarioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_eliminarUsuarioMouseExited
+        eliminarUsuario.setBackground(new Color(254,226,226) );
+    }//GEN-LAST:event_eliminarUsuarioMouseExited
+
+    private void volverListarUsuarioMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverListarUsuarioMouseMoved
+        volverListarUsuario.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_volverListarUsuarioMouseMoved
+
+    private void volverListarUsuarioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverListarUsuarioMouseExited
+         volverListarUsuario.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_volverListarUsuarioMouseExited
+
+    private void btnListarUsuarioMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnListarUsuarioMouseMoved
+        btnListarUsuario.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_btnListarUsuarioMouseMoved
+
+    private void btnListarUsuarioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnListarUsuarioMouseExited
+        btnListarUsuario.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_btnListarUsuarioMouseExited
+
+    private void volverRegistrarTecnicoMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverRegistrarTecnicoMouseMoved
+        volverRegistrarTecnico.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_volverRegistrarTecnicoMouseMoved
+
+    private void volverRegistrarTecnicoMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverRegistrarTecnicoMouseExited
+        volverRegistrarTecnico.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_volverRegistrarTecnicoMouseExited
+
+    private void btnAgregarTecnicoMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnAgregarTecnicoMouseMoved
+        btnAgregarTecnico.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_btnAgregarTecnicoMouseMoved
+
+    private void btnAgregarTecnicoMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnAgregarTecnicoMouseExited
+        btnAgregarTecnico.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_btnAgregarTecnicoMouseExited
+
+    private void volverBuscarTecnicosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverBuscarTecnicosMouseMoved
+        volverBuscarTecnicos.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_volverBuscarTecnicosMouseMoved
+
+    private void volverBuscarTecnicosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverBuscarTecnicosMouseExited
+        volverBuscarTecnicos.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_volverBuscarTecnicosMouseExited
+
+    private void btnBuscarTecnicoMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnBuscarTecnicoMouseMoved
+        btnBuscarTecnico.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_btnBuscarTecnicoMouseMoved
+
+    private void btnBuscarTecnicoMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnBuscarTecnicoMouseExited
+        volverBuscarTecnicos.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_btnBuscarTecnicoMouseExited
+
+    private void volverEliminarTecnicoçMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverEliminarTecnicoçMouseMoved
+        volverEliminarTecnicoç.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_volverEliminarTecnicoçMouseMoved
+
+    private void volverEliminarTecnicoçMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverEliminarTecnicoçMouseExited
+        volverEliminarTecnicoç.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_volverEliminarTecnicoçMouseExited
+
+    private void buscarEliminarTecnicoMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buscarEliminarTecnicoMouseMoved
+        buscarEliminarTecnico.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_buscarEliminarTecnicoMouseMoved
+
+    private void buscarEliminarTecnicoMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buscarEliminarTecnicoMouseExited
+        buscarEliminarTecnico.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_buscarEliminarTecnicoMouseExited
+
+    private void EliminarTecnicoMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_EliminarTecnicoMouseMoved
+        EliminarTecnico.setBackground(new Color(200,30,30) );
+    }//GEN-LAST:event_EliminarTecnicoMouseMoved
+
+    private void EliminarTecnicoMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_EliminarTecnicoMouseExited
+        EliminarTecnico.setBackground(new Color(254,226,226) );
+    }//GEN-LAST:event_EliminarTecnicoMouseExited
+
+    private void volverListarTecnicoMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverListarTecnicoMouseMoved
+        volverListarTecnico.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_volverListarTecnicoMouseMoved
+
+    private void volverListarTecnicoMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverListarTecnicoMouseExited
+        volverListarTecnico.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_volverListarTecnicoMouseExited
+
+    private void btnListarTecnicoMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnListarTecnicoMouseMoved
+        btnListarTecnico.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_btnListarTecnicoMouseMoved
+
+    private void btnListarTecnicoMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnListarTecnicoMouseExited
+        btnListarTecnico.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_btnListarTecnicoMouseExited
+
+    private void volverAsignarServicioMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverAsignarServicioMouseMoved
+        volverAsignarServicio.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_volverAsignarServicioMouseMoved
+
+    private void volverAsignarServicioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverAsignarServicioMouseExited
+        volverAsignarServicio.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_volverAsignarServicioMouseExited
+
+    private void asignarServicioMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_asignarServicioMouseMoved
+        asignarServicio.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_asignarServicioMouseMoved
+
+    private void asignarServicioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_asignarServicioMouseExited
+        asignarServicio.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_asignarServicioMouseExited
+
+    private void volverBuscarServicioMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverBuscarServicioMouseMoved
+        volverBuscarServicio.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_volverBuscarServicioMouseMoved
+
+    private void volverBuscarServicioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverBuscarServicioMouseExited
+        volverBuscarServicio.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_volverBuscarServicioMouseExited
+
+    private void btnBuscarServicioMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnBuscarServicioMouseMoved
+        btnBuscarServicio.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_btnBuscarServicioMouseMoved
+
+    private void btnBuscarServicioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnBuscarServicioMouseExited
+        btnBuscarServicio.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_btnBuscarServicioMouseExited
+
+    private void volverListarServiciosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverListarServiciosMouseMoved
+        volverListarServicios.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_volverListarServiciosMouseMoved
+
+    private void volverListarServiciosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverListarServiciosMouseExited
+        volverListarServicios.setBackground(new Color(0,122,200) );
+    }//GEN-LAST:event_volverListarServiciosMouseExited
+
+    private void btnListarServiciosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnListarServiciosMouseMoved
+        btnListarServicios.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_btnListarServiciosMouseMoved
+
+    private void btnListarServiciosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnListarServiciosMouseExited
+        btnListarServicios.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_btnListarServiciosMouseExited
+
+    private void volverEliminarServicioMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverEliminarServicioMouseMoved
+        volverEliminarServicio.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_volverEliminarServicioMouseMoved
+
+    private void volverEliminarServicioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverEliminarServicioMouseExited
+        volverEliminarServicio.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_volverEliminarServicioMouseExited
+
+    private void buscarEliminarServicioMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buscarEliminarServicioMouseMoved
+        buscarEliminarServicio.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_buscarEliminarServicioMouseMoved
+
+    private void buscarEliminarServicioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buscarEliminarServicioMouseExited
+        buscarEliminarServicio.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_buscarEliminarServicioMouseExited
+
+    private void eliminarServicioMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_eliminarServicioMouseMoved
+        eliminarServicio.setBackground(new Color(200,30,30) );
+    }//GEN-LAST:event_eliminarServicioMouseMoved
+
+    private void eliminarServicioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_eliminarServicioMouseExited
+        eliminarServicio.setBackground(new Color(254,226,226) );
+    }//GEN-LAST:event_eliminarServicioMouseExited
+
+    private void volverServiciosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverServiciosMouseExited
+        volverServicios.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_volverServiciosMouseExited
+
+    private void volverActualizarUsuarioMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverActualizarUsuarioMouseMoved
+        volverActualizarUsuario.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_volverActualizarUsuarioMouseMoved
+
+    private void volverActualizarUsuarioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverActualizarUsuarioMouseExited
+       volverActualizarUsuario.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_volverActualizarUsuarioMouseExited
+
+    private void buscarActualizarUsuarioMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buscarActualizarUsuarioMouseMoved
+        buscarActualizarUsuario.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_buscarActualizarUsuarioMouseMoved
+
+    private void buscarActualizarUsuarioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buscarActualizarUsuarioMouseExited
+        buscarActualizarUsuario.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_buscarActualizarUsuarioMouseExited
+
+    private void actualizarUsuarioMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_actualizarUsuarioMouseMoved
+        actualizarUsuario.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_actualizarUsuarioMouseMoved
+
+    private void actualizarUsuarioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_actualizarUsuarioMouseExited
+        actualizarUsuario.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_actualizarUsuarioMouseExited
+
+    private void volverActualizarUsuario2MouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverActualizarUsuario2MouseMoved
+        volverActualizarUsuario2.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_volverActualizarUsuario2MouseMoved
+
+    private void volverActualizarUsuario2MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverActualizarUsuario2MouseExited
+        volverActualizarUsuario2.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_volverActualizarUsuario2MouseExited
+
+    private void guardarDatosUsuarioMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_guardarDatosUsuarioMouseMoved
+        guardarDatosUsuario.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_guardarDatosUsuarioMouseMoved
+
+    private void guardarDatosUsuarioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_guardarDatosUsuarioMouseExited
+        guardarDatosUsuario.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_guardarDatosUsuarioMouseExited
+
+    private void volverActualizarTecnicosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverActualizarTecnicosMouseMoved
+        volverActualizarTecnicos.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_volverActualizarTecnicosMouseMoved
+
+    private void volverActualizarTecnicosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverActualizarTecnicosMouseExited
+        volverActualizarTecnicos.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_volverActualizarTecnicosMouseExited
+
+    private void buscarActualizarTecnicosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buscarActualizarTecnicosMouseMoved
+        buscarActualizarTecnicos.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_buscarActualizarTecnicosMouseMoved
+
+    private void buscarActualizarTecnicosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buscarActualizarTecnicosMouseExited
+        buscarActualizarTecnicos.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_buscarActualizarTecnicosMouseExited
+
+    private void ActualizarTecnicoMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ActualizarTecnicoMouseMoved
+        ActualizarTecnico.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_ActualizarTecnicoMouseMoved
+
+    private void ActualizarTecnicoMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ActualizarTecnicoMouseExited
+        ActualizarTecnico.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_ActualizarTecnicoMouseExited
+
+    private void volverActualizarTecnico2MouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverActualizarTecnico2MouseMoved
+        volverActualizarTecnico2.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_volverActualizarTecnico2MouseMoved
+
+    private void volverActualizarTecnico2MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverActualizarTecnico2MouseExited
+        volverActualizarTecnico2.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_volverActualizarTecnico2MouseExited
+
+    private void guardarDatosTecnicoMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_guardarDatosTecnicoMouseMoved
+        guardarDatosTecnico.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_guardarDatosTecnicoMouseMoved
+
+    private void guardarDatosTecnicoMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_guardarDatosTecnicoMouseExited
+        guardarDatosTecnico.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_guardarDatosTecnicoMouseExited
+
+    private void volverActualizarServiciosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverActualizarServiciosMouseMoved
+         volverActualizarServicios.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_volverActualizarServiciosMouseMoved
+
+    private void volverActualizarServiciosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverActualizarServiciosMouseExited
+        volverActualizarServicios.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_volverActualizarServiciosMouseExited
+
+    private void buscarActualizarServiciosMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buscarActualizarServiciosMouseMoved
+        buscarActualizarServicios.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_buscarActualizarServiciosMouseMoved
+
+    private void buscarActualizarServiciosMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buscarActualizarServiciosMouseExited
+        buscarActualizarServicios.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_buscarActualizarServiciosMouseExited
+
+    private void ActualizarServicioMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ActualizarServicioMouseMoved
+        ActualizarServicio.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_ActualizarServicioMouseMoved
+
+    private void ActualizarServicioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ActualizarServicioMouseExited
+         ActualizarServicio.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_ActualizarServicioMouseExited
+
+    private void volverActualizarServicio2MouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverActualizarServicio2MouseMoved
+         volverActualizarServicio2.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_volverActualizarServicio2MouseMoved
+
+    private void volverActualizarServicio2MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverActualizarServicio2MouseExited
+         volverActualizarServicio2.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_volverActualizarServicio2MouseExited
+
+    private void guardarDatosServicioMouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_guardarDatosServicioMouseMoved
+        guardarDatosServicio.setBackground(new Color(0,90,200) );
+    }//GEN-LAST:event_guardarDatosServicioMouseMoved
+
+    private void guardarDatosServicioMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_guardarDatosServicioMouseExited
+        guardarDatosServicio.setBackground(new Color(0,122,255) );
+    }//GEN-LAST:event_guardarDatosServicioMouseExited
+
+    private void inicioMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_inicioMouseClicked
+        jTabbedPane3.setSelectedIndex(0);
+    }//GEN-LAST:event_inicioMouseClicked
+
+    private void usuariosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_usuariosMouseClicked
+        jTabbedPane3.setSelectedIndex(1);
+    }//GEN-LAST:event_usuariosMouseClicked
+
+    private void tecnicosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tecnicosMouseClicked
+         jTabbedPane3.setSelectedIndex(2);
+    }//GEN-LAST:event_tecnicosMouseClicked
+
+    private void serviciosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_serviciosMouseClicked
+         jTabbedPane3.setSelectedIndex(3);
+    }//GEN-LAST:event_serviciosMouseClicked
+
+    private void jLabel17MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel17MouseClicked
+         jTabbedPane3.setSelectedIndex(0);
+    }//GEN-LAST:event_jLabel17MouseClicked
+
+    private void jLabel18MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel18MouseClicked
+         jTabbedPane3.setSelectedIndex(1);
+    }//GEN-LAST:event_jLabel18MouseClicked
+
+    private void jLabel19MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel19MouseClicked
+         jTabbedPane3.setSelectedIndex(2);
+    }//GEN-LAST:event_jLabel19MouseClicked
+
+    private void jLabel15MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel15MouseClicked
+         jTabbedPane3.setSelectedIndex(3);
+    }//GEN-LAST:event_jLabel15MouseClicked
+
+    private void agregarUsuariosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_agregarUsuariosMouseClicked
+         jTabbedPane3.setSelectedIndex(4);
+    }//GEN-LAST:event_agregarUsuariosMouseClicked
+
+    private void buscarServiciosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buscarServiciosMouseClicked
+         jTabbedPane3.setSelectedIndex(14);
+    }//GEN-LAST:event_buscarServiciosMouseClicked
+
+    private void eliminarServiciosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_eliminarServiciosMouseClicked
+        jTabbedPane3.setSelectedIndex(15);
+    }//GEN-LAST:event_eliminarServiciosMouseClicked
+
+    private void buscarUsuariosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buscarUsuariosMouseClicked
+         jTabbedPane3.setSelectedIndex(5);
+    }//GEN-LAST:event_buscarUsuariosMouseClicked
+
+    private void eliminarUsuariosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_eliminarUsuariosMouseClicked
+         jTabbedPane3.setSelectedIndex(6);
+    }//GEN-LAST:event_eliminarUsuariosMouseClicked
+
+    private void listarUsuariosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_listarUsuariosMouseClicked
+         jTabbedPane3.setSelectedIndex(7);
+    }//GEN-LAST:event_listarUsuariosMouseClicked
+
+    private void actualizarUsuariosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_actualizarUsuariosMouseClicked
+         jTabbedPane3.setSelectedIndex(17);
+    }//GEN-LAST:event_actualizarUsuariosMouseClicked
+
+    private void volverUsuariosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverUsuariosMouseClicked
+         jTabbedPane3.setSelectedIndex(0);
+    }//GEN-LAST:event_volverUsuariosMouseClicked
+
+    private void volverTecnicosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverTecnicosMouseClicked
+         jTabbedPane3.setSelectedIndex(0);
+    }//GEN-LAST:event_volverTecnicosMouseClicked
+
+    private void agregarTecnicosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_agregarTecnicosMouseClicked
+         jTabbedPane3.setSelectedIndex(8);
+    }//GEN-LAST:event_agregarTecnicosMouseClicked
+
+    private void buscarTecnicosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_buscarTecnicosMouseClicked
+         jTabbedPane3.setSelectedIndex(9);
+    }//GEN-LAST:event_buscarTecnicosMouseClicked
+
+    private void eliminarTecnicosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_eliminarTecnicosMouseClicked
+          jTabbedPane3.setSelectedIndex(10);
+    }//GEN-LAST:event_eliminarTecnicosMouseClicked
+
+    private void listarTecnicosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_listarTecnicosMouseClicked
+          jTabbedPane3.setSelectedIndex(11);
+    }//GEN-LAST:event_listarTecnicosMouseClicked
+
+    private void actualizarTecnicosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_actualizarTecnicosMouseClicked
+          jTabbedPane3.setSelectedIndex(19);
+    }//GEN-LAST:event_actualizarTecnicosMouseClicked
+
+    private void volverServiciosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverServiciosMouseClicked
+          jTabbedPane3.setSelectedIndex(0);
+    }//GEN-LAST:event_volverServiciosMouseClicked
+
+    private void agregarServiciosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_agregarServiciosMouseClicked
+          jTabbedPane3.setSelectedIndex(13);
+    }//GEN-LAST:event_agregarServiciosMouseClicked
+
+    private void listarServiciosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_listarServiciosMouseClicked
+          jTabbedPane3.setSelectedIndex(16);
+    }//GEN-LAST:event_listarServiciosMouseClicked
+
+    private void actualizarServiciosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_actualizarServiciosMouseClicked
+          jTabbedPane3.setSelectedIndex(21);
+    }//GEN-LAST:event_actualizarServiciosMouseClicked
+
+    private void volverRegistrarMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverRegistrarMouseClicked
+          jTabbedPane3.setSelectedIndex(1);
+    }//GEN-LAST:event_volverRegistrarMouseClicked
+
+    private void volverBuscarUsuarioMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverBuscarUsuarioMouseClicked
+          jTabbedPane3.setSelectedIndex(1);
+    }//GEN-LAST:event_volverBuscarUsuarioMouseClicked
+
+    private void volverEliminarUsuarioMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverEliminarUsuarioMouseClicked
+          jTabbedPane3.setSelectedIndex(1);
+    }//GEN-LAST:event_volverEliminarUsuarioMouseClicked
+
+    private void volverListarUsuarioMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverListarUsuarioMouseClicked
+          jTabbedPane3.setSelectedIndex(1);
+    }//GEN-LAST:event_volverListarUsuarioMouseClicked
+
+    private void volverRegistrarTecnicoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverRegistrarTecnicoMouseClicked
+          jTabbedPane3.setSelectedIndex(2);
+    }//GEN-LAST:event_volverRegistrarTecnicoMouseClicked
+
+    private void volverBuscarTecnicosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverBuscarTecnicosMouseClicked
+          jTabbedPane3.setSelectedIndex(2);
+    }//GEN-LAST:event_volverBuscarTecnicosMouseClicked
+
+    private void volverEliminarTecnicoçMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverEliminarTecnicoçMouseClicked
+          jTabbedPane3.setSelectedIndex(2);
+    }//GEN-LAST:event_volverEliminarTecnicoçMouseClicked
+
+    private void volverListarTecnicoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverListarTecnicoMouseClicked
+          jTabbedPane3.setSelectedIndex(2);
+    }//GEN-LAST:event_volverListarTecnicoMouseClicked
+
+    private void volverAsignarServicioMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverAsignarServicioMouseClicked
+          jTabbedPane3.setSelectedIndex(3);
+    }//GEN-LAST:event_volverAsignarServicioMouseClicked
+
+    private void volverBuscarServicioMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverBuscarServicioMouseClicked
+          jTabbedPane3.setSelectedIndex(3);
+    }//GEN-LAST:event_volverBuscarServicioMouseClicked
+
+    private void volverEliminarServicioMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverEliminarServicioMouseClicked
+          jTabbedPane3.setSelectedIndex(3);
+    }//GEN-LAST:event_volverEliminarServicioMouseClicked
+
+    private void volverListarServiciosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverListarServiciosMouseClicked
+          jTabbedPane3.setSelectedIndex(3);
+    }//GEN-LAST:event_volverListarServiciosMouseClicked
+
+    private void volverActualizarUsuarioMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverActualizarUsuarioMouseClicked
+          jTabbedPane3.setSelectedIndex(1);
+    }//GEN-LAST:event_volverActualizarUsuarioMouseClicked
+
+    private void actualizarUsuarioMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_actualizarUsuarioMouseClicked
+          jTabbedPane3.setSelectedIndex(18);
+    }//GEN-LAST:event_actualizarUsuarioMouseClicked
+
+    private void volverActualizarUsuario2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverActualizarUsuario2MouseClicked
+          jTabbedPane3.setSelectedIndex(17);
+    }//GEN-LAST:event_volverActualizarUsuario2MouseClicked
+
+    private void volverActualizarTecnicosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverActualizarTecnicosMouseClicked
+          jTabbedPane3.setSelectedIndex(2);
+    }//GEN-LAST:event_volverActualizarTecnicosMouseClicked
+
+    private void ActualizarTecnicoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ActualizarTecnicoMouseClicked
+          jTabbedPane3.setSelectedIndex(20);
+    }//GEN-LAST:event_ActualizarTecnicoMouseClicked
+
+    private void volverActualizarTecnico2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverActualizarTecnico2MouseClicked
+          jTabbedPane3.setSelectedIndex(19);
+    }//GEN-LAST:event_volverActualizarTecnico2MouseClicked
+
+    private void volverActualizarServiciosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverActualizarServiciosMouseClicked
+          jTabbedPane3.setSelectedIndex(3);
+    }//GEN-LAST:event_volverActualizarServiciosMouseClicked
+
+    private void ActualizarServicioMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ActualizarServicioMouseClicked
+          jTabbedPane3.setSelectedIndex(22);
+    }//GEN-LAST:event_ActualizarServicioMouseClicked
+
+    private void volverActualizarServicio2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_volverActualizarServicio2MouseClicked
+          jTabbedPane3.setSelectedIndex(21);
+    }//GEN-LAST:event_volverActualizarServicio2MouseClicked
 
     public static String fecha(){
         Date fecha = new Date();
@@ -2760,57 +5734,59 @@ public class vista_admin extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton ActualizarServicio;
+    private javax.swing.JButton ActualizarTecnico;
+    private javax.swing.JButton EliminarTecnico;
+    private javax.swing.JButton actualizarServicios;
     private javax.swing.JButton actualizarTecnicos;
+    private javax.swing.JButton actualizarUsuario;
     private javax.swing.JButton actualizarUsuarios;
     private javax.swing.JButton agregarServicios;
     private javax.swing.JButton agregarTecnicos;
     private javax.swing.JButton agregarUsuarios;
+    private javax.swing.JButton asignarServicio;
+    private javax.swing.JButton btnAgregarTecnico;
+    private javax.swing.JButton btnAgregarUsuario;
+    private javax.swing.JButton btnBuscarServicio;
+    private javax.swing.JButton btnBuscarTecnico;
+    private javax.swing.JButton btnBuscarUsuario;
+    private javax.swing.JButton btnListarServicios;
+    private javax.swing.JButton btnListarTecnico;
+    private javax.swing.JButton btnListarUsuario;
+    private javax.swing.JButton buscarActualizarServicios;
+    private javax.swing.JButton buscarActualizarTecnicos;
+    private javax.swing.JButton buscarActualizarUsuario;
+    private javax.swing.JButton buscarEliminarServicio;
+    private javax.swing.JButton buscarEliminarTecnico;
+    private javax.swing.JButton buscarEliminarUsuario;
+    private javax.swing.JButton buscarServicios;
     private javax.swing.JButton buscarTecnicos;
     private javax.swing.JButton buscarUsuarios;
+    private javax.swing.JButton eliminarServicio;
+    private javax.swing.JButton eliminarServicios;
     private javax.swing.JButton eliminarTecnicos;
+    private javax.swing.JButton eliminarUsuario;
     private javax.swing.JButton eliminarUsuarios;
     private javax.swing.JLabel fechaActual;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton10;
+    private javax.swing.JButton guardarDatosServicio;
+    private javax.swing.JButton guardarDatosTecnico;
+    private javax.swing.JButton guardarDatosUsuario;
+    private javax.swing.JPanel inicio;
     private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton15;
-    private javax.swing.JButton jButton16;
-    private javax.swing.JButton jButton17;
-    private javax.swing.JButton jButton18;
-    private javax.swing.JButton jButton19;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton20;
-    private javax.swing.JButton jButton21;
-    private javax.swing.JButton jButton22;
-    private javax.swing.JButton jButton23;
-    private javax.swing.JButton jButton24;
-    private javax.swing.JButton jButton25;
-    private javax.swing.JButton jButton26;
-    private javax.swing.JButton jButton27;
-    private javax.swing.JButton jButton28;
-    private javax.swing.JButton jButton29;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton30;
-    private javax.swing.JButton jButton31;
-    private javax.swing.JButton jButton32;
-    private javax.swing.JButton jButton33;
-    private javax.swing.JButton jButton34;
-    private javax.swing.JButton jButton35;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
     private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JComboBox<String> jComboBox10;
+    private javax.swing.JComboBox<String> jComboBox11;
+    private javax.swing.JComboBox<String> jComboBox12;
+    private javax.swing.JComboBox<String> jComboBox13;
+    private javax.swing.JComboBox<String> jComboBox14;
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JComboBox<String> jComboBox3;
+    private javax.swing.JComboBox<String> jComboBox4;
     private javax.swing.JComboBox<String> jComboBox5;
     private javax.swing.JComboBox<String> jComboBox6;
+    private javax.swing.JComboBox<String> jComboBox7;
     private javax.swing.JComboBox<String> jComboBox8;
+    private javax.swing.JComboBox<String> jComboBox9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel100;
@@ -2843,13 +5819,79 @@ public class vista_admin extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel125;
     private javax.swing.JLabel jLabel126;
     private javax.swing.JLabel jLabel127;
+    private javax.swing.JLabel jLabel128;
+    private javax.swing.JLabel jLabel129;
     private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel130;
+    private javax.swing.JLabel jLabel131;
+    private javax.swing.JLabel jLabel132;
+    private javax.swing.JLabel jLabel134;
+    private javax.swing.JLabel jLabel135;
+    private javax.swing.JLabel jLabel136;
+    private javax.swing.JLabel jLabel137;
+    private javax.swing.JLabel jLabel138;
+    private javax.swing.JLabel jLabel139;
     private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel140;
+    private javax.swing.JLabel jLabel141;
+    private javax.swing.JLabel jLabel142;
+    private javax.swing.JLabel jLabel143;
+    private javax.swing.JLabel jLabel144;
+    private javax.swing.JLabel jLabel145;
+    private javax.swing.JLabel jLabel146;
+    private javax.swing.JLabel jLabel147;
+    private javax.swing.JLabel jLabel148;
+    private javax.swing.JLabel jLabel149;
     private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel150;
+    private javax.swing.JLabel jLabel151;
+    private javax.swing.JLabel jLabel152;
+    private javax.swing.JLabel jLabel153;
+    private javax.swing.JLabel jLabel154;
+    private javax.swing.JLabel jLabel155;
+    private javax.swing.JLabel jLabel156;
+    private javax.swing.JLabel jLabel157;
+    private javax.swing.JLabel jLabel158;
+    private javax.swing.JLabel jLabel159;
     private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel160;
+    private javax.swing.JLabel jLabel161;
+    private javax.swing.JLabel jLabel162;
+    private javax.swing.JLabel jLabel163;
+    private javax.swing.JLabel jLabel164;
+    private javax.swing.JLabel jLabel165;
+    private javax.swing.JLabel jLabel166;
+    private javax.swing.JLabel jLabel167;
+    private javax.swing.JLabel jLabel168;
+    private javax.swing.JLabel jLabel169;
     private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel170;
+    private javax.swing.JLabel jLabel171;
+    private javax.swing.JLabel jLabel172;
+    private javax.swing.JLabel jLabel173;
+    private javax.swing.JLabel jLabel174;
+    private javax.swing.JLabel jLabel175;
+    private javax.swing.JLabel jLabel176;
+    private javax.swing.JLabel jLabel177;
+    private javax.swing.JLabel jLabel178;
+    private javax.swing.JLabel jLabel179;
     private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel180;
+    private javax.swing.JLabel jLabel182;
+    private javax.swing.JLabel jLabel183;
+    private javax.swing.JLabel jLabel184;
+    private javax.swing.JLabel jLabel185;
+    private javax.swing.JLabel jLabel186;
+    private javax.swing.JLabel jLabel187;
+    private javax.swing.JLabel jLabel188;
+    private javax.swing.JLabel jLabel189;
     private javax.swing.JLabel jLabel19;
+    private javax.swing.JLabel jLabel190;
+    private javax.swing.JLabel jLabel191;
+    private javax.swing.JLabel jLabel192;
+    private javax.swing.JLabel jLabel193;
+    private javax.swing.JLabel jLabel194;
+    private javax.swing.JLabel jLabel195;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
@@ -2939,8 +5981,6 @@ public class vista_admin extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel98;
     private javax.swing.JLabel jLabel99;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel10;
-    private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel13;
     private javax.swing.JPanel jPanel14;
@@ -2949,7 +5989,6 @@ public class vista_admin extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel17;
     private javax.swing.JPanel jPanel18;
     private javax.swing.JPanel jPanel19;
-    private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel20;
     private javax.swing.JPanel jPanel21;
     private javax.swing.JPanel jPanel22;
@@ -2979,23 +6018,55 @@ public class vista_admin extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel44;
     private javax.swing.JPanel jPanel45;
     private javax.swing.JPanel jPanel46;
+    private javax.swing.JPanel jPanel47;
+    private javax.swing.JPanel jPanel48;
+    private javax.swing.JPanel jPanel49;
     private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel50;
+    private javax.swing.JPanel jPanel51;
+    private javax.swing.JPanel jPanel52;
+    private javax.swing.JPanel jPanel53;
+    private javax.swing.JPanel jPanel54;
+    private javax.swing.JPanel jPanel55;
+    private javax.swing.JPanel jPanel56;
+    private javax.swing.JPanel jPanel57;
+    private javax.swing.JPanel jPanel58;
+    private javax.swing.JPanel jPanel59;
     private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel60;
+    private javax.swing.JPanel jPanel61;
+    private javax.swing.JPanel jPanel62;
+    private javax.swing.JPanel jPanel63;
+    private javax.swing.JPanel jPanel64;
+    private javax.swing.JPanel jPanel65;
+    private javax.swing.JPanel jPanel66;
+    private javax.swing.JPanel jPanel67;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
-    private javax.swing.JPanel jPanel9;
     private javax.swing.JPasswordField jPasswordField1;
+    private javax.swing.JPasswordField jPasswordField10;
+    private javax.swing.JPasswordField jPasswordField11;
     private javax.swing.JPasswordField jPasswordField2;
+    private javax.swing.JPasswordField jPasswordField4;
     private javax.swing.JPasswordField jPasswordField5;
     private javax.swing.JPasswordField jPasswordField6;
+    private javax.swing.JPasswordField jPasswordField7;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JScrollPane jScrollPane6;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator10;
     private javax.swing.JSeparator jSeparator11;
     private javax.swing.JSeparator jSeparator12;
+    private javax.swing.JSeparator jSeparator13;
+    private javax.swing.JSeparator jSeparator14;
+    private javax.swing.JSeparator jSeparator15;
+    private javax.swing.JSeparator jSeparator16;
+    private javax.swing.JSeparator jSeparator17;
+    private javax.swing.JSeparator jSeparator18;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator3;
     private javax.swing.JSeparator jSeparator4;
@@ -3009,6 +6080,8 @@ public class vista_admin extends javax.swing.JFrame {
     private javax.swing.JTable jTable2;
     private javax.swing.JTable jTable3;
     private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JTextArea jTextArea2;
+    private javax.swing.JTextArea jTextArea3;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField10;
     private javax.swing.JTextField jTextField11;
@@ -3058,11 +6131,73 @@ public class vista_admin extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField51;
     private javax.swing.JTextField jTextField52;
     private javax.swing.JTextField jTextField53;
+    private javax.swing.JTextField jTextField54;
+    private javax.swing.JTextField jTextField55;
+    private javax.swing.JTextField jTextField56;
+    private javax.swing.JTextField jTextField57;
+    private javax.swing.JTextField jTextField58;
+    private javax.swing.JTextField jTextField59;
     private javax.swing.JTextField jTextField6;
+    private javax.swing.JTextField jTextField60;
+    private javax.swing.JTextField jTextField61;
+    private javax.swing.JTextField jTextField62;
+    private javax.swing.JTextField jTextField63;
+    private javax.swing.JTextField jTextField64;
+    private javax.swing.JTextField jTextField66;
+    private javax.swing.JTextField jTextField67;
+    private javax.swing.JTextField jTextField68;
+    private javax.swing.JTextField jTextField69;
     private javax.swing.JTextField jTextField7;
+    private javax.swing.JTextField jTextField70;
+    private javax.swing.JTextField jTextField71;
+    private javax.swing.JTextField jTextField72;
+    private javax.swing.JTextField jTextField73;
+    private javax.swing.JTextField jTextField74;
+    private javax.swing.JTextField jTextField75;
+    private javax.swing.JTextField jTextField76;
+    private javax.swing.JTextField jTextField77;
+    private javax.swing.JTextField jTextField78;
     private javax.swing.JTextField jTextField8;
+    private javax.swing.JTextField jTextField80;
+    private javax.swing.JTextField jTextField81;
+    private javax.swing.JTextField jTextField82;
+    private javax.swing.JTextField jTextField83;
+    private javax.swing.JTextField jTextField84;
+    private javax.swing.JTextField jTextField85;
+    private javax.swing.JTextField jTextField86;
+    private javax.swing.JTextField jTextField87;
+    private javax.swing.JTextField jTextField88;
+    private javax.swing.JTextField jTextField89;
     private javax.swing.JTextField jTextField9;
-    private javax.swing.JButton listarServicio;
-    private javax.swing.JButton listarTecnicos1;
+    private javax.swing.JTextField jTextField90;
+    private javax.swing.JTextField jTextField91;
+    private javax.swing.JTextField jTextField92;
+    private javax.swing.JButton listarServicios;
+    private javax.swing.JButton listarTecnicos;
+    private javax.swing.JButton listarUsuarios;
+    private javax.swing.JPanel servicios;
+    private javax.swing.JPanel tecnicos;
+    private javax.swing.JPanel usuarios;
+    private javax.swing.JButton volverActualizarServicio2;
+    private javax.swing.JButton volverActualizarServicios;
+    private javax.swing.JButton volverActualizarTecnico2;
+    private javax.swing.JButton volverActualizarTecnicos;
+    private javax.swing.JButton volverActualizarUsuario;
+    private javax.swing.JButton volverActualizarUsuario2;
+    private javax.swing.JButton volverAsignarServicio;
+    private javax.swing.JButton volverBuscarServicio;
+    private javax.swing.JButton volverBuscarTecnicos;
+    private javax.swing.JButton volverBuscarUsuario;
+    private javax.swing.JButton volverEliminarServicio;
+    private javax.swing.JButton volverEliminarTecnicoç;
+    private javax.swing.JButton volverEliminarUsuario;
+    private javax.swing.JButton volverListarServicios;
+    private javax.swing.JButton volverListarTecnico;
+    private javax.swing.JButton volverListarUsuario;
+    private javax.swing.JButton volverRegistrar;
+    private javax.swing.JButton volverRegistrarTecnico;
+    private javax.swing.JButton volverServicios;
+    private javax.swing.JButton volverTecnicos;
+    private javax.swing.JButton volverUsuarios;
     // End of variables declaration//GEN-END:variables
 }
