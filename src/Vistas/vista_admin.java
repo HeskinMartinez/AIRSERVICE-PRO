@@ -698,12 +698,12 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel63.setForeground(new java.awt.Color(0, 122, 255));
         jLabel63.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel63.setText("4");
-        jPanel21.add(jLabel63, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 130, 50));
+        jPanel21.add(jLabel63, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, 130, 50));
 
         jLabel64.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/user-interface (1).png"))); // NOI18N
         jPanel21.add(jLabel64, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 30, 30));
 
-        jPanel3.add(jPanel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 160, 200, 100));
+        jPanel3.add(jPanel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 220, 200, 100));
 
         jPanel23.setBackground(new java.awt.Color(255, 255, 255));
         jPanel23.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 8, 0, 0, new java.awt.Color(0, 122, 255)));
