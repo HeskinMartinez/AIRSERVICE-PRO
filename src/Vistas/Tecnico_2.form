@@ -854,7 +854,7 @@
                                           <Component id="jLabel164" alignment="0" min="-2" max="-2" attributes="0"/>
                                           <Component id="jLabel168" alignment="0" min="-2" max="-2" attributes="0"/>
                                       </Group>
-                                      <EmptySpace pref="31" max="32767" attributes="0"/>
+                                      <EmptySpace pref="34" max="32767" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Component id="jLabel169" alignment="0" min="-2" max="-2" attributes="0"/>
                                           <Component id="jLabel165" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -908,8 +908,11 @@
                         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                           <Image iconType="3" name="/Imagenes/formato.png"/>
                         </Property>
-                        <Property name="text" type="java.lang.String" value="Nueva solicitud"/>
+                        <Property name="text" type="java.lang.String" value="Mis Solicitudes"/>
                       </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel163MouseClicked"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel164">
                       <Properties>
@@ -926,6 +929,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="Mis clientes"/>
                       </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel165MouseClicked"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel166">
                       <Properties>
@@ -934,6 +940,9 @@
                         </Property>
                         <Property name="text" type="java.lang.String" value="Historial"/>
                       </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel166MouseClicked"/>
+                      </Events>
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel167">
                       <Properties>

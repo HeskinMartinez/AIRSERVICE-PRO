@@ -25,7 +25,6 @@ public class Controlador_Tecnico implements IValidacion {
 
         for (int i = 0; i < Controlador_registro.contadorTecnicos; i++) {
             String[] datos = Controlador_registro.tecnicos[i].split("\\|");
-            // datos[0]=nombre | datos[1]=correo | datos[2]=contrasena | datos[3]=numero | datos[4]=ciudad
             if (datos[1].equals(correoActual)) {
                 Id.setText(Modelos.Tecnico.tecnicos[i].getId());
                 nombre_tecnico.setText(datos[0]);
@@ -73,6 +72,24 @@ public class Controlador_Tecnico implements IValidacion {
 
         JOptionPane.showMessageDialog(null, "Cambios guardados exitosamente.",
                 "AirService-Pro", JOptionPane.INFORMATION_MESSAGE);
+    }
+
+    public static void cargarClientes(javax.swing.JTable jTable3) {
+        javax.swing.table.DefaultTableModel modelo
+                = (javax.swing.table.DefaultTableModel) jTable3.getModel();
+        modelo.setRowCount(0);
+
+        for (int i = 0; i < Controladores.Controlador_registro.contadorUsuarios; i++) {
+            String[] datos = Controladores.Controlador_registro.usuarios[i].split("\\|");
+            modelo.addRow(new Object[]{
+                datos[0],
+                "Usuario",
+                datos[1],
+                datos[4],
+                "N/A",
+                "Activo"
+            });
+        }
     }
 
     public static Tecnico buscarPorId(String id) {

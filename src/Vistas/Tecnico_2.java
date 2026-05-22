@@ -30,6 +30,8 @@ public class Tecnico_2 extends javax.swing.JFrame {
 
         Controlador_Tecnico.cargarConfiguracion(Nombre_c, Telefono, Fecha_N,
                 Especialidad_1, email, n_documento, direccion, año_e, Descripcion_1);
+        
+        Controlador_Tecnico.cargarClientes(jTable3);
     }
 
     /**
@@ -636,16 +638,31 @@ public class Tecnico_2 extends javax.swing.JFrame {
         jLabel162.setText("Acciones rapidas");
 
         jLabel163.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/formato.png"))); // NOI18N
-        jLabel163.setText("Nueva solicitud");
+        jLabel163.setText("Mis Solicitudes");
+        jLabel163.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel163MouseClicked(evt);
+            }
+        });
 
         jLabel164.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/calendario.png"))); // NOI18N
         jLabel164.setText("Ver agenda");
 
         jLabel165.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/nueva-cuenta.png"))); // NOI18N
         jLabel165.setText("Mis clientes");
+        jLabel165.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel165MouseClicked(evt);
+            }
+        });
 
         jLabel166.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/google-docs.png"))); // NOI18N
         jLabel166.setText("Historial");
+        jLabel166.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel166MouseClicked(evt);
+            }
+        });
 
         jLabel167.setText("Registrar servicio");
 
@@ -673,7 +690,7 @@ public class Tecnico_2 extends javax.swing.JFrame {
                         .addGroup(jPanel46Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel164)
                             .addComponent(jLabel168))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 31, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 34, Short.MAX_VALUE)
                         .addGroup(jPanel46Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel169)
                             .addComponent(jLabel165))
@@ -1803,6 +1820,21 @@ public class Tecnico_2 extends javax.swing.JFrame {
         new Login().setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jLabel181MouseClicked
+
+    private void jLabel165MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel165MouseClicked
+        // TODO add your handling code here:
+        jTabbedPane1.setSelectedIndex(2);
+    }//GEN-LAST:event_jLabel165MouseClicked
+
+    private void jLabel163MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel163MouseClicked
+        // TODO add your handling code here:
+        jTabbedPane1.setSelectedIndex(0);
+    }//GEN-LAST:event_jLabel163MouseClicked
+
+    private void jLabel166MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel166MouseClicked
+        // TODO add your handling code here:
+        jTabbedPane1.setSelectedIndex(1);
+    }//GEN-LAST:event_jLabel166MouseClicked
 
     /**
      * @param args the command line arguments
