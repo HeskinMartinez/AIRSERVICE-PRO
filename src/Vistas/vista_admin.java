@@ -657,7 +657,7 @@ public class vista_admin extends javax.swing.JFrame {
                 jLabel15MouseClicked(evt);
             }
         });
-        servicios.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 0, -1, 40));
+        servicios.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 0, 100, 40));
 
         jLabel61.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/mantenimiento.png"))); // NOI18N
         servicios.add(jLabel61, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, -1, 40));
@@ -698,12 +698,12 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel63.setForeground(new java.awt.Color(0, 122, 255));
         jLabel63.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel63.setText("4");
-        jPanel21.add(jLabel63, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, 130, 50));
+        jPanel21.add(jLabel63, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 130, 50));
 
         jLabel64.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/user-interface (1).png"))); // NOI18N
         jPanel21.add(jLabel64, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 30, 30));
 
-        jPanel3.add(jPanel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 220, 200, 100));
+        jPanel3.add(jPanel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 160, 200, 100));
 
         jPanel23.setBackground(new java.awt.Color(255, 255, 255));
         jPanel23.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 8, 0, 0, new java.awt.Color(0, 122, 255)));
@@ -1309,8 +1309,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel13.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
         jPanel13.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jTextField1.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField1.setBackground(new java.awt.Color(255, 255, 255));
         jTextField1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField1.setForeground(new java.awt.Color(0, 0, 0));
         jTextField1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField1.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
@@ -1326,8 +1327,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel32.setText("N Documento: *");
         jPanel13.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, -1, -1));
 
-        jTextField2.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField2.setBackground(new java.awt.Color(255, 255, 255));
         jTextField2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField2.setForeground(new java.awt.Color(0, 0, 0));
         jTextField2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField2.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel13.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 150, 190, -1));
@@ -1344,7 +1346,7 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel34.setText("Nombre Completo: *");
         jPanel13.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, -1, -1));
 
-        jTextField3.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField3.setBackground(new java.awt.Color(255, 255, 255));
         jTextField3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jTextField3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField3.setMargin(new java.awt.Insets(5, 5, 5, 5));
@@ -1361,8 +1363,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel35.setText("Direccion: *");
         jPanel13.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 80, -1, -1));
 
-        jTextField4.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField4.setBackground(new java.awt.Color(255, 255, 255));
         jTextField4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField4.setForeground(new java.awt.Color(0, 0, 0));
         jTextField4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField4.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField4.addActionListener(new java.awt.event.ActionListener() {
@@ -1393,8 +1396,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel37.setText("Repetir contraseña:*");
         jPanel13.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 230, -1, -1));
 
-        jTextField5.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField5.setBackground(new java.awt.Color(255, 255, 255));
         jTextField5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField5.setForeground(new java.awt.Color(0, 0, 0));
         jTextField5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField5.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel13.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 50, 190, -1));
@@ -1404,7 +1408,16 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel38.setForeground(new java.awt.Color(55, 65, 81));
         jLabel38.setText("Correo Electronico: *");
         jPanel13.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 130, -1, -1));
-        jPanel13.add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 250, 200, -1));
+
+        jPasswordField1.setBackground(new java.awt.Color(255, 255, 255));
+        jPasswordField1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jPasswordField1.setForeground(new java.awt.Color(0, 0, 0));
+        jPasswordField1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
+        jPanel13.add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 250, 190, -1));
+
+        jPasswordField2.setBackground(new java.awt.Color(255, 255, 255));
+        jPasswordField2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jPasswordField2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jPanel13.add(jPasswordField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 200, 190, -1));
 
         jLabel39.setBackground(new java.awt.Color(204, 204, 204));
@@ -1482,8 +1495,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel17.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
         jPanel17.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jTextField6.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField6.setBackground(new java.awt.Color(255, 255, 255));
         jTextField6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField6.setForeground(new java.awt.Color(0, 0, 0));
         jTextField6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField6.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField6.addActionListener(new java.awt.event.ActionListener() {
@@ -1499,8 +1513,10 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel41.setText("N Documento:*");
         jPanel17.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 30, -1, -1));
 
-        jTextField7.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField7.setEditable(false);
+        jTextField7.setBackground(new java.awt.Color(255, 255, 255));
         jTextField7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField7.setForeground(new java.awt.Color(0, 0, 0));
         jTextField7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField7.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel17.add(jTextField7, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 180, 160, -1));
@@ -1517,8 +1533,10 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel43.setText("Nombre Completo:*");
         jPanel17.add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, -1, -1));
 
-        jTextField8.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField8.setEditable(false);
+        jTextField8.setBackground(new java.awt.Color(255, 255, 255));
         jTextField8.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField8.setForeground(new java.awt.Color(0, 0, 0));
         jTextField8.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField8.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField8.addActionListener(new java.awt.event.ActionListener() {
@@ -1534,8 +1552,10 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel44.setText("Direccion: *");
         jPanel17.add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 180, -1, -1));
 
-        jTextField9.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField9.setEditable(false);
+        jTextField9.setBackground(new java.awt.Color(255, 255, 255));
         jTextField9.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField9.setForeground(new java.awt.Color(0, 0, 0));
         jTextField9.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField9.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField9.addActionListener(new java.awt.event.ActionListener() {
@@ -1560,8 +1580,10 @@ public class vista_admin extends javax.swing.JFrame {
         });
         jPanel17.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 130, -1, -1));
 
-        jTextField10.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField10.setEditable(false);
+        jTextField10.setBackground(new java.awt.Color(255, 255, 255));
         jTextField10.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField10.setForeground(new java.awt.Color(0, 0, 0));
         jTextField10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField10.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel17.add(jTextField10, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 80, 160, -1));
@@ -1597,8 +1619,10 @@ public class vista_admin extends javax.swing.JFrame {
         });
         jPanel17.add(btnBuscarUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 120, 30));
 
-        jTextField11.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField11.setEditable(false);
+        jTextField11.setBackground(new java.awt.Color(255, 255, 255));
         jTextField11.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField11.setForeground(new java.awt.Color(0, 0, 0));
         jTextField11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField11.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField11.addActionListener(new java.awt.event.ActionListener() {
@@ -1658,8 +1682,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
         jPanel19.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jTextField12.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField12.setBackground(new java.awt.Color(255, 255, 255));
         jTextField12.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField12.setForeground(new java.awt.Color(0, 0, 0));
         jTextField12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField12.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField12.addActionListener(new java.awt.event.ActionListener() {
@@ -1675,8 +1700,10 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel51.setText("N Documento:*");
         jPanel19.add(jLabel51, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 30, -1, -1));
 
-        jTextField13.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField13.setEditable(false);
+        jTextField13.setBackground(new java.awt.Color(255, 255, 255));
         jTextField13.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField13.setForeground(new java.awt.Color(0, 0, 0));
         jTextField13.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField13.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel19.add(jTextField13, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 180, 160, -1));
@@ -1693,8 +1720,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel53.setText("Nombre Completo:*");
         jPanel19.add(jLabel53, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, -1, -1));
 
-        jTextField14.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField14.setBackground(new java.awt.Color(255, 255, 255));
         jTextField14.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField14.setForeground(new java.awt.Color(0, 0, 0));
         jTextField14.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField14.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField14.addActionListener(new java.awt.event.ActionListener() {
@@ -1710,8 +1738,10 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel54.setText("Direccion:*");
         jPanel19.add(jLabel54, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 180, -1, -1));
 
-        jTextField15.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField15.setEditable(false);
+        jTextField15.setBackground(new java.awt.Color(255, 255, 255));
         jTextField15.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField15.setForeground(new java.awt.Color(0, 0, 0));
         jTextField15.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField15.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField15.addActionListener(new java.awt.event.ActionListener() {
@@ -1736,8 +1766,10 @@ public class vista_admin extends javax.swing.JFrame {
         });
         jPanel19.add(jComboBox3, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 130, -1, -1));
 
-        jTextField16.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField16.setEditable(false);
+        jTextField16.setBackground(new java.awt.Color(255, 255, 255));
         jTextField16.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField16.setForeground(new java.awt.Color(0, 0, 0));
         jTextField16.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField16.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel19.add(jTextField16, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 80, 160, -1));
@@ -1771,10 +1803,12 @@ public class vista_admin extends javax.swing.JFrame {
                 eliminarUsuarioActionPerformed(evt);
             }
         });
-        jPanel19.add(eliminarUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 230, 120, 30));
+        jPanel19.add(eliminarUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 220, 120, 30));
 
-        jTextField17.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField17.setEditable(false);
+        jTextField17.setBackground(new java.awt.Color(255, 255, 255));
         jTextField17.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField17.setForeground(new java.awt.Color(0, 0, 0));
         jTextField17.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField17.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField17.addActionListener(new java.awt.event.ActionListener() {
@@ -1943,7 +1977,7 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel28.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
         jPanel28.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jTextField23.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField23.setBackground(new java.awt.Color(255, 255, 255));
         jTextField23.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jTextField23.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField23.setMargin(new java.awt.Insets(5, 5, 5, 5));
@@ -1960,8 +1994,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel83.setText("No Documento:*");
         jPanel28.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, -1, -1));
 
-        jTextField24.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField24.setBackground(new java.awt.Color(255, 255, 255));
         jTextField24.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField24.setForeground(new java.awt.Color(0, 0, 0));
         jTextField24.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField24.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel28.add(jTextField24, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 140, 190, -1));
@@ -1978,8 +2013,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel85.setText("Nombre Completo:*");
         jPanel28.add(jLabel85, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, -1, -1));
 
-        jTextField25.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField25.setBackground(new java.awt.Color(255, 255, 255));
         jTextField25.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField25.setForeground(new java.awt.Color(0, 0, 0));
         jTextField25.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField25.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField25.addActionListener(new java.awt.event.ActionListener() {
@@ -1995,8 +2031,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel86.setText("Direccion: *");
         jPanel28.add(jLabel86, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 70, -1, -1));
 
-        jTextField26.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField26.setBackground(new java.awt.Color(255, 255, 255));
         jTextField26.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField26.setForeground(new java.awt.Color(0, 0, 0));
         jTextField26.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField26.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField26.addActionListener(new java.awt.event.ActionListener() {
@@ -2027,8 +2064,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel88.setText("Repetir contraseña:*");
         jPanel28.add(jLabel88, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 230, -1, -1));
 
-        jTextField27.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField27.setBackground(new java.awt.Color(255, 255, 255));
         jTextField27.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField27.setForeground(new java.awt.Color(0, 0, 0));
         jTextField27.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField27.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel28.add(jTextField27, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 40, 190, 20));
@@ -2038,7 +2076,17 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel89.setForeground(new java.awt.Color(55, 65, 81));
         jLabel89.setText("Nivel:*");
         jPanel28.add(jLabel89, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 170, -1, -1));
+
+        jPasswordField5.setBackground(new java.awt.Color(255, 255, 255));
+        jPasswordField5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jPasswordField5.setForeground(new java.awt.Color(0, 0, 0));
+        jPasswordField5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jPanel28.add(jPasswordField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 250, 190, -1));
+
+        jPasswordField6.setBackground(new java.awt.Color(255, 255, 255));
+        jPasswordField6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jPasswordField6.setForeground(new java.awt.Color(0, 0, 0));
+        jPasswordField6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jPanel28.add(jPasswordField6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 200, 190, -1));
 
         jLabel90.setBackground(new java.awt.Color(204, 204, 204));
@@ -2131,8 +2179,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel29.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
         jPanel29.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jTextField18.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField18.setBackground(new java.awt.Color(255, 255, 255));
         jTextField18.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField18.setForeground(new java.awt.Color(0, 0, 0));
         jTextField18.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField18.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField18.addActionListener(new java.awt.event.ActionListener() {
@@ -2149,8 +2198,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel29.add(jLabel68, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 30, -1, -1));
 
         jTextField19.setEditable(false);
-        jTextField19.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField19.setBackground(new java.awt.Color(255, 255, 255));
         jTextField19.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField19.setForeground(new java.awt.Color(0, 0, 0));
         jTextField19.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField19.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField19.addActionListener(new java.awt.event.ActionListener() {
@@ -2172,8 +2222,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel73.setText("Nombre Completo:*");
         jPanel29.add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, -1, -1));
 
-        jTextField20.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField20.setBackground(new java.awt.Color(255, 255, 255));
         jTextField20.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField20.setForeground(new java.awt.Color(0, 0, 0));
         jTextField20.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField20.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField20.addActionListener(new java.awt.event.ActionListener() {
@@ -2190,8 +2241,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel29.add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 130, -1, -1));
 
         jTextField21.setEditable(false);
-        jTextField21.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField21.setBackground(new java.awt.Color(255, 255, 255));
         jTextField21.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField21.setForeground(new java.awt.Color(0, 0, 0));
         jTextField21.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField21.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField21.addActionListener(new java.awt.event.ActionListener() {
@@ -2201,8 +2253,10 @@ public class vista_admin extends javax.swing.JFrame {
         });
         jPanel29.add(jTextField21, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 180, 160, 20));
 
-        jTextField22.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField22.setEditable(false);
+        jTextField22.setBackground(new java.awt.Color(255, 255, 255));
         jTextField22.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField22.setForeground(new java.awt.Color(0, 0, 0));
         jTextField22.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField22.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel29.add(jTextField22, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 80, 160, -1));
@@ -2239,8 +2293,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel29.add(btnBuscarTecnico, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 120, 30));
 
         jTextField28.setEditable(false);
-        jTextField28.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField28.setBackground(new java.awt.Color(255, 255, 255));
         jTextField28.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField28.setForeground(new java.awt.Color(0, 0, 0));
         jTextField28.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField28.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField28.addActionListener(new java.awt.event.ActionListener() {
@@ -2263,8 +2318,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel29.add(jLabel159, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 180, -1, -1));
 
         jTextField72.setEditable(false);
-        jTextField72.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField72.setBackground(new java.awt.Color(255, 255, 255));
         jTextField72.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField72.setForeground(new java.awt.Color(0, 0, 0));
         jTextField72.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField72.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField72.addActionListener(new java.awt.event.ActionListener() {
@@ -2322,8 +2378,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel32.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
         jPanel32.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jTextField29.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField29.setBackground(new java.awt.Color(255, 255, 255));
         jTextField29.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField29.setForeground(new java.awt.Color(0, 0, 0));
         jTextField29.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField29.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField29.addActionListener(new java.awt.event.ActionListener() {
@@ -2340,8 +2397,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel32.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 30, -1, -1));
 
         jTextField30.setEditable(false);
-        jTextField30.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField30.setBackground(new java.awt.Color(255, 255, 255));
         jTextField30.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField30.setForeground(new java.awt.Color(0, 0, 0));
         jTextField30.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField30.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel32.add(jTextField30, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 130, 160, -1));
@@ -2359,8 +2417,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel32.add(jLabel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, -1, -1));
 
         jTextField31.setEditable(false);
-        jTextField31.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField31.setBackground(new java.awt.Color(255, 255, 255));
         jTextField31.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField31.setForeground(new java.awt.Color(0, 0, 0));
         jTextField31.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField31.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField31.addActionListener(new java.awt.event.ActionListener() {
@@ -2377,8 +2436,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel32.add(jLabel94, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 130, -1, -1));
 
         jTextField32.setEditable(false);
-        jTextField32.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField32.setBackground(new java.awt.Color(255, 255, 255));
         jTextField32.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField32.setForeground(new java.awt.Color(0, 0, 0));
         jTextField32.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField32.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField32.addActionListener(new java.awt.event.ActionListener() {
@@ -2389,8 +2449,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel32.add(jTextField32, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 180, 160, 20));
 
         jTextField33.setEditable(false);
-        jTextField33.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField33.setBackground(new java.awt.Color(255, 255, 255));
         jTextField33.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField33.setForeground(new java.awt.Color(0, 0, 0));
         jTextField33.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField33.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel32.add(jTextField33, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 80, 160, -1));
@@ -2427,8 +2488,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel32.add(buscarEliminarTecnico, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 120, 30));
 
         jTextField34.setEditable(false);
-        jTextField34.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField34.setBackground(new java.awt.Color(255, 255, 255));
         jTextField34.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField34.setForeground(new java.awt.Color(0, 0, 0));
         jTextField34.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField34.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField34.addActionListener(new java.awt.event.ActionListener() {
@@ -2603,8 +2665,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel38.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
         jPanel38.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jTextField35.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField35.setBackground(new java.awt.Color(255, 255, 255));
         jTextField35.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField35.setForeground(new java.awt.Color(0, 0, 0));
         jTextField35.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField35.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField35.addActionListener(new java.awt.event.ActionListener() {
@@ -2620,8 +2683,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel102.setText("Telefono del cliente:*");
         jPanel38.add(jLabel102, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 120, -1, -1));
 
-        jTextField36.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField36.setBackground(new java.awt.Color(255, 255, 255));
         jTextField36.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField36.setForeground(new java.awt.Color(0, 0, 0));
         jTextField36.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField36.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel38.add(jTextField36, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, 190, -1));
@@ -2638,8 +2702,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel104.setText("Nombre del tecnico:*");
         jPanel38.add(jLabel104, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 20, -1, -1));
 
-        jTextField37.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField37.setBackground(new java.awt.Color(255, 255, 255));
         jTextField37.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField37.setForeground(new java.awt.Color(0, 0, 0));
         jTextField37.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField37.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField37.addActionListener(new java.awt.event.ActionListener() {
@@ -2655,8 +2720,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel105.setText("Direccion del cliente:*");
         jPanel38.add(jLabel105, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 170, -1, -1));
 
-        jTextField38.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField38.setBackground(new java.awt.Color(255, 255, 255));
         jTextField38.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField38.setForeground(new java.awt.Color(0, 0, 0));
         jTextField38.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField38.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField38.addActionListener(new java.awt.event.ActionListener() {
@@ -2681,8 +2747,9 @@ public class vista_admin extends javax.swing.JFrame {
         });
         jPanel38.add(jComboBox8, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 90, 190, -1));
 
-        jTextField39.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField39.setBackground(new java.awt.Color(255, 255, 255));
         jTextField39.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField39.setForeground(new java.awt.Color(0, 0, 0));
         jTextField39.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField39.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel38.add(jTextField39, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 40, 190, -1));
@@ -2727,10 +2794,12 @@ public class vista_admin extends javax.swing.JFrame {
         jScrollPane3.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         jScrollPane3.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
 
-        jTextArea1.setBackground(new java.awt.Color(75, 85, 99));
+        jTextArea1.setBackground(new java.awt.Color(255, 255, 255));
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jTextArea1.setForeground(new java.awt.Color(0, 0, 0));
         jTextArea1.setRows(5);
+        jTextArea1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jScrollPane3.setViewportView(jTextArea1);
 
         jPanel38.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 160, 230, 70));
@@ -2741,8 +2810,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel191.setText("N Documento:*");
         jPanel38.add(jLabel191, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 70, -1, -1));
 
-        jTextField89.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField89.setBackground(new java.awt.Color(255, 255, 255));
         jTextField89.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField89.setForeground(new java.awt.Color(0, 0, 0));
         jTextField89.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField89.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField89.addActionListener(new java.awt.event.ActionListener() {
@@ -2800,8 +2870,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel41.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
         jPanel41.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jTextField40.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField40.setBackground(new java.awt.Color(255, 255, 255));
         jTextField40.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField40.setForeground(new java.awt.Color(0, 0, 0));
         jTextField40.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField40.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField40.addActionListener(new java.awt.event.ActionListener() {
@@ -2818,8 +2889,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel41.add(jLabel107, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 30, -1, -1));
 
         jTextField41.setEditable(false);
-        jTextField41.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField41.setBackground(new java.awt.Color(255, 255, 255));
         jTextField41.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField41.setForeground(new java.awt.Color(0, 0, 0));
         jTextField41.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField41.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel41.add(jTextField41, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 180, 160, -1));
@@ -2837,8 +2909,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel41.add(jLabel112, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, -1, -1));
 
         jTextField42.setEditable(false);
-        jTextField42.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField42.setBackground(new java.awt.Color(255, 255, 255));
         jTextField42.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField42.setForeground(new java.awt.Color(0, 0, 0));
         jTextField42.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField42.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField42.addActionListener(new java.awt.event.ActionListener() {
@@ -2855,8 +2928,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel41.add(jLabel113, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 180, -1, -1));
 
         jTextField43.setEditable(false);
-        jTextField43.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField43.setBackground(new java.awt.Color(255, 255, 255));
         jTextField43.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField43.setForeground(new java.awt.Color(0, 0, 0));
         jTextField43.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField43.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField43.addActionListener(new java.awt.event.ActionListener() {
@@ -2867,11 +2941,12 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel41.add(jTextField43, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 180, 160, 20));
 
         jTextField44.setEditable(false);
-        jTextField44.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField44.setBackground(new java.awt.Color(255, 255, 255));
         jTextField44.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField44.setForeground(new java.awt.Color(0, 0, 0));
         jTextField44.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField44.setMargin(new java.awt.Insets(5, 5, 5, 5));
-        jPanel41.add(jTextField44, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 80, 160, -1));
+        jPanel41.add(jTextField44, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 80, 160, -1));
 
         jLabel115.setBackground(new java.awt.Color(204, 204, 204));
         jLabel115.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -2905,8 +2980,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel41.add(btnBuscarServicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 120, 30));
 
         jTextField45.setEditable(false);
-        jTextField45.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField45.setBackground(new java.awt.Color(255, 255, 255));
         jTextField45.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField45.setForeground(new java.awt.Color(0, 0, 0));
         jTextField45.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField45.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField45.addActionListener(new java.awt.event.ActionListener() {
@@ -2929,11 +3005,12 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel41.add(jLabel114, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 130, -1, -1));
 
         jTextField46.setEditable(false);
-        jTextField46.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField46.setBackground(new java.awt.Color(255, 255, 255));
         jTextField46.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField46.setForeground(new java.awt.Color(0, 0, 0));
         jTextField46.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField46.setMargin(new java.awt.Insets(5, 5, 5, 5));
-        jPanel41.add(jTextField46, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 130, 160, -1));
+        jPanel41.add(jTextField46, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 130, 160, -1));
 
         jPanel40.add(jPanel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 80, 680, 280));
 
@@ -2983,8 +3060,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel44.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
         jPanel44.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jTextField47.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField47.setBackground(new java.awt.Color(255, 255, 255));
         jTextField47.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField47.setForeground(new java.awt.Color(0, 0, 0));
         jTextField47.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField47.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField47.addActionListener(new java.awt.event.ActionListener() {
@@ -3000,8 +3078,10 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel75.setText("N Documento: *");
         jPanel44.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 30, -1, -1));
 
-        jTextField48.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField48.setEditable(false);
+        jTextField48.setBackground(new java.awt.Color(255, 255, 255));
         jTextField48.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField48.setForeground(new java.awt.Color(0, 0, 0));
         jTextField48.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField48.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel44.add(jTextField48, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 130, 160, -1));
@@ -3018,8 +3098,10 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel119.setText("Nombre del cliente: *");
         jPanel44.add(jLabel119, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 80, -1, -1));
 
-        jTextField49.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField49.setEditable(false);
+        jTextField49.setBackground(new java.awt.Color(255, 255, 255));
         jTextField49.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField49.setForeground(new java.awt.Color(0, 0, 0));
         jTextField49.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField49.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField49.addActionListener(new java.awt.event.ActionListener() {
@@ -3035,8 +3117,10 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel120.setText("Fecha del servicio:*");
         jPanel44.add(jLabel120, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 180, -1, -1));
 
-        jTextField50.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField50.setEditable(false);
+        jTextField50.setBackground(new java.awt.Color(255, 255, 255));
         jTextField50.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField50.setForeground(new java.awt.Color(0, 0, 0));
         jTextField50.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField50.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField50.addActionListener(new java.awt.event.ActionListener() {
@@ -3052,8 +3136,10 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel121.setText("Tipo de servicio:*");
         jPanel44.add(jLabel121, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 130, -1, -1));
 
-        jTextField51.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField51.setEditable(false);
+        jTextField51.setBackground(new java.awt.Color(255, 255, 255));
         jTextField51.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField51.setForeground(new java.awt.Color(0, 0, 0));
         jTextField51.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField51.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel44.add(jTextField51, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 80, 160, -1));
@@ -3089,8 +3175,10 @@ public class vista_admin extends javax.swing.JFrame {
         });
         jPanel44.add(eliminarServicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 220, 120, 30));
 
-        jTextField52.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField52.setEditable(false);
+        jTextField52.setBackground(new java.awt.Color(255, 255, 255));
         jTextField52.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField52.setForeground(new java.awt.Color(0, 0, 0));
         jTextField52.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField52.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField52.addActionListener(new java.awt.event.ActionListener() {
@@ -3131,8 +3219,10 @@ public class vista_admin extends javax.swing.JFrame {
         });
         jPanel44.add(buscarEliminarServicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 120, 30));
 
-        jTextField53.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField53.setEditable(false);
+        jTextField53.setBackground(new java.awt.Color(255, 255, 255));
         jTextField53.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField53.setForeground(new java.awt.Color(0, 0, 0));
         jTextField53.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField53.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel44.add(jTextField53, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 180, 160, -1));
@@ -3269,8 +3359,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel49.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jTextField54.setEditable(false);
-        jTextField54.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField54.setBackground(new java.awt.Color(255, 255, 255));
         jTextField54.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField54.setForeground(new java.awt.Color(0, 0, 0));
         jTextField54.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField54.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField54.addActionListener(new java.awt.event.ActionListener() {
@@ -3287,8 +3378,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel49.add(jLabel128, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 20, -1, -1));
 
         jTextField55.setEditable(false);
-        jTextField55.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField55.setBackground(new java.awt.Color(255, 255, 255));
         jTextField55.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField55.setForeground(new java.awt.Color(0, 0, 0));
         jTextField55.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField55.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel49.add(jTextField55, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 210, 190, -1));
@@ -3306,8 +3398,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel49.add(jLabel130, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, -1, -1));
 
         jTextField56.setEditable(false);
-        jTextField56.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField56.setBackground(new java.awt.Color(255, 255, 255));
         jTextField56.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField56.setForeground(new java.awt.Color(0, 0, 0));
         jTextField56.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField56.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField56.addActionListener(new java.awt.event.ActionListener() {
@@ -3324,8 +3417,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel49.add(jLabel131, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 130, -1, -1));
 
         jTextField57.setEditable(false);
-        jTextField57.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField57.setBackground(new java.awt.Color(255, 255, 255));
         jTextField57.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField57.setForeground(new java.awt.Color(0, 0, 0));
         jTextField57.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField57.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField57.addActionListener(new java.awt.event.ActionListener() {
@@ -3351,8 +3445,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel49.add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 140, 60, -1));
 
         jTextField58.setEditable(false);
-        jTextField58.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField58.setBackground(new java.awt.Color(255, 255, 255));
         jTextField58.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField58.setForeground(new java.awt.Color(0, 0, 0));
         jTextField58.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField58.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel49.add(jTextField58, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 90, 190, -1));
@@ -3364,6 +3459,10 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel49.add(jLabel134, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 190, -1, 20));
 
         jPasswordField4.setEditable(false);
+        jPasswordField4.setBackground(new java.awt.Color(255, 255, 255));
+        jPasswordField4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jPasswordField4.setForeground(new java.awt.Color(0, 0, 0));
+        jPasswordField4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jPanel49.add(jPasswordField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 250, 190, -1));
 
         jLabel135.setBackground(new java.awt.Color(204, 204, 204));
@@ -3406,8 +3505,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel138.setText("No Documento: *");
         jPanel49.add(jLabel138, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, -1, -1));
 
-        jTextField59.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField59.setBackground(new java.awt.Color(255, 255, 255));
         jTextField59.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField59.setForeground(new java.awt.Color(0, 0, 0));
         jTextField59.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField59.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField59.addActionListener(new java.awt.event.ActionListener() {
@@ -3490,8 +3590,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel52.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
         jPanel52.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jTextField60.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField60.setBackground(new java.awt.Color(255, 255, 255));
         jTextField60.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField60.setForeground(new java.awt.Color(0, 0, 0));
         jTextField60.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField60.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField60.addActionListener(new java.awt.event.ActionListener() {
@@ -3501,8 +3602,9 @@ public class vista_admin extends javax.swing.JFrame {
         });
         jPanel52.add(jTextField60, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, 190, 20));
 
-        jTextField61.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField61.setBackground(new java.awt.Color(255, 255, 255));
         jTextField61.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField61.setForeground(new java.awt.Color(0, 0, 0));
         jTextField61.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField61.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel52.add(jTextField61, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 160, 190, -1));
@@ -3519,8 +3621,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel140.setText("Nombre Completo: *");
         jPanel52.add(jLabel140, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, -1, -1));
 
-        jTextField62.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField62.setBackground(new java.awt.Color(255, 255, 255));
         jTextField62.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField62.setForeground(new java.awt.Color(0, 0, 0));
         jTextField62.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField62.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField62.addActionListener(new java.awt.event.ActionListener() {
@@ -3536,8 +3639,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel141.setText("Direccion: *");
         jPanel52.add(jLabel141, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 90, -1, -1));
 
-        jTextField63.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField63.setBackground(new java.awt.Color(255, 255, 255));
         jTextField63.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField63.setForeground(new java.awt.Color(0, 0, 0));
         jTextField63.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField63.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField63.addActionListener(new java.awt.event.ActionListener() {
@@ -3563,8 +3667,9 @@ public class vista_admin extends javax.swing.JFrame {
         });
         jPanel52.add(jComboBox7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 110, 60, -1));
 
-        jTextField64.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField64.setBackground(new java.awt.Color(255, 255, 255));
         jTextField64.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField64.setForeground(new java.awt.Color(0, 0, 0));
         jTextField64.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField64.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel52.add(jTextField64, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 60, 190, -1));
@@ -3574,6 +3679,11 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel143.setForeground(new java.awt.Color(55, 65, 81));
         jLabel143.setText("Correo Electronico: *");
         jPanel52.add(jLabel143, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 140, -1, 20));
+
+        jPasswordField7.setBackground(new java.awt.Color(255, 255, 255));
+        jPasswordField7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jPasswordField7.setForeground(new java.awt.Color(0, 0, 0));
+        jPasswordField7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jPanel52.add(jPasswordField7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, 190, -1));
 
         jLabel144.setBackground(new java.awt.Color(204, 204, 204));
@@ -3675,8 +3785,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel58.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jTextField73.setEditable(false);
-        jTextField73.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField73.setBackground(new java.awt.Color(255, 255, 255));
         jTextField73.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField73.setForeground(new java.awt.Color(0, 0, 0));
         jTextField73.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField73.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField73.addActionListener(new java.awt.event.ActionListener() {
@@ -3693,8 +3804,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel58.add(jLabel160, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, -1, -1));
 
         jTextField74.setEditable(false);
-        jTextField74.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField74.setBackground(new java.awt.Color(255, 255, 255));
         jTextField74.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField74.setForeground(new java.awt.Color(0, 0, 0));
         jTextField74.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField74.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel58.add(jTextField74, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 170, 190, -1));
@@ -3706,8 +3818,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel58.add(jLabel162, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 50, -1, -1));
 
         jTextField75.setEditable(false);
-        jTextField75.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField75.setBackground(new java.awt.Color(255, 255, 255));
         jTextField75.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField75.setForeground(new java.awt.Color(0, 0, 0));
         jTextField75.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField75.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField75.addActionListener(new java.awt.event.ActionListener() {
@@ -3724,8 +3837,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel58.add(jLabel163, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 100, -1, -1));
 
         jTextField76.setEditable(false);
-        jTextField76.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField76.setBackground(new java.awt.Color(255, 255, 255));
         jTextField76.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField76.setForeground(new java.awt.Color(0, 0, 0));
         jTextField76.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField76.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField76.addActionListener(new java.awt.event.ActionListener() {
@@ -3750,8 +3864,10 @@ public class vista_admin extends javax.swing.JFrame {
         });
         jPanel58.add(jComboBox10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, -1, -1));
 
-        jTextField77.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField77.setEditable(false);
+        jTextField77.setBackground(new java.awt.Color(255, 255, 255));
         jTextField77.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField77.setForeground(new java.awt.Color(0, 0, 0));
         jTextField77.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField77.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel58.add(jTextField77, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 70, 190, 20));
@@ -3763,7 +3879,10 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel58.add(jLabel166, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 200, -1, -1));
 
         jPasswordField10.setEditable(false);
-        jPasswordField10.setBackground(new java.awt.Color(75, 85, 99));
+        jPasswordField10.setBackground(new java.awt.Color(255, 255, 255));
+        jPasswordField10.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jPasswordField10.setForeground(new java.awt.Color(0, 0, 0));
+        jPasswordField10.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jPanel58.add(jPasswordField10, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 230, 190, -1));
 
         jLabel167.setBackground(new java.awt.Color(204, 204, 204));
@@ -3817,8 +3936,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel58.add(jLabel171, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 50, -1, -1));
 
         jTextField78.setEditable(false);
-        jTextField78.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField78.setBackground(new java.awt.Color(255, 255, 255));
         jTextField78.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField78.setForeground(new java.awt.Color(0, 0, 0));
         jTextField78.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField78.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField78.addActionListener(new java.awt.event.ActionListener() {
@@ -3914,9 +4034,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel173.setText("No Documento:*");
         jPanel60.add(jLabel173, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, -1, -1));
 
-        jTextField80.setEditable(false);
-        jTextField80.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField80.setBackground(new java.awt.Color(255, 255, 255));
         jTextField80.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField80.setForeground(new java.awt.Color(0, 0, 0));
         jTextField80.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField80.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel60.add(jTextField80, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 140, 190, -1));
@@ -3927,9 +4047,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel174.setText("Nombre Completo:*");
         jPanel60.add(jLabel174, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, -1, -1));
 
-        jTextField81.setEditable(false);
-        jTextField81.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField81.setBackground(new java.awt.Color(255, 255, 255));
         jTextField81.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField81.setForeground(new java.awt.Color(0, 0, 0));
         jTextField81.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField81.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField81.addActionListener(new java.awt.event.ActionListener() {
@@ -3945,8 +4065,7 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel175.setText("Direccion: *");
         jPanel60.add(jLabel175, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 70, -1, -1));
 
-        jTextField82.setEditable(false);
-        jTextField82.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField82.setBackground(new java.awt.Color(255, 255, 255));
         jTextField82.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jTextField82.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField82.setMargin(new java.awt.Insets(5, 5, 5, 5));
@@ -3963,6 +4082,7 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel176.setText("Tipo de documento:*");
         jPanel60.add(jLabel176, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, -1, 20));
 
+        jComboBox12.setEditable(true);
         jComboBox12.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jComboBox12.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccione una opcion", "CC", "TI", "CE", "PEP" }));
         jComboBox12.addActionListener(new java.awt.event.ActionListener() {
@@ -3972,8 +4092,9 @@ public class vista_admin extends javax.swing.JFrame {
         });
         jPanel60.add(jComboBox12, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 90, -1, -1));
 
-        jTextField83.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField83.setBackground(new java.awt.Color(255, 255, 255));
         jTextField83.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField83.setForeground(new java.awt.Color(0, 0, 0));
         jTextField83.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField83.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel60.add(jTextField83, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 40, 190, 20));
@@ -3984,14 +4105,16 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel177.setText("Nivel:*");
         jPanel60.add(jLabel177, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 170, -1, -1));
 
-        jPasswordField11.setEditable(false);
-        jPasswordField11.setBackground(new java.awt.Color(75, 85, 99));
+        jPasswordField11.setBackground(new java.awt.Color(255, 255, 255));
+        jPasswordField11.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jPasswordField11.setForeground(new java.awt.Color(0, 0, 0));
+        jPasswordField11.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jPanel60.add(jPasswordField11, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 200, 190, -1));
 
         jLabel178.setBackground(new java.awt.Color(204, 204, 204));
         jLabel178.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel178.setForeground(new java.awt.Color(55, 65, 81));
-        jLabel178.setText("Contraseña:*");
+        jLabel178.setText("Nueva contraseña:*");
         jPanel60.add(jLabel178, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, -1, -1));
 
         guardarDatosTecnico.setBackground(new java.awt.Color(0, 122, 255));
@@ -4023,8 +4146,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel179.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel179.setForeground(new java.awt.Color(55, 65, 81));
         jLabel179.setText("Correo Electronico:*");
-        jPanel60.add(jLabel179, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 120, -1, -1));
+        jPanel60.add(jLabel179, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 120, -1, 20));
 
+        jComboBox13.setEditable(true);
         jComboBox13.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jComboBox13.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Seleccione una opcion", "Junior", "Intermedio", "Senior", " " }));
         jPanel60.add(jComboBox13, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 190, 190, -1));
@@ -4035,9 +4159,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel180.setText("Telefono: *");
         jPanel60.add(jLabel180, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 20, -1, 20));
 
-        jTextField84.setEditable(false);
-        jTextField84.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField84.setBackground(new java.awt.Color(255, 255, 255));
         jTextField84.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField84.setForeground(new java.awt.Color(0, 0, 0));
         jTextField84.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField84.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField84.addActionListener(new java.awt.event.ActionListener() {
@@ -4109,8 +4233,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel63.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jTextField66.setEditable(false);
-        jTextField66.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField66.setBackground(new java.awt.Color(255, 255, 255));
         jTextField66.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField66.setForeground(new java.awt.Color(0, 0, 0));
         jTextField66.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField66.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField66.addActionListener(new java.awt.event.ActionListener() {
@@ -4127,8 +4252,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel63.add(jLabel150, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 160, -1, 20));
 
         jTextField67.setEditable(false);
-        jTextField67.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField67.setBackground(new java.awt.Color(255, 255, 255));
         jTextField67.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField67.setForeground(new java.awt.Color(0, 0, 0));
         jTextField67.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField67.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel63.add(jTextField67, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 130, 190, 20));
@@ -4146,8 +4272,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel63.add(jLabel152, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 60, -1, -1));
 
         jTextField68.setEditable(false);
-        jTextField68.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField68.setBackground(new java.awt.Color(255, 255, 255));
         jTextField68.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField68.setForeground(new java.awt.Color(0, 0, 0));
         jTextField68.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField68.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField68.addActionListener(new java.awt.event.ActionListener() {
@@ -4164,8 +4291,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel63.add(jLabel153, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 210, -1, -1));
 
         jTextField69.setEditable(false);
-        jTextField69.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField69.setBackground(new java.awt.Color(255, 255, 255));
         jTextField69.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField69.setForeground(new java.awt.Color(0, 0, 0));
         jTextField69.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField69.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField69.addActionListener(new java.awt.event.ActionListener() {
@@ -4191,8 +4319,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel63.add(jComboBox9, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 130, 190, -1));
 
         jTextField70.setEditable(false);
-        jTextField70.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField70.setBackground(new java.awt.Color(255, 255, 255));
         jTextField70.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTextField70.setForeground(new java.awt.Color(0, 0, 0));
         jTextField70.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField70.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel63.add(jTextField70, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 80, 190, 20));
@@ -4241,10 +4370,12 @@ public class vista_admin extends javax.swing.JFrame {
         jScrollPane5.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
 
         jTextArea2.setEditable(false);
-        jTextArea2.setBackground(new java.awt.Color(75, 85, 99));
+        jTextArea2.setBackground(new java.awt.Color(255, 255, 255));
         jTextArea2.setColumns(20);
         jTextArea2.setFont(new java.awt.Font("Segoe UI", 0, 12)); // NOI18N
+        jTextArea2.setForeground(new java.awt.Color(0, 0, 0));
         jTextArea2.setRows(5);
+        jTextArea2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jScrollPane5.setViewportView(jTextArea2);
 
         jPanel63.add(jScrollPane5, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 190, 230, 70));
@@ -4256,8 +4387,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel63.add(jLabel192, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, -1, 20));
 
         jTextField90.setEditable(false);
-        jTextField90.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField90.setBackground(new java.awt.Color(255, 255, 255));
         jTextField90.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        jTextField90.setForeground(new java.awt.Color(0, 0, 0));
         jTextField90.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField90.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel63.add(jTextField90, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 180, 190, 20));
@@ -4268,8 +4400,10 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel193.setText("No Documento:*");
         jPanel63.add(jLabel193, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 20, -1, -1));
 
-        jTextField91.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField91.setEditable(false);
+        jTextField91.setBackground(new java.awt.Color(255, 255, 255));
         jTextField91.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField91.setForeground(new java.awt.Color(0, 0, 0));
         jTextField91.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField91.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField91.addActionListener(new java.awt.event.ActionListener() {
@@ -4353,9 +4487,9 @@ public class vista_admin extends javax.swing.JFrame {
         jPanel66.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219), 2));
         jPanel66.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jTextField71.setEditable(false);
-        jTextField71.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField71.setBackground(new java.awt.Color(255, 255, 255));
         jTextField71.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField71.setForeground(new java.awt.Color(0, 0, 0));
         jTextField71.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField71.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField71.addActionListener(new java.awt.event.ActionListener() {
@@ -4371,9 +4505,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel161.setText("Telefono del cliente:*");
         jPanel66.add(jLabel161, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, -1, -1));
 
-        jTextField85.setEditable(false);
-        jTextField85.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField85.setBackground(new java.awt.Color(255, 255, 255));
         jTextField85.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField85.setForeground(new java.awt.Color(0, 0, 0));
         jTextField85.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField85.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel66.add(jTextField85, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 80, 190, -1));
@@ -4390,9 +4524,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel184.setText("Nombre del tecnico:*");
         jPanel66.add(jLabel184, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 20, -1, -1));
 
-        jTextField86.setEditable(false);
-        jTextField86.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField86.setBackground(new java.awt.Color(255, 255, 255));
         jTextField86.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField86.setForeground(new java.awt.Color(0, 0, 0));
         jTextField86.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField86.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField86.addActionListener(new java.awt.event.ActionListener() {
@@ -4408,9 +4542,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel185.setText("Direccion del cliente:*");
         jPanel66.add(jLabel185, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 160, -1, -1));
 
-        jTextField87.setEditable(false);
-        jTextField87.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField87.setBackground(new java.awt.Color(255, 255, 255));
         jTextField87.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField87.setForeground(new java.awt.Color(0, 0, 0));
         jTextField87.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField87.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jTextField87.addActionListener(new java.awt.event.ActionListener() {
@@ -4426,6 +4560,7 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel186.setText("Tipo de servicio:*");
         jPanel66.add(jLabel186, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 70, -1, -1));
 
+        jComboBox14.setEditable(true);
         jComboBox14.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jComboBox14.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona una opcion", "Mantenimiento", "Instalacion", "Reparacion", " " }));
         jComboBox14.addActionListener(new java.awt.event.ActionListener() {
@@ -4435,9 +4570,9 @@ public class vista_admin extends javax.swing.JFrame {
         });
         jPanel66.add(jComboBox14, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 90, 190, -1));
 
-        jTextField88.setEditable(false);
-        jTextField88.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField88.setBackground(new java.awt.Color(255, 255, 255));
         jTextField88.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField88.setForeground(new java.awt.Color(0, 0, 0));
         jTextField88.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField88.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel66.add(jTextField88, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 40, 190, -1));
@@ -4482,10 +4617,10 @@ public class vista_admin extends javax.swing.JFrame {
         jScrollPane6.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         jScrollPane6.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
 
-        jTextArea3.setEditable(false);
-        jTextArea3.setBackground(new java.awt.Color(75, 85, 99));
+        jTextArea3.setBackground(new java.awt.Color(255, 255, 255));
         jTextArea3.setColumns(20);
         jTextArea3.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        jTextArea3.setForeground(new java.awt.Color(0, 0, 0));
         jTextArea3.setRows(5);
         jScrollPane6.setViewportView(jTextArea3);
 
@@ -4497,9 +4632,9 @@ public class vista_admin extends javax.swing.JFrame {
         jLabel194.setText("No Documento:*");
         jPanel66.add(jLabel194, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 60, -1, -1));
 
-        jTextField92.setEditable(false);
-        jTextField92.setBackground(new java.awt.Color(75, 85, 99));
+        jTextField92.setBackground(new java.awt.Color(255, 255, 255));
         jTextField92.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jTextField92.setForeground(new java.awt.Color(0, 0, 0));
         jTextField92.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(209, 213, 219)));
         jTextField92.setMargin(new java.awt.Insets(5, 5, 5, 5));
         jPanel66.add(jTextField92, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 130, 190, 20));
