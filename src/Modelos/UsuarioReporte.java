@@ -8,7 +8,7 @@ package Modelos;
  *
  * @author ACER1
  */
-public class UsuarioReporte extends Usuarios{
+public class UsuarioReporte extends Usuario_mio{
     private String correo;
 
     public UsuarioReporte(String correo, String codigo, String nombre, String Documento, String fecha, String hora) {

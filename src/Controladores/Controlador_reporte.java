@@ -3,9 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Controladores;
-
 import Modelos.UsuarioReporte;
-import Modelos.Usuarios;
+import Modelos.Usuario_mio;
 import java.util.ArrayList;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
@@ -15,7 +14,7 @@ import javax.swing.table.DefaultTableModel;
  * @author ACER1
  */
 public class Controlador_reporte {
-     private ArrayList<Usuarios> listaUsuarios = new ArrayList<>();
+     private ArrayList<Usuario_mio> listaUsuarios = new ArrayList<>();
             
         private DefaultTableModel modelo;
         private int  contador = 1;

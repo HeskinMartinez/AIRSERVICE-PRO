@@ -4,7 +4,7 @@
  */
 package Vistas;
 
-import Controladores.Controlador_registro;
+import Controladores.Controlador_Usuarioo;
 import Controladores.Controlador_reporte;
 import java.text.SimpleDateFormat;
 import javax.swing.JOptionPane;
@@ -15,7 +15,7 @@ import javax.swing.JOptionPane;
  */
 public class Usuario extends javax.swing.JFrame {
 
-    Controlador_registro c = new Controlador_registro();
+    Controlador_Usuarioo c = new Controlador_Usuarioo();
     Controlador_reporte  Cr = new Controlador_reporte();
     /**
      * Creates new form Usuario
