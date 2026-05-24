@@ -55,7 +55,7 @@ public class Controlador_reporte {
         
         String codigo = generarCodigo();
         
-        UsuarioReporte Reporte = new UsuarioReporte(codigo,nombre,documento," ", " ",correo);
+        UsuarioReporte Reporte = new UsuarioReporte(correo,codigo,nombre,documento, " "," ");
         
         listaUsuarios.add(Reporte);
         
@@ -63,7 +63,7 @@ public class Controlador_reporte {
        
         
         modelo.addRow(new Object[]{
-            Reporte.getCodigo(), Reporte.getNombre(), Reporte.getDocumento(), Reporte.getCorreo()
+            Reporte.getCodigo(), Reporte.getNombre(),Reporte.getDocumento(),Reporte.getCorreo()
         });
         
         
