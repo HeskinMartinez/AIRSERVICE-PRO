@@ -5,24 +5,26 @@
 package Modelos;
 
 public class Pago {
-    private String  Factura;
+    private String Factura;
     private String Nombre;
     private String telefono;
     private String Documento;
     private String Direccion;
     private String Correo;
+    private int    Total;
     
     
    private String MetodoPago;
    private String PlanSelec;
 
-    public Pago(String Factura, String Nombre, String telefono, String Documento, String Direccion, String Correo, String MetodoPago, String PlanSelec) {
+    public Pago(String Factura, String Nombre, String telefono, String Documento, String Direccion, String Correo, int Total, String MetodoPago, String PlanSelec) {
         this.Factura = Factura;
         this.Nombre = Nombre;
         this.telefono = telefono;
         this.Documento = Documento;
         this.Direccion = Direccion;
         this.Correo = Correo;
+        this.Total = Total;
         this.MetodoPago = MetodoPago;
         this.PlanSelec = PlanSelec;
     }
@@ -73,6 +75,14 @@ public class Pago {
 
     public void setCorreo(String Correo) {
         this.Correo = Correo;
+    }
+
+    public int getTotal() {
+        return Total;
+    }
+
+    public void setTotal(int Total) {
+        this.Total = Total;
     }
 
     public String getMetodoPago() {

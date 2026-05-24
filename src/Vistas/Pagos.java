@@ -6,7 +6,9 @@ package Vistas;
 import Modelos.Pago;
 import Modelos.Tarjeta;
 import java.util.ArrayList;
-import javax.swing.JOptionPane;
+import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
+
 public class Pagos extends javax.swing.JFrame {
     public static ArrayList<Tarjeta>ListaTarjeta = new ArrayList<>();
     public static ArrayList<Pago>HistorialPago = new ArrayList<>();
@@ -21,6 +23,32 @@ public class Pagos extends javax.swing.JFrame {
         String ultimosDigitos = num.substring(Math.max(0, num.length() - 4));
         ComboxMetodopago.addItem("Tarjeta (**** " + ultimosDigitos + " ) - " + t.getNombreTitular());
     }
+    }
+    
+    public static void ActualizarTabla(){
+     DefaultTableModel   Modelo = (DefaultTableModel) TablaRegistroPagos.getModel();
+     Modelo.setRowCount(0);
+     
+     int ContadorDinero = 0;
+     int CantidadTransacciones = HistorialPago.size();
+     
+     for(int i=0 ; i< HistorialPago.size(); i++){
+         Pago p = HistorialPago.get(i);
+         
+        Object[] fila = new Object[5];
+        fila[0] = p.getFactura();
+        fila[1] = p.getNombre();
+        fila[2] = p.getPlanSelec();
+        fila[3] = p.getMetodoPago();
+        
+        fila[4] = "$" + p.getTotal();
+        Modelo.addRow(fila);
+         ContadorDinero += p.getTotal();
+     }
+     LabelTransacciones.setText(String.valueOf(CantidadTransacciones));
+     int Dinero = ContadorDinero / 100 ;
+     LabelTotalPagado.setText("K"+Dinero);
+        
     }
     
     public static void ActualizarResumenCompra(){
@@ -54,8 +82,14 @@ public class Pagos extends javax.swing.JFrame {
      */
     public Pagos() {
         initComponents();
+        setSize(1020 , 710);
+        setResizable(false);
+        setTitle("Pagos");
+        setLocationRelativeTo(this);
         actualizarComboxMetodos();
         ActualizarResumenCompra();
+        ActualizarTabla();
+        this.repaint();
     }
 
     /**
@@ -124,6 +158,10 @@ public class Pagos extends javax.swing.JFrame {
         jPanel21 = new javax.swing.JPanel();
         jLabel77 = new javax.swing.JLabel();
         jLabel78 = new javax.swing.JLabel();
+        jSeparator2 = new javax.swing.JSeparator();
+        jSeparator3 = new javax.swing.JSeparator();
+        jSeparator4 = new javax.swing.JSeparator();
+        jSeparator5 = new javax.swing.JSeparator();
         jPanel18 = new javax.swing.JPanel();
         jLabel41 = new javax.swing.JLabel();
         TxtMunicipio = new javax.swing.JTextField();
@@ -134,6 +172,9 @@ public class Pagos extends javax.swing.JFrame {
         TxtBarrio = new javax.swing.JTextField();
         jLabel76 = new javax.swing.JLabel();
         TxtDireccion = new javax.swing.JTextField();
+        jSeparator6 = new javax.swing.JSeparator();
+        jSeparator7 = new javax.swing.JSeparator();
+        jSeparator8 = new javax.swing.JSeparator();
         jPanel19 = new javax.swing.JPanel();
         jPanel20 = new javax.swing.JPanel();
         jLabel68 = new javax.swing.JLabel();
@@ -168,6 +209,37 @@ public class Pagos extends javax.swing.JFrame {
         jLabel92 = new javax.swing.JLabel();
         jLabel93 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        TablaRegistroPagos = new javax.swing.JTable();
+        jPanel9 = new javax.swing.JPanel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        jLabel27 = new javax.swing.JLabel();
+        jPanel11 = new javax.swing.JPanel();
+        jLabel25 = new javax.swing.JLabel();
+        jLabel26 = new javax.swing.JLabel();
+        LabelTotalPagado = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        jLabel86 = new javax.swing.JLabel();
+        jPanel12 = new javax.swing.JPanel();
+        jLabel29 = new javax.swing.JLabel();
+        jLabel30 = new javax.swing.JLabel();
+        LabelTransacciones = new javax.swing.JLabel();
+        jLabel33 = new javax.swing.JLabel();
+        jPanel13 = new javax.swing.JPanel();
+        jLabel48 = new javax.swing.JLabel();
+        jLabel49 = new javax.swing.JLabel();
+        jLabel34 = new javax.swing.JLabel();
+        jLabel35 = new javax.swing.JLabel();
+        jLabel58 = new javax.swing.JLabel();
+        jLabel60 = new javax.swing.JLabel();
+        jPanel15 = new javax.swing.JPanel();
+        jLabel50 = new javax.swing.JLabel();
+        jLabel51 = new javax.swing.JLabel();
+        jLabel36 = new javax.swing.JLabel();
+        jLabel52 = new javax.swing.JLabel();
+        jLabel59 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
@@ -188,7 +260,7 @@ public class Pagos extends javax.swing.JFrame {
         jLabel6.setText("Pagos seguros y verificados");
         jPanel10.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 120, -1, -1));
 
-        jTabbedPane1.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+        jTabbedPane1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jTabbedPane1.setForeground(new java.awt.Color(0, 204, 204));
         jTabbedPane1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
@@ -197,7 +269,7 @@ public class Pagos extends javax.swing.JFrame {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+        jPanel3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel7.setFont(new java.awt.Font("Roboto Black", 0, 14)); // NOI18N
@@ -229,7 +301,7 @@ public class Pagos extends javax.swing.JFrame {
         jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 40, 250, 180));
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+        jPanel4.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel11.setFont(new java.awt.Font("Roboto Black", 0, 14)); // NOI18N
@@ -262,7 +334,7 @@ public class Pagos extends javax.swing.JFrame {
         jPanel1.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 40, 250, 180));
 
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+        jPanel6.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel17.setFont(new java.awt.Font("Roboto Black", 0, 14)); // NOI18N
@@ -346,20 +418,20 @@ public class Pagos extends javax.swing.JFrame {
         jPanel14.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel16.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel16.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+        jPanel16.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel16.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel32.setFont(new java.awt.Font("Roboto", 0, 17)); // NOI18N
         jLabel32.setForeground(new java.awt.Color(26, 96, 224));
         jLabel32.setText("3. Finalizar compra");
-        jPanel16.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 20, 190, 30));
+        jPanel16.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 10, 190, 30));
 
         jLabel37.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Finalizar Compra.png"))); // NOI18N
-        jPanel16.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, -1, 40));
+        jPanel16.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, -1, 40));
 
         jLabel38.setFont(new java.awt.Font("Roboto Light", 0, 13)); // NOI18N
         jLabel38.setText("Usa un metodo de pago guardado ");
-        jPanel16.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 50, -1, -1));
+        jPanel16.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 40, -1, -1));
 
         jLabel39.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
         jLabel39.setText("Selecciona el metodo de pago");
@@ -367,7 +439,7 @@ public class Pagos extends javax.swing.JFrame {
 
         jLabel40.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
         jLabel40.setText("Selecciona el plan");
-        jPanel16.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 150, 130, -1));
+        jPanel16.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 140, 130, -1));
 
         ComboxPlanes.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Plan Basico", "Plan Pro" }));
         ComboxPlanes.addActionListener(new java.awt.event.ActionListener() {
@@ -375,7 +447,7 @@ public class Pagos extends javax.swing.JFrame {
                 ComboxPlanesActionPerformed(evt);
             }
         });
-        jPanel16.add(ComboxPlanes, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 170, 240, -1));
+        jPanel16.add(ComboxPlanes, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 160, 240, -1));
 
         ComboxMetodopago.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         ComboxMetodopago.addActionListener(new java.awt.event.ActionListener() {
@@ -388,7 +460,7 @@ public class Pagos extends javax.swing.JFrame {
         jPanel14.add(jPanel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 170, 290, 200));
 
         jPanel17.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel17.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+        jPanel17.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel17.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel43.setBackground(new java.awt.Color(26, 96, 224));
@@ -398,6 +470,7 @@ public class Pagos extends javax.swing.JFrame {
         jPanel17.add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 10, 160, 30));
 
         TxtNombre.setFont(new java.awt.Font("Roboto", 0, 15)); // NOI18N
+        TxtNombre.setBorder(null);
         TxtNombre.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TxtNombreActionPerformed(evt);
@@ -421,6 +494,12 @@ public class Pagos extends javax.swing.JFrame {
         jPanel17.add(jLabel62, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 200, -1, -1));
 
         TxtTelefono.setFont(new java.awt.Font("Roboto", 0, 15)); // NOI18N
+        TxtTelefono.setBorder(null);
+        TxtTelefono.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                TxtTelefonoKeyTyped(evt);
+            }
+        });
         jPanel17.add(TxtTelefono, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 220, 150, -1));
 
         jLabel63.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
@@ -428,6 +507,7 @@ public class Pagos extends javax.swing.JFrame {
         jPanel17.add(jLabel63, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, -1, -1));
 
         TxtCorreo.setFont(new java.awt.Font("Roboto", 0, 15)); // NOI18N
+        TxtCorreo.setBorder(null);
         jPanel17.add(TxtCorreo, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 150, 240, -1));
 
         jLabel64.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
@@ -435,7 +515,18 @@ public class Pagos extends javax.swing.JFrame {
         jPanel17.add(jLabel64, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 200, -1, -1));
 
         TxtDocumento.setFont(new java.awt.Font("Roboto", 0, 15)); // NOI18N
-        jPanel17.add(TxtDocumento, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 220, 160, -1));
+        TxtDocumento.setBorder(null);
+        TxtDocumento.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TxtDocumentoActionPerformed(evt);
+            }
+        });
+        TxtDocumento.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                TxtDocumentoKeyTyped(evt);
+            }
+        });
+        jPanel17.add(TxtDocumento, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 220, 150, -1));
 
         jPanel21.setBackground(new java.awt.Color(226, 238, 249));
         jPanel21.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
@@ -452,10 +543,25 @@ public class Pagos extends javax.swing.JFrame {
 
         jPanel17.add(jPanel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 280, 360, 40));
 
+        jSeparator2.setBackground(new java.awt.Color(0, 0, 0));
+        jSeparator2.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel17.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 110, 240, 10));
+
+        jSeparator3.setBackground(new java.awt.Color(0, 0, 0));
+        jSeparator3.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel17.add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 170, 240, 20));
+
+        jSeparator4.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel17.add(jSeparator4, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 240, 150, 20));
+
+        jSeparator5.setBackground(new java.awt.Color(0, 0, 0));
+        jSeparator5.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel17.add(jSeparator5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 240, 150, 20));
+
         jPanel14.add(jPanel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 380, 360));
 
         jPanel18.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel18.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+        jPanel18.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel18.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel41.setFont(new java.awt.Font("Roboto", 0, 17)); // NOI18N
@@ -464,6 +570,7 @@ public class Pagos extends javax.swing.JFrame {
         jPanel18.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 20, 190, 30));
 
         TxtMunicipio.setFont(new java.awt.Font("Roboto", 0, 15)); // NOI18N
+        TxtMunicipio.setBorder(null);
         jPanel18.add(TxtMunicipio, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 110, 130, -1));
 
         jLabel42.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Ubicacion.png"))); // NOI18N
@@ -482,6 +589,7 @@ public class Pagos extends javax.swing.JFrame {
         jPanel18.add(jLabel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 80, 60, -1));
 
         TxtBarrio.setFont(new java.awt.Font("Roboto", 0, 15)); // NOI18N
+        TxtBarrio.setBorder(null);
         jPanel18.add(TxtBarrio, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 110, 140, -1));
 
         jLabel76.setFont(new java.awt.Font("Roboto", 0, 15)); // NOI18N
@@ -489,12 +597,22 @@ public class Pagos extends javax.swing.JFrame {
         jPanel18.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 80, 80, -1));
 
         TxtDireccion.setFont(new java.awt.Font("Roboto", 0, 15)); // NOI18N
+        TxtDireccion.setBorder(null);
         jPanel18.add(TxtDireccion, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 110, 140, -1));
+
+        jSeparator6.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel18.add(jSeparator6, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 130, 140, 10));
+
+        jSeparator7.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel18.add(jSeparator7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, 130, 10));
+
+        jSeparator8.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel18.add(jSeparator8, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 130, 140, 10));
 
         jPanel14.add(jPanel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 10, 500, 150));
 
         jPanel19.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel19.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+        jPanel19.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel19.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel20.setBackground(new java.awt.Color(255, 255, 255));
@@ -554,6 +672,8 @@ public class Pagos extends javax.swing.JFrame {
         jButton4.setForeground(new java.awt.Color(255, 255, 255));
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/WWWWWWWWWWWWWWW.png"))); // NOI18N
         jButton4.setText("COMPRAR");
+        jButton4.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jButton4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
@@ -569,7 +689,7 @@ public class Pagos extends javax.swing.JFrame {
         jPanel14.add(jPanel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 330, 240, 130));
 
         jPanel22.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel22.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+        jPanel22.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel22.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel80.setFont(new java.awt.Font("Roboto", 0, 17)); // NOI18N
@@ -626,7 +746,7 @@ public class Pagos extends javax.swing.JFrame {
         jLabel91.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/WWWWWWWWWWWWWWW.png"))); // NOI18N
         jPanel23.add(jLabel91, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 0, -1, -1));
 
-        jPanel14.add(jPanel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 420, 380, 40));
+        jPanel14.add(jPanel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 410, 380, 40));
 
         jPanel24.setBackground(new java.awt.Color(255, 255, 255));
         jPanel24.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 0, 12), new java.awt.Color(0, 51, 204))); // NOI18N
@@ -639,24 +759,174 @@ public class Pagos extends javax.swing.JFrame {
         jLabel93.setText("Proceso Rapido");
         jPanel24.add(jLabel93, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 0, -1, 40));
 
-        jPanel14.add(jPanel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 420, 290, 40));
+        jPanel14.add(jPanel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 410, 290, 40));
 
         jTabbedPane1.addTab("Pagar", jPanel14);
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        TablaRegistroPagos.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        TablaRegistroPagos.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
+        TablaRegistroPagos.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null}
+            },
+            new String [] {
+                "N° Factura", "Cliente", "Servicio Contratado", "Metodo pago", "Total"
+            }
+        ));
+        jScrollPane1.setViewportView(TablaRegistroPagos);
+
+        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 160, 710, 290));
+
+        jPanel9.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel9.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel10.setFont(new java.awt.Font("Roboto Medium", 0, 18)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(26, 96, 224));
+        jLabel10.setText("Estado general");
+        jPanel9.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 10, -1, -1));
+
+        jLabel21.setFont(new java.awt.Font("Roboto Light", 0, 12)); // NOI18N
+        jLabel21.setText("No tienes pagos pendientes");
+        jPanel9.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 70, 150, -1));
+
+        jLabel23.setFont(new java.awt.Font("Roboto", 0, 16)); // NOI18N
+        jLabel23.setForeground(new java.awt.Color(51, 255, 0));
+        jLabel23.setText("Todo el dia");
+        jPanel9.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 40, 120, -1));
+
+        jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ESTADO.....png"))); // NOI18N
+        jPanel9.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 70, 60));
+
+        jPanel2.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 30, 260, 100));
+
+        jPanel11.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel11.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel25.setFont(new java.awt.Font("Roboto Medium", 0, 18)); // NOI18N
+        jLabel25.setForeground(new java.awt.Color(26, 96, 224));
+        jLabel25.setText("Total Pagado");
+        jPanel11.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 10, -1, 20));
+
+        jLabel26.setFont(new java.awt.Font("Roboto Light", 0, 13)); // NOI18N
+        jLabel26.setText("En todos tus servicios");
+        jPanel11.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 70, 140, -1));
+
+        LabelTotalPagado.setFont(new java.awt.Font("Roboto", 0, 16)); // NOI18N
+        LabelTotalPagado.setText("$500K");
+        jPanel11.add(LabelTotalPagado, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 40, 70, -1));
+
+        jLabel28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Cartera.png"))); // NOI18N
+        jPanel11.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(13, 16, 60, 70));
+
+        jLabel86.setFont(new java.awt.Font("Roboto Light", 0, 16)); // NOI18N
+        jLabel86.setText("/COP");
+        jPanel11.add(jLabel86, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 40, -1, -1));
+
+        jPanel2.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 30, 240, 100));
+
+        jPanel12.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel12.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel12.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel29.setFont(new java.awt.Font("Roboto Medium", 0, 18)); // NOI18N
+        jLabel29.setForeground(new java.awt.Color(26, 96, 224));
+        jLabel29.setText("Transacciones");
+        jPanel12.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 10, -1, -1));
+
+        jLabel30.setFont(new java.awt.Font("Roboto Light", 0, 14)); // NOI18N
+        jLabel30.setText("Pagos realizados");
+        jPanel12.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 70, 120, -1));
+
+        LabelTransacciones.setFont(new java.awt.Font("Roboto", 0, 16)); // NOI18N
+        LabelTransacciones.setText("1");
+        jPanel12.add(LabelTransacciones, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 40, 120, -1));
+
+        jLabel33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Transaccion.png"))); // NOI18N
+        jLabel33.setText("jLabel24");
+        jPanel12.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(13, 16, 60, 70));
+
+        jPanel2.add(jPanel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 30, 240, 100));
+
+        jPanel13.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel13.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel13.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel48.setFont(new java.awt.Font("Roboto", 0, 19)); // NOI18N
+        jLabel48.setForeground(new java.awt.Color(26, 96, 224));
+        jLabel48.setText("Profesional");
+        jPanel13.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 40, -1, 20));
+
+        jLabel49.setFont(new java.awt.Font("Roboto Light", 0, 16)); // NOI18N
+        jLabel49.setText("Soporte Continuo.");
+        jPanel13.add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 110, -1, 20));
+
+        jLabel34.setFont(new java.awt.Font("Roboto Light", 0, 16)); // NOI18N
+        jLabel34.setText("Atencion tecnica");
+        jPanel13.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 70, -1, -1));
+
+        jLabel35.setFont(new java.awt.Font("Roboto Light", 0, 16)); // NOI18N
+        jLabel35.setText("Especializada y");
+        jPanel13.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 90, -1, -1));
+
+        jLabel58.setFont(new java.awt.Font("Roboto", 0, 19)); // NOI18N
+        jLabel58.setForeground(new java.awt.Color(26, 96, 224));
+        jLabel58.setText("Soporte ");
+        jPanel13.add(jLabel58, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 20, -1, 20));
+
+        jLabel60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/ATENCIONNNNN.png"))); // NOI18N
+        jLabel60.setText("jLabel59");
+        jPanel13.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, 60, 90));
+
+        jPanel2.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 310, 240, 140));
+
+        jPanel15.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel15.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel15.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel50.setFont(new java.awt.Font("Roboto", 0, 19)); // NOI18N
+        jLabel50.setForeground(new java.awt.Color(26, 96, 224));
+        jLabel50.setText("Garantia incluida");
+        jPanel15.add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 20, -1, 20));
+
+        jLabel51.setFont(new java.awt.Font("Roboto Light", 0, 16)); // NOI18N
+        jLabel51.setText("Garantia.");
+        jPanel15.add(jLabel51, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 90, -1, 20));
+
+        jLabel36.setFont(new java.awt.Font("Roboto Light", 0, 16)); // NOI18N
+        jLabel36.setText("Todos nuestros");
+        jPanel15.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 50, -1, -1));
+
+        jLabel52.setFont(new java.awt.Font("Roboto Light", 0, 16)); // NOI18N
+        jLabel52.setText("Servicios Incluyen");
+        jPanel15.add(jLabel52, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 70, -1, -1));
+
+        jLabel59.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/SEGUROOOOOOO.png"))); // NOI18N
+        jLabel59.setText("jLabel59");
+        jPanel15.add(jLabel59, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, 60, 80));
+
+        jPanel2.add(jPanel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 160, 240, 130));
+
         jTabbedPane1.addTab("Historial", jPanel2);
 
         jPanel10.add(jTabbedPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 1000, 510));
 
         jPanel5.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+        jPanel5.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel3.setBackground(new java.awt.Color(0, 0, 0));
         jLabel3.setFont(new java.awt.Font("Roboto Black", 2, 14)); // NOI18N
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icono_redisenado.png"))); // NOI18N
         jLabel3.setText("MENU");
+        jLabel3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel5.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 0, 110, -1));
 
         jLabel15.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -672,11 +942,18 @@ public class Pagos extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Roboto Black", 2, 14)); // NOI18N
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/result_image.png"))); // NOI18N
         jLabel4.setText("SERVICIOS");
+        jLabel4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel4MouseClicked(evt);
+            }
+        });
         jPanel5.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 0, 140, 60));
 
         jLabel2.setFont(new java.awt.Font("Roboto Black", 2, 14)); // NOI18N
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Pagos seguros.png"))); // NOI18N
         jLabel2.setText("PAGOS");
+        jLabel2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel5.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 0, 110, 60));
 
         jPanel10.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1000, 60));
@@ -712,6 +989,18 @@ public class Pagos extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "Algum campo esta vacio " , "Campos Imcompletos " , JOptionPane.WARNING_MESSAGE);
             return;    
         }
+        
+        if(!Correo.contains("@") || !Correo.endsWith(".com") && !Correo.endsWith(".co")){
+            JOptionPane.showMessageDialog(this,"El correo electrónico no es válido.\nDebe contener un '@' y terminar en .com o .co.", 
+                "Correo Inválido", JOptionPane.ERROR_MESSAGE);
+            return;    
+        }
+        
+        if(Telefono.length() != 10){
+           JOptionPane.showMessageDialog(this, "El número de teléfono ingresado no es válido.\nDebe contener exactamente 10 dígitos numéricos.", 
+                "Teléfono Inválido",JOptionPane.ERROR_MESSAGE);
+           return;
+        }
         if (ComboxPlanes.getSelectedIndex()== 0){
             
             JOptionPane.showMessageDialog(this, 
@@ -727,13 +1016,13 @@ public class Pagos extends javax.swing.JFrame {
             return;
         }
         
-        String PrecioTotal = "$200 COP";
+        int PrecioTotal = 200000;
         if(PlanSeleccionado.equalsIgnoreCase("Plan Pro")){
-            PrecioTotal = "$500 COP" ;
+            PrecioTotal = 500000;
         }
            int numeroFactura = HistorialPago.size() + 1;
             String numFactStr = String.valueOf(numeroFactura); 
-            Pago nuevoPago = new Pago(numFactStr, Nombre, Telefono, Documento, Direccion, Correo , MetodoSeleccionado ,PlanSeleccionado);
+            Pago nuevoPago = new Pago(numFactStr, Nombre, Telefono, Documento, Direccion, Correo , PrecioTotal , MetodoSeleccionado ,PlanSeleccionado);
             HistorialPago.add(nuevoPago);
             
            String Recibo = "---- COMPRA CONFIRMADA - AIR SERVICE PRO ----\n" +
@@ -744,13 +1033,14 @@ public class Pagos extends javax.swing.JFrame {
                     "Correo: " + Correo + "\n" +
                     "Direccion: " + Direccion + "\n" +
                     "Plan Seleccionado : " + PlanSeleccionado + "\n" +
-                    "Método de Pago: " + MetodoSeleccionado + "\n" +
-                    "Total Pagado: " + PrecioTotal + "\n\n" +
-                    "¡Transacción exitosa! El pago ha sido registrado en el historial.";
+                    "Metodo de Pago: " + MetodoSeleccionado + "\n" +
+                    "Total Pagado: " + "$"+PrecioTotal+"K"+"\n\n" +
+                    "¡Transaccion exitosa! El pago ha sido registrado en el historial.";
            
-           JOptionPane.showMessageDialog(this, 
+            JOptionPane.showMessageDialog(this, 
             Recibo, 
             "Pago Procesado con Éxito",JOptionPane.INFORMATION_MESSAGE);
+            ActualizarTabla();
            
             TxtNombre.setText("");
             TxtCorreo.setText("");
@@ -818,6 +1108,26 @@ public class Pagos extends javax.swing.JFrame {
             ActualizarResumenCompra();        // TODO add your handling code here:
     }//GEN-LAST:event_ComboxPlanesActionPerformed
 
+    private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked
+        Servicios open = new Servicios();
+        open.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jLabel4MouseClicked
+
+    private void TxtDocumentoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TxtDocumentoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_TxtDocumentoActionPerformed
+
+    private void TxtTelefonoKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_TxtTelefonoKeyTyped
+        char c = evt.getKeyChar();
+        if(c<'0' || c>'9') evt.consume();
+    }//GEN-LAST:event_TxtTelefonoKeyTyped
+
+    private void TxtDocumentoKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_TxtDocumentoKeyTyped
+        char c = evt.getKeyChar();
+        if(c<'0' || c>'9') evt.consume();
+    }//GEN-LAST:event_TxtDocumentoKeyTyped
+
     /**
      * @param args the command line arguments
      */
@@ -850,6 +1160,9 @@ public class Pagos extends javax.swing.JFrame {
     public static javax.swing.JLabel LabelResumenMetodo;
     public static javax.swing.JLabel LabelResumenPago;
     public static javax.swing.JLabel LabelResumenPlan;
+    public static javax.swing.JLabel LabelTotalPagado;
+    public static javax.swing.JLabel LabelTransacciones;
+    public static javax.swing.JTable TablaRegistroPagos;
     private javax.swing.JTextField TxtBarrio;
     private javax.swing.JTextField TxtCorreo;
     private javax.swing.JTextField TxtDireccion;
@@ -863,6 +1176,7 @@ public class Pagos extends javax.swing.JFrame {
     private javax.swing.JButton jButton4;
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
@@ -874,9 +1188,21 @@ public class Pagos extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
     private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
     private javax.swing.JLabel jLabel37;
     private javax.swing.JLabel jLabel38;
     private javax.swing.JLabel jLabel39;
@@ -889,13 +1215,21 @@ public class Pagos extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel45;
     private javax.swing.JLabel jLabel46;
     private javax.swing.JLabel jLabel47;
+    private javax.swing.JLabel jLabel48;
+    private javax.swing.JLabel jLabel49;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel50;
+    private javax.swing.JLabel jLabel51;
+    private javax.swing.JLabel jLabel52;
     private javax.swing.JLabel jLabel53;
     private javax.swing.JLabel jLabel54;
     private javax.swing.JLabel jLabel55;
     private javax.swing.JLabel jLabel56;
     private javax.swing.JLabel jLabel57;
+    private javax.swing.JLabel jLabel58;
+    private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel60;
     private javax.swing.JLabel jLabel61;
     private javax.swing.JLabel jLabel62;
     private javax.swing.JLabel jLabel63;
@@ -923,6 +1257,7 @@ public class Pagos extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel83;
     private javax.swing.JLabel jLabel84;
     private javax.swing.JLabel jLabel85;
+    private javax.swing.JLabel jLabel86;
     private javax.swing.JLabel jLabel87;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JLabel jLabel90;
@@ -931,7 +1266,11 @@ public class Pagos extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel93;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel11;
+    private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel13;
     private javax.swing.JPanel jPanel14;
+    private javax.swing.JPanel jPanel15;
     private javax.swing.JPanel jPanel16;
     private javax.swing.JPanel jPanel17;
     private javax.swing.JPanel jPanel18;
@@ -948,7 +1287,16 @@ public class Pagos extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
+    private javax.swing.JPanel jPanel9;
+    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JSeparator jSeparator1;
+    private javax.swing.JSeparator jSeparator2;
+    private javax.swing.JSeparator jSeparator3;
+    private javax.swing.JSeparator jSeparator4;
+    private javax.swing.JSeparator jSeparator5;
+    private javax.swing.JSeparator jSeparator6;
+    private javax.swing.JSeparator jSeparator7;
+    private javax.swing.JSeparator jSeparator8;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTextField jTextField2;
     // End of variables declaration//GEN-END:variables
