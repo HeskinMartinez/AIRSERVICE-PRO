@@ -98,5 +98,15 @@ public class Controlador_reporte {
                }
                
            }
+           
+           // recoge los fields de las vistar para poder limpiarlos
+           
+ public void limpiarCampos(javax.swing.JTextField txtNombre, javax.swing.JTextField txtDocumento, javax.swing.JTextField txtCorreo) {
+              
+              txtNombre.setText("");
+    txtDocumento.setText("");
+    txtCorreo.setText("");
+    
+}
     
 }

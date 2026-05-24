@@ -669,6 +669,7 @@ public class Usuario extends javax.swing.JFrame {
            
            c.agregarUsuario(nombre, documento, hora, fechastr, TablaUsuarios);
            JOptionPane.showMessageDialog(this, "Cita Agregada correctamente");
+           c.limpiarCampos(nombre_usuario, numero_usuario, cmbHora, jDateChooser1);
        }
        
     }//GEN-LAST:event_AgregarUsuarioActionPerformed
@@ -680,7 +681,7 @@ public class Usuario extends javax.swing.JFrame {
             c.eliminarUsuario(fila, TablaUsuarios);
             
             JOptionPane.showMessageDialog(this, "Usuario Eliminado correctamente");
-                    
+            c.limpiarCampos(nombre_usuario, numero_usuario, cmbHora, jDateChooser1);                    
                     }else{
             JOptionPane.showMessageDialog(this, "Por favor seleccione un usuario de la tabla para eliminar..");
         }
@@ -702,6 +703,7 @@ public class Usuario extends javax.swing.JFrame {
             String documento = numero_usuario.getText();
             c.editarUsuario(fila, nombre, documento, hora, fecha, TablaUsuarios);
             JOptionPane.showMessageDialog(this, "Usuario actualizado correctamente");
+            c.limpiarCampos(nombre_usuario, numero_usuario, cmbHora, jDateChooser1);
             
         }else{
             JOptionPane.showMessageDialog(this, "Por favor seleccione una fila de usuario....");
@@ -736,6 +738,7 @@ public class Usuario extends javax.swing.JFrame {
             
             Cr.agregarReporte(nombre, documento, "", "", correo, TablaReporte);
             javax.swing.JOptionPane.showMessageDialog(this, "Reporte Agregado Correctamente");
+            Cr.limpiarCampos(nombre_rep, num_rep, correo_rep);
             
         }
         
@@ -755,12 +758,15 @@ public class Usuario extends javax.swing.JFrame {
                 
                 Cr.EditarReporte(fila, nombre, documento, correo, TablaReporte);
                 JOptionPane.showMessageDialog(this, "Reporte Actualizado Correctamente");
+                
+                Cr.limpiarCampos(nombre_rep, num_rep, correo_rep);
                         
                 
             }
         }else{
             JOptionPane.showMessageDialog(this, "Por favor seleccione un reporte de la tabla e ingrese los nuevos datos a editar");
         }
+        
     }//GEN-LAST:event_Editar_reporteActionPerformed
 
     private void Eliminar_ReporteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Eliminar_ReporteActionPerformed
@@ -770,9 +776,11 @@ public class Usuario extends javax.swing.JFrame {
         if(fila >= 0 ){
             Cr.eliminarReporte(fila, TablaReporte);
              javax.swing.JOptionPane.showMessageDialog(this, "Reporte Eliminado Correctamente");
+             Cr.limpiarCampos(nombre_rep, num_rep, correo_rep);
         }else{
              javax.swing.JOptionPane.showMessageDialog(this, "Porfavor seleccione un reporte de la tabla para eliminar");
         }
+        
     }//GEN-LAST:event_Eliminar_ReporteActionPerformed
 
     private void nombre_repKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_nombre_repKeyTyped

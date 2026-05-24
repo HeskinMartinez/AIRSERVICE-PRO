@@ -87,6 +87,15 @@ public class Controlador_Usuarioo {
               
               return true;
      }
+      // recoge los fields de las vistas para poder limpiarlos
+     
+     public void limpiarCampos(javax.swing.JTextField txtNombre, javax.swing.JTextField txtDocumento, javax.swing.JComboBox cbxHora, com.toedter.calendar.JDateChooser dateChooser) {
+    txtNombre.setText("");
+    txtDocumento.setText("");
+    cbxHora.setSelectedIndex(0); 
+}
+     
+     
 }
     
 
