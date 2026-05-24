@@ -2,7 +2,7 @@ package Controladores;
 
 
 
-public class Controlador_registro {
+public class Controlador_Registro {
     
 }
     
