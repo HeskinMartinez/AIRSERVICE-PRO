@@ -20,7 +20,7 @@ public class VentanaAgregarMetodo extends javax.swing.JFrame {
      */
     public VentanaAgregarMetodo() {
         initComponents();
-        setSize(411 , 350);
+        setSize(420 , 300);
         setResizable(false);
         setTitle("Agregar Metodo");
         this.setLocationRelativeTo(this);
@@ -47,38 +47,89 @@ public class VentanaAgregarMetodo extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         TxtFechaV = new javax.swing.JTextField();
         BtonAgregarMetodo1 = new javax.swing.JButton();
+        jSeparator3 = new javax.swing.JSeparator();
+        jSeparator4 = new javax.swing.JSeparator();
+        jSeparator5 = new javax.swing.JSeparator();
+        jSeparator6 = new javax.swing.JSeparator();
+        jLabel6 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jLabel1.setFont(new java.awt.Font("Roboto", 0, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(26, 96, 224));
         jLabel1.setText("Agregar Metodo de pago");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 40, -1, -1));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 20, -1, -1));
 
+        jLabel2.setFont(new java.awt.Font("Roboto", 0, 15)); // NOI18N
         jLabel2.setText("Numero de tarjeta");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, -1, -1));
-        jPanel1.add(TxtNumTarjeta, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 120, 180, -1));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 70, -1, -1));
 
-        jLabel3.setText("Nombre del titular de la tarjeta");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 190, -1, -1));
-        jPanel1.add(TxtNombreTitular, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 210, 180, -1));
+        TxtNumTarjeta.setFont(new java.awt.Font("Roboto", 0, 15)); // NOI18N
+        TxtNumTarjeta.setBorder(null);
+        TxtNumTarjeta.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                TxtNumTarjetaKeyTyped(evt);
+            }
+        });
+        jPanel1.add(TxtNumTarjeta, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 90, 180, -1));
 
+        jLabel3.setFont(new java.awt.Font("Roboto", 0, 15)); // NOI18N
+        jLabel3.setText("Nombre del titular");
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 140, -1, -1));
+
+        TxtNombreTitular.setFont(new java.awt.Font("Roboto", 0, 15)); // NOI18N
+        TxtNombreTitular.setBorder(null);
+        jPanel1.add(TxtNombreTitular, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 160, 180, -1));
+
+        jLabel4.setFont(new java.awt.Font("Roboto", 0, 15)); // NOI18N
         jLabel4.setText("Codigo de segurdad");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 90, -1, -1));
-        jPanel1.add(TxtCodigoS, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 120, 130, -1));
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 70, -1, -1));
 
+        TxtCodigoS.setFont(new java.awt.Font("Roboto", 0, 15)); // NOI18N
+        TxtCodigoS.setBorder(null);
+        TxtCodigoS.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                TxtCodigoSKeyTyped(evt);
+            }
+        });
+        jPanel1.add(TxtCodigoS, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 90, 140, -1));
+
+        jLabel5.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
         jLabel5.setText("Fecha de vencimineto");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 190, -1, -1));
-        jPanel1.add(TxtFechaV, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 210, 130, -1));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 140, -1, -1));
 
+        TxtFechaV.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
+        TxtFechaV.setBorder(null);
+        jPanel1.add(TxtFechaV, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 160, 140, -1));
+
+        BtonAgregarMetodo1.setFont(new java.awt.Font("Roboto", 0, 15)); // NOI18N
+        BtonAgregarMetodo1.setForeground(new java.awt.Color(26, 96, 224));
         BtonAgregarMetodo1.setText("Agregar Metodo");
+        BtonAgregarMetodo1.setBorder(javax.swing.BorderFactory.createEtchedBorder(java.awt.Color.blue, java.awt.Color.blue));
         BtonAgregarMetodo1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BtonAgregarMetodo1ActionPerformed(evt);
             }
         });
-        jPanel1.add(BtonAgregarMetodo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 260, 160, -1));
+        jPanel1.add(BtonAgregarMetodo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 210, 160, 30));
+
+        jSeparator3.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel1.add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 110, 180, 20));
+
+        jSeparator4.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel1.add(jSeparator4, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 110, 140, 20));
+
+        jSeparator5.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel1.add(jSeparator5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, 180, 20));
+
+        jSeparator6.setForeground(new java.awt.Color(0, 0, 0));
+        jPanel1.add(jSeparator6, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 180, 140, 20));
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/AGREGAR METODOOOOOOOOOO.png"))); // NOI18N
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, -1, 40));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -88,7 +139,7 @@ public class VentanaAgregarMetodo extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 307, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
@@ -126,6 +177,16 @@ public class VentanaAgregarMetodo extends javax.swing.JFrame {
         
     }//GEN-LAST:event_BtonAgregarMetodo1ActionPerformed
 
+    private void TxtNumTarjetaKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_TxtNumTarjetaKeyTyped
+        char c = evt.getKeyChar();
+        if(c<'0' || c>'9') evt.consume();
+    }//GEN-LAST:event_TxtNumTarjetaKeyTyped
+
+    private void TxtCodigoSKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_TxtCodigoSKeyTyped
+        char c = evt.getKeyChar();
+        if(c<'0' || c>'9') evt.consume();
+    }//GEN-LAST:event_TxtCodigoSKeyTyped
+
     /**
      * @param args the command line arguments
      */
@@ -162,6 +223,11 @@ public class VentanaAgregarMetodo extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JSeparator jSeparator3;
+    private javax.swing.JSeparator jSeparator4;
+    private javax.swing.JSeparator jSeparator5;
+    private javax.swing.JSeparator jSeparator6;
     // End of variables declaration//GEN-END:variables
 }
