@@ -31,6 +31,8 @@ public class Tecnico_2 extends javax.swing.JFrame {
         Controlador_Tecnico.cargarConfiguracion(Nombre_c, Telefono, Fecha_N,
                 Especialidad_1, email, n_documento, direccion, año_e, Descripcion_1);
         
+        Controlador_Tecnico.cargarGrafica(panelGrafica, jLabel151, jLabel148, jLabel145, jLabel155);
+        
         Controlador_Tecnico.cargarClientes(jTable3);
     }
 
@@ -43,7 +45,6 @@ public class Tecnico_2 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jLabel31 = new javax.swing.JLabel();
         jLabel32 = new javax.swing.JLabel();
@@ -288,9 +289,6 @@ public class Tecnico_2 extends javax.swing.JFrame {
         jLabel141 = new javax.swing.JLabel();
         jLabel142 = new javax.swing.JLabel();
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/horizontal-panel.jpg"))); // NOI18N
-        jLabel1.setText("jLabel1");
-
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -413,7 +411,7 @@ public class Tecnico_2 extends javax.swing.JFrame {
 
         jLabel145.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel145.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/tiempo.png"))); // NOI18N
-        jLabel145.setText("  7");
+        jLabel145.setText("  18");
         jPanel38.add(jLabel145, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 140, 80));
 
         jLabel146.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -431,7 +429,7 @@ public class Tecnico_2 extends javax.swing.JFrame {
 
         jLabel148.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel148.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/comprobado.png"))); // NOI18N
-        jLabel148.setText("    6");
+        jLabel148.setText("10");
         jPanel39.add(jLabel148, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 170, 80));
 
         jLabel149.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -449,7 +447,7 @@ public class Tecnico_2 extends javax.swing.JFrame {
 
         jLabel151.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel151.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/lista-de-quehaceres (3).png"))); // NOI18N
-        jLabel151.setText("6");
+        jLabel151.setText("14");
         jPanel40.add(jLabel151, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 190, 80));
 
         jLabel152.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
@@ -596,6 +594,8 @@ public class Tecnico_2 extends javax.swing.JFrame {
         jLabel161.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel161.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/estadisticas.png"))); // NOI18N
         jLabel161.setText("Estadistica del mes");
+
+        panelGrafica.setBackground(new java.awt.Color(255, 255, 255));
 
         javax.swing.GroupLayout panelGraficaLayout = new javax.swing.GroupLayout(panelGrafica);
         panelGrafica.setLayout(panelGraficaLayout);
@@ -1890,7 +1890,6 @@ public class Tecnico_2 extends javax.swing.JFrame {
     private javax.swing.JTextField direccion;
     private javax.swing.JTextField email;
     private javax.swing.JButton jButton1;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel100;
     private javax.swing.JLabel jLabel101;

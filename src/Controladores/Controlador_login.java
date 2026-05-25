@@ -91,7 +91,6 @@ public class Controlador_login implements IValidacion {
         JOptionPane.showMessageDialog(null, mensaje, "AirService-Pro", JOptionPane.WARNING_MESSAGE);
     }
 
-    // Sobrecarga de mostrarMensaje - tema nuevo POO
     public void mostrarMensaje(String mensaje, String titulo) {
         JOptionPane.showMessageDialog(null, mensaje, titulo, JOptionPane.INFORMATION_MESSAGE);
     }
