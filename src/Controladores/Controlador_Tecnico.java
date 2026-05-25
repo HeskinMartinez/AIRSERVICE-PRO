@@ -103,7 +103,7 @@ public class Controlador_Tecnico implements IValidacion {
     @Override
     public void mostrarMensaje(String mensaje) {
         JOptionPane.showMessageDialog(null, mensaje, "AirService-Pro", JOptionPane.WARNING_MESSAGE);
-    }
+   }
 
     public void mostrarMensaje(String mensaje, String titulo) {
         JOptionPane.showMessageDialog(null, mensaje, titulo, JOptionPane.INFORMATION_MESSAGE);
